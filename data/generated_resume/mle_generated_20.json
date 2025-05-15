@@ -1,0 +1,461 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "sidebar-001"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "彈性上下班",
+          "value": 2
+        }
+      ],
+      "otherTimePeriod": "無特別時間限制",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "面議",
+        "value": 0
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "可立即到職",
+        "value": "immediate"
+      },
+      "salary": {
+        "text": "面議",
+        "value": 0
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "無時薪需求",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "智慧製造數據分析經理",
+      "preferArea": [
+        {
+          "no": 10,
+          "des": "新北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 1,
+          "des": "全職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 15,
+          "des": "智慧製造"
+        }
+      ],
+      "preferJobContent": "專注於實時數據處理及分析，提升製造流程效率及品質管控。",
+      "remoteWork": {
+        "text": "部分遠端",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業經理風格",
+            "value": 3,
+            "name": "manager-theme"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "技術強調",
+            "value": 2,
+            "name": "tech-theme"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "學術經歷",
+            "value": 1,
+            "name": "education-theme"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經驗導向",
+            "value": 4,
+            "name": "experience-theme"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "條件明確",
+            "value": 2,
+            "name": "condition-theme"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "語言專業",
+            "value": 1,
+            "name": "language-theme"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "證書展示",
+            "value": 3,
+            "name": "certificate-theme"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "作品集風格",
+            "value": 2,
+            "name": "portfolio-theme"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專案呈現",
+            "value": 4,
+            "name": "project-theme"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 101,
+          "name": "國立臺灣大學",
+          "departments": [
+            {
+              "name": "資訊工程學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2010",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2014",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "畢業",
+            "value": 1
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "臺灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "中階管理者",
+        "value": 3
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "智聯科技股份有限公司",
+          "custNo": 5001,
+          "invoice": 12345678,
+          "logo": "https://example.com/logo/zltech.png",
+          "industry": [
+            {
+              "no": 15,
+              "des": "智慧製造"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "數據分析經理",
+          "workArea": [
+            {
+              "no": 10,
+              "des": "新北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 3,
+              "des": "管理職"
+            }
+          ],
+          "duration": {
+            "startYear": "2018",
+            "startMonth": {
+              "text": "一月",
+              "value": 1
+            },
+            "endYear": "2023",
+            "endMonth": []
+          },
+          "description": "負責智慧製造領域中實時數據的收集與分析，帶領團隊開發數據儀表板及預測模型，成功提升生產效率15%。使用Python、SQL及Power BI進行數據處理與可視化，與跨部門協作優化製程監控系統。",
+          "skill": [],
+          "salary": {
+            "monthPay": "80000",
+            "yearPay": "960000",
+            "jobParttimeType": {
+              "text": "無兼職",
+              "value": 0
+            },
+            "jobParttimePay": "0"
+          },
+          "companyVisibility": 1,
+          "stillWork": 0,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "技術專長",
+        "value": 2,
+        "name": "tech-skill"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "Python程式設計",
+          "desc": "熟悉使用Python進行數據清理、分析及自動化流程開發。",
+          "status": 3,
+          "tag": [
+            {
+              "text": "高階",
+              "value": "advanced"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 101,
+          "des": "數據分析師認證"
+        }
+      ],
+      "others": "持有PMP專案管理師證書"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英文",
+            "value": 1
+          },
+          "listening": {
+            "text": "流利",
+            "value": 4
+          },
+          "speaking": {
+            "text": "流利",
+            "value": 4
+          },
+          "reading": {
+            "text": "流利",
+            "value": 4
+          },
+          "writing": {
+            "text": "中等",
+            "value": 3
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 1001
+              },
+              "grade": "850分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": {
+      "projects": [
+        {
+          "sort": 1,
+          "name": "實時生產數據監控系統",
+          "duration": {
+            "startYear": "2020",
+            "startMonth": {
+              "text": "三月",
+              "value": 3
+            },
+            "endYear": "2022",
+            "endMonth": {
+              "text": "十二月",
+              "value": 12
+            }
+          },
+          "isInProgress": 0,
+          "introduction": "主導開發智慧製造工廠的實時數據監控系統，結合IoT感測器資料與雲端平台，實現生產流程的即時監控與異常預警。",
+          "url": "https://example.com/project/realtime-monitor",
+          "img": {
+            "pic": "realtime-monitor.png",
+            "fileId": "file-00123",
+            "src": "https://example.com/images/realtime-monitor.png"
+          }
+        }
+      ]
+    },
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "智慧製造數據分析報告",
+          "attach": {
+            "name": "data-analysis-report.pdf",
+            "status": 1,
+            "fileId": "file-00456",
+            "url": "https://example.com/files/data-analysis-report.pdf",
+            "src": "https://example.com/files/data-analysis-report.pdf"
+          },
+          "attachType": {
+            "text": "PDF文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "具備豐富智慧製造數據分析及團隊管理經驗，擅長整合多源數據與實時監控技術，提升生產效率與品質。",
+      "eng": "Experienced data analytics manager in smart manufacturing, skilled in real-time data integration and process optimization."
+    },
+    "custom1": [],
+    "custom2": [],
+    "custom3": [],
+    "custom4": [],
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "profile-0001",
+      "headshotUrl": "https://example.com/images/headshot.jpg",
+      "imageUrl": "https://example.com/images/background.jpg",
+      "nickname": "智造王",
+      "title": {
+        "workExperience": 7,
+        "companyName": "智聯科技股份有限公司",
+        "jobName": "數據分析經理",
+        "schoolName": "國立臺灣大學",
+        "majorName": "資訊工程學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "我是一位專注於智慧製造領域的數據分析經理，致力於利用先進分析技術及實時數據處理，幫助企業提升生產效率並降低成本。",
+      "motto": "數據驅動決策，創新引領未來。",
+      "abilities": [
+        "實時數據分析",
+        "團隊領導",
+        "製造流程優化"
+      ],
+      "preferJobTitle": "智慧製造數據分析經理",
+      "viewCount": 1587,
+      "createdAt": "2022-05-15T08:30:00Z",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 120,
+      "followedCount": 98,
+      "followed": 1,
+      "isFollowed": 1,
+      "isFollowingMe": 1,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/zhizao",
+      "personalLink2Url": "https://github.com/zhizao",
+      "personalLink3Url": "https://zhizao.example.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "現代簡約",
+          "value": 1,
+          "name": "modern-minimal"
+        },
+        "backgroundColor": "#f5f7fa"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:39:35.274590",
+    "resume_type": "mle",
+    "index": 20,
+    "diversity_traits": {
+      "industry": "智慧製造",
+      "work_style": "分析洞察",
+      "career_stage": "中階管理者",
+      "project_focus": "實時數據處理"
+    }
+  }
+}

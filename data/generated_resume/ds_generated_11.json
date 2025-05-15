@@ -1,0 +1,94 @@
+{
+  "name": "李明哲",
+  "title": "資深數據科學家",
+  "company": "永續數據解決方案有限公司",
+  "location": "台北市",
+  "about_chinese": "嗨，我是明哲！在永續能源領域中，我專注於透過數據驅動的解決方案，促進環保與效率。我擁有國立台灣大學的電機工程學碩士學位，並在數據科學及機器學習領域有超過八年的專業經驗。在這段期間，我曾參與多個大型數據分析項目，專注於設計及實施創新型的數據分析模型。期待將我的專業知識應用於未來的挑戰，為綠色科技生態系統貢獻力量！",
+  "about_english": "Hi, I'm Ming-Jhe! In the sustainable energy field, I focus on data-driven solutions that promote environmental sustainability and efficiency. I hold a Master's degree in Electrical Engineering from National Taiwan University and have over eight years of professional experience in Data Science and Machine Learning. During this time, I have participated in several large-scale data analytics projects, focusing on designing and implementing innovative data analytic models. I look forward to applying my expertise to future challenges and contributing to the green technology ecosystem!",
+  "techniques": [
+    "深度學習 (Deep Learning)",
+    "資料預測 (Data Forecasting)",
+    "強化學習 (Reinforcement Learning)",
+    "時間序列分析 (Time Series Analysis)",
+    "傾向分數匹配 (Propensity Score Matching)"
+  ],
+  "tools": [
+    "Python",
+    "TensorFlow",
+    "SQL",
+    "Apache Kafka",
+    "Django",
+    "Power BI",
+    "MATLAB"
+  ],
+  "links_text": "GitHub 和 LinkedIn (具體網址未提供)",
+  "skills": [
+    "數據建模",
+    "批判性思維",
+    "溝通能力",
+    "問題解決能力",
+    "團隊協作"
+  ],
+  "work_experience": [
+    {
+      "role": "資深數據科學家 (Senior Data Scientist)",
+      "company": "永續數據解決方案有限公司",
+      "duration": "2020/05~至今",
+      "details": [
+        "設計並實施了多個基於大數據的預測模型來優化能源消耗，成功將能源效率提升15%",
+        "利用機器學習算法分析數據集，預測太陽能電池板的性能，並優化項目投資回報率",
+        "領導數據團隊進行多個大型專案，並與產品部門協作以改進數據驅動的決策流程",
+        "使用Apache Kafka流處理實時數據，提升了數據傳輸效率"
+      ],
+      "tags": [
+        "#數據科學",
+        "#機器學習",
+        "#大數據分析",
+        "#能源優化",
+        "#預測建模"
+      ]
+    },
+    {
+      "role": "數據分析師 (Data Analyst)",
+      "company": "台灣能源研究所",
+      "duration": "2018/01~2020/04",
+      "details": [
+        "針對能源消耗數據進行深入分析，發展儀表板以實時監測各項能源使用狀況",
+        "協助開發數據驅動的政策建議，促進政府在可再生能源發展上的決策過程",
+        "進行市場研究，評估新興市場的可再生能源產業潛力，提出可行的商業模型"
+      ],
+      "tags": [
+        "#能源研究",
+        "#市場分析",
+        "#數據可視化",
+        "#政策建議",
+        "#策略規劃"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "National Taiwan University",
+      "degree": "碩士學位",
+      "field": "電機工程 (Electrical Engineering)",
+      "duration": "2016/09~2018/06"
+    },
+    {
+      "institution": "National Taiwan University",
+      "degree": "學士學位",
+      "field": "資訊工程 (Computer Science)",
+      "duration": "2012/09~2016/06"
+    }
+  ],
+  "metadata": {
+    "generated_date": "2025-05-14T23:58:09.787984",
+    "resume_type": "ds",
+    "index": 11,
+    "diversity_traits": {
+      "industry": "永續能源",
+      "work_style": "快速執行",
+      "career_stage": "資深專家",
+      "project_focus": "大數據分析"
+    }
+  }
+}

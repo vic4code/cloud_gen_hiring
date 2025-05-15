@@ -1,0 +1,159 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "Chih-Yuan (志遠)",
+      "last_name": "Lin (林)",
+      "gender": "male",
+      "emails": [
+        "chih.yuan.lin@example.com"
+      ],
+      "urls": [
+        "http://www.linkedin.com/in/chihyuanlin",
+        "https://www.portfolio.com/chihyuanlin"
+      ],
+      "phone_numbers": [
+        "+886-921-123-456"
+      ],
+      "date_of_birth": {
+        "year": 1988,
+        "month": 6,
+        "day": 15
+      },
+      "address": "台北市信義區松高路100號9樓",
+      "total_experience_in_years": 10,
+      "profession": "數據科學家 / 中階管理者",
+      "summary": "擁有超過10年的數據分析與電子商務經驗，專注於客戶導向的解決方案和風險評估模型的建置。具備良好的數據視覺化技術與團隊領導能力，能有效提升業務成長。\n\n--- 中文概述 ---\n我擁有十年的數據科學與風險評估專業經驗，在電子商務領域中展現卓越的客戶關係管理與數據處理能力，致力於從客戶角度出發制定優質的解決方案。",
+      "skills": [
+        "Python",
+        "R",
+        "Machine Learning",
+        "Data Visualization",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Statistical Analysis",
+        "Project Management",
+        "Client Relationship Management",
+        "Cross-functional Collaboration",
+        "Agile Methodology",
+        "Risk Assessment Models"
+      ],
+      "has_driving_license": true
+    },
+    "languages": [
+      {
+        "name": "Chinese",
+        "iso_code": "zh",
+        "fluency": 5
+      },
+      {
+        "name": "English",
+        "iso_code": "en",
+        "fluency": 4
+      }
+    ],
+    "educations": [
+      {
+        "start_year": 2011,
+        "is_current": false,
+        "end_year": 2013,
+        "issuing_organization": "國立中興大學",
+        "description": "碩士 | 資訊管理學系 | 台中市, 台灣 (2011年9月 - 2013年6月)"
+      },
+      {
+        "start_year": 2006,
+        "is_current": false,
+        "end_year": 2011,
+        "issuing_organization": "國立台灣大學",
+        "description": "學士 | 資訊工程學系 | 台北市, 台灣 (2006年9月 - 2011年6月)"
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "year": 2022,
+        "issuing_organization": "Coursera",
+        "description": "TensorFlow 認證專家"
+      },
+      {
+        "year": 2021,
+        "issuing_organization": "日本統計學會",
+        "description": "高級統計分析認證"
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2021,
+          "month": 4
+        },
+        "is_current": true,
+        "end_date": {
+          "year": 0,
+          "month": 0
+        },
+        "duration_in_months": 24,
+        "company": "大數據電子商務有限公司",
+        "location": "台北市, 台灣",
+        "title": "數據科學部門經理",
+        "description": "2021年4月 - 現在\n\n主導數據驅動的風險評估模型開發，以提高客戶信用評分準確性。\n設計並實施數據可視化儀表板，幫助團隊理解客戶行為並制定相應策略。\n協調跨部門合作，增強客戶滿意度，並提升業務成長20%。"
+      },
+      {
+        "start_date": {
+          "year": 2018,
+          "month": 3
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2021,
+          "month": 3
+        },
+        "duration_in_months": 36,
+        "company": "台灣電商科技股份有限公司",
+        "location": "台北市, 台灣",
+        "title": "數據分析師",
+        "description": "2018年3月 - 2021年3月\n\n分析客戶資料以識別商業機會，進行客戶行為分析及預測。\n透過機器學習技術改進行銷策略，使轉換率提升15%。\n負責設計與實施數據驅動的市場分析報告，為高層決策提供依據。"
+      },
+      {
+        "start_date": {
+          "year": 2016,
+          "month": 1
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2018,
+          "month": 2
+        },
+        "duration_in_months": 26,
+        "company": "先進數據研究所",
+        "location": "新北市, 台灣",
+        "title": "數據研究員",
+        "description": "2016年1月 - 2018年2月\n\n進行各類數據分析研究，針對不同行業提供數據解決方案。\n協助開發內部數據庫系統，提升數據整合效率。"
+      }
+    ],
+    "awards": [
+      {
+        "title": "最佳團隊領導獎",
+        "year": 2022,
+        "description": "因優秀的團隊協作與表現而獲得的獎項。"
+      }
+    ],
+    "references": [
+      {
+        "name": "許經理",
+        "relationship": "前主管",
+        "contact": "+886-911-234-567"
+      }
+    ]
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T00:01:45.808563",
+    "resume_type": "ds",
+    "index": 19,
+    "diversity_traits": {
+      "industry": "電子商務",
+      "work_style": "客戶導向",
+      "career_stage": "中階管理者",
+      "project_focus": "風險評估模型"
+    }
+  }
+}

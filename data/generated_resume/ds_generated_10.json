@@ -1,0 +1,149 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "明德",
+      "last_name": "陳",
+      "gender": "male",
+      "emails": [
+        "mingde.chen@example.com"
+      ],
+      "urls": [
+        "http://www.linkedin.com/in/mingdechen",
+        "https://github.com/mingdechen"
+      ],
+      "phone_numbers": [
+        "0912345678"
+      ],
+      "date_of_birth": {
+        "year": 1988,
+        "month": 11,
+        "day": 5
+      },
+      "address": "台北市, 台灣",
+      "total_experience_in_years": 7,
+      "profession": "數據科學經理",
+      "summary": "✔ 在數位媒體產業擁有超過 5 年的機器學習與數據分析經驗\n✔ 熟悉演算法優化及量化分析，能夠驅動數據驅動的決策\n✔ 具備全面的團隊管理與專案執行能力，曾成功交付多個關鍵項目\n✔ 具備優秀的溝通能力，能夠在跨部門環境中推動專案進展",
+      "skills": [
+        "Python",
+        "R",
+        "TensorFlow",
+        "Keras",
+        "SQL",
+        "Tableau",
+        "Hadoop",
+        "Spark",
+        "Git",
+        "AWS",
+        "APIs",
+        "NumPy",
+        "Pandas",
+        "Scikit-learn"
+      ],
+      "has_driving_license": true
+    },
+    "languages": [
+      {
+        "name": "Chinese",
+        "iso_code": "zh",
+        "fluency": 5
+      },
+      {
+        "name": "English",
+        "iso_code": "en",
+        "fluency": 4
+      }
+    ],
+    "educations": [
+      {
+        "start_year": 2010,
+        "end_year": 2012,
+        "is_current": false,
+        "issuing_organization": "國立台灣大學",
+        "description": "碩士 - 資訊管理學程"
+      },
+      {
+        "start_year": 2006,
+        "end_year": 2010,
+        "is_current": false,
+        "issuing_organization": "國防醫學院",
+        "description": "學士 - 生物醫學科學"
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "year": 2023,
+        "issuing_organization": "數位時代數據科學培訓課程",
+        "description": "專業數據科學家認證"
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2021,
+          "month": 1
+        },
+        "end_date": {
+          "year": 2023,
+          "month": 12
+        },
+        "is_current": true,
+        "duration_in_months": 36,
+        "company": "數位媒體科技公司",
+        "location": "台北, 台灣",
+        "title": "數據科學經理",
+        "description": "領導數據科學團隊，開發基於機器學習的推薦系統，成功提升產品使用率25%\n\n- 規劃及執行數據分析專案，優化數據流，並引入新的機器學習演算法\n- 使用 Python 和 R 進行數據建模，並在 AWS 平台上部署模型以供實時使用\n- 與市場部門密切合作，制定數據驅動的行銷策略，增強客戶參與度\n- 培訓新進成員，提供技術指導，提升團隊整體表現"
+      },
+      {
+        "start_date": {
+          "year": 2019,
+          "month": 5
+        },
+        "end_date": {
+          "year": 2020,
+          "month": 12
+        },
+        "is_current": false,
+        "duration_in_months": 19,
+        "company": "智慧數據有限公司",
+        "location": "台北, 台灣",
+        "title": "高級數據分析師",
+        "description": "負責分析用戶數據並提供洞察報告，協助提升產品策略及商業決策\n\n- 設計及實施數據收集和分析流程，支援多個產品線的商業需求\n- 使用 Tableau 和 SQL 創建互動式儀表板，支持高階管理層決策\n- 統計分析市場趨勢，提供數據驅動的建議，幫助行銷活動成功率提升15%"
+      },
+      {
+        "start_date": {
+          "year": 2017,
+          "month": 1
+        },
+        "end_date": {
+          "year": 2019,
+          "month": 4
+        },
+        "is_current": false,
+        "duration_in_months": 28,
+        "company": "新媒體公司",
+        "location": "台北, 台灣",
+        "title": "數據分析師",
+        "description": "執行數據分析專案，支持數位行銷團隊，幫助提升客戶觸及率\n\n- 開發預測模型，分析用戶行為，創造市場洞察\n- 自動化數據報告系統，提升報告產出效率達40%\n- 合作與技術團隊，優化數據庫設計，改善數據存取速度"
+      }
+    ],
+    "awards": [
+      {
+        "year": 2022,
+        "title": "最佳數據分析獎",
+        "issuing_organization": "數位媒體協會"
+      }
+    ],
+    "references": []
+  },
+  "metadata": {
+    "generated_date": "2025-05-14T23:57:53.099554",
+    "resume_type": "ds",
+    "index": 10,
+    "diversity_traits": {
+      "industry": "數位媒體",
+      "work_style": "績效專注",
+      "career_stage": "中階管理者",
+      "project_focus": "機器學習演算法優化"
+    }
+  }
+}

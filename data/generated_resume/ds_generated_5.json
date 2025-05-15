@@ -1,0 +1,146 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "思婷",
+      "last_name": "林",
+      "gender": "female",
+      "emails": [
+        "st.lin@example.com"
+      ],
+      "urls": [],
+      "phone_numbers": [
+        "+886912345678"
+      ],
+      "date_of_birth": {
+        "year": 1990,
+        "month": 5,
+        "day": 15
+      },
+      "address": "台北市信義區",
+      "total_experience_in_years": 8,
+      "profession": "數據科學家",
+      "summary": "擁有超過八年的數據分析和數據科學經驗，專注於數位媒體行業的客戶行為分析，善於快速執行與解決問題，具備強大的團隊合作能力和領導潛力。熟悉各類數據模型及分析工具，並能有效將數據轉化為商業洞察。",
+      "skills": [
+        "數據分析與視覺化",
+        "機器學習",
+        "統計學",
+        "Python",
+        "SQL",
+        "Tableau",
+        "R",
+        "Excel",
+        "大數據技術",
+        "AI應用"
+      ],
+      "has_driving_license": true
+    },
+    "languages": [
+      {
+        "name": "中文",
+        "iso_code": "zh",
+        "fluency": 5
+      },
+      {
+        "name": "英語",
+        "iso_code": "en",
+        "fluency": 4
+      }
+    ],
+    "educations": [
+      {
+        "start_year": 2012,
+        "is_current": false,
+        "end_year": 2014,
+        "issuing_organization": "國立臺灣大學 數據科學研究所",
+        "description": "碩士畢業"
+      },
+      {
+        "start_year": 2008,
+        "is_current": false,
+        "end_year": 2012,
+        "issuing_organization": "國立中興大學 資訊科學系",
+        "description": "學士畢業"
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "year": 2022,
+        "issuing_organization": "Coursera",
+        "description": "Course : Machine Learning for Data Analysis 2022/01~2022/06"
+      },
+      {
+        "year": 2023,
+        "issuing_organization": "AWS",
+        "description": "Course : Data Analytics on AWS 2023/03~2023/03"
+      },
+      {
+        "year": 2023,
+        "issuing_organization": "edX",
+        "description": "Course : Practical Data Science with R 2023/08~2023/08"
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2021,
+          "month": 4
+        },
+        "is_current": true,
+        "end_date": {
+          "year": 2023,
+          "month": 10
+        },
+        "duration_in_months": 30,
+        "company": "星辰媒體科技股份有限公司",
+        "location": "台北市",
+        "title": "數據科學家",
+        "description": "負責數位媒體客戶行為分析，運用機器學習技術預測用戶行為模式，協助專案團隊制定數據驅動的市場策略。\n\n1. 開發用戶行為預測模型，提高客戶滿意度評分約15%。\n2. 構建可視化儀表板，使內部團隊能即時查看數據分析結果，提升決策效率。\n3. 進行A/B測試以評估新產品推廣效果，分析數據以及提出改進策略。\n4. 與多部門合作，促進數據共享與最佳實踐。\n\n#Machine Learning #Data Analysis #Team Collaboration"
+      },
+      {
+        "start_date": {
+          "year": 2018,
+          "month": 6
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2021,
+          "month": 3
+        },
+        "duration_in_months": 34,
+        "company": "酷媒文化股份有限公司",
+        "location": "台北市",
+        "title": "數據分析師",
+        "description": "分析客戶使用行為，定期報告用戶洞察，幫助市場部門制定行銷策略。\n\n1. 採用R語言和Python進行數據清理和分析，成功提升銷售轉換率10%。\n2. 設計並實施市場調查，分析消費者偏好及行為。\n3. 與開發團隊合作，優化數據庫結構，提高數據存取效率。\n\n#Data Analytics #R #Python #SQL"
+      },
+      {
+        "start_date": {
+          "year": 2014,
+          "month": 7
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2018,
+          "month": 5
+        },
+        "duration_in_months": 46,
+        "company": "元大證券",
+        "location": "台北市",
+        "title": "業務數據分析實習生",
+        "description": "協助分析和整理業務數據，支持行銷團隊的市場研究與數據需求。\n\n1. 參與日常數據分析，包括市場趨勢和客戶行為的挖掘。\n2. 構建報告及簡報，並向管理層呈報數據洞察。\n3. 協助開發簡單的數據處理工具以提高工作效率。\n\n#Data Analysis #Excel #Business Insights"
+      }
+    ],
+    "awards": [],
+    "references": []
+  },
+  "metadata": {
+    "generated_date": "2025-05-14T23:55:40.485725",
+    "resume_type": "ds",
+    "index": 5,
+    "diversity_traits": {
+      "industry": "數位媒體",
+      "work_style": "快速執行",
+      "career_stage": "領域專家",
+      "project_focus": "客戶行為分析"
+    }
+  }
+}

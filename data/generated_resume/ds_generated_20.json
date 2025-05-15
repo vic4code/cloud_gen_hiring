@@ -1,0 +1,155 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "Rui-Ching",
+      "last_name": "Cheng (鄭)",
+      "gender": "female",
+      "emails": [
+        "rui.ching.cheng@gmail.com"
+      ],
+      "urls": [
+        "http://www.linkedin.com/in/ruichingcheng",
+        "https://www.ruihealthdata.com"
+      ],
+      "phone_numbers": [
+        "+886-932-245-678"
+      ],
+      "date_of_birth": {
+        "year": 1990,
+        "month": 5,
+        "day": 15
+      },
+      "address": "No. 56, Lane 98, Zhongming Rd., Taichung City, Taiwan",
+      "total_experience_in_years": 10,
+      "profession": "醫療數據科學家 / 數據分析專家",
+      "summary": "我是一名擁有10年醫療健康領域經驗的數據科學家，專注於客戶行為分析與數據驅動的解決方案。擁有強大的獨立問題解決能力，能夠在複雜的數據環境中快速識別並解決問題，並提升業務效益。\n\n--- 中文簡介 ---\n持續學習與成長是我的職業生涯核心價值，我擁有強大的數據分析能力，能夠有效地將數據轉化為深刻的商業見解，並擁有協作精神，適合在多變的環境中工作。",
+      "skills": [
+        "Python",
+        "R",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "SAS",
+        "數據挖掘",
+        "醫療數據分析",
+        "預測建模",
+        "文獻回顧",
+        "報告撰寫",
+        "專案管理",
+        "溝通能力",
+        "跨部門合作",
+        "解決方案銷售"
+      ],
+      "has_driving_license": true
+    },
+    "languages": [
+      {
+        "name": "Chinese",
+        "iso_code": "zh",
+        "fluency": 5
+      },
+      {
+        "name": "English",
+        "iso_code": "en",
+        "fluency": 4
+      }
+    ],
+    "educations": [
+      {
+        "start_year": 2013,
+        "is_current": false,
+        "end_year": 2015,
+        "issuing_organization": "國立成功大學",
+        "description": "碩士 | 資訊管理 | 台南市，台灣 (Sep 2013 - Jun 2015)"
+      },
+      {
+        "start_year": 2009,
+        "is_current": false,
+        "end_year": 2013,
+        "issuing_organization": "國立中正大學",
+        "description": "學士 | 統計學 | 嘉義市，台灣 (Sep 2009 - Jun 2013)"
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "year": 2021,
+        "issuing_organization": "Coursera",
+        "description": "Data Science Specialization by Johns Hopkins University"
+      },
+      {
+        "year": 2022,
+        "issuing_organization": "Google",
+        "description": "Data Analytics Professional Certificate"
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2022,
+          "month": 3
+        },
+        "is_current": true,
+        "end_date": {
+          "year": 0,
+          "month": 0
+        },
+        "duration_in_months": 14,
+        "company": "健康科技公司",
+        "location": "台北市，台灣",
+        "title": "數據科學家",
+        "description": "2022年3月 - 現在\n\n- 主導醫療客戶行為分析專案，成功提升客戶滿意度5%。\n- 設計並開發數據可視化儀表板，增加業務團隊的決策效率。\n- 與醫療服務提供者合作，分析病患數據，優化病患照護流程。\n- 應用機器學習技術進行預測建模，提升治療效果預測準確度15%。"
+      },
+      {
+        "start_date": {
+          "year": 2018,
+          "month": 5
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2022,
+          "month": 2
+        },
+        "duration_in_months": 45,
+        "company": "衛生福利部",
+        "location": "新北市，台灣",
+        "title": "數據分析師",
+        "description": "2018年5月 - 2022年2月\n\n- 進行公共健康數據分析，為政策制定提供數據支持。\n- 實施客戶行為模型分析，發掘潛在改善方案，提升服務品質。\n- 與跨部門團隊合作，優化健康促進專案的資料收集與分析流程。"
+      },
+      {
+        "start_date": {
+          "year": 2015,
+          "month": 6
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2018,
+          "month": 4
+        },
+        "duration_in_months": 35,
+        "company": "某醫療機構",
+        "location": "台北市，台灣",
+        "title": "報告分析師",
+        "description": "2015年6月 - 2018年4月\n\n- 負責醫療數據報告的撰寫與分析，提升內部報告的準確性與效率。\n- 開發數據處理流程，減少報告撰寫所需時間30%。\n- 與臨床醫生合作，分析病歷數據，為臨床試驗提供支持。"
+      }
+    ],
+    "awards": [
+      {
+        "year": 2023,
+        "title": "最佳創新專案獎",
+        "issuing_organization": "健康科技公司"
+      }
+    ],
+    "references": []
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T00:02:11.555548",
+    "resume_type": "ds",
+    "index": 20,
+    "diversity_traits": {
+      "industry": "醫療健康",
+      "work_style": "獨立解決問題",
+      "career_stage": "領域專家",
+      "project_focus": "客戶行為分析"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "personal_info": {
+    "gender": "男性",
+    "age": 32,
+    "military_status": "已服役",
+    "employment_status": "目前在職",
+    "email": "john.wang@example.com",
+    "address": "台北市信義區松山路100號",
+    "english_name": "John Wang",
+    "driver_licenses": [
+      "普通重型機車駕照"
+    ]
+  },
+  "education": {
+    "school": "國立交通大學",
+    "department": "資訊工程學系",
+    "degree": "碩士",
+    "period": "2012年9月 - 2014年6月"
+  },
+  "work_experience": {
+    "total_years": "8年",
+    "jobs": [
+      {
+        "company": "智聯物聯科技股份有限公司",
+        "industry": "物聯網",
+        "company_size": "中型企業(100-500人)",
+        "title": "產品經理",
+        "location": "新竹市",
+        "period": "2018年7月 - 至今",
+        "description": [
+          "負責物聯網平台中NLP應用模組的產品規劃與需求管理，協調跨部門團隊進行系統設計與開發。",
+          "採用系統思考方式分析用戶需求與市場趨勢，導入語意理解技術提升智能設備語音交互體驗。",
+          "與工程團隊合作導入Python及TensorFlow框架，監控模型訓練及部署流程，確保專案按時交付。",
+          "推動敏捷開發流程，定期舉辦迭代回顧會，持續優化產品功能與用戶介面。"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "data_analysis": [
+      "Python資料分析",
+      "TensorFlow模型訓練",
+      "SQL資料庫查詢"
+    ],
+    "specialties": [
+      "物聯網產品管理",
+      "自然語言處理應用",
+      "系統思考與跨部門協作"
+    ],
+    "data_driven_decision_making": "善用數據分析結果制定產品策略，提升決策準確度",
+    "collaboration": "擅長跨部門溝通協調，促進團隊合作與資源整合"
+  },
+  "self_intro": {
+    "current_position": "目前擔任智聯物聯科技產品經理，專注於NLP應用的物聯網產品開發。",
+    "leadership": "具備中階管理經驗，帶領團隊完成多個跨領域專案，並推動敏捷開發流程。",
+    "future_goal": "希望進一步深化物聯網與人工智慧結合的產品策略，成為業界領先的技術與管理專家。"
+  },
+  "job_preferences": {
+    "job_type": "全職",
+    "working_hours": "彈性工時",
+    "availability": "一個月內可到職",
+    "expected_salary": "新台幣100,000元/月以上",
+    "preferred_locations": [
+      "台北市",
+      "新竹市"
+    ],
+    "remote_work": "部分遠端工作可接受",
+    "desired_titles": [
+      "資深產品經理",
+      "產品主管"
+    ],
+    "preferred_categories": [
+      "物聯網",
+      "人工智慧",
+      "軟體開發"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "PMP專案管理專業人員認證",
+      "issuer": "Project Management Institute"
+    }
+  ],
+  "metadata": {
+    "generated_date": "2025-05-15T11:56:01.215742",
+    "resume_type": "pm",
+    "index": 13,
+    "diversity_traits": {
+      "industry": "物聯網",
+      "work_style": "系統思考",
+      "career_stage": "中階管理者",
+      "project_focus": "NLP應用"
+    }
+  }
+}

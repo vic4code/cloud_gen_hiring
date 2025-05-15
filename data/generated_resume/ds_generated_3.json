@@ -1,0 +1,182 @@
+{
+  "education": [
+    {
+      "institution": "國立清華大學 (National Tsing Hua University)",
+      "degree": "學士學位",
+      "field": "科技管理學院學士班 (College of Technology Management, Bachelor's Program)",
+      "duration": "2019/09~2023/06"
+    },
+    {
+      "institution": "明尼蘇達大學 (University of Minnesota)",
+      "degree": "碩士學位",
+      "field": "商業分析 (Master of Science in Business Analytics)",
+      "duration": "2023/06~2024/05"
+    }
+  ],
+  "title": "數據科學顧問 (Data Science Consultant)",
+  "tools": [
+    "Python",
+    "R",
+    "SQL",
+    "Spark",
+    "Looker Studio",
+    "Tableau",
+    "Power BI"
+  ],
+  "company": "Carlson Analytics Lab",
+  "about_chinese": "Hello, I am Yvonne! Great to meet you! 我熱愛用數據洞見故事！畢業於清華大學科技管理學院學士班 (專長數據科學 + 管理學) 及美國明尼蘇達大學商業分析碩士 (Master of Science in Business Analytics)，我擁有扎實的統計知識與資料分析能力。在美讀碩期間於 Carlson Analytics Lab擔任數據科學顧問，與三家當地企業合作，運用進階數據分析方法解決商業問題。期待繼續用我的靈敏思維與創新，為我未來的公司提供有價值的決策分析，創造數據影響力！",
+  "profile": {
+    "awards": [],
+    "languages": [
+      {
+        "name": "中文",
+        "iso_code": "zh",
+        "fluency": 5
+      },
+      {
+        "name": "英文",
+        "iso_code": "en",
+        "fluency": 4
+      }
+    ],
+    "references": [],
+    "educations": [],
+    "professional_experiences": [
+      {
+        "title": "數據科學顧問 (Data Science Consultant)",
+        "company": "Carlson Analytics Lab",
+        "start_date": {
+          "month": 1,
+          "year": 2024
+        },
+        "end_date": {
+          "month": 4,
+          "year": 2024
+        },
+        "location": "Minneapolis, MN, USA",
+        "description": [
+          "進行400K+電商數據的時間序列分析，使用Python和SQL，在Google Cloud Platform的Looker上進行可視化，進行庫存分析。",
+          "使用Python和Spark SQL在Azure Databricks上進行80K+航空數據的統計分析和數據工程，並在Power BI中可視化航班效率，減少30%的處理時間。",
+          "定義指標並使用Python進行邏輯回歸分析。"
+        ],
+        "is_current": false,
+        "duration_in_months": 4
+      },
+      {
+        "title": "數據分析顧問 (Data Analytics Consultant)",
+        "company": "Carlson Analytics Lab",
+        "start_date": {
+          "month": 7,
+          "year": 2023
+        },
+        "end_date": {
+          "month": 1,
+          "year": 2024
+        },
+        "location": "Minneapolis, MN, USA",
+        "description": [
+          "在R中對家庭儲蓄數據進行統計假設檢驗和主成分分析，使用方差分析（ANOVA）來確定更具可解釋性的模型。",
+          "在R中進行層次聚類分析，以識別批發公司數據的潛在客戶細分，並在主成分分析圖中可視化集群特徵，以澄清客戶屬性。",
+          "使用Python scikit-learn達到97%的垃圾郵件檢測準確率，進行嵌套交叉驗證以選擇優化模型進行未來預測。",
+          "使用Python Beautiful Soup進行自然語言處理中的情感分析，爬取3000+篇編輯文章，訓練模型生成極性和主觀性分數。"
+        ],
+        "is_current": false,
+        "duration_in_months": 6
+      },
+      {
+        "title": "資料分析師 (Data Analyst)",
+        "company": "SonicBalloon (清華創新育成中心及創業車庫團隊)",
+        "start_date": {
+          "month": 7,
+          "year": 2021
+        },
+        "end_date": {
+          "month": 7,
+          "year": 2022
+        },
+        "location": "Hsinchu, Taiwan",
+        "description": [
+          "主導定量與定性分析，以識別主要競爭對手，並在Tableau中可視化六年內的醫療設備市場價值，增強未來五年的市場份額預測。",
+          "使用Microsoft Excel中的樞紐分析表，展示美國八年內的設備使用量，增強市場價值評估，展示產品潛力並確保初創企業贊助。",
+          "通過管理利益相關者期望，提供業務見解，促進內部技術團隊和外部顧問之間的協作，增加20%的團隊效率。",
+          "主導每週會議，整合信息並推動目標導向的合作。"
+        ],
+        "is_current": false,
+        "duration_in_months": 12
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "year": 2023,
+        "issuing_organization": "AWS",
+        "description": "課程: AWS上的架構設計 2023/03~2023/03"
+      },
+      {
+        "year": 2023,
+        "issuing_organization": "AWS",
+        "description": "課程: 使用Amazon SageMaker的實用數據科學 2023/09~2023/09"
+      },
+      {
+        "year": 2023,
+        "issuing_organization": "AWS",
+        "description": "課程: 在AWS上構建批量分析解決方案 2023/09~2023/09"
+      }
+    ],
+    "basics": {
+      "urls": [
+        "http://www.linkedin.com/in/yvonnekuo",
+        "https://github.com/yvonnekuo"
+      ],
+      "profession": "數據科學家",
+      "summary": "我是一位熱愛數據與故事的人，擁有堅實的統計背景，擅長使用進階數據分析技術解決複雜的商業問題，期待為未來的角色帶來創新與影響力。",
+      "gender": "female",
+      "has_driving_license": false,
+      "emails": [
+        "yvonne.kuo@example.com"
+      ],
+      "first_name": "Yvonne",
+      "last_name": "Kuo",
+      "phone_numbers": [
+        "+886-961-012-345"
+      ],
+      "skills": [
+        "數據科學",
+        "數據分析",
+        "團隊合作",
+        "創意思考",
+        "勇於挑戰"
+      ],
+      "date_of_birth": {
+        "month": 4,
+        "day": 19,
+        "year": 1995
+      },
+      "address": "新北市, 台灣",
+      "total_experience_in_years": 3
+    }
+  },
+  "location": "Minneapolis, MN, USA",
+  "name": "張為淳",
+  "about_english": "I love telling insightful stories behind data! With a strong academic background in Statistics and Data Science, my proficiency spans Statistical Analysis and Modeling, Machine Learning, Predictive Analytics, Exploratory Data Analysis, and Data Visualization. Graduating from MS Business Analytics at UMN Carlson, I’m focusing on applying advanced data analytics techniques to address complex business problems, bringing innovation and impact to my future role!",
+  "skills": [
+    "數據科學",
+    "數據分析",
+    "團隊合作",
+    "創意思考",
+    "勇於挑戰"
+  ],
+  "links_text": "GitHub and LinkedIn",
+  "techniques": [
+    "統計推論與建模 (Statistical Inference and Modeling)",
+    "機器學習 (Machine Learning)",
+    "預測分析 (Predictive Analytics)",
+    "探索性資料分析 (Exploratory Data Analysis, EDA)",
+    "資料視覺化 (Data Visualization)"
+  ],
+  "work_experience": [],
+  "metadata": {
+    "generated_date": "2025-05-14T23:49:55.083464",
+    "resume_type": "ds",
+    "index": 3
+  }
+}

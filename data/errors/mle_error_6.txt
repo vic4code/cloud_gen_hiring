@@ -1,0 +1,592 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "profile"
+      },
+      {
+        "id": "education"
+      },
+      {
+        "id": "experience"
+      },
+      {
+        "id": "jobCondition"
+      },
+      {
+        "id": "language"
+      },
+      {
+        "id": "skill"
+      },
+      {
+        "id": "certificate"
+      },
+      {
+        "id": "portfolio"
+      },
+      {
+        "id": "bio"
+      },
+      {
+        "id": "project"
+      },
+      {
+        "id": "referrer"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職工作",
+          "value": "1"
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "日班",
+          "value": "1"
+        }
+      ],
+      "otherTimePeriod": "",
+      "workShift": "1",
+      "onBoardAfterGetOffer": {
+        "text": "一週",
+        "value": "1"
+      },
+      "customOnBoardDate": {
+        "year": "",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "錄取後",
+        "value": "1"
+      },
+      "salary": {
+        "text": "面議",
+        "value": "1"
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": "5"
+      },
+      "salaryOfHours": "",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "演算法工程師、軟/韌體工程師、資料科學家、後端工程師、光學(研發)工程師",
+      "preferArea": [
+        {
+          "no": 6001001000,
+          "des": "台北市"
+        },
+        {
+          "no": 6001002000,
+          "des": "新北市"
+        },
+        {
+          "no": 6001005000,
+          "des": "桃園市"
+        },
+        {
+          "no": 6001008000,
+          "des": "台中市"
+        },
+        {
+          "no": 6001014000,
+          "des": "台南市"
+        },
+        {
+          "no": 6001006000,
+          "des": "新竹縣市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 2008001018,
+          "des": "光電工程師"
+        },
+        {
+          "no": 2008001019,
+          "des": "光學工程師"
+        },
+        {
+          "no": 2007001012,
+          "des": "演算法工程師"
+        },
+        {
+          "no": 2007001006,
+          "des": "Internet程式設計師"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 1001001000,
+          "des": "軟體及網路相關業"
+        },
+        {
+          "no": 1001004000,
+          "des": "光電及光學相關業"
+        },
+        {
+          "no": 1004000000,
+          "des": "金融投顧及保險業"
+        }
+      ],
+      "preferJobContent": "",
+      "remoteWork": {
+        "text": "對遠端工作有意願",
+        "value": "1"
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典風格",
+            "value": "1",
+            "name": "ProfileThemeClassic"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "卡片式",
+            "value": "2",
+            "name": "SkillThemeCard"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "EducationThemeList"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "ExperienceThemeList"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "JobConditionThemeList"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "LanguageThemeList"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "CertificateThemeList"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "三欄式",
+            "value": "1",
+            "name": "PortfolioTheme3Column"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "單欄式",
+            "value": "1",
+            "name": "ProjectTheme1Column"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": "1",
+          "schoolId": "5023000000",
+          "name": "國立臺灣科技大學",
+          "departments": [
+            {
+              "name": "光電工程研究所",
+              "type": [
+                {
+                  "no": "3011016000",
+                  "des": "光電工程相關"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2019",
+            "startMonth": {
+              "text": "9",
+              "value": "9"
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "6",
+              "value": "6"
+            }
+          },
+          "highest": {
+            "text": "碩士",
+            "value": "2"
+          },
+          "status": {
+            "text": "畢業",
+            "value": "1"
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": "7001053000"
+          }
+        },
+        {
+          "sort": "2",
+          "schoolId": "5030000000",
+          "name": "國立中央大學",
+          "departments": [
+            {
+              "name": "光電科學與工程學系",
+              "type": [
+                {
+                  "no": "3011016000",
+                  "des": "光電工程相關"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2015",
+            "startMonth": {
+              "text": "9",
+              "value": "9"
+            },
+            "endYear": "2019",
+            "endMonth": {
+              "text": "6",
+              "value": "6"
+            }
+          },
+          "highest": {
+            "text": "大學",
+            "value": "3"
+          },
+          "status": {
+            "text": "畢業",
+            "value": "1"
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": "7001053000"
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "1年(含)以下",
+        "value": "0"
+      },
+      "experiences": [
+        {
+          "sort": "1",
+          "companyName": "綠能創新科技股份有限公司",
+          "custNo": "0",
+          "invoice": "12345678",
+          "logo": "",
+          "industry": [
+            {
+              "no": "1001004001",
+              "des": "綠色能源技術服務業"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "機器學習工程師實習生",
+          "workArea": [
+            {
+              "no": "6001001000",
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": "1"
+          },
+          "jobCat": [
+            {
+              "no": "2007001012",
+              "des": "演算法工程師"
+            }
+          ],
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "7",
+              "value": "7"
+            },
+            "endYear": "",
+            "endMonth": []
+          },
+          "description": "● 參與即時風力發電數據處理專案，開發實時監控系統以提升能源效率\n● 使用Python與Kafka建置資料串流平台，實現數據的即時傳輸與分析\n● 採用LSTM模型預測風速變化，提升預測準確率達15%\n● 與團隊協作，持續優化演算法並撰寫技術文件",
+          "skill": [],
+          "salary": {
+            "monthPay": "",
+            "yearPay": "",
+            "jobParttimeType": {
+              "text": "平均時薪",
+              "value": "1"
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": true,
+          "stillWork": true,
+          "salaryVisibility": false
+        },
+        {
+          "sort": "2",
+          "companyName": "陽光綠能股份有限公司",
+          "custNo": "0",
+          "invoice": "87654321",
+          "logo": "",
+          "industry": [
+            {
+              "no": "1001004002",
+              "des": "太陽能設備製造業"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "資料分析助理",
+          "workArea": [
+            {
+              "no": "6001006000",
+              "des": "新竹市"
+            }
+          ],
+          "jobType": {
+            "text": "兼職",
+            "value": "2"
+          },
+          "jobCat": [
+            {
+              "no": "2016001013",
+              "des": "研究助理"
+            }
+          ],
+          "duration": {
+            "startYear": "2022",
+            "startMonth": {
+              "text": "6",
+              "value": "6"
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "2",
+              "value": "2"
+            }
+          },
+          "description": "● 協助建置太陽能發電系統的數據監控平台，負責資料清洗與視覺化呈現\n● 使用Matlab進行光學模擬，分析太陽能板的光線吸收效率\n● 參與團隊討論，提出資料處理流程優化建議",
+          "skill": [],
+          "salary": {
+            "monthPay": "",
+            "yearPay": "",
+            "jobParttimeType": {
+              "text": "平均時薪",
+              "value": "1"
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": true,
+          "stillWork": false,
+          "salaryVisibility": false
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "卡片式",
+        "value": "2",
+        "name": "SkillThemeCard"
+      },
+      "skills": [
+        {
+          "sort": "1",
+          "name": "程式語言",
+          "desc": "<p>熟悉程式語言：</p><p>● Python</p><p>● Matlab</p><p>學習中：</p><p>● C++</p>",
+          "status": "1",
+          "tag": [
+            {
+              "text": "軟體程式設計",
+              "value": "11009005001"
+            }
+          ]
+        },
+        {
+          "sort": "2",
+          "name": "後端技術",
+          "desc": "熟悉後端服務架設與API開發：\n● Flask\n● Docker\n● Kafka\n● AWS\n● GCP\n● RESTful API",
+          "status": "1",
+          "tag": []
+        },
+        {
+          "sort": "3",
+          "name": "資料庫",
+          "desc": "熟悉資料庫管理與查詢語言：\n● MySQL\n● MongoDB",
+          "status": "1",
+          "tag": []
+        },
+        {
+          "sort": "4",
+          "name": "人工智慧",
+          "desc": "機器學習與深度學習框架：\n● TensorFlow\n● PyTorch\n● Scikit-learn",
+          "status": "1",
+          "tag": [
+            {
+              "text": "Machine Learning",
+              "value": "11009005007"
+            }
+          ]
+        },
+        {
+          "sort": "5",
+          "name": "工程技能",
+          "desc": "<p>● 訊號處理：熟悉FFT、Wavelet Transform，專注於即時震動訊號分析</p><p>● 光學與電磁學基礎紮實，具光學模擬經驗</p>",
+          "status": "1",
+          "tag": []
+        },
+        {
+          "sort": "6",
+          "name": "工具",
+          "desc": "<p>開發及管理工具：</p><p>● Linux (Ubuntu)</p><p>● Git版控</p><p>● Notion、HackMD</p><p>● SolidWorks基礎3D建模</p><p>● OSLO光學設計軟體</p>",
+          "status": "1",
+          "tag": [
+            {
+              "text": "Git",
+              "value": "12001002018"
+            },
+            {
+              "text": "SolidWorks",
+              "value": "12002003012"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": "4001001005",
+          "des": "TOEIC (多益測驗)"
+        }
+      ],
+      "others": ""
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": "1",
+          "type": {
+            "text": "英文",
+            "value": "1"
+          },
+          "listening": {
+            "text": "中等",
+            "value": "8"
+          },
+          "speaking": {
+            "text": "中等",
+            "value": "8"
+          },
+          "reading": {
+            "text": "中等",
+            "value": "8"
+          },
+          "writing": {
+            "text": "中等",
+            "value": "8"
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC (多益測驗)",
+                "value": "4001001005"
+              },
+              "grade": "750"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": {
+      "projects": [
+        {
+          "sort": "1",
+          "name": "GreenWind - 風力發電即時監控系統",
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "7",
+              "value": "7"
+            },
+            "endYear": "",
+            "endMonth": []
+          },
+          "isInProgress": true,
+          "introduction": "本專案致力於開發風力發電場的即時數據監控系統，實現風速與振動訊號的即時分析與預測。 \n- 專案角色：資料工程師\n  ● 設計資料串流架構，整合Kafka與Python實時處理數據\n  ● 開發LSTM模型預測風速變化，提升能源產出效率\n  ● 撰寫系統監控儀表板，提供即時視覺化數據呈現\n  ● 與團隊合作，持續優化模型與系統效能",
+          "url": "https://github.com/username/GreenWind-RealTimeMonitoring",
+          "img": {
+            "pic": "1",
+            "fileId": "greenwind_img1.jpeg",
+            "src": "https://example.com/images/greenwind_img1.jpeg"
+          }
+        },
+        {
+          "sort": "2",
+          "name": "EcoSolar 光伏模組效能分析",
+          "duration": {
+            "startYear": "2022",
+            "startMonth": {
+              "text": "3",
+              "value": "3"
+            },
+            "endYear": "2022",
+            "endMonth": {
+              "text": "8",
+              "value": "8"
+            }
+          },
+          "isInProgress": false,
+          "introduction": "研究並分析太陽能光伏模組的光學特性與效能，透過Matlab模擬不同環境參數對模組表現的影響。\n- 角色：光學模擬工程師\n- 使用傅立葉光學與蒙地卡羅方法模擬光線傳播\n- 分析模組效率，提出改善建議以提升發電效能",
+          "url": "https://github.com/username/EcoSolar-PerformanceAnalysis",
+          "img":

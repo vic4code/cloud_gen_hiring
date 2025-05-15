@@ -1,0 +1,604 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "section_job_experience"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "不限",
+          "value": 0
+        }
+      ],
+      "otherTimePeriod": "無限制",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "一個月內",
+        "value": 30
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "隨時可上班",
+        "value": "immediate"
+      },
+      "salary": {
+        "text": "面議",
+        "value": 0
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "無",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "部門主管",
+      "preferArea": [
+        {
+          "no": 3,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 1,
+          "des": "全職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 12,
+          "des": "教育科技"
+        }
+      ],
+      "preferJobContent": "專注於分析與風險評估模型開發，帶領團隊提升教學產品的數據洞察能力。",
+      "remoteWork": {
+        "text": "部分遠端",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典藍",
+            "value": 2,
+            "name": "classic_blue"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代扁平",
+            "value": 3,
+            "name": "modern_flat"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡約白",
+            "value": 1,
+            "name": "minimal_white"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業灰",
+            "value": 4,
+            "name": "professional_gray"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "清新綠",
+            "value": 5,
+            "name": "fresh_green"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "柔和黃",
+            "value": 6,
+            "name": "soft_yellow"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "穩重棕",
+            "value": 7,
+            "name": "steady_brown"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "優雅紫",
+            "value": 8,
+            "name": "elegant_purple"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "科技藍",
+            "value": 9,
+            "name": "tech_blue"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 101,
+          "name": "國立臺灣大學",
+          "departments": [
+            {
+              "name": "資訊工程學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2008",
+            "startMonth": {
+              "text": "9月",
+              "value": 9
+            },
+            "endYear": "2012",
+            "endMonth": {
+              "text": "6月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "畢業",
+            "value": 1
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "部門主管",
+        "value": 5
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "智慧教育科技股份有限公司",
+          "custNo": "C123456789",
+          "invoice": 12345678,
+          "logo": "https://example.com/logos/edu_tech_logo.png",
+          "industry": [
+            {
+              "no": 12,
+              "des": "教育科技"
+            }
+          ],
+          "companyScale": {
+            "text": "中型企業(100-500人)",
+            "value": 3
+          },
+          "jobName": "數據分析部門主管",
+          "workArea": [
+            {
+              "no": 3,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 5,
+              "des": "數據分析"
+            }
+          ],
+          "duration": {
+            "startYear": "2018",
+            "startMonth": {
+              "text": "7月",
+              "value": 7
+            },
+            "endYear": "2024",
+            "endMonth": {
+              "text": "6月",
+              "value": 6
+            }
+          },
+          "description": "帶領團隊開發教育領域的風險評估模型，運用Python與R進行數據分析與預測，協助產品優化決策。導入機器學習技術提升模型準確率20%，並建立定期報告系統供管理層參考。",
+          "skill": [],
+          "salary": {
+            "monthPay": "90000",
+            "yearPay": "1080000",
+            "jobParttimeType": {
+              "text": "無兼職",
+              "value": 0
+            },
+            "jobParttimePay": "0"
+          },
+          "companyVisibility": 1,
+          "stillWork": 1,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "專業展示",
+        "value": 2,
+        "name": "professional_display"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "數據分析",
+          "desc": "熟悉Python、R語言，具備統計模型與機器學習實務經驗",
+          "status": 1,
+          "tag": [
+            {
+              "text": "Python",
+              "value": "python"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 101,
+          "des": "PMP 專案管理專業人員"
+        }
+      ],
+      "others": "持續參加教育科技相關研討會與課程強化專業能力"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英語",
+            "value": 1
+          },
+          "listening": {
+            "text": "良好",
+            "value": 3
+          },
+          "speaking": {
+            "text": "中等",
+            "value": 2
+          },
+          "reading": {
+            "text": "流利",
+            "value": 4
+          },
+          "writing": {
+            "text": "流利",
+            "value": 4
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 101
+              },
+              "grade": "850"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": [],
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "風險評估模型開發專案",
+          "attach": {
+            "name": "風險評估模型報告.pdf",
+            "status": 1,
+            "fileId": "file_20240601",
+            "url": "https://example.com/portfolio/risk_model_report.pdf",
+            "src": "https://example.com/portfolio/thumbnail_risk_model.png"
+          },
+          "attachType": {
+            "text": "文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "具備超過六年教育科技領域數據分析經驗，專精風險評估模型與團隊管理，熱衷將數據洞察轉化為具體策略。",
+      "eng": "Over six years of experience in data analysis within the EdTech industry, specializing in risk assessment models and team leadership, passionate about transforming data insights into actionable strategies."
+    },
+    "custom1": {
+      "custom": {
+        "sort": 1,
+        "name": "專業研討會",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2022",
+              "startMonth": {
+                "text": "11月",
+                "value": 11
+              },
+              "endYear": "2022",
+              "endMonth": {
+                "text": "11月",
+                "value": 11
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "參加國際教育數據分析研討會，分享風險評估模型應用經驗。",
+            "url": "https://example.com/conference/2022-edtech"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "經典藍",
+          "value": 2,
+          "name": "classic_blue"
+        }
+      },
+      "img": {
+        "pic": 1,
+        "fileId": "img_20240601_01",
+        "src": "https://example.com/images/conference_photo.jpg"
+      },
+      "img2": {
+        "pic": 2,
+        "fileId": "img_20240601_02",
+        "src": "https://example.com/images/conference_group.jpg"
+      }
+    },
+    "custom2": {
+      "custom": {
+        "sort": 2,
+        "name": "技術部落格",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2020",
+              "startMonth": {
+                "text": "1月",
+                "value": 1
+              },
+              "endYear": "2023",
+              "endMonth": {
+                "text": "12月",
+                "value": 12
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "撰寫教育科技相關數據分析與風險模型技術分享文章。",
+            "url": "https://blog.example.com/edtech_analysis"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "現代扁平",
+          "value": 3,
+          "name": "modern_flat"
+        }
+      },
+      "img": {
+        "pic": 3,
+        "fileId": "img_20240602_01",
+        "src": "https://example.com/images/blog_cover.jpg"
+      },
+      "img2": {
+        "pic": 4,
+        "fileId": "img_20240602_02",
+        "src": "https://example.com/images/blog_article.jpg"
+      }
+    },
+    "custom3": {
+      "custom": {
+        "sort": 3,
+        "name": "團隊管理經驗",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2018",
+              "startMonth": {
+                "text": "7月",
+                "value": 7
+              },
+              "endYear": "2024",
+              "endMonth": {
+                "text": "6月",
+                "value": 6
+              }
+            },
+            "isInProgress": 1,
+            "introduction": "負責數據分析團隊管理與跨部門協作，推動教育產品數據驅動決策。",
+            "url": "https://example.com/team_management"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專業灰",
+          "value": 4,
+          "name": "professional_gray"
+        }
+      },
+      "img": {
+        "pic": 5,
+        "fileId": "img_20240603_01",
+        "src": "https://example.com/images/team_meeting.jpg"
+      },
+      "img2": {
+        "pic": 6,
+        "fileId": "img_20240603_02",
+        "src": "https://example.com/images/team_work.jpg"
+      }
+    },
+    "custom4": {
+      "custom": {
+        "sort": 4,
+        "name": "數據分析工具培訓",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2019",
+              "startMonth": {
+                "text": "3月",
+                "value": 3
+              },
+              "endYear": "2019",
+              "endMonth": {
+                "text": "5月",
+                "value": 5
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "完成內部培訓課程，提升團隊成員Python及資料視覺化能力。",
+            "url": "https://example.com/training/python_viz"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "清新綠",
+          "value": 5,
+          "name": "fresh_green"
+        }
+      },
+      "img": {
+        "pic": 7,
+        "fileId": "img_20240604_01",
+        "src": "https://example.com/images/training_session.jpg"
+      },
+      "img2": {
+        "pic": 8,
+        "fileId": "img_20240604_02",
+        "src": "https://example.com/images/training_material.jpg"
+      }
+    },
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "U20240601001",
+      "headshotUrl": "https://example.com/images/profile_headshot.jpg",
+      "imageUrl": "https://example.com/images/profile_banner.jpg",
+      "nickname": "數據長",
+      "title": {
+        "workExperience": 6,
+        "companyName": "智慧教育科技股份有限公司",
+        "jobName": "數據分析部門主管",
+        "schoolName": "國立臺灣大學",
+        "majorName": "資訊工程學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "專注於教育科技數據分析與模型開發，擅長帶領團隊解決複雜業務問題。",
+      "motto": "用數據驅動教育的未來。",
+      "abilities": [
+        "數據分析",
+        "團隊管理",
+        "機器學習"
+      ],
+      "preferJobTitle": "部門主管",
+      "viewCount": 3500,
+      "createdAt": "2018-07-01T08:00:00+08:00",
+      "isSelf": 1,
+      "signIn": 120,
+      "followerCount": 150,
+      "followedCount": 75,
+      "followed": 1,
+      "isFollowed": 1,
+      "isFollowingMe": 1,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "123e4567-e89b-12d3-a456-426614174000",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/dataleader",
+      "personalLink2Url": "https://github.com/dataleader",
+      "personalLink3Url": "https://dataleader.example.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "經典藍",
+          "value": 2,
+          "name": "classic_blue"
+        },
+        "backgroundColor": "#1E3A8A"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:29:52.939961",
+    "resume_type": "mle",
+    "index": 7,
+    "diversity_traits": {
+      "industry": "教育科技",
+      "work_style": "分析洞察",
+      "career_stage": "部門主管",
+      "project_focus": "風險評估模型"
+    }
+  }
+}

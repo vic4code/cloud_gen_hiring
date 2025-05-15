@@ -1,0 +1,92 @@
+{
+  "personal_info": {
+    "gender": "男性",
+    "age": 25,
+    "military_status": "已服役",
+    "employment_status": "在職",
+    "email": "chen.hao@example.com",
+    "address": "台北市信義區松仁路100號",
+    "english_name": "Hao Chen",
+    "driver_licenses": [
+      "普通重型機車"
+    ]
+  },
+  "education": {
+    "school": "國立台灣大學",
+    "department": "資訊管理學系",
+    "degree": "學士",
+    "period": "2016 - 2020"
+  },
+  "work_experience": {
+    "total_years": "2",
+    "jobs": [
+      {
+        "company": "智購科技股份有限公司",
+        "industry": "電子商務",
+        "company_size": "中型企業",
+        "title": "初階產品經理",
+        "location": "新北市板橋區",
+        "period": "2021 - 2023",
+        "description": [
+          "協助規劃並推動資料管線建置專案，提升數據整合效率。",
+          "與技術團隊協作，參與產品需求分析與優化流程。",
+          "負責監控專案進度，確保交付時間與品質符合預期。"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "data_analysis": [
+      "SQL",
+      "Google Analytics"
+    ],
+    "specialties": [
+      "資料管線建置",
+      "產品需求分析",
+      "專案管理基礎"
+    ],
+    "data_driven_decision_making": "能夠運用數據分析結果協助團隊做出合理決策，提升產品效能。",
+    "collaboration": "積極與跨部門團隊溝通協作，促進專案順利推進。"
+  },
+  "self_intro": {
+    "current_position": "目前擔任初階產品經理，專注於電子商務平台的資料管線建置。",
+    "leadership": "具備良好溝通能力與團隊合作精神，能夠協助團隊達成目標。",
+    "future_goal": "希望未來能成為具備深厚資料分析能力的產品經理，推動創新產品發展。"
+  },
+  "job_preferences": {
+    "job_type": "全職",
+    "working_hours": "彈性工時",
+    "availability": "一個月內可到職",
+    "expected_salary": "60000 - 70000 新台幣/月",
+    "preferred_locations": [
+      "台北市",
+      "新北市"
+    ],
+    "remote_work": "部分遠端工作可接受",
+    "desired_titles": [
+      "產品經理",
+      "初階產品經理"
+    ],
+    "preferred_categories": [
+      "電子商務",
+      "科技軟體"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "PMP® 專案管理專業人士認證",
+      "issuer": "美國專案管理學會(PMI)"
+    }
+  ],
+  "metadata": {
+    "generated_date": "2025-05-15T11:54:07.773943",
+    "resume_type": "pm",
+    "index": 8,
+    "diversity_traits": {
+      "industry": "電子商務",
+      "work_style": "創新思考",
+      "career_stage": "初階專業人士",
+      "project_focus": "資料管線建置"
+    }
+  }
+}

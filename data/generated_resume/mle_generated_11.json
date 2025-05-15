@@ -1,0 +1,602 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "medical_health_tech_consultant_001"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "上午9點至下午6點",
+          "value": 1
+        }
+      ],
+      "otherTimePeriod": "彈性工作時間，可視專案需求調整",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "一個月內到職",
+        "value": 30
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年6月",
+        "value": "2024-06"
+      },
+      "salary": {
+        "text": "月薪45,000元以上",
+        "value": 45000
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "無",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "技術顧問",
+      "preferArea": [
+        {
+          "no": 3,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 2,
+          "des": "全職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 7,
+          "des": "醫療保健"
+        }
+      ],
+      "preferJobContent": "專注於醫療數據分析與風險評估模型開發，提供技術解決方案，促進團隊合作與項目成功。",
+      "remoteWork": {
+        "text": "部分遠端工作",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代簡約風",
+            "value": 3,
+            "name": "modern_minimal"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業藍調",
+            "value": 5,
+            "name": "professional_blue"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典正式",
+            "value": 1,
+            "name": "classic_formal"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "清晰明瞭",
+            "value": 2,
+            "name": "clear_simple"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業穩重",
+            "value": 4,
+            "name": "professional_stable"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "國際風",
+            "value": 6,
+            "name": "international_style"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典證書",
+            "value": 3,
+            "name": "classic_certificate"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代展示",
+            "value": 5,
+            "name": "modern_showcase"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "技術導向",
+            "value": 4,
+            "name": "tech_oriented"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 101,
+          "name": "國立台灣大學",
+          "departments": [
+            {
+              "name": "資訊工程學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2012",
+            "startMonth": {
+              "text": "9月",
+              "value": 9
+            },
+            "endYear": "2016",
+            "endMonth": {
+              "text": "6月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "畢業",
+            "value": 1
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "5年以上",
+        "value": 5
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "華康醫療科技股份有限公司",
+          "custNo": "MEDTECH2024",
+          "invoice": 12345678,
+          "logo": "https://example.com/logos/medtech_logo.png",
+          "industry": [
+            {
+              "no": 7,
+              "des": "醫療保健"
+            }
+          ],
+          "companyScale": {
+            "text": "中型企業(101-500人)",
+            "value": 3
+          },
+          "jobName": "技術顧問",
+          "workArea": [
+            {
+              "no": 3,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 12,
+              "des": "顧問/專案管理"
+            }
+          ],
+          "duration": {
+            "startYear": "2018",
+            "startMonth": {
+              "text": "7月",
+              "value": 7
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "12月",
+              "value": 12
+            }
+          },
+          "description": "負責醫療風險評估模型的設計與優化，帶領跨部門團隊完成數據分析專案，應用機器學習技術提升預測準確率20%。協助客戶制定技術解決方案，促進產品落地與持續迭代。",
+          "skill": [],
+          "salary": {
+            "monthPay": "48000",
+            "yearPay": "576000",
+            "jobParttimeType": {
+              "text": "無",
+              "value": 0
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": 1,
+          "stillWork": 0,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "專業技能風格",
+        "value": 3,
+        "name": "professional_skill"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "機器學習",
+          "desc": "熟悉Python及Scikit-learn套件，能有效建立及優化風險評估模型。",
+          "status": 1,
+          "tag": [
+            {
+              "text": "Python",
+              "value": "python"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 101,
+          "des": "醫療資料分析專業證書"
+        }
+      ],
+      "others": "具備PMP專案管理資格，具良好團隊協作及溝通能力。"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英語",
+            "value": 1
+          },
+          "listening": {
+            "text": "流利",
+            "value": 4
+          },
+          "speaking": {
+            "text": "流利",
+            "value": 4
+          },
+          "reading": {
+            "text": "流利",
+            "value": 4
+          },
+          "writing": {
+            "text": "中等",
+            "value": 3
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 201
+              },
+              "grade": "850分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": [],
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "醫療風險評估模型專案",
+          "attach": {
+            "name": "風險評估模型報告.pdf",
+            "status": 1,
+            "fileId": "file12345",
+            "url": "https://example.com/portfolio/risk_model_report.pdf",
+            "src": "https://example.com/portfolio/risk_model_report_thumbnail.png"
+          },
+          "attachType": {
+            "text": "PDF文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "具備五年以上醫療健康領域技術顧問經驗，專注於風險評估模型的建立與優化，擅長跨部門合作與技術方案制定。",
+      "eng": "Over five years of experience as a technical consultant in healthcare, specializing in risk assessment model development and optimization, skilled in cross-functional collaboration and technical solution design."
+    },
+    "custom1": {
+      "custom": {
+        "sort": 1,
+        "name": "技術發展",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2019",
+              "startMonth": {
+                "text": "3月",
+                "value": 3
+              },
+              "endYear": "2020",
+              "endMonth": {
+                "text": "8月",
+                "value": 8
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "參與醫療數據處理流程優化，提升數據準確性與模型效能。",
+            "url": "https://example.com/custom1/project1"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "簡約科技風",
+          "value": 2,
+          "name": "tech_minimal"
+        }
+      },
+      "img": {
+        "pic": 101,
+        "fileId": "imgfile123",
+        "src": "https://example.com/images/custom1_img1.png"
+      },
+      "img2": {
+        "pic": 102,
+        "fileId": "imgfile124",
+        "src": "https://example.com/images/custom1_img2.png"
+      }
+    },
+    "custom2": {
+      "custom": {
+        "sort": 2,
+        "name": "專案管理",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2021",
+              "startMonth": {
+                "text": "1月",
+                "value": 1
+              },
+              "endYear": "2022",
+              "endMonth": {
+                "text": "12月",
+                "value": 12
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "負責跨部門協調及資源整合，確保專案按期完成。",
+            "url": "https://example.com/custom2/project2"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專業簡潔風",
+          "value": 3,
+          "name": "professional_simple"
+        }
+      },
+      "img": {
+        "pic": 103,
+        "fileId": "imgfile125",
+        "src": "https://example.com/images/custom2_img1.png"
+      },
+      "img2": {
+        "pic": 104,
+        "fileId": "imgfile126",
+        "src": "https://example.com/images/custom2_img2.png"
+      }
+    },
+    "custom3": {
+      "custom": {
+        "sort": 3,
+        "name": "數據分析",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2017",
+              "startMonth": {
+                "text": "6月",
+                "value": 6
+              },
+              "endYear": "2018",
+              "endMonth": {
+                "text": "6月",
+                "value": 6
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "協助建立數據清理流程，提高數據品質，支援模型訓練。",
+            "url": "https://example.com/custom3/project3"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "科技感風格",
+          "value": 4,
+          "name": "tech_style"
+        }
+      },
+      "img": {
+        "pic": 105,
+        "fileId": "imgfile127",
+        "src": "https://example.com/images/custom3_img1.png"
+      },
+      "img2": {
+        "pic": 106,
+        "fileId": "imgfile128",
+        "src": "https://example.com/images/custom3_img2.png"
+      }
+    },
+    "custom4": {
+      "custom": {
+        "sort": 4,
+        "name": "團隊合作",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2018",
+              "startMonth": {
+                "text": "9月",
+                "value": 9
+              },
+              "endYear": "2020",
+              "endMonth": {
+                "text": "5月",
+                "value": 5
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "積極與跨部門團隊協作，推動專案順利執行並優化工作流程。",
+            "url": "https://example.com/custom4/project4"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "團隊風格",
+          "value": 1,
+          "name": "team_style"
+        }
+      },
+      "img": {
+        "pic": 107,
+        "fileId": "imgfile129",
+        "src": "https://example.com/images/custom4_img1.png"
+      },
+      "img2": {
+        "pic": 108,
+        "fileId": "imgfile130",
+        "src": "https://example.com/images/custom4_img2.png"
+      }
+    },
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "profile_tech_consultant_001",
+      "headshotUrl": "https://example.com/images/headshot_001.jpg",
+      "imageUrl": "https://example.com/images/background_001.jpg",
+      "nickname": "林技術",
+      "title": {
+        "workExperience": 5,
+        "companyName": "華康醫療科技股份有限公司",
+        "jobName": "技術顧問",
+        "schoolName": "國立台灣大學",
+        "majorName": "資訊工程學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "我專注於醫療健康領域，擁有五年以上的技術顧問經驗，熟悉風險評估模型開發與跨部門合作。",
+      "motto": "持續學習，精益求精，創造價值。",
+      "abilities": [
+        "機器學習應用"
+      ],
+      "preferJobTitle": "技術顧問",
+      "viewCount": 256,
+      "createdAt": "2020-05-15",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 120,
+      "followedCount": 85,
+      "followed": 0,
+      "isFollowed": 1,
+      "isFollowingMe": 1,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "uuid-1234-5678-9012",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/techlin",
+      "personalLink2Url": "https://github.com/techlin",
+      "personalLink3Url": "https://techlin.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "現代專業",
+          "value": 3,
+          "name": "modern_professional"
+        },
+        "backgroundColor": "#f0f4f8"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:33:00.535998",
+    "resume_type": "mle",
+    "index": 11,
+    "diversity_traits": {
+      "industry": "醫療健康",
+      "work_style": "團隊合作",
+      "career_stage": "技術顧問",
+      "project_focus": "風險評估模型"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "job_preferences": {
+    "job_type": "全職",
+    "desired_titles": [
+      "產品經理"
+    ],
+    "preferred_content": "專注於智慧製造領域的產品規劃與管理，強調實時數據處理與系統整合",
+    "preferred_category": "產品管理",
+    "preferred_industries": [
+      "智慧製造"
+    ],
+    "preferred_locations": [
+      "台北市"
+    ],
+    "remote_work": "部分遠端",
+    "expected_salary": "新台幣120,000元/月以上",
+    "availability": "一個月內可上任",
+    "working_hours": "彈性工時，標準週40小時"
+  },
+  "experience": {
+    "total_years": "8",
+    "roles": [
+      {
+        "title": "高級產品經理",
+        "duration": "5年"
+      }
+    ],
+    "jobs": [
+      {
+        "company": "智聯科技股份有限公司",
+        "title": "高級產品經理",
+        "period": "2018年6月 - 2023年6月",
+        "industry": "智慧製造",
+        "category": "產品管理",
+        "company_size": "中型企業(201-500人)",
+        "skills": [
+          "產品規劃",
+          "敏捷管理",
+          "實時數據分析",
+          "跨部門協作"
+        ],
+        "description": "負責智慧製造系統的產品策略制定與執行，主導跨部門團隊合作推動實時數據處理功能的開發，通過敏捷方法提升產品迭代效率與市場反應速度。",
+        "projects": [
+          {
+            "name": "智慧工廠實時監控平台",
+            "summary": "領導團隊開發基於IoT的實時數據收集與分析平台，使用Kafka與Spark Streaming實現高效數據流處理，提升生產線異常偵測準確度30%，大幅降低停機時間。"
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "highest": {
+      "degree": "碩士",
+      "school": "國立台灣大學",
+      "department": "工業工程與管理學系",
+      "period": "2014年9月 - 2016年6月"
+    },
+    "bachelor": {
+      "degree": "學士",
+      "school": "國立成功大學",
+      "department": "機械工程學系",
+      "period": "2010年9月 - 2014年6月"
+    }
+  },
+  "self_intro": {
+    "summary": "具備8年智慧製造領域產品管理經驗，專長於實時數據處理與跨部門協作，擅長運用敏捷管理方法推動產品快速迭代。熱衷於結合技術與市場需求，持續提升產品競爭力與團隊效能。"
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:53:04.321030",
+    "resume_type": "pm",
+    "index": 3,
+    "diversity_traits": {
+      "industry": "智慧製造",
+      "work_style": "團隊合作",
+      "career_stage": "領域專家",
+      "project_focus": "實時數據處理"
+    }
+  }
+}

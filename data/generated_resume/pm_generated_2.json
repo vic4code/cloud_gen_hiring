@@ -1,0 +1,92 @@
+{
+  "personal_info": {
+    "gender": "女性",
+    "age": 27,
+    "military_status": "免役",
+    "employment_status": "在職",
+    "email": "alice.chen@example.com",
+    "address": "台北市中正區仁愛路一段100號",
+    "english_name": "Alice Chen",
+    "driver_licenses": [
+      "普通重型機車駕照"
+    ]
+  },
+  "education": {
+    "school": "國立陽明交通大學生物科技學系",
+    "department": "生物科技學系",
+    "degree": "學士",
+    "period": "2015年9月 - 2019年6月"
+  },
+  "work_experience": {
+    "total_years": "2",
+    "jobs": [
+      {
+        "company": "新創生技有限公司",
+        "industry": "生物科技",
+        "company_size": "50-100人",
+        "title": "專案管理助理",
+        "location": "新竹市",
+        "period": "2021年7月 - 2023年7月",
+        "description": [
+          "協助項目經理規劃與追蹤聊天機器人開發專案進度。",
+          "與開發團隊及產品團隊保持良好溝通，確保需求準確落實。",
+          "使用JIRA管理任務分配及問題追蹤，提升團隊工作效率。",
+          "參與生物科技相關產品的需求分析與文件整理。"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "data_analysis": [
+      "Excel資料整理",
+      "基本SQL查詢"
+    ],
+    "specialties": [
+      "專案排程與追蹤",
+      "跨部門溝通協調"
+    ],
+    "data_driven_decision_making": "具備基礎數據分析能力，能透過報表輔助專案決策",
+    "collaboration": "積極與多方團隊合作，促進資訊流通與問題解決"
+  },
+  "self_intro": {
+    "current_position": "專案管理助理，負責協助生物科技聊天機器人開發專案的推動與溝通。",
+    "leadership": "雖為初階專業人士，積極學習專案管理知識，協助團隊順利達成目標。",
+    "future_goal": "希望成為具備技術與管理能力的專案經理，帶領團隊完成創新生技產品。"
+  },
+  "job_preferences": {
+    "job_type": "全職",
+    "working_hours": "彈性工時",
+    "availability": "一個月內可到職",
+    "expected_salary": "60,000-70,000新台幣",
+    "preferred_locations": [
+      "台北市",
+      "新竹市"
+    ],
+    "remote_work": "部分遠端工作可接受",
+    "desired_titles": [
+      "專案助理",
+      "初階專案經理"
+    ],
+    "preferred_categories": [
+      "生物科技",
+      "軟體開發"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "專案管理基礎認證(PMP Foundation)",
+      "issuer": "國際專案管理學會"
+    }
+  ],
+  "metadata": {
+    "generated_date": "2025-05-15T11:52:49.569649",
+    "resume_type": "pm",
+    "index": 2,
+    "diversity_traits": {
+      "industry": "生物科技",
+      "work_style": "持續學習",
+      "career_stage": "初階專業人士",
+      "project_focus": "聊天機器人開發"
+    }
+  }
+}

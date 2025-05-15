@@ -1,0 +1,602 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "sidebar-001"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "可立即上班",
+          "value": 1
+        }
+      ],
+      "otherTimePeriod": "無特定時間限制",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "一週內",
+        "value": 7
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年6月",
+        "value": "2024-06"
+      },
+      "salary": {
+        "text": "面議",
+        "value": 0
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "無",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "部門主管",
+      "preferArea": [
+        {
+          "no": 1,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 1,
+          "des": "全職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 15,
+          "des": "遊戲開發"
+        }
+      ],
+      "preferJobContent": "負責團隊管理與風險評估模型的研發，強調客戶需求導向的專案推進",
+      "remoteWork": {
+        "text": "部分遠端工作可行",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典藍",
+            "value": 2,
+            "name": "classic_blue"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡潔風",
+            "value": 3,
+            "name": "minimalist"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "正式風",
+            "value": 1,
+            "name": "formal"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業風",
+            "value": 4,
+            "name": "professional"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代風",
+            "value": 1,
+            "name": "modern"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "清新風",
+            "value": 2,
+            "name": "fresh"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "嚴謹風",
+            "value": 3,
+            "name": "rigorous"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "創意風",
+            "value": 2,
+            "name": "creative"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "技術風",
+            "value": 5,
+            "name": "technical"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 101,
+          "name": "國立臺灣大學",
+          "departments": [
+            {
+              "name": "資訊工程學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2008",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2012",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "畢業",
+            "value": 1
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "部門主管",
+        "value": 4
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "星辰遊戲科技有限公司",
+          "custNo": "CUST20230401",
+          "invoice": 123456,
+          "logo": "https://example.com/logos/star_game_logo.png",
+          "industry": [
+            {
+              "no": 15,
+              "des": "遊戲開發"
+            }
+          ],
+          "companyScale": {
+            "text": "中型企業",
+            "value": 2
+          },
+          "jobName": "風險評估部門主管",
+          "workArea": [
+            {
+              "no": 1,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 101,
+              "des": "管理職"
+            }
+          ],
+          "duration": {
+            "startYear": "2018",
+            "startMonth": {
+              "text": "一月",
+              "value": 1
+            },
+            "endYear": "2024",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "description": "領導風險評估模型開發團隊，推動基於機器學習的風險預測系統，與客戶密切溝通需求，確保專案符合業務目標。採用Python、TensorFlow進行模型訓練與優化，成功降低遊戲開發流程中的風險指數15%。",
+          "skill": [],
+          "salary": {
+            "monthPay": "120000",
+            "yearPay": "1440000",
+            "jobParttimeType": {
+              "text": "無兼職",
+              "value": 0
+            },
+            "jobParttimePay": "0"
+          },
+          "companyVisibility": 1,
+          "stillWork": 1,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "技術導向",
+        "value": 1,
+        "name": "tech_oriented"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "Python",
+          "desc": "精通Python進行數據分析與機器學習模型開發",
+          "status": 3,
+          "tag": [
+            {
+              "text": "程式語言",
+              "value": "python"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 101,
+          "des": "專案管理專業人員(PMP)"
+        }
+      ],
+      "others": "持有多項內部培訓證書，專注於風險管理與數據分析"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英語",
+            "value": 1
+          },
+          "listening": {
+            "text": "流利",
+            "value": 4
+          },
+          "speaking": {
+            "text": "流利",
+            "value": 4
+          },
+          "reading": {
+            "text": "流利",
+            "value": 4
+          },
+          "writing": {
+            "text": "良好",
+            "value": 3
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 1
+              },
+              "grade": "900分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": [],
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "風險評估模型展示",
+          "attach": {
+            "name": "RiskModelDemo.pdf",
+            "status": 1,
+            "fileId": "file_20240601_001",
+            "url": "https://example.com/files/RiskModelDemo.pdf",
+            "src": "https://example.com/files/RiskModelDemo.pdf"
+          },
+          "attachType": {
+            "text": "PDF文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "擁有超過6年遊戲開發領域風險管理經驗，專精於利用機器學習技術提升產品質量與客戶滿意度。",
+      "eng": "Over 6 years of experience in risk management within game development, specializing in leveraging machine learning to enhance product quality and customer satisfaction."
+    },
+    "custom1": {
+      "custom": {
+        "sort": 1,
+        "name": "專業研討會",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2022",
+              "startMonth": {
+                "text": "十一月",
+                "value": 11
+              },
+              "endYear": "2022",
+              "endMonth": {
+                "text": "十一月",
+                "value": 11
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "參加遊戲技術與風險管理國際研討會，分享風險評估模型應用經驗。",
+            "url": "https://conference.example.com/2022"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "正式風",
+          "value": 1,
+          "name": "formal"
+        }
+      },
+      "img": {
+        "pic": 101,
+        "fileId": "img_20240601_001",
+        "src": "https://example.com/images/conference2022.jpg"
+      },
+      "img2": {
+        "pic": 102,
+        "fileId": "img_20240601_002",
+        "src": "https://example.com/images/conference2022_2.jpg"
+      }
+    },
+    "custom2": {
+      "custom": {
+        "sort": 2,
+        "name": "內部培訓課程",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2023",
+              "startMonth": {
+                "text": "三月",
+                "value": 3
+              },
+              "endYear": "2023",
+              "endMonth": {
+                "text": "四月",
+                "value": 4
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "主導公司內部風險評估與機器學習技術培訓，提升團隊技術能力。",
+            "url": "https://internal.training.example.com"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專業風",
+          "value": 2,
+          "name": "professional"
+        }
+      },
+      "img": {
+        "pic": 103,
+        "fileId": "img_20240602_001",
+        "src": "https://example.com/images/training_session.jpg"
+      },
+      "img2": {
+        "pic": 104,
+        "fileId": "img_20240602_002",
+        "src": "https://example.com/images/training_session2.jpg"
+      }
+    },
+    "custom3": {
+      "custom": {
+        "sort": 3,
+        "name": "技術博客",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2021",
+              "startMonth": {
+                "text": "一月",
+                "value": 1
+              },
+              "endYear": "2024",
+              "endMonth": {
+                "text": "六月",
+                "value": 6
+              }
+            },
+            "isInProgress": 1,
+            "introduction": "經營個人技術博客，分享遊戲開發與風險管理相關技術與心得。",
+            "url": "https://techblog.example.com"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "創意風",
+          "value": 3,
+          "name": "creative"
+        }
+      },
+      "img": {
+        "pic": 105,
+        "fileId": "img_20240603_001",
+        "src": "https://example.com/images/blog_cover.jpg"
+      },
+      "img2": {
+        "pic": 106,
+        "fileId": "img_20240603_002",
+        "src": "https://example.com/images/blog_article.jpg"
+      }
+    },
+    "custom4": {
+      "custom": {
+        "sort": 4,
+        "name": "社群貢獻",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2019",
+              "startMonth": {
+                "text": "六月",
+                "value": 6
+              },
+              "endYear": "2024",
+              "endMonth": {
+                "text": "六月",
+                "value": 6
+              }
+            },
+            "isInProgress": 1,
+            "introduction": "積極參與遊戲開發及數據科學社群，分享技術經驗與資源。",
+            "url": "https://community.example.com/profile"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "現代風",
+          "value": 4,
+          "name": "modern"
+        }
+      },
+      "img": {
+        "pic": 107,
+        "fileId": "img_20240604_001",
+        "src": "https://example.com/images/community_event.jpg"
+      },
+      "img2": {
+        "pic": 108,
+        "fileId": "img_20240604_002",
+        "src": "https://example.com/images/community_meeting.jpg"
+      }
+    },
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "profile_001",
+      "headshotUrl": "https://example.com/images/headshot.jpg",
+      "imageUrl": "https://example.com/images/background.jpg",
+      "nickname": "風險控",
+      "title": {
+        "workExperience": 6,
+        "companyName": "星辰遊戲科技有限公司",
+        "jobName": "風險評估部門主管",
+        "schoolName": "國立臺灣大學",
+        "majorName": "資訊工程學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "專注於遊戲產業風險管理與機器學習模型開發，致力於以技術提升客戶滿意度與產品品質。",
+      "motto": "風險可控，創新無限",
+      "abilities": [
+        "團隊領導與專案管理"
+      ],
+      "preferJobTitle": "部門主管",
+      "viewCount": 1245,
+      "createdAt": "2018-01-10T08:00:00Z",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 120,
+      "followedCount": 85,
+      "followed": 0,
+      "isFollowed": 1,
+      "isFollowingMe": 0,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "123e4567-e89b-12d3-a456-426614174000",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/riskmanager",
+      "personalLink2Url": "https://github.com/riskmanager",
+      "personalLink3Url": "https://riskmanager.example.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專業藍",
+          "value": 2,
+          "name": "professional_blue"
+        },
+        "backgroundColor": "#1E3A8A"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:27:59.749903",
+    "resume_type": "mle",
+    "index": 5,
+    "diversity_traits": {
+      "industry": "遊戲開發",
+      "work_style": "客戶導向",
+      "career_stage": "部門主管",
+      "project_focus": "風險評估模型"
+    }
+  }
+}

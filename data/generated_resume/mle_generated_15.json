@@ -1,0 +1,461 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "digital_media_internship"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "上午",
+          "value": 1
+        }
+      ],
+      "otherTimePeriod": "彈性工作時間",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "一週內可報到",
+        "value": 7
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年7月",
+        "value": "2024-07"
+      },
+      "salary": {
+        "text": "時薪 180元",
+        "value": 180
+      },
+      "salaryPeriod": {
+        "text": "時薪",
+        "value": 1
+      },
+      "salaryOfHours": "180",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "數據分析實習生",
+      "preferArea": [
+        {
+          "no": 3,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 2,
+          "des": "實習"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 9,
+          "des": "數位媒體"
+        }
+      ],
+      "preferJobContent": "希望能透過數據分析提升媒體內容優化，學習批判性思維並應用於專案中。",
+      "remoteWork": {
+        "text": "部分遠端",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代簡約",
+            "value": 1,
+            "name": "Modern Minimal"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業清晰",
+            "value": 2,
+            "name": "Professional Clean"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "正式嚴謹",
+            "value": 3,
+            "name": "Formal Classic"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡潔明瞭",
+            "value": 1,
+            "name": "Concise Clear"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "活潑生動",
+            "value": 2,
+            "name": "Lively"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業",
+            "value": 3,
+            "name": "Professional"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡約",
+            "value": 1,
+            "name": "Minimal"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代",
+            "value": 2,
+            "name": "Modern"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "技術導向",
+            "value": 3,
+            "name": "Tech Focus"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 101,
+          "name": "國立臺灣大學",
+          "departments": [
+            {
+              "name": "資訊管理學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2020",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2024",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "畢業",
+            "value": 2
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "臺灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "實習生",
+        "value": 0
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "星辰數據科技有限公司",
+          "custNo": 2001,
+          "invoice": 1,
+          "logo": "https://example.com/logo_xingchen.png",
+          "industry": [
+            {
+              "no": 9,
+              "des": "數位媒體"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "數據分析實習生",
+          "workArea": [
+            {
+              "no": 3,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "實習",
+            "value": 2
+          },
+          "jobCat": [
+            {
+              "no": 15,
+              "des": "數據分析"
+            }
+          ],
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "七月",
+              "value": 7
+            },
+            "endYear": "2023",
+            "endMonth": []
+          },
+          "description": "協助團隊清理與分析媒體用戶數據，使用Python與Excel完成基本統計分析，並撰寫報告支持決策制定。",
+          "skill": [],
+          "salary": {
+            "monthPay": "0",
+            "yearPay": "0",
+            "jobParttimeType": {
+              "text": "無薪實習",
+              "value": 0
+            },
+            "jobParttimePay": "0"
+          },
+          "companyVisibility": 1,
+          "stillWork": 0,
+          "salaryVisibility": 0
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "專業清晰",
+        "value": 2,
+        "name": "Professional Clean"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "Python",
+          "desc": "熟悉基礎資料分析與視覺化套件（Pandas, Matplotlib）。",
+          "status": 2,
+          "tag": [
+            {
+              "text": "程式語言",
+              "value": "python"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 101,
+          "des": "Google Data Analytics 認證"
+        }
+      ],
+      "others": "參加校內數據分析工作坊"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英文",
+            "value": 1
+          },
+          "listening": {
+            "text": "中級",
+            "value": 3
+          },
+          "speaking": {
+            "text": "中級",
+            "value": 3
+          },
+          "reading": {
+            "text": "中級",
+            "value": 3
+          },
+          "writing": {
+            "text": "中級",
+            "value": 3
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 101
+              },
+              "grade": "750"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": {
+      "projects": [
+        {
+          "sort": 1,
+          "name": "社群媒體大數據分析專案",
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "三月",
+              "value": 3
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "isInProgress": 0,
+          "introduction": "利用Python與SQL分析社群媒體用戶行為資料，協助優化內容推播策略。",
+          "url": "https://github.com/example/social-media-analysis",
+          "img": {
+            "pic": "social_media_project.png",
+            "fileId": "file12345",
+            "src": "https://example.com/social_media_project.png"
+          }
+        }
+      ]
+    },
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "數據分析報告範例",
+          "attach": {
+            "name": "報告.pdf",
+            "status": 1,
+            "fileId": "file67890",
+            "url": "https://example.com/report.pdf",
+            "src": "https://example.com/report.pdf"
+          },
+          "attachType": {
+            "text": "PDF文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "熱愛數據分析的資訊管理系學生，具備批判性思維與基礎程式能力，期望在數位媒體領域持續成長。",
+      "eng": "An information management student passionate about data analysis, with critical thinking skills and basic programming knowledge, aiming to grow in the digital media industry."
+    },
+    "custom1": [],
+    "custom2": [],
+    "custom3": [],
+    "custom4": [],
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "profile_001",
+      "headshotUrl": "https://example.com/headshot.jpg",
+      "imageUrl": "https://example.com/background.jpg",
+      "nickname": "數據小助理",
+      "title": {
+        "workExperience": 0,
+        "companyName": "星辰數據科技有限公司",
+        "jobName": "數據分析實習生",
+        "schoolName": "國立臺灣大學",
+        "majorName": "資訊管理學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "具備良好的資料整理與分析能力，喜歡挑戰複雜問題，善於團隊合作與溝通。",
+      "motto": "數據驅動決策，持續學習成長。",
+      "abilities": [
+        "Python資料分析",
+        "SQL資料庫查詢",
+        "批判性思維"
+      ],
+      "preferJobTitle": "數據分析實習生",
+      "viewCount": 120,
+      "createdAt": "2024-06-15T10:00:00Z",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 15,
+      "followedCount": 5,
+      "followed": 0,
+      "isFollowed": 0,
+      "isFollowingMe": 0,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "123e4567-e89b-12d3-a456-426614174000",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/datainsight",
+      "personalLink2Url": "https://github.com/datainsight",
+      "personalLink3Url": "https://datainsight.example.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "現代簡約",
+          "value": 1,
+          "name": "Modern Minimal"
+        },
+        "backgroundColor": "#f5f5f5"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:35:27.251111",
+    "resume_type": "mle",
+    "index": 15,
+    "diversity_traits": {
+      "industry": "數位媒體",
+      "work_style": "批判性思維",
+      "career_stage": "實習生",
+      "project_focus": "大數據分析"
+    }
+  }
+}

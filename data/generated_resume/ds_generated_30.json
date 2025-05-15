@@ -1,0 +1,95 @@
+{
+  "name": "林子涵",
+  "title": "數據科學專員",
+  "company": "Apex EdTech Solutions",
+  "location": "台北市",
+  "about_chinese": "嗨，我是子涵！專注於教育科技領域的數據分析，我擁有國立政治大學資訊管理學士學位，以及國立台灣大學數據科學碩士學位。在Apex EdTech Solutions工作期間，我專注於客戶行為分析，利用數據為教育解決方案提供見解和建議。我對於透過數據驅動的決策充滿熱情，期待能在未來繼續學習和成長！",
+  "about_english": "Hi, I'm Tzu-Han! Specializing in the EdTech sector, I hold a Bachelor's degree in Information Management from National Chengchi University and a Master's degree in Data Science from National Taiwan University. During my tenure at Apex EdTech Solutions, I focused on customer behavior analysis, leveraging data to provide insights and recommendations for educational solutions. I am passionate about data-driven decision-making and look forward to continuous learning and growth in my career!",
+  "techniques": [
+    "統計模型構建 (Statistical Modeling)",
+    "機器學習 (Machine Learning)",
+    "探索性數據分析 (Exploratory Data Analysis)",
+    "資料視覺化 (Data Visualization)",
+    "預測分析 (Predictive Analytics)"
+  ],
+  "tools": [
+    "Python",
+    "R",
+    "Tableau",
+    "SQL",
+    "Excel",
+    "Power BI",
+    "Google Analytics"
+  ],
+  "links_text": "GitHub and LinkedIn (Note: 具體的網址在此頁面快照文本中未直接提供為單獨鏈接。)",
+  "skills": [
+    "數據驅動決策",
+    "團隊協作",
+    "客戶需求分析",
+    "有效溝通",
+    "問題解決能力"
+  ],
+  "work_experience": [
+    {
+      "role": "數據科學專員 (Data Science Specialist)",
+      "company": "Apex EdTech Solutions",
+      "duration": "2023/05~2024/09",
+      "details": [
+        "進行客戶行為分析，利用Python及SQL提取和清理數據，以了解使用者在教育平台上的互動行為。",
+        "利用Tableau為客戶展示數據視覺化報告，幫助公司在產品優化上做出明智的決策。",
+        "設計並執行A/B測試，以提高用戶參與度，實現參與度提升15%。",
+        "與產品經理合作，提供實證數據以支持新功能開發，並提升用戶體驗。"
+      ],
+      "tags": [
+        "#數據分析 (Data Analysis)",
+        "#客戶行為 (Customer Behavior)",
+        "#產品優化 (Product Optimization)",
+        "#數據視覺化 (Data Visualization)",
+        "#A/B測試 (A/B Testing)"
+      ]
+    },
+    {
+      "role": "數據分析實習生 (Data Analytics Intern)",
+      "company": "智慧教育開發中心",
+      "duration": "2022/06~2023/04",
+      "details": [
+        "協助分析教育產品之用戶數據，使用R語言進行數據清理和分析，為團隊提供深入見解。",
+        "在專案中使用Excel進行資料處理及報告撰寫，提升內部溝通效率。",
+        "參與設計相關的數據收集和分析工具，提升數據準確性與可用性。",
+        "協助團隊進行市場調查，提供競爭對手分析報告以支持產品策略。"
+      ],
+      "tags": [
+        "#數據分析 (Data Analysis)",
+        "#市場調查 (Market Research)",
+        "#團隊合作 (Team Collaboration)",
+        "#報告撰寫 (Report Writing)",
+        "#統計軟體 (Statistical Software)"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "國立台灣大學 (National Taiwan University)",
+      "degree": "碩士學位",
+      "field": "數據科學",
+      "duration": "2021/09~2023/06"
+    },
+    {
+      "institution": "國立政治大學 (National Chengchi University)",
+      "degree": "學士學位",
+      "field": "資訊管理",
+      "duration": "2017/09~2021/06"
+    }
+  ],
+  "metadata": {
+    "generated_date": "2025-05-15T00:06:07.376648",
+    "resume_type": "ds",
+    "index": 30,
+    "diversity_traits": {
+      "industry": "教育科技",
+      "work_style": "客戶導向",
+      "career_stage": "初階專業人士",
+      "project_focus": "客戶行為分析"
+    }
+  }
+}

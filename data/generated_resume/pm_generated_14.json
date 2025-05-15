@@ -1,0 +1,89 @@
+{
+  "personal_info": {
+    "gender": "男性",
+    "age": 35,
+    "employment_status": "目前受聘中",
+    "email": "chen.james@example.com",
+    "address": "台北市信義區松仁路100號12樓",
+    "english_name": "James Chen",
+    "driver_licenses": [
+      "普通重型機車駕照"
+    ]
+  },
+  "education": {
+    "school": "國立台灣大學生物科技學系",
+    "department": "生物科技學系",
+    "degree": "碩士",
+    "period": "2008年9月 - 2012年6月"
+  },
+  "work_experience": {
+    "total_years": "7年",
+    "jobs": [
+      {
+        "company": "台灣生技顧問股份有限公司",
+        "industry": "生物科技",
+        "company_size": "中型企業(100-300人)",
+        "title": "技術顧問",
+        "location": "台北市",
+        "period": "2016年7月 - 2023年8月",
+        "description": [
+          "負責客戶行為分析專案，運用Python與R進行數據清理及統計分析，提升客戶產品市場定位的準確性。",
+          "協助設計並實施數據驅動的決策流程，透過多變量分析和機器學習模型預測客戶需求，專案成功率提升20%。",
+          "與跨部門團隊密切合作，整合生物醫藥數據與市場資訊，確保專案目標與技術實踐一致。",
+          "主持月度專案進度會議，協調資源分配，確保專案如期交付並達成績效指標。"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "data_analysis": [
+      "Python (Pandas, NumPy)",
+      "R語言",
+      "Tableau",
+      "SQL"
+    ],
+    "specialties": [
+      "生物科技領域客戶行為分析",
+      "數據驅動決策制定",
+      "機器學習模型應用",
+      "跨部門專案協作"
+    ],
+    "data_driven_decision_making": "精通以數據為基礎制定策略，曾成功引導團隊提升產品市場表現",
+    "collaboration": "具備良好跨部門溝通能力，能有效整合多方資源推動專案"
+  },
+  "self_intro": {
+    "current_position": "技術顧問，專注於生物科技產業的數據分析與策略制定",
+    "leadership": "擅長帶領跨功能團隊完成技術轉化與專案目標，注重績效導向與持續改善"
+  },
+  "job_preferences": {
+    "job_type": "全職",
+    "working_hours": "彈性工時",
+    "availability": "一個月內可到職",
+    "expected_salary": "100萬新台幣以上/年",
+    "preferred_locations": [
+      "台北市",
+      "新竹科學園區"
+    ],
+    "remote_work": "部分遠端工作可接受",
+    "desired_titles": [
+      "技術顧問",
+      "資深專案經理"
+    ],
+    "preferred_categories": [
+      "生物科技",
+      "數據分析",
+      "產品管理"
+    ]
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:56:30.699430",
+    "resume_type": "pm",
+    "index": 14,
+    "diversity_traits": {
+      "industry": "生物科技",
+      "work_style": "績效專注",
+      "career_stage": "技術顧問",
+      "project_focus": "客戶行為分析"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "personal_info": {
+    "gender": "男性",
+    "age": 38,
+    "military_status": "已服役",
+    "employment_status": "在職",
+    "email": "chen.tingwei@example.com",
+    "address": "台北市信義區松仁路123號10樓",
+    "english_name": "Ting-Wei Chen",
+    "driver_licenses": [
+      "普通重型機車"
+    ]
+  },
+  "education": {
+    "school": "國立臺灣大學",
+    "department": "資訊管理學系",
+    "degree": "碩士",
+    "period": "2006年9月 - 2008年6月"
+  },
+  "work_experience": {
+    "total_years": "12",
+    "jobs": [
+      {
+        "company": "智聯科技股份有限公司",
+        "industry": "電子商務",
+        "company_size": "500-1000人",
+        "title": "電子商務部門主管",
+        "location": "台北市",
+        "period": "2016年7月 - 至今",
+        "description": [
+          "負責規劃及執行大數據分析專案，提升行銷精準度與用戶轉換率。",
+          "帶領跨部門團隊協作，運用Python、SQL及Tableau進行數據挖掘與視覺化報告製作。",
+          "導入數據驅動決策流程，成功提升產品銷售額15%。",
+          "監控關鍵績效指標，持續優化用戶體驗及促銷活動效益。"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "data_analysis": [
+      "Python",
+      "SQL",
+      "Tableau",
+      "Google Analytics"
+    ],
+    "specialties": [
+      "大數據分析",
+      "專案管理",
+      "跨部門協作",
+      "精確細緻的需求分析"
+    ],
+    "data_driven_decision_making": "能夠基於深入數據分析結果制定具體行動方案，確保業務目標達成。",
+    "collaboration": "擅長跨部門溝通協調，整合技術與業務資源推動專案順利完成。"
+  },
+  "self_intro": {
+    "current_position": "電子商務部門主管，專注於大數據分析及策略制定。",
+    "leadership": "具備豐富團隊管理經驗，能激發團隊潛力，推動目標達成。",
+    "future_goal": "希望進一步深化數據科學應用，帶領團隊創造更高的商業價值。"
+  },
+  "job_preferences": {
+    "job_type": "全職",
+    "working_hours": "彈性上下班",
+    "availability": "一個月內可到職",
+    "expected_salary": "120萬新台幣/年",
+    "preferred_locations": [
+      "台北市",
+      "新北市"
+    ],
+    "remote_work": "部分遠端工作可接受",
+    "desired_titles": [
+      "數據分析主管",
+      "產品經理",
+      "專案經理"
+    ],
+    "preferred_categories": [
+      "電子商務",
+      "資訊科技",
+      "數據分析"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "PMP專案管理專業認證",
+      "issuer": "美國專案管理學會（PMI）"
+    }
+  ],
+  "metadata": {
+    "generated_date": "2025-05-15T11:59:16.375499",
+    "resume_type": "pm",
+    "index": 26,
+    "diversity_traits": {
+      "industry": "電子商務",
+      "work_style": "精確細緻",
+      "career_stage": "部門主管",
+      "project_focus": "大數據分析"
+    }
+  }
+}

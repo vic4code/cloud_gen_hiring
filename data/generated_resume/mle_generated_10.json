@@ -1,0 +1,461 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "dashboard"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "上午 9 點至下午 6 點",
+          "value": 9
+        }
+      ],
+      "otherTimePeriod": "彈性工時可協商",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "兩週內報到",
+        "value": 14
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年5月",
+        "value": "2024-05"
+      },
+      "salary": {
+        "text": "月薪 40,000元以上",
+        "value": 40000
+      },
+      "salaryPeriod": {
+        "text": "每月",
+        "value": 1
+      },
+      "salaryOfHours": "250元",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "人工智能初階工程師",
+      "preferArea": [
+        {
+          "no": 101,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 1,
+          "des": "全職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 15,
+          "des": "人工智能"
+        }
+      ],
+      "preferJobContent": "希望從事資料分析與視覺化儀表板開發，結合系統思考優化決策流程。",
+      "remoteWork": {
+        "text": "部分遠端",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典藍",
+            "value": 2,
+            "name": "classic_blue"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代簡潔",
+            "value": 1,
+            "name": "modern_sleek"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業風",
+            "value": 3,
+            "name": "professional_style"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "清晰條理",
+            "value": 2,
+            "name": "clear_structure"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡約現代",
+            "value": 1,
+            "name": "simple_modern"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業風",
+            "value": 2,
+            "name": "professional_style"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典藍",
+            "value": 1,
+            "name": "classic_blue"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "創新風",
+            "value": 3,
+            "name": "innovative_style"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "清晰條理",
+            "value": 2,
+            "name": "clear_structure"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 1001,
+          "name": "國立臺灣大學",
+          "departments": [
+            {
+              "name": "資訊工程學系",
+              "type": [
+                {
+                  "no": 101,
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2018",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2022",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "畢業",
+            "value": 2
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "初階",
+        "value": 1
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "智雲科技有限公司",
+          "custNo": 5001,
+          "invoice": 123456,
+          "logo": "https://example.com/logo/zhiyun.png",
+          "industry": [
+            {
+              "no": 15,
+              "des": "人工智能"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "人工智能工程師助理",
+          "workArea": [
+            {
+              "no": 101,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 301,
+              "des": "資料分析"
+            }
+          ],
+          "duration": {
+            "startYear": "2022",
+            "startMonth": {
+              "text": "七月",
+              "value": 7
+            },
+            "endYear": "2023",
+            "endMonth": []
+          },
+          "description": "協助團隊完成資料視覺化儀表板的開發與維護，使用Python與Dash框架，提升資料呈現效率。",
+          "skill": [],
+          "salary": {
+            "monthPay": "40000",
+            "yearPay": "480000",
+            "jobParttimeType": {
+              "text": "無",
+              "value": 0
+            },
+            "jobParttimePay": "0"
+          },
+          "companyVisibility": 1,
+          "stillWork": 0,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "專業風",
+        "value": 2,
+        "name": "professional_style"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "Python",
+          "desc": "熟悉資料分析與視覺化庫，如Pandas、Matplotlib及Dash",
+          "status": 1,
+          "tag": [
+            {
+              "text": "程式語言",
+              "value": "python"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 100,
+          "des": "Python資料分析認證"
+        }
+      ],
+      "others": "具備人工智能相關線上課程證書"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英語",
+            "value": 1
+          },
+          "listening": {
+            "text": "中等",
+            "value": 3
+          },
+          "speaking": {
+            "text": "中等",
+            "value": 3
+          },
+          "reading": {
+            "text": "良好",
+            "value": 4
+          },
+          "writing": {
+            "text": "中等",
+            "value": 3
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 1
+              },
+              "grade": "750"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": {
+      "projects": [
+        {
+          "sort": 1,
+          "name": "智能資料視覺化儀表板",
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "一月",
+              "value": 1
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "isInProgress": 0,
+          "introduction": "負責設計並實作以Dash為基礎的資料視覺化儀表板，整合多源資料提升決策效率。",
+          "url": "https://github.com/example/ai-dashboard",
+          "img": {
+            "pic": "dashboard_preview.png",
+            "fileId": "file_123456",
+            "src": "https://example.com/images/dashboard_preview.png"
+          }
+        }
+      ]
+    },
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "資料視覺化專案集",
+          "attach": {
+            "name": "portfolio.pdf",
+            "status": 1,
+            "fileId": "file_654321",
+            "url": "https://example.com/portfolio/portfolio.pdf",
+            "src": "https://example.com/portfolio/portfolio.pdf"
+          },
+          "attachType": {
+            "text": "PDF",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "具備系統思考能力的人工智能初階工程師，專注於資料視覺化與分析，喜歡解決複雜問題並提升決策效率。",
+      "eng": "A junior AI engineer with strong systems thinking skills, focused on data visualization and analysis to improve decision-making processes."
+    },
+    "custom1": [],
+    "custom2": [],
+    "custom3": [],
+    "custom4": [],
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "user_001",
+      "headshotUrl": "https://example.com/images/headshot.jpg",
+      "imageUrl": "https://example.com/images/background.jpg",
+      "nickname": "AI小新",
+      "title": {
+        "workExperience": 1,
+        "companyName": "智雲科技有限公司",
+        "jobName": "人工智能工程師助理",
+        "schoolName": "國立臺灣大學",
+        "majorName": "資訊工程學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "熱愛人工智能與資料分析，具備良好的系統思考能力，期望在AI領域持續成長與貢獻。",
+      "motto": "學無止境，持續精進。",
+      "abilities": [
+        "資料視覺化",
+        "Python程式設計",
+        "系統思考"
+      ],
+      "preferJobTitle": "人工智能初階工程師",
+      "viewCount": 120,
+      "createdAt": "2023-07-01T12:00:00Z",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 15,
+      "followedCount": 10,
+      "followed": 0,
+      "isFollowed": 1,
+      "isFollowingMe": 0,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "550e8400-e29b-41d4-a716-446655440000",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/ai-xiaoxin",
+      "personalLink2Url": "https://github.com/aixiaoxin",
+      "personalLink3Url": "https://aixiaoxin.dev",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "經典藍",
+          "value": 2,
+          "name": "classic_blue"
+        },
+        "backgroundColor": "#2c3e50"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:32:17.418631",
+    "resume_type": "mle",
+    "index": 10,
+    "diversity_traits": {
+      "industry": "人工智能",
+      "work_style": "系統思考",
+      "career_stage": "初階專業人士",
+      "project_focus": "資料視覺化儀表板"
+    }
+  }
+}

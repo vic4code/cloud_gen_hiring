@@ -1,0 +1,604 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "game-dev-career"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "長期",
+          "value": 12
+        }
+      ],
+      "otherTimePeriod": "無特定時間限制",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "兩週內",
+        "value": 14
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年5月",
+        "value": "2024-05"
+      },
+      "salary": {
+        "text": "面議",
+        "value": 0
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "無時薪需求",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "遊戲開發工程師",
+      "preferArea": [
+        {
+          "no": 1,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 1,
+          "des": "軟體開發"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 5,
+          "des": "遊戲產業"
+        }
+      ],
+      "preferJobContent": "專注於推薦系統的研發與優化，強調團隊協作與敏捷開發流程。",
+      "remoteWork": {
+        "text": "部分遠端工作",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代風",
+            "value": 3,
+            "name": "Modern"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡潔風",
+            "value": 2,
+            "name": "Simple"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "正式風",
+            "value": 1,
+            "name": "Formal"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業風",
+            "value": 4,
+            "name": "Professional"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "清新風",
+            "value": 2,
+            "name": "Fresh"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡約風",
+            "value": 1,
+            "name": "Minimal"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "正式風",
+            "value": 3,
+            "name": "Formal"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代風",
+            "value": 4,
+            "name": "Modern"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業風",
+            "value": 3,
+            "name": "Professional"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 101,
+          "name": "國立臺灣大學",
+          "departments": [
+            {
+              "name": "資訊工程學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "本科"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2015",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2019",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "畢業",
+            "value": 1
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "2年",
+        "value": 2
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "星際互動科技有限公司",
+          "custNo": "CUST123456",
+          "invoice": 0,
+          "logo": "https://example.com/logo/star_interactive.png",
+          "industry": [
+            {
+              "no": 5,
+              "des": "遊戲產業"
+            }
+          ],
+          "companyScale": {
+            "text": "中型企業",
+            "value": 2
+          },
+          "jobName": "遊戲推薦系統工程師",
+          "workArea": [
+            {
+              "no": 1,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 11,
+              "des": "軟體工程"
+            }
+          ],
+          "duration": {
+            "startYear": "2022",
+            "startMonth": {
+              "text": "一月",
+              "value": 1
+            },
+            "endYear": "2024",
+            "endMonth": {
+              "text": "三月",
+              "value": 3
+            }
+          },
+          "description": "負責設計與實作遊戲內推薦系統，使用Python與TensorFlow開發機器學習模型，提升玩家遊戲體驗。與產品團隊緊密合作，持續優化推薦準確度與系統效能。",
+          "skill": [],
+          "salary": {
+            "monthPay": "60000",
+            "yearPay": "720000",
+            "jobParttimeType": {
+              "text": "無",
+              "value": 0
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": 1,
+          "stillWork": 1,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "專業風",
+        "value": 3,
+        "name": "Professional"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "Python",
+          "desc": "熟悉Python語言，熟練使用機器學習相關函式庫如TensorFlow、scikit-learn。",
+          "status": 3,
+          "tag": [
+            {
+              "text": "程式語言",
+              "value": "python"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 1,
+          "des": "Google資料工程師認證"
+        }
+      ],
+      "others": "持續自學深度學習與大數據技術"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英語",
+            "value": 1
+          },
+          "listening": {
+            "text": "良好",
+            "value": 3
+          },
+          "speaking": {
+            "text": "中等",
+            "value": 2
+          },
+          "reading": {
+            "text": "良好",
+            "value": 3
+          },
+          "writing": {
+            "text": "中等",
+            "value": 2
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 1
+              },
+              "grade": "850分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": [],
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "遊戲推薦系統開發",
+          "attach": {
+            "name": "推薦系統報告.pdf",
+            "status": 1,
+            "fileId": "file12345",
+            "url": "https://example.com/portfolio/recommendation_system.pdf",
+            "src": "https://example.com/portfolio/recommendation_system_thumbnail.png"
+          },
+          "attachType": {
+            "text": "PDF文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "熱衷於遊戲產業的機器學習工程師，喜歡挑戰推薦系統的技術難題，擁有良好的團隊合作與溝通能力。",
+      "eng": "Passionate machine learning engineer focused on game industry, specialized in recommendation systems with strong teamwork and communication skills."
+    },
+    "custom1": {
+      "custom": {
+        "sort": 1,
+        "name": "個人技術部落格",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2021",
+              "startMonth": {
+                "text": "五月",
+                "value": 5
+              },
+              "endYear": "2024",
+              "endMonth": {
+                "text": "三月",
+                "value": 3
+              }
+            },
+            "isInProgress": 1,
+            "introduction": "分享機器學習與推薦系統相關技術文章，累積技術經驗與社群交流。",
+            "url": "https://mytechblog.example.com"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "現代風",
+          "value": 3,
+          "name": "Modern"
+        }
+      },
+      "img": {
+        "pic": 1,
+        "fileId": "img12345",
+        "src": "https://example.com/images/blog_thumbnail.png"
+      },
+      "img2": {
+        "pic": 2,
+        "fileId": "img12346",
+        "src": "https://example.com/images/blog_banner.png"
+      }
+    },
+    "custom2": {
+      "custom": {
+        "sort": 2,
+        "name": "開源專案貢獻",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2022",
+              "startMonth": {
+                "text": "七月",
+                "value": 7
+              },
+              "endYear": "2023",
+              "endMonth": {
+                "text": "十二月",
+                "value": 12
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "參與推薦系統相關開源項目，負責模型優化與資料處理模組。",
+            "url": "https://github.com/username/recommendation-project"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "簡潔風",
+          "value": 2,
+          "name": "Simple"
+        }
+      },
+      "img": {
+        "pic": 3,
+        "fileId": "img12347",
+        "src": "https://example.com/images/opensource_logo.png"
+      },
+      "img2": {
+        "pic": 4,
+        "fileId": "img12348",
+        "src": "https://example.com/images/opensource_banner.png"
+      }
+    },
+    "custom3": {
+      "custom": {
+        "sort": 3,
+        "name": "團隊協作經驗",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2022",
+              "startMonth": {
+                "text": "一月",
+                "value": 1
+              },
+              "endYear": "2024",
+              "endMonth": {
+                "text": "三月",
+                "value": 3
+              }
+            },
+            "isInProgress": 1,
+            "introduction": "在跨部門團隊中擔任推薦系統核心工程師，推動敏捷開發與持續整合流程。",
+            "url": ""
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專業風",
+          "value": 3,
+          "name": "Professional"
+        }
+      },
+      "img": {
+        "pic": 5,
+        "fileId": "img12349",
+        "src": "https://example.com/images/teamwork.png"
+      },
+      "img2": {
+        "pic": 6,
+        "fileId": "img12350",
+        "src": "https://example.com/images/teamwork_banner.png"
+      }
+    },
+    "custom4": {
+      "custom": {
+        "sort": 4,
+        "name": "技術講座與分享",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2023",
+              "startMonth": {
+                "text": "五月",
+                "value": 5
+              },
+              "endYear": "2023",
+              "endMonth": {
+                "text": "十二月",
+                "value": 12
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "在公司內部舉辦推薦系統與機器學習技術分享，提升團隊整體技術水準。",
+            "url": ""
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "清新風",
+          "value": 2,
+          "name": "Fresh"
+        }
+      },
+      "img": {
+        "pic": 7,
+        "fileId": "img12351",
+        "src": "https://example.com/images/sharing_session.png"
+      },
+      "img2": {
+        "pic": 8,
+        "fileId": "img12352",
+        "src": "https://example.com/images/sharing_banner.png"
+      }
+    },
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "profile_001",
+      "headshotUrl": "https://example.com/images/headshot.png",
+      "imageUrl": "https://example.com/images/background.png",
+      "nickname": "遊戲推薦小王",
+      "title": {
+        "workExperience": 2,
+        "companyName": "星際互動科技有限公司",
+        "jobName": "遊戲開發工程師",
+        "schoolName": "國立臺灣大學",
+        "majorName": "資訊工程學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "我是專注於遊戲產業推薦系統的工程師，喜歡透過資料分析與機器學習提升玩家體驗，擁有良好的團隊合作精神。",
+      "motto": "技術源於熱情，成長來自分享。",
+      "abilities": [
+        "團隊合作",
+        "機器學習",
+        "Python程式設計"
+      ],
+      "preferJobTitle": "遊戲推薦系統工程師",
+      "viewCount": 150,
+      "createdAt": "2021-06-01T12:00:00Z",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 30,
+      "followedCount": 25,
+      "followed": 0,
+      "isFollowed": 1,
+      "isFollowingMe": 1,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "123e4567-e89b-12d3-a456-426614174000",
+      "personalLink1Type": {
+        "text": "GitHub",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "LinkedIn",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://github.com/username",
+      "personalLink2Url": "https://linkedin.com/in/username",
+      "personalLink3Url": "https://mytechblog.example.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "現代風",
+          "value": 3,
+          "name": "Modern"
+        },
+        "backgroundColor": "#f0f0f0"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:41:09.142972",
+    "resume_type": "mle",
+    "index": 21,
+    "diversity_traits": {
+      "industry": "遊戲開發",
+      "work_style": "團隊合作",
+      "career_stage": "轉職工程師",
+      "project_focus": "推薦系統"
+    }
+  }
+}

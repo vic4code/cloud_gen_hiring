@@ -1,0 +1,82 @@
+{
+  "job_preferences": {
+    "job_type": "全職",
+    "desired_titles": [
+      "資深產品經理"
+    ],
+    "preferred_content": "深度分析市場趨勢與玩家行為，優化產品策略",
+    "preferred_category": "遊戲產品管理",
+    "preferred_industries": [
+      "遊戲開發"
+    ],
+    "preferred_locations": [
+      "台北市",
+      "新北市"
+    ],
+    "remote_work": "部分遠端",
+    "expected_salary": "新台幣 150000 至 200000 元/月",
+    "availability": "一個月內可上任",
+    "working_hours": "彈性工時"
+  },
+  "experience": {
+    "total_years": "8",
+    "roles": [
+      {
+        "title": "資深產品經理",
+        "duration": "5 年"
+      }
+    ],
+    "jobs": [
+      {
+        "company": "遊戲星辰科技股份有限公司",
+        "title": "資深產品經理",
+        "period": "2018年6月 - 2023年8月",
+        "industry": "遊戲開發",
+        "category": "遊戲產品管理",
+        "company_size": "中型企業 (100-500人)",
+        "skills": [
+          "產品策略制定",
+          "數據分析",
+          "用戶行為研究",
+          "推薦系統設計",
+          "敏捷開發流程"
+        ],
+        "description": "負責多款手機遊戲的產品策略規劃與執行，領導跨部門團隊進行用戶需求分析，結合數據洞察優化遊戲內推薦系統，提升用戶留存與付費率。推動敏捷開發流程，確保產品快速迭代與持續優化。",
+        "projects": [
+          {
+            "name": "智慧推薦系統優化專案",
+            "summary": "帶領團隊開發基於機器學習的遊戲內推薦系統，分析玩家行為數據，實現個性化內容推送，成功提升遊戲活躍用戶數20%，並增加平均付費金額15%。使用技術包括Python、TensorFlow及AWS雲端服務。"
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "highest": {
+      "degree": "碩士",
+      "school": "國立台灣大學",
+      "department": "資訊管理學系",
+      "period": "2014年9月 - 2016年6月"
+    },
+    "bachelor": {
+      "degree": "學士",
+      "school": "國立台灣大學",
+      "department": "資訊管理學系",
+      "period": "2010年9月 - 2014年6月"
+    }
+  },
+  "self_intro": {
+    "summary": "具備八年遊戲產品管理經驗，專注於數據驅動的產品策略與推薦系統開發，擅長跨部門溝通與專案推進。熱衷於結合技術與市場洞察，持續提升玩家體驗與遊戲商業價值。"
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:58:30.735690",
+    "resume_type": "pm",
+    "index": 22,
+    "diversity_traits": {
+      "industry": "遊戲開發",
+      "work_style": "分析洞察",
+      "career_stage": "資深專家",
+      "project_focus": "推薦系統"
+    }
+  }
+}

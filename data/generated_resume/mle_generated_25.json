@@ -1,0 +1,602 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "education-tech-intern"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "長期",
+          "value": 12
+        }
+      ],
+      "otherTimePeriod": "彈性時間可討論",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "一週內",
+        "value": 7
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年7月",
+        "value": "2024-07"
+      },
+      "salary": {
+        "text": "時薪 180 元",
+        "value": 180
+      },
+      "salaryPeriod": {
+        "text": "時薪",
+        "value": 1
+      },
+      "salaryOfHours": "180",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "教育科技實習生",
+      "preferArea": [
+        {
+          "no": 1001,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 2,
+          "des": "教育及培訓"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 15,
+          "des": "教育科技"
+        }
+      ],
+      "preferJobContent": "希望參與教育科技產品的市場分析與用戶研究，提升學習平台的使用體驗。",
+      "remoteWork": {
+        "text": "部分遠端",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代簡潔",
+            "value": 3,
+            "name": "modern_simplified"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業清晰",
+            "value": 2,
+            "name": "professional_clear"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "正式學術",
+            "value": 1,
+            "name": "academic_formal"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡潔明瞭",
+            "value": 2,
+            "name": "concise_clear"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "標準格式",
+            "value": 1,
+            "name": "standard_format"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "多語能力",
+            "value": 2,
+            "name": "multilingual"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業證書",
+            "value": 1,
+            "name": "professional_certificates"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "創意展示",
+            "value": 3,
+            "name": "creative_showcase"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專案經驗",
+            "value": 2,
+            "name": "project_experience"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 101,
+          "name": "國立臺灣師範大學",
+          "departments": [
+            {
+              "name": "教育心理與輔導學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2020",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2024",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "畢業",
+            "value": 2
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "臺北市",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "實習生",
+        "value": 1
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "智學教育科技有限公司",
+          "custNo": "EDU123456",
+          "invoice": 0,
+          "logo": "https://example.com/logo_edu.png",
+          "industry": [
+            {
+              "no": 15,
+              "des": "教育科技"
+            }
+          ],
+          "companyScale": {
+            "text": "中小型企業(50-200人)",
+            "value": 2
+          },
+          "jobName": "市場分析實習生",
+          "workArea": [
+            {
+              "no": 1001,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "實習",
+            "value": 3
+          },
+          "jobCat": [
+            {
+              "no": 21,
+              "des": "市場調查"
+            }
+          ],
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "七月",
+              "value": 7
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "十二月",
+              "value": 12
+            }
+          },
+          "description": "協助團隊進行教育科技市場區隔分析，整理用戶需求數據，並參與報告撰寫與簡報製作。",
+          "skill": [],
+          "salary": {
+            "monthPay": "0",
+            "yearPay": "0",
+            "jobParttimeType": {
+              "text": "時薪",
+              "value": 1
+            },
+            "jobParttimePay": "180"
+          },
+          "companyVisibility": 1,
+          "stillWork": 0,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "技能展示",
+        "value": 1,
+        "name": "skill_showcase"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "市場分析",
+          "desc": "熟悉市場區隔分析方法，能協助收集及整理用戶調查數據。",
+          "status": 1,
+          "tag": [
+            {
+              "text": "分析",
+              "value": "analysis"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 101,
+          "des": "Google數據分析專業證書"
+        }
+      ],
+      "others": "持續參與線上教育平台相關課程，深化數據分析能力。"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英語",
+            "value": 1
+          },
+          "listening": {
+            "text": "中高級",
+            "value": 3
+          },
+          "speaking": {
+            "text": "中級",
+            "value": 2
+          },
+          "reading": {
+            "text": "中高級",
+            "value": 3
+          },
+          "writing": {
+            "text": "中級",
+            "value": 2
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 1
+              },
+              "grade": "750分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": [],
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "教育市場區隔分析報告",
+          "attach": {
+            "name": "市場區隔分析報告.pdf",
+            "status": 1,
+            "fileId": "file12345",
+            "url": "https://example.com/portfolio/market_segmentation.pdf",
+            "src": "https://example.com/portfolio/market_segmentation_thumb.jpg"
+          },
+          "attachType": {
+            "text": "文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "熱愛教育科技，積極學習市場分析與數據應用，期望未來能在教育領域有所貢獻。",
+      "eng": "Passionate about EdTech, actively learning market analysis and data application, aiming to contribute in the education field."
+    },
+    "custom1": {
+      "custom": {
+        "sort": 1,
+        "name": "專業發展",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2022",
+              "startMonth": {
+                "text": "三月",
+                "value": 3
+              },
+              "endYear": "2023",
+              "endMonth": {
+                "text": "六月",
+                "value": 6
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "參與線上教育平台的市場分析與用戶行為研究，提升資料分析技巧。",
+            "url": "https://onlinecourse.example.com"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專業經歷風格",
+          "value": 2,
+          "name": "professional_style"
+        }
+      },
+      "img": {
+        "pic": 1,
+        "fileId": "img12345",
+        "src": "https://example.com/images/professional_dev.jpg"
+      },
+      "img2": {
+        "pic": 2,
+        "fileId": "img12346",
+        "src": "https://example.com/images/professional_dev2.jpg"
+      }
+    },
+    "custom2": {
+      "custom": {
+        "sort": 2,
+        "name": "社團活動",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2021",
+              "startMonth": {
+                "text": "九月",
+                "value": 9
+              },
+              "endYear": "2022",
+              "endMonth": {
+                "text": "六月",
+                "value": 6
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "擔任教育心理學社團幹部，協助策劃講座與工作坊。",
+            "url": "https://universityclub.example.com"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "社團經歷風格",
+          "value": 1,
+          "name": "club_style"
+        }
+      },
+      "img": {
+        "pic": 1,
+        "fileId": "img22345",
+        "src": "https://example.com/images/club_event.jpg"
+      },
+      "img2": {
+        "pic": 2,
+        "fileId": "img22346",
+        "src": "https://example.com/images/club_event2.jpg"
+      }
+    },
+    "custom3": {
+      "custom": {
+        "sort": 3,
+        "name": "學術研討",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2023",
+              "startMonth": {
+                "text": "五月",
+                "value": 5
+              },
+              "endYear": "2023",
+              "endMonth": {
+                "text": "五月",
+                "value": 5
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "參與教育科技相關學術研討會，發表市場分析初步報告。",
+            "url": "https://conference.example.com"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "學術風格",
+          "value": 3,
+          "name": "academic_style"
+        }
+      },
+      "img": {
+        "pic": 1,
+        "fileId": "img32345",
+        "src": "https://example.com/images/conference.jpg"
+      },
+      "img2": {
+        "pic": 2,
+        "fileId": "img32346",
+        "src": "https://example.com/images/conference2.jpg"
+      }
+    },
+    "custom4": {
+      "custom": {
+        "sort": 4,
+        "name": "志願服務",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2020",
+              "startMonth": {
+                "text": "七月",
+                "value": 7
+              },
+              "endYear": "2021",
+              "endMonth": {
+                "text": "六月",
+                "value": 6
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "參與校內教育志願服務，協助弱勢學生課後輔導。",
+            "url": "https://volunteer.example.com"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "公益風格",
+          "value": 1,
+          "name": "volunteer_style"
+        }
+      },
+      "img": {
+        "pic": 1,
+        "fileId": "img42345",
+        "src": "https://example.com/images/volunteer.jpg"
+      },
+      "img2": {
+        "pic": 2,
+        "fileId": "img42346",
+        "src": "https://example.com/images/volunteer2.jpg"
+      }
+    },
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "user_edu_tech_001",
+      "headshotUrl": "https://example.com/images/headshot_user001.jpg",
+      "imageUrl": "https://example.com/images/profile_bg_user001.jpg",
+      "nickname": "教育小實習",
+      "title": {
+        "workExperience": 1,
+        "companyName": "智學教育科技有限公司",
+        "jobName": "市場分析實習生",
+        "schoolName": "國立臺灣師範大學",
+        "majorName": "教育心理與輔導學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "目前為教育心理與輔導學系學生，熱衷於教育科技市場分析與數據應用，積極累積相關實務經驗。",
+      "motto": "持續學習，成就未來。",
+      "abilities": [
+        "市場分析"
+      ],
+      "preferJobTitle": "教育科技市場分析實習生",
+      "viewCount": 150,
+      "createdAt": "2023-05-01T12:00:00+08:00",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 20,
+      "followedCount": 35,
+      "followed": 0,
+      "isFollowed": 1,
+      "isFollowingMe": 0,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "123e4567-e89b-12d3-a456-426614174000",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://www.linkedin.com/in/edu_intern",
+      "personalLink2Url": "https://github.com/edu_intern",
+      "personalLink3Url": "https://edu-intern.example.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "教育風格",
+          "value": 2,
+          "name": "education_style"
+        },
+        "backgroundColor": "#f0f4f8"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:44:08.137911",
+    "resume_type": "mle",
+    "index": 25,
+    "diversity_traits": {
+      "industry": "教育科技",
+      "work_style": "持續學習",
+      "career_stage": "實習生",
+      "project_focus": "市場區隔分析"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "personal_info": {
+    "gender": "男",
+    "age": 28,
+    "employment_status": "轉職中",
+    "email": "chen.jiahui@example.com",
+    "address": "台北市信義區松山路123號8樓",
+    "english_name": "Jason Chen",
+    "driver_licenses": [
+      "普通重型機車"
+    ]
+  },
+  "education": {
+    "school": "國立成功大學",
+    "department": "資訊工程學系",
+    "degree": "學士",
+    "period": "2014 - 2018"
+  },
+  "work_experience": {
+    "total_years": "2",
+    "jobs": [
+      {
+        "company": "智購電子商務股份有限公司",
+        "industry": "電子商務",
+        "company_size": "中型企業(100-300人)",
+        "title": "初階產品經理",
+        "location": "台北 / 遠端",
+        "period": "2022/01 - 2023/12",
+        "description": [
+          "協助主管規劃與管理電腦視覺應用專案，負責需求收集與用戶訪談。",
+          "參與跨部門遠端協作，協調設計師與工程師完成產品功能原型。",
+          "使用Jira與Confluence進行專案進度追蹤與文件管理。",
+          "分析用戶反饋數據，提出產品迭代建議，提升用戶體驗。"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "data_analysis": [
+      "基礎Python數據分析",
+      "Excel樞紐分析",
+      "Google Analytics"
+    ],
+    "specialties": [
+      "產品需求定義",
+      "敏捷專案管理",
+      "跨部門溝通協調"
+    ],
+    "data_driven_decision_making": "能利用數據分析結果支持產品決策，提升專案效率",
+    "collaboration": "具備遠端團隊協作經驗，熟悉線上協作工具與敏捷流程"
+  },
+  "self_intro": {
+    "current_position": "初階產品經理，專注於電商平台的電腦視覺應用專案",
+    "leadership": "在小型團隊中擔任協調者角色，推動跨部門合作與溝通"
+  },
+  "job_preferences": {
+    "job_type": "全職",
+    "working_hours": "彈性工時",
+    "availability": "一個月內可到職",
+    "expected_salary": "60,000-70,000新台幣/月",
+    "preferred_locations": [
+      "台北",
+      "新北",
+      "遠端"
+    ],
+    "remote_work": "是",
+    "desired_titles": [
+      "產品經理",
+      "助理產品經理"
+    ],
+    "preferred_categories": [
+      "電子商務",
+      "科技新創"
+    ]
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:53:59.045978",
+    "resume_type": "pm",
+    "index": 7,
+    "diversity_traits": {
+      "industry": "電子商務",
+      "work_style": "遠端協作",
+      "career_stage": "轉職工程師",
+      "project_focus": "電腦視覺專案"
+    }
+  }
+}

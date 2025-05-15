@@ -1,0 +1,459 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "sidebar-ml-healthcare"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "長期",
+          "value": 3
+        }
+      ],
+      "otherTimePeriod": "無特定時間限制",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "可於簽約後一個月內到職",
+        "value": 30
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年7月",
+        "value": "2024-07"
+      },
+      "salary": {
+        "text": "面議",
+        "value": 0
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "無時薪",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "資深機器學習專家",
+      "preferArea": [
+        {
+          "no": 101,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 1,
+          "des": "全職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 12,
+          "des": "醫療健康"
+        }
+      ],
+      "preferJobContent": "專注於醫療健康領域的機器學習演算法開發與優化，結合遠端協作團隊完成產業應用項目。",
+      "remoteWork": {
+        "text": "遠端工作優先",
+        "value": 1
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業藍",
+            "value": 2,
+            "name": "professional_blue"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "技術深藍",
+            "value": 3,
+            "name": "tech_deep_blue"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "嚴謹灰",
+            "value": 1,
+            "name": "strict_gray"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經驗金",
+            "value": 4,
+            "name": "experience_gold"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代綠",
+            "value": 2,
+            "name": "modern_green"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "語言藍",
+            "value": 1,
+            "name": "language_blue"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "證照紫",
+            "value": 2,
+            "name": "certificate_purple"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "作品紅",
+            "value": 3,
+            "name": "portfolio_red"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專案深綠",
+            "value": 4,
+            "name": "project_dark_green"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 1001,
+          "name": "國立臺灣大學",
+          "departments": [
+            {
+              "name": "資訊工程學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "碩士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2014",
+            "startMonth": {
+              "text": "9月",
+              "value": 9
+            },
+            "endYear": "2016",
+            "endMonth": {
+              "text": "6月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "碩士",
+            "value": 2
+          },
+          "status": {
+            "text": "畢業",
+            "value": 1
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "資深",
+        "value": 5
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "健安醫療科技股份有限公司",
+          "custNo": 50001,
+          "invoice": 12345678,
+          "logo": "https://example.com/logos/healthtech.png",
+          "industry": [
+            {
+              "no": 12,
+              "des": "醫療健康"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "資深機器學習工程師",
+          "workArea": [
+            {
+              "no": 101,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 3,
+              "des": "資料科學"
+            }
+          ],
+          "duration": {
+            "startYear": "2017",
+            "startMonth": {
+              "text": "7月",
+              "value": 7
+            },
+            "endYear": "2023",
+            "endMonth": []
+          },
+          "description": "負責開發及優化醫療影像分析的機器學習演算法，使用Python與TensorFlow進行深度學習模型訓練，並結合遠端協作工具與跨部門團隊共同推動專案進展。成功提升診斷準確率15%，並降低運算時間20%。",
+          "skill": [],
+          "salary": {
+            "monthPay": "90000",
+            "yearPay": "1080000",
+            "jobParttimeType": {
+              "text": "無",
+              "value": 0
+            },
+            "jobParttimePay": "0"
+          },
+          "companyVisibility": 1,
+          "stillWork": 0,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "專業技術",
+        "value": 1,
+        "name": "professional_skills"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "Python",
+          "desc": "熟練使用Python進行資料分析與機器學習開發，包含Pandas、NumPy等套件。",
+          "status": 1,
+          "tag": [
+            {
+              "text": "程式語言",
+              "value": "python"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 101,
+          "des": "TensorFlow Developer Certificate"
+        }
+      ],
+      "others": "擁有多項線上機器學習相關課程結業證書"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英語",
+            "value": 1
+          },
+          "listening": {
+            "text": "流利",
+            "value": 4
+          },
+          "speaking": {
+            "text": "流利",
+            "value": 4
+          },
+          "reading": {
+            "text": "專業",
+            "value": 4
+          },
+          "writing": {
+            "text": "專業",
+            "value": 4
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEFL",
+                "value": 201
+              },
+              "grade": "100"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": {
+      "projects": [
+        {
+          "sort": 1,
+          "name": "醫療影像診斷優化專案",
+          "duration": {
+            "startYear": "2021",
+            "startMonth": {
+              "text": "1月",
+              "value": 1
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "6月",
+              "value": 6
+            }
+          },
+          "isInProgress": 0,
+          "introduction": "主導機器學習演算法優化，改善醫療影像診斷效率，利用深度學習模型提升準確率，並採用Docker與Kubernetes進行模型部署。",
+          "url": "https://github.com/healthcare-ml/project",
+          "img": {
+            "pic": "healthcare_project.png",
+            "fileId": "file123456",
+            "src": "https://example.com/images/healthcare_project.png"
+          }
+        }
+      ]
+    },
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "機器學習模型開發報告",
+          "attach": {
+            "name": "ML_Model_Report.pdf",
+            "status": 1,
+            "fileId": "file7891011",
+            "url": "https://example.com/files/ML_Model_Report.pdf",
+            "src": "https://example.com/files/ML_Model_Report.pdf"
+          },
+          "attachType": {
+            "text": "PDF文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "具備多年醫療健康領域機器學習經驗，專注於演算法研發與遠端團隊合作，致力於推動醫療科技創新。",
+      "eng": "Experienced machine learning expert in healthcare industry, focusing on algorithm development and remote team collaboration to advance medical technology innovation."
+    },
+    "custom1": [],
+    "custom2": [],
+    "custom3": [],
+    "custom4": [],
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "profile-ml-healthcare-001",
+      "headshotUrl": "https://example.com/images/headshot.jpg",
+      "imageUrl": "https://example.com/images/background.jpg",
+      "nickname": "醫療機器人",
+      "title": {
+        "workExperience": 7,
+        "companyName": "健安醫療科技股份有限公司",
+        "jobName": "資深機器學習工程師",
+        "schoolName": "國立臺灣大學",
+        "majorName": "資訊工程學系",
+        "degreeLevel": 2
+      },
+      "aboutMe": "我是一位專注於醫療健康機器學習領域的資深工程師，擁有豐富的專案經驗與團隊協作能力，致力於開發高效能的醫療演算法，推動產業創新。",
+      "motto": "用技術改善健康，用智慧驅動未來。",
+      "abilities": [
+        "機器學習演算法優化"
+      ],
+      "preferJobTitle": "資深機器學習專家",
+      "viewCount": 350,
+      "createdAt": "2022-04-15T10:00:00Z",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 120,
+      "followedCount": 45,
+      "followed": 0,
+      "isFollowed": 1,
+      "isFollowingMe": 0,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "uuid-ml-healthcare-001",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/healthml",
+      "personalLink2Url": "https://github.com/healthml",
+      "personalLink3Url": "https://healthml.example.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專業藍",
+          "value": 2,
+          "name": "professional_blue"
+        },
+        "backgroundColor": "#1E3A8A"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:36:02.104172",
+    "resume_type": "mle",
+    "index": 16,
+    "diversity_traits": {
+      "industry": "醫療健康",
+      "work_style": "遠端協作",
+      "career_stage": "資深專家",
+      "project_focus": "機器學習演算法優化"
+    }
+  }
+}

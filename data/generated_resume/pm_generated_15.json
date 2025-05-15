@@ -1,0 +1,96 @@
+{
+  "personal_info": {
+    "gender": "男性",
+    "age": 38,
+    "military_status": "已服役",
+    "employment_status": "在職",
+    "email": "chenjunwei.pm@example.com",
+    "address": "台北市信義區松仁路100號10樓",
+    "english_name": "Junwei Chen",
+    "driver_licenses": [
+      "普通小型車"
+    ]
+  },
+  "education": {
+    "school": "國立台灣大學",
+    "department": "資訊管理學系",
+    "degree": "碩士",
+    "period": "2006 - 2008"
+  },
+  "work_experience": {
+    "total_years": "12年",
+    "jobs": [
+      {
+        "company": "智冠科技股份有限公司",
+        "industry": "遊戲開發",
+        "company_size": "中型企業 (200-500人)",
+        "title": "資深產品經理",
+        "location": "台北市",
+        "period": "2016 - 2024",
+        "description": [
+          "主導公司首款結合NLP技術的遊戲內語音互動系統開發，提升玩家沉浸感和互動體驗。",
+          "負責跨部門協調，包括研發、設計及市場團隊，確保專案依時交付並符合質量標準。",
+          "導入敏捷專案管理方法，優化開發流程，縮短產品迭代週期30%。",
+          "分析玩家行為數據，利用自然語言處理模型優化遊戲對話系統，提高玩家留存率15%。"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "data_analysis": [
+      "Python數據分析",
+      "SQL資料庫查詢",
+      "Google Analytics"
+    ],
+    "specialties": [
+      "遊戲產品管理",
+      "NLP應用整合",
+      "敏捷開發流程"
+    ],
+    "data_driven_decision_making": "善於利用數據分析結果指導產品規劃和功能優化，提升用戶體驗與營收效益。",
+    "collaboration": "具備良好的跨部門溝通能力，能獨立解決問題並推動團隊協作達成目標。"
+  },
+  "self_intro": {
+    "current_position": "目前擔任資深產品經理，專注於遊戲中NLP技術應用開發與流程優化。",
+    "leadership": "具備帶領多元團隊的經驗，能有效整合技術與市場需求，推動產品持續成長。",
+    "future_goal": "期望持續深化NLP與人工智慧在遊戲產品的應用，打造更具創新性的互動體驗。"
+  },
+  "job_preferences": {
+    "job_type": "全職",
+    "working_hours": "彈性工時",
+    "availability": "一個月內可到職",
+    "expected_salary": "新台幣 120萬/年",
+    "preferred_locations": [
+      "台北市",
+      "新北市"
+    ],
+    "remote_work": "部分遠端工作可接受",
+    "desired_titles": [
+      "產品經理",
+      "資深產品經理",
+      "產品總監"
+    ],
+    "preferred_categories": [
+      "遊戲開發",
+      "人工智慧應用",
+      "軟體產品管理"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "PMP專案管理專業人員認證",
+      "issuer": "Project Management Institute"
+    }
+  ],
+  "metadata": {
+    "generated_date": "2025-05-15T11:56:43.435214",
+    "resume_type": "pm",
+    "index": 15,
+    "diversity_traits": {
+      "industry": "遊戲開發",
+      "work_style": "獨立解決問題",
+      "career_stage": "資深專家",
+      "project_focus": "NLP應用"
+    }
+  }
+}

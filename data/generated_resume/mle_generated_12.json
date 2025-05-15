@@ -1,0 +1,362 @@
+{
+  "data": {
+    "item": {
+      "id": 8721,
+      "name": "綠能產業中的自然語言處理應用探索",
+      "description": "探討如何運用NLP技術優化綠色能源相關資料的分析與處理，提升產業決策效率。",
+      "path": "/projects/green-energy-nlp",
+      "liked": 58,
+      "is_owner": 1,
+      "added_to_folder": 12,
+      "votes_total": 58,
+      "lang": "zh-TW",
+      "theme": "light",
+      "editor_version": 3,
+      "style": "modern",
+      "style_config": {},
+      "spacing": "comfortable",
+      "connected_with_posts": 3,
+      "seems_spam": 0,
+      "should_confirm_external_links": 0,
+      "system_generated": 0,
+      "exported_from_profile": 0,
+      "body": "該專案著重於使用自然語言處理技術，分析綠色能源領域的技術文獻與市場報告，協助團隊快速擷取關鍵資訊並提升決策準確度。",
+      "body_json_v2": null,
+      "user": {
+        "name": "陳柏翰",
+        "username": "bohan_chen",
+        "id": 15423,
+        "first_name": "柏翰",
+        "last_name": "陳",
+        "description": "初階資料科學家，專注於綠色能源領域的資料分析與NLP應用，熱衷於遠端協作與持續學習。",
+        "cover_image": {
+          "url": "https://example.com/images/cover_green_energy.jpg",
+          "small": {
+            "url": "https://example.com/images/cover_green_energy_small.jpg"
+          },
+          "medium": {
+            "url": "https://example.com/images/cover_green_energy_medium.jpg"
+          },
+          "large": {
+            "url": "https://example.com/images/cover_green_energy_large.jpg"
+          },
+          "small_3_1": {
+            "url": "https://example.com/images/cover_green_energy_small_3_1.jpg"
+          },
+          "medium_3_1": {
+            "url": "https://example.com/images/cover_green_energy_medium_3_1.jpg"
+          }
+        },
+        "avatar": {
+          "url": "https://example.com/avatars/bohan_chen.jpg",
+          "tiny": {
+            "url": "https://example.com/avatars/bohan_chen_tiny.jpg"
+          },
+          "small": {
+            "url": "https://example.com/avatars/bohan_chen_small.jpg"
+          },
+          "medium": {
+            "url": "https://example.com/avatars/bohan_chen_medium.jpg"
+          },
+          "large": {
+            "url": "https://example.com/avatars/bohan_chen_large.jpg"
+          },
+          "xlarge": {
+            "url": "https://example.com/avatars/bohan_chen_xlarge.jpg"
+          }
+        },
+        "avatar_tiny_url": "https://example.com/avatars/bohan_chen_tiny.jpg",
+        "avatar_small_url": "https://example.com/avatars/bohan_chen_small.jpg",
+        "avatar_medium_url": "https://example.com/avatars/bohan_chen_medium.jpg",
+        "has_phone": 1,
+        "has_email": 1,
+        "main_public_item_path": "/users/bohan_chen",
+        "main_signed_url_non_hidden_item_path": null,
+        "posts_count": 7,
+        "published_posts_count": 5,
+        "profile_privacy_level": "public",
+        "online_status": "offline",
+        "recommendee_token": "rec_202406_001",
+        "public_recommendations_count": 2,
+        "mutual_connections_count": 15,
+        "unique_impressions_count": 320,
+        "is_premium": 0,
+        "no_branding": 1,
+        "seems_spam": 0,
+        "desired_job_type": "全職",
+        "job_search_progress": "積極尋找",
+        "current_employment_status": "在職",
+        "is_freelancer": "否",
+        "work_experience": "1年綠色能源相關資料分析經驗，熟悉Python與NLP基礎工具",
+        "relevant_work_experience": "曾參與綠能產業NLP專案，負責資料前處理與模型測試",
+        "desired_position": "資料科學助理",
+        "role": "資料分析師",
+        "languages": [
+          "中文"
+        ],
+        "remote": "是",
+        "country": "台灣",
+        "city": null,
+        "city_name": null,
+        "city_name_en": null,
+        "google_place_id": "ChIJd_Y0eVIvkIARuQyDN0F1LBA",
+        "google_place_name": "台北市",
+        "google_place_name_en": "Taipei",
+        "google_place_country_name_en": "Taiwan",
+        "google_place_region_name_en": "Taipei City",
+        "desired_location_google_place_ids": [
+          "ChIJL_P_CXMEDTkRw0ZdG-0GVvw"
+        ],
+        "desired_location_names": [
+          "新北市"
+        ],
+        "desired_location_names_en": [
+          "New Taipei City"
+        ],
+        "desired_location_country_names_en": [
+          "Taiwan"
+        ],
+        "desired_location_region_names_en": [
+          null
+        ],
+        "cr_location": {
+          "id": "TW-TPE",
+          "full_name": "台北市, 台灣",
+          "country": "台灣",
+          "admin_level_1": "台北市",
+          "locale": "zh-TW"
+        },
+        "cr_desired_locations": [
+          {
+            "id": "TW-NWT",
+            "full_name": "新北市, 台灣",
+            "country": "台灣",
+            "admin_level_1": null,
+            "locale": "zh-TW"
+          }
+        ],
+        "eligible_work_locations": [],
+        "graduated_from_school": "國立臺灣大學",
+        "graduated_from_field": "資訊工程學系",
+        "skill_list": [
+          "Python",
+          "自然語言處理",
+          "資料前處理"
+        ],
+        "professions": [
+          "資料科學家"
+        ],
+        "industries": [
+          "綠色能源"
+        ],
+        "headline": "初階資料科學家 | NLP與綠能資料分析愛好者",
+        "number_of_management": "0",
+        "education_level": "大學學士",
+        "last_seen_at_days_ago_level": 2,
+        "network_profile": {
+          "id": "net_15423",
+          "avatar": {
+            "url": "https://example.com/avatars/bohan_chen_network.jpg",
+            "tiny": {
+              "url": "https://example.com/avatars/bohan_chen_network_tiny.jpg"
+            },
+            "small": {
+              "url": "https://example.com/avatars/bohan_chen_network_small.jpg"
+            },
+            "medium": {
+              "url": "https://example.com/avatars/bohan_chen_network_medium.jpg"
+            },
+            "large": {
+              "url": "https://example.com/avatars/bohan_chen_network_large.jpg"
+            },
+            "xlarge": {
+              "url": "https://example.com/avatars/bohan_chen_network_xlarge.jpg"
+            }
+          },
+          "status": "active",
+          "description": "網絡資料分析與綠能產業應用推廣者",
+          "identity_types": [
+            "資料科學家"
+          ],
+          "topics_to_learn": [
+            "深度學習",
+            "能源政策"
+          ],
+          "topics_to_share": [
+            "NLP基礎",
+            "綠能資料分析"
+          ],
+          "tags": [],
+          "badges": [],
+          "suspended": 0,
+          "user": {
+            "name": "陳柏翰",
+            "username": "bohan_network",
+            "first_name": "柏翰",
+            "last_name": "陳",
+            "description": "致力於綠色能源資料科學的網絡推廣者",
+            "cover_image": {
+              "url": "https://example.com/images/network_cover.jpg",
+              "small": {
+                "url": "https://example.com/images/network_cover_small.jpg"
+              },
+              "medium": {
+                "url": "https://example.com/images/network_cover_medium.jpg"
+              },
+              "large": {
+                "url": "https://example.com/images/network_cover_large.jpg"
+              },
+              "small_3_1": {
+                "url": "https://example.com/images/network_cover_small_3_1.jpg"
+              },
+              "medium_3_1": {
+                "url": "https://example.com/images/network_cover_medium_3_1.jpg"
+              }
+            },
+            "avatar": {
+              "url": "https://example.com/avatars/bohan_network.jpg",
+              "tiny": {
+                "url": "https://example.com/avatars/bohan_network_tiny.jpg"
+              },
+              "small": {
+                "url": "https://example.com/avatars/bohan_network_small.jpg"
+              },
+              "medium": {
+                "url": "https://example.com/avatars/bohan_network_medium.jpg"
+              },
+              "large": {
+                "url": "https://example.com/avatars/bohan_network_large.jpg"
+              },
+              "xlarge": {
+                "url": "https://example.com/avatars/bohan_network_xlarge.jpg"
+              }
+            },
+            "avatar_tiny_url": "https://example.com/avatars/bohan_network_tiny.jpg",
+            "avatar_small_url": "https://example.com/avatars/bohan_network_small.jpg",
+            "avatar_medium_url": "https://example.com/avatars/bohan_network_medium.jpg",
+            "profile_privacy_level": "public",
+            "online_status": "online",
+            "current_job_title": "初階資料科學家",
+            "current_company": "綠能科技有限公司",
+            "headline": "熱衷綠能與資料科學的初階專業人士",
+            "is_premium": 0,
+            "status": "active"
+          }
+        },
+        "review_application": {
+          "precedence": 1,
+          "status": "pending",
+          "reject_reason": null,
+          "reject_details": null
+        }
+      },
+      "most_recent_work_experience": {
+        "title": "初階資料科學家",
+        "currently_work_here": 1,
+        "from_year": 2023,
+        "from_month": 7,
+        "end_year": null,
+        "end_month": null,
+        "organization": {
+          "name": "綠能科技有限公司",
+          "id": 3019,
+          "logo": {
+            "url": "https://example.com/logos/green_energy_company.png",
+            "tiny": {
+              "url": "https://example.com/logos/green_energy_company_tiny.png"
+            },
+            "thumb": {
+              "url": "https://example.com/logos/green_energy_company_thumb.png"
+            },
+            "medium": {
+              "url": "https://example.com/logos/green_energy_company_medium.png"
+            },
+            "large": null,
+            "og_image": {
+              "url": null
+            }
+          }
+        }
+      },
+      "most_recent_education": {
+        "degree_type": "學士",
+        "majors": [
+          "資訊工程"
+        ],
+        "from_year": 2018,
+        "end_year": 2022,
+        "organization": {
+          "name": "國立臺灣大學",
+          "id": 102,
+          "logo": {
+            "url": "https://example.com/logos/ntu_logo.png",
+            "tiny": {
+              "url": "https://example.com/logos/ntu_logo_tiny.png"
+            },
+            "thumb": {
+              "url": "https://example.com/logos/ntu_logo_thumb.png"
+            },
+            "medium": {
+              "url": "https://example.com/logos/ntu_logo_medium.png"
+            },
+            "large": null,
+            "og_image": {
+              "url": null
+            }
+          }
+        }
+      }
+    },
+    "use_signed_url": 0,
+    "no_branding": 1,
+    "privacy_level": 1,
+    "signed_or_not_item_url": "https://example.com/projects/green-energy-nlp",
+    "metadata": {
+      "images": [
+        {
+          "src": "https://example.com/images/green_energy_nlp_overview.jpg",
+          "width": 1200,
+          "height": 630
+        }
+      ]
+    },
+    "ga_tracking_code": null,
+    "has_permission_ga": 1,
+    "draft_update_count": 2
+  },
+  "meta_tags": {
+    "title": "綠能產業中的NLP應用 - 陳柏翰的專案分享",
+    "description": "初階資料科學家陳柏翰分享其在綠色能源領域中運用自然語言處理技術的專案經驗與心得。",
+    "canonical": "https://example.com/projects/green-energy-nlp",
+    "og": {
+      "type": "article",
+      "image": "https://example.com/images/green_energy_nlp_overview.jpg"
+    },
+    "nofollow": 0,
+    "noindex": 0,
+    "amphtml": "https://example.com/projects/green-energy-nlp/amp"
+  },
+  "structured_data_sets": [
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "綠能產業中的自然語言處理應用探索",
+      "image": "https://example.com/images/green_energy_nlp_overview.jpg",
+      "description": "探討如何運用NLP技術優化綠色能源相關資料的分析與處理，提升產業決策效率。",
+      "url": "https://example.com/projects/green-energy-nlp",
+      "jobTitle": "初階資料科學家",
+      "sameAs": "https://example.com/users/bohan_chen"
+    }
+  ],
+  "metadata": {
+    "generated_date": "2025-05-15T11:33:34.669493",
+    "resume_type": "mle",
+    "index": 12,
+    "diversity_traits": {
+      "industry": "綠色能源",
+      "work_style": "遠端協作",
+      "career_stage": "初階專業人士",
+      "project_focus": "NLP應用"
+    }
+  }
+}

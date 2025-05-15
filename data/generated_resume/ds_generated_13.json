@@ -1,0 +1,157 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "欣妤",
+      "last_name": "蔡",
+      "gender": "女性",
+      "emails": [
+        "chinhyucai@example.com"
+      ],
+      "urls": [
+        "https://www.linkedin.com/in/chinhyucai"
+      ],
+      "phone_numbers": [
+        "0987-654-321"
+      ],
+      "date_of_birth": {
+        "year": 1991,
+        "month": 5,
+        "day": 15
+      },
+      "address": "新北市, 台灣",
+      "total_experience_in_years": 10,
+      "profession": "數據科學專家",
+      "summary": "我是一位擁有十年數據分析經驗的資深專家，專注於電子商務領域。擅長利用大數據分析技術推動業務成長，並透過創新思維解決複雜挑戰。我在集成數據和商業策略方面的能力，使我能夠有效提升產品的市場競爭力。期待能與充滿創意的團隊合作，開發出具影響力的數據解決方案。",
+      "skills": [
+        "Python",
+        "R",
+        "SQL",
+        "Tableau",
+        "機器學習",
+        "大數據處理",
+        "數據可視化",
+        "A/B 測試",
+        "市場分析",
+        "電商策略規劃"
+      ],
+      "has_driving_license": true
+    },
+    "languages": [
+      {
+        "language": "中文",
+        "fluency": "母語"
+      },
+      {
+        "language": "英文",
+        "fluency": "流利"
+      }
+    ],
+    "educations": [
+      {
+        "institution": "國立台灣大學",
+        "area": "資訊管理學系",
+        "degree": "碩士",
+        "start_date": {
+          "year": 2014,
+          "month": 9
+        },
+        "end_date": {
+          "year": 2016,
+          "month": 6
+        }
+      },
+      {
+        "institution": "國立中興大學",
+        "area": "統計學",
+        "degree": "學士",
+        "start_date": {
+          "year": 2010,
+          "month": 9
+        },
+        "end_date": {
+          "year": 2014,
+          "month": 6
+        }
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "title": "數據科學專業證書",
+        "issuer": "Coursera",
+        "date_issued": {
+          "year": 2021,
+          "month": 3
+        }
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2020,
+          "month": 1
+        },
+        "is_current": true,
+        "end_date": {},
+        "duration_in_months": null,
+        "company": "未來創新科技有限公司",
+        "location": "台北, 台灣",
+        "title": "資深數據科學家",
+        "description": "➤ 負責設計和實施高效的數據分析框架以驅動電商平台業務策略\n➤ 提供深入的市場洞察，通過數據可視化工具幫助管理層做出知識性決策\n➤ 使用機器學習模型預測消費者行為，提升客戶轉換率 35%\n➤ 開發內部數據儀表板，簡化報告流程並縮短決策時間 50%"
+      },
+      {
+        "start_date": {
+          "year": 2017,
+          "month": 5
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2019,
+          "month": 12
+        },
+        "duration_in_months": 31,
+        "company": "創意電商有限公司",
+        "location": "新北, 台灣",
+        "title": "數據分析專家",
+        "description": "➤ 進行電商運營數據的深入分析，識別增長機會和優化策略\n➤ 設計並執行 A/B 測試，幫助產品團隊優化用戶介面和體驗，提升使用者留存率 40%\n➤ 制定數據驅動的行銷策略，為公司創造額外的年收入 200 萬台幣"
+      },
+      {
+        "start_date": {
+          "year": 2016,
+          "month": 7
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2017,
+          "month": 4
+        },
+        "duration_in_months": 9,
+        "company": "數據科技解決方案公司",
+        "location": "台北, 台灣",
+        "title": "數據分析實習生",
+        "description": "➤ 協助數據科學團隊進行數據清理和前處理工作，提升數據準確性\n➤ 參與市場調查專案，進行數據分析並撰寫報告以提供策略建議\n➤ 學習並應用各類分析工具，如 SQL 和 R 語言"
+      }
+    ],
+    "awards": [
+      {
+        "title": "最佳數據分析專家",
+        "issuer": "電商創新獎",
+        "date_awarded": {
+          "year": 2022,
+          "month": 8
+        }
+      }
+    ],
+    "references": []
+  },
+  "metadata": {
+    "generated_date": "2025-05-14T23:59:02.688988",
+    "resume_type": "ds",
+    "index": 13,
+    "diversity_traits": {
+      "industry": "電子商務",
+      "work_style": "創新思考",
+      "career_stage": "資深專家",
+      "project_focus": "大數據分析"
+    }
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "medical_consultant_sidebar_01"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "不限",
+          "value": 0
+        }
+      ],
+      "otherTimePeriod": "彈性工時",
+      "workShift": 2,
+      "onBoardAfterGetOffer": {
+        "text": "一個月內",
+        "value": 30
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "隨時可上班",
+        "value": "immediate"
+      },
+      "salary": {
+        "text": "面議",
+        "value": 0
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "0",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "技術顧問",
+      "preferArea": [
+        {
+          "no": 1,
+          "des": "遠端工作"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 1,
+          "des": "全職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 15,
+          "des": "醫療健康"
+        }
+      ],
+      "preferJobContent": "專注於自然語言處理（NLP）應用與技術諮詢，協助醫療健康領域客戶導入AI解決方案。",
+      "remoteWork": {
+        "text": "遠端協作",
+        "value": 1
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業簡約",
+            "value": 2,
+            "name": "simple_pro"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "技術展示",
+            "value": 3,
+            "name": "tech_showcase"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "學歷詳述",
+            "value": 1,
+            "name": "education_detail"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經驗重點",
+            "value": 2,
+            "name": "experience_highlight"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "條件清單",
+            "value": 1,
+            "name": "condition_list"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "語言能力",
+            "value": 1,
+            "name": "language_ability"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "證照展示",
+            "value": 1,
+            "name": "certificate_show"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "作品集展示",
+            "value": 2,
+            "name": "portfolio_showcase"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專案經驗",
+            "value": 2,
+            "name": "project_experience"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 102,
+          "name": "國立台灣大學",
+          "departments": [
+            {
+              "name": "資訊工程學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2014",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2018",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "已畢業",
+            "value": 1
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "中高階",
+        "value": 4
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "健安科技股份有限公司",
+          "custNo": 50123,
+          "invoice": 1,
+          "logo": "https://example.com/logo_jiankan.png",
+          "industry": [
+            {
+              "no": 15,
+              "des": "醫療健康"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "技術顧問",
+          "workArea": [
+            {
+              "no": 3,
+              "des": "遠端工作"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 7,
+              "des": "顧問"
+            }
+          ],
+          "duration": {
+            "startYear": "2019",
+            "startMonth": {
+              "text": "三月",
+              "value": 3
+            },
+            "endYear": "2023",
+            "endMonth": []
+          },
+          "description": "主要負責自然語言處理（NLP）相關技術諮詢與方案設計，協助客戶整合AI模型於醫療文本分析系統。導入BERT及Transformer架構，提升診斷輔助系統準確率15%。遠端協作跨部門團隊，進行需求分析與技術培訓。",
+          "skill": [],
+          "salary": {
+            "monthPay": "85000",
+            "yearPay": "1020000",
+            "jobParttimeType": {
+              "text": "無兼職",
+              "value": 0
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": 1,
+          "stillWork": 0,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "技術展示",
+        "value": 3,
+        "name": "tech_showcase"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "自然語言處理 (NLP)",
+          "desc": "熟悉BERT、Transformer等深度學習模型，具備醫療文本分析與資訊抽取經驗。",
+          "status": 2,
+          "tag": [
+            {
+              "text": "深度學習",
+              "value": "deep_learning"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 101,
+          "des": "人工智慧工程師認證"
+        }
+      ],
+      "others": "持續參加醫療AI相關研討會與培訓課程。"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英語",
+            "value": 1
+          },
+          "listening": {
+            "text": "流利",
+            "value": 4
+          },
+          "speaking": {
+            "text": "流利",
+            "value": 4
+          },
+          "reading": {
+            "text": "流利",
+            "value": 4
+          },
+          "writing": {
+            "text": "良好",
+            "value": 3
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 1
+              },
+              "grade": "900分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": {
+      "projects": [
+        {
+          "sort": 1,
+          "name": "醫療文本智能分析系統開發",
+          "duration": {
+            "startYear": "2021",
+            "startMonth": {
+              "text": "四月",
+              "value": 4
+            },
+            "endYear": "2022",
+            "endMonth": {
+              "text": "十二月",
+              "value": 12
+            }
+          },
+          "isInProgress": 0,
+          "introduction": "負責設計與實現基於Transformer的醫療文本分析平台，提升臨床資料的自動分類與關鍵資訊提取效率。",
+          "url": "https://github.com/username/medical-nlp",
+          "img": {
+            "pic": "medical_nlp_project.png",
+            "fileId": "file_123456",
+            "src": "https://example.com/medical_nlp_project.png"
+          }
+        }
+      ]
+    },
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "醫療AI技術白皮書",
+          "attach": {
+            "name": "healthcare_ai_whitepaper.pdf",
+            "status": 1,
+            "fileId": "file_789012",
+            "url": "https://example.com/healthcare_ai_whitepaper.pdf",
+            "src": "https://example.com/healthcare_ai_whitepaper.pdf"
+          },
+          "attachType": {
+            "text": "PDF文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "具備多年醫療健康領域AI技術顧問經驗，專注於NLP應用與系統整合。",
+      "eng": "Experienced technical consultant specializing in AI applications for healthcare, focusing on NLP and system integration."
+    },
+    "custom1": [],
+    "custom2": [],
+    "custom3": [],
+    "custom4": [],
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "profile_001",
+      "headshotUrl": "https://example.com/headshot.jpg",
+      "imageUrl": "https://example.com/background.jpg",
+      "nickname": "AI顧問小王",
+      "title": {
+        "workExperience": 5,
+        "companyName": "健安科技股份有限公司",
+        "jobName": "技術顧問",
+        "schoolName": "國立台灣大學",
+        "majorName": "資訊工程學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "我是一名專注於醫療健康領域的技術顧問，擅長利用自然語言處理技術協助企業優化醫療數據分析流程。",
+      "motto": "技術驅動健康，創新改善生活。",
+      "abilities": [
+        "自然語言處理",
+        "深度學習",
+        "系統整合"
+      ],
+      "preferJobTitle": "技術顧問",
+      "viewCount": 320,
+      "createdAt": "2020-01-15",
+      "isSelf": 1,
+      "signIn": 25,
+      "followerCount": 58,
+      "followedCount": 30,
+      "followed": 1,
+      "isFollowed": 1,
+      "isFollowingMe": 1,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "uuid-1234-5678-9101",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/ai-consultant",
+      "personalLink2Url": "https://github.com/ai-consultant",
+      "personalLink3Url": "https://ai-consultant.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專業藍",
+          "value": 2,
+          "name": "professional_blue"
+        },
+        "backgroundColor": "#2a4d69"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:38:57.501983",
+    "resume_type": "mle",
+    "index": 19,
+    "diversity_traits": {
+      "industry": "醫療健康",
+      "work_style": "遠端協作",
+      "career_stage": "技術顧問",
+      "project_focus": "NLP應用"
+    }
+  }
+}

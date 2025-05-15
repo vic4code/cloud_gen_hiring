@@ -1,0 +1,602 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "section-job-condition"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "長期",
+          "value": 12
+        }
+      ],
+      "otherTimePeriod": "無彈性工作時段",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "一個月內可報到",
+        "value": 30
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年7月",
+        "value": "2024-07"
+      },
+      "salary": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryPeriod": {
+        "text": "每月",
+        "value": 1
+      },
+      "salaryOfHours": "無時薪",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "資料科學家 / 資料分析師",
+      "preferArea": [
+        {
+          "no": 3,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 1,
+          "des": "正職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 15,
+          "des": "電子商務"
+        }
+      ],
+      "preferJobContent": "專注於電子商務平台的資料分析與模型建立，利用批判性思維優化商業決策流程。",
+      "remoteWork": {
+        "text": "遠端工作可議",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業簡潔風",
+            "value": 3,
+            "name": "ProClean"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "技術導向",
+            "value": 2,
+            "name": "TechFocus"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "學術風格",
+            "value": 1,
+            "name": "Academic"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "詳盡經歷",
+            "value": 4,
+            "name": "DetailedExp"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡約風",
+            "value": 2,
+            "name": "Simple"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "語言清晰",
+            "value": 3,
+            "name": "LanguageClear"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "證照展示",
+            "value": 2,
+            "name": "CertDisplay"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "作品集風格",
+            "value": 3,
+            "name": "PortfolioPro"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專案重點",
+            "value": 4,
+            "name": "ProjectFocus"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 101,
+          "name": "國立台灣大學",
+          "departments": [
+            {
+              "name": "資訊工程學系",
+              "type": [
+                {
+                  "no": 3,
+                  "des": "博士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2017",
+            "startMonth": {
+              "text": "9月",
+              "value": 9
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "6月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "博士",
+            "value": 3
+          },
+          "status": {
+            "text": "畢業",
+            "value": 2
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "博士研究員",
+        "value": 5
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "臺灣電子商務研究中心",
+          "custNo": "ECom2023",
+          "invoice": 123456789,
+          "logo": "https://example.com/logos/ecom_center.png",
+          "industry": [
+            {
+              "no": 15,
+              "des": "電子商務"
+            }
+          ],
+          "companyScale": {
+            "text": "中型企業",
+            "value": 2
+          },
+          "jobName": "資料科學博士研究員",
+          "workArea": [
+            {
+              "no": 3,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 101,
+              "des": "資料科學"
+            }
+          ],
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "7月",
+              "value": 7
+            },
+            "endYear": "2024",
+            "endMonth": {
+              "text": "6月",
+              "value": 6
+            }
+          },
+          "description": "負責電子商務平台的資料視覺化儀表板設計與開發，利用Python與D3.js建構互動式分析工具，協助團隊進行數據驅動決策。應用批判性思維評估數據品質與模型效能，持續優化分析流程。",
+          "skill": [],
+          "salary": {
+            "monthPay": "80000",
+            "yearPay": "960000",
+            "jobParttimeType": {
+              "text": "無",
+              "value": 0
+            },
+            "jobParttimePay": "0"
+          },
+          "companyVisibility": 1,
+          "stillWork": 1,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "專業技能",
+        "value": 3,
+        "name": "SkillPro"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "資料視覺化",
+          "desc": "精通使用 Python (Matplotlib, Seaborn) 及 D3.js 建立互動式視覺化儀表板",
+          "status": 1,
+          "tag": [
+            {
+              "text": "資料分析",
+              "value": "data-analysis"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 201,
+          "des": "資料科學專業證書"
+        }
+      ],
+      "others": "無其他證書"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英語",
+            "value": 1
+          },
+          "listening": {
+            "text": "流利",
+            "value": 4
+          },
+          "speaking": {
+            "text": "流利",
+            "value": 4
+          },
+          "reading": {
+            "text": "流利",
+            "value": 4
+          },
+          "writing": {
+            "text": "流利",
+            "value": 4
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEFL iBT",
+                "value": 101
+              },
+              "grade": "100分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": [],
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "電子商務資料儀表板專案",
+          "attach": {
+            "name": "dashboard_demo.pdf",
+            "status": 1,
+            "fileId": "file-20240601-001",
+            "url": "https://example.com/portfolio/dashboard_demo.pdf",
+            "src": "https://example.com/portfolio/dashboard_demo.png"
+          },
+          "attachType": {
+            "text": "文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "博士研究員，專注電子商務資料分析與視覺化，具備批判性思維與豐富技術背景。",
+      "eng": "PhD researcher specialized in e-commerce data analysis and visualization with strong critical thinking and technical expertise."
+    },
+    "custom1": {
+      "custom": {
+        "sort": 1,
+        "name": "研究經歷",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2019",
+              "startMonth": {
+                "text": "9月",
+                "value": 9
+              },
+              "endYear": "2023",
+              "endMonth": {
+                "text": "6月",
+                "value": 6
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "完成博士論文，主題為電子商務平台用戶行為分析與預測模型開發。",
+            "url": "https://ntu.edu.tw/research/2023-thesis"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "學術風",
+          "value": 1,
+          "name": "AcademicStyle"
+        }
+      },
+      "img": {
+        "pic": 1,
+        "fileId": "img-research-001",
+        "src": "https://example.com/images/research1.jpg"
+      },
+      "img2": {
+        "pic": 2,
+        "fileId": "img-research-002",
+        "src": "https://example.com/images/research2.jpg"
+      }
+    },
+    "custom2": {
+      "custom": {
+        "sort": 2,
+        "name": "專案成果",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2023",
+              "startMonth": {
+                "text": "7月",
+                "value": 7
+              },
+              "endYear": "2024",
+              "endMonth": {
+                "text": "6月",
+                "value": 6
+              }
+            },
+            "isInProgress": 1,
+            "introduction": "主導電子商務資料視覺化儀表板專案，提升管理層決策效率。",
+            "url": "https://example.com/projects/ecom-dashboard"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專業風",
+          "value": 3,
+          "name": "ProStyle"
+        }
+      },
+      "img": {
+        "pic": 3,
+        "fileId": "img-project-001",
+        "src": "https://example.com/images/project1.png"
+      },
+      "img2": {
+        "pic": 4,
+        "fileId": "img-project-002",
+        "src": "https://example.com/images/project2.png"
+      }
+    },
+    "custom3": {
+      "custom": {
+        "sort": 3,
+        "name": "技術分享",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2022",
+              "startMonth": {
+                "text": "5月",
+                "value": 5
+              },
+              "endYear": "2022",
+              "endMonth": {
+                "text": "5月",
+                "value": 5
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "在國際研討會發表資料視覺化技術演講。",
+            "url": "https://conference2022.org/talks/visualization"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "簡約風",
+          "value": 2,
+          "name": "SimpleStyle"
+        }
+      },
+      "img": {
+        "pic": 5,
+        "fileId": "img-share-001",
+        "src": "https://example.com/images/share1.jpg"
+      },
+      "img2": {
+        "pic": 6,
+        "fileId": "img-share-002",
+        "src": "https://example.com/images/share2.jpg"
+      }
+    },
+    "custom4": {
+      "custom": {
+        "sort": 4,
+        "name": "社群參與",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2021",
+              "startMonth": {
+                "text": "3月",
+                "value": 3
+              },
+              "endYear": "2023",
+              "endMonth": {
+                "text": "12月",
+                "value": 12
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "活躍於資料科學線上社群，定期分享技術文章與經驗。",
+            "url": "https://datasciencecommunity.org/profile/abc"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "活潑風",
+          "value": 4,
+          "name": "Vibrant"
+        }
+      },
+      "img": {
+        "pic": 7,
+        "fileId": "img-community-001",
+        "src": "https://example.com/images/community1.jpg"
+      },
+      "img2": {
+        "pic": 8,
+        "fileId": "img-community-002",
+        "src": "https://example.com/images/community2.jpg"
+      }
+    },
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "user-0001",
+      "headshotUrl": "https://example.com/photos/headshot.jpg",
+      "imageUrl": "https://example.com/photos/background.jpg",
+      "nickname": "資料博士",
+      "title": {
+        "workExperience": 6,
+        "companyName": "臺灣電子商務研究中心",
+        "jobName": "資料科學博士研究員",
+        "schoolName": "國立台灣大學",
+        "majorName": "資訊工程學系",
+        "degreeLevel": 3
+      },
+      "aboutMe": "具備博士學歷，專注於電子商務領域的資料分析與視覺化，擅長批判性思考與跨領域合作。",
+      "motto": "數據說話，真相呈現。",
+      "abilities": [
+        "資料視覺化"
+      ],
+      "preferJobTitle": "資料科學家",
+      "viewCount": 350,
+      "createdAt": "2018-08-01T10:00:00+08:00",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 120,
+      "followedCount": 85,
+      "followed": 0,
+      "isFollowed": 1,
+      "isFollowingMe": 0,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "123e4567-e89b-12d3-a456-426614174000",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/datadr",
+      "personalLink2Url": "https://github.com/datadr",
+      "personalLink3Url": "https://datadr.example.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專業藍",
+          "value": 1,
+          "name": "ProBlue"
+        },
+        "backgroundColor": "#0d47a1"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:34:14.297876",
+    "resume_type": "mle",
+    "index": 13,
+    "diversity_traits": {
+      "industry": "電子商務",
+      "work_style": "批判性思維",
+      "career_stage": "博士研究員",
+      "project_focus": "資料視覺化儀表板"
+    }
+  }
+}

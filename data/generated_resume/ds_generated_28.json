@@ -1,0 +1,129 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "子欣",
+      "last_name": "李",
+      "gender": "女",
+      "emails": [
+        "zihsin.lee@example.com"
+      ],
+      "urls": [
+        "https://github.com/zihsinlee/data-science-projects"
+      ],
+      "phone_numbers": [
+        "+886-912-345-678"
+      ],
+      "date_of_birth": {
+        "year": 2001,
+        "month": 5,
+        "day": 15
+      },
+      "address": "新北市, 台灣",
+      "total_experience_in_years": 0,
+      "profession": "數據科學畢業生",
+      "summary": "作為一名熱愛數據分析的應屆畢業生，我對物聯網領域充滿激情，尤其專注於預測模型的開發與實施。我具備強大的編程能力，熱衷於獨立解決問題及進行數據探索，期待能在不斷創新的環境中實現自我價值。",
+      "skills": [
+        "Python",
+        "R",
+        "機器學習",
+        "資料視覺化",
+        "SQL",
+        "TensorFlow",
+        "預測分析",
+        "Excel 高級運用",
+        "數據處理",
+        "多變量分析"
+      ],
+      "has_driving_license": false
+    },
+    "languages": [
+      {
+        "language": "中文",
+        "fluency": "母語"
+      },
+      {
+        "language": "英文",
+        "fluency": "流利"
+      }
+    ],
+    "educations": [
+      {
+        "institution": "國立台灣大學",
+        "area": "數據科學",
+        "study_type": "學士",
+        "start_date": {
+          "year": 2019,
+          "month": 9
+        },
+        "end_date": {
+          "year": 2023,
+          "month": 6
+        },
+        "gpa": "3.8/4.0",
+        "courses": [
+          "機器學習",
+          "數據挖掘",
+          "物聯網技術",
+          "統計學"
+        ]
+      }
+    ],
+    "trainings_and_certifications": [],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2023,
+          "month": 1
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2023,
+          "month": 6
+        },
+        "duration_in_months": 6,
+        "company": "數據探索實習有限公司",
+        "location": "新北市, 台灣",
+        "title": "數據分析實習生",
+        "description": "➤ 協助開發物聯網設備的預測模型，主要針對設備故障率進行數據分析，使用 Python 和 R 進行數據處理。\n➤ 參與多個數據視覺化項目，將複雜的數據轉化為易於理解的報告，提高團隊的決策效率。\n➤ 與工程團隊協作，進行數據收集與清理，確保數據品質以支持模型訓練。"
+      },
+      {
+        "start_date": {
+          "year": 2022,
+          "month": 6
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2022,
+          "month": 8
+        },
+        "duration_in_months": 3,
+        "company": "數位創新實驗室",
+        "location": "台北市, 台灣",
+        "title": "數據科學專案助理",
+        "description": "➤ 協助完成客戶行為分析專案，從數據收集到報告撰寫，全程參與數據處理過程。\n➤ 使用 SQL 進行數據查詢與操作，並協助團隊進行初步的數據探索與分析。\n➤ 撰寫分析報告，並向上級團隊展示結果，獲得正面評價與認可。"
+      }
+    ],
+    "awards": [
+      {
+        "title": "優秀實習生獎",
+        "date": {
+          "year": 2023,
+          "month": 7
+        },
+        "awarder": "數據探索實習有限公司"
+      }
+    ],
+    "references": []
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T00:05:17.656725",
+    "resume_type": "ds",
+    "index": 28,
+    "diversity_traits": {
+      "industry": "物聯網",
+      "work_style": "獨立解決問題",
+      "career_stage": "應屆畢業生",
+      "project_focus": "預測模型開發"
+    }
+  }
+}

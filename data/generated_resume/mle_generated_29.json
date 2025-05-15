@@ -1,0 +1,604 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "sidebar-edu-tech-001"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "彈性工時",
+          "value": 2
+        }
+      ],
+      "otherTimePeriod": "無特殊時段限制",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "一個月內",
+        "value": 30
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年6月",
+        "value": "2024-06"
+      },
+      "salary": {
+        "text": "新台幣 40,000 - 50,000 元",
+        "value": 45000
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "無時薪需求",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "教育科技助理工程師",
+      "preferArea": [
+        {
+          "no": 1,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 1,
+          "des": "軟體開發"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 101,
+          "des": "教育科技"
+        }
+      ],
+      "preferJobContent": "系統開發與維護，數據分析，協助實時數據處理系統運作",
+      "remoteWork": {
+        "text": "部分遠端",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代簡約",
+            "value": 1,
+            "name": "modern_minimal"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業藍",
+            "value": 2,
+            "name": "professional_blue"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "清新綠",
+            "value": 3,
+            "name": "fresh_green"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "正式黑",
+            "value": 1,
+            "name": "formal_black"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "活力橘",
+            "value": 4,
+            "name": "vibrant_orange"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典灰",
+            "value": 2,
+            "name": "classic_grey"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業藍",
+            "value": 3,
+            "name": "professional_blue"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "極簡白",
+            "value": 1,
+            "name": "minimal_white"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "科技銀",
+            "value": 2,
+            "name": "tech_silver"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 1001,
+          "name": "國立臺灣大學",
+          "departments": [
+            {
+              "name": "資訊管理學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2018",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2022",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "大學學士",
+            "value": 1
+          },
+          "status": {
+            "text": "畢業",
+            "value": 2
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "1年",
+        "value": 1
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "智慧教育科技有限公司",
+          "custNo": "EDU20231001",
+          "invoice": 12345678,
+          "logo": "https://example.com/logo/edu-tech.png",
+          "industry": [
+            {
+              "no": 101,
+              "des": "教育科技"
+            }
+          ],
+          "companyScale": {
+            "text": "中小企業(50-150人)",
+            "value": 2
+          },
+          "jobName": "初級系統開發工程師",
+          "workArea": [
+            {
+              "no": 1,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 201,
+              "des": "系統開發"
+            }
+          ],
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "一月",
+              "value": 1
+            },
+            "endYear": "2024",
+            "endMonth": {
+              "text": "五月",
+              "value": 5
+            }
+          },
+          "description": "負責教育平台的後端系統維護與開發，協助實時數據的收集與分析，參與系統架構討論，使用Python與Node.js進行功能開發。",
+          "skill": [],
+          "salary": {
+            "monthPay": "45000",
+            "yearPay": "540000",
+            "jobParttimeType": {
+              "text": "無",
+              "value": 0
+            },
+            "jobParttimePay": "0"
+          },
+          "companyVisibility": 1,
+          "stillWork": 0,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "專業藍",
+        "value": 1,
+        "name": "professional_blue"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "Python",
+          "desc": "熟悉後端開發與資料處理，具備實時數據處理經驗",
+          "status": 1,
+          "tag": [
+            {
+              "text": "程式語言",
+              "value": "python"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 1,
+          "des": "資訊處理技術士"
+        }
+      ],
+      "others": "無其他證照"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英文",
+            "value": 1
+          },
+          "listening": {
+            "text": "中等",
+            "value": 2
+          },
+          "speaking": {
+            "text": "中等",
+            "value": 2
+          },
+          "reading": {
+            "text": "良好",
+            "value": 3
+          },
+          "writing": {
+            "text": "中等",
+            "value": 2
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "多益 TOEIC",
+                "value": 1
+              },
+              "grade": "750分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": [],
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "教育平台數據分析模組",
+          "attach": {
+            "name": "數據分析報告.pdf",
+            "status": 1,
+            "fileId": "file-edu-001",
+            "url": "https://example.com/portfolio/data-analysis-report.pdf",
+            "src": "https://example.com/portfolio/data-analysis-report.pdf"
+          },
+          "attachType": {
+            "text": "文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "熱愛教育科技，具備系統思考能力，致力於將技術應用於提升學習效率。",
+      "eng": "Passionate about EdTech with strong systems thinking skills, dedicated to applying technology to improve learning efficiency."
+    },
+    "custom1": {
+      "custom": {
+        "sort": 1,
+        "name": "專案經驗",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2023",
+              "startMonth": {
+                "text": "二月",
+                "value": 2
+              },
+              "endYear": "2023",
+              "endMonth": {
+                "text": "五月",
+                "value": 5
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "參與教育平台實時數據處理模組開發，負責數據串接與分析流程優化。",
+            "url": "https://github.com/username/edutech-project"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "科技銀",
+          "value": 2,
+          "name": "tech_silver"
+        }
+      },
+      "img": {
+        "pic": 1,
+        "fileId": "img-project-001",
+        "src": "https://example.com/images/project-001.png"
+      },
+      "img2": {
+        "pic": 2,
+        "fileId": "img-project-002",
+        "src": "https://example.com/images/project-002.png"
+      }
+    },
+    "custom2": {
+      "custom": {
+        "sort": 2,
+        "name": "工作心得",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2023",
+              "startMonth": {
+                "text": "一月",
+                "value": 1
+              },
+              "endYear": "2024",
+              "endMonth": {
+                "text": "五月",
+                "value": 5
+              }
+            },
+            "isInProgress": 1,
+            "introduction": "學習系統思考方法，提升問題解決效率，善於團隊溝通與協作。",
+            "url": ""
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "現代簡約",
+          "value": 1,
+          "name": "modern_minimal"
+        }
+      },
+      "img": {
+        "pic": 0,
+        "fileId": "",
+        "src": ""
+      },
+      "img2": {
+        "pic": 0,
+        "fileId": "",
+        "src": ""
+      }
+    },
+    "custom3": {
+      "custom": {
+        "sort": 3,
+        "name": "個人興趣",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2018",
+              "startMonth": {
+                "text": "九月",
+                "value": 9
+              },
+              "endYear": "2024",
+              "endMonth": {
+                "text": "五月",
+                "value": 5
+              }
+            },
+            "isInProgress": 1,
+            "introduction": "熱愛閱讀科技與教育相關書籍，參加線上開發者社群活動。",
+            "url": ""
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "清新綠",
+          "value": 3,
+          "name": "fresh_green"
+        }
+      },
+      "img": {
+        "pic": 0,
+        "fileId": "",
+        "src": ""
+      },
+      "img2": {
+        "pic": 0,
+        "fileId": "",
+        "src": ""
+      }
+    },
+    "custom4": {
+      "custom": {
+        "sort": 4,
+        "name": "志願服務",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2020",
+              "startMonth": {
+                "text": "六月",
+                "value": 6
+              },
+              "endYear": "2021",
+              "endMonth": {
+                "text": "十二月",
+                "value": 12
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "參與地方社區教育活動，協助設計數位教材與教學工具。",
+            "url": ""
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "活力橘",
+          "value": 4,
+          "name": "vibrant_orange"
+        }
+      },
+      "img": {
+        "pic": 0,
+        "fileId": "",
+        "src": ""
+      },
+      "img2": {
+        "pic": 0,
+        "fileId": "",
+        "src": ""
+      }
+    },
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "profile-001",
+      "headshotUrl": "https://example.com/images/headshot.jpg",
+      "imageUrl": "https://example.com/images/background.jpg",
+      "nickname": "小智",
+      "title": {
+        "workExperience": 1,
+        "companyName": "智慧教育科技有限公司",
+        "jobName": "初級系統開發工程師",
+        "schoolName": "國立臺灣大學",
+        "majorName": "資訊管理學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "具備教育科技領域的基礎知識與實務經驗，善於系統思考並持續學習新技術。",
+      "motto": "持續探索，精進自我。",
+      "abilities": [
+        "系統思考",
+        "Python程式設計",
+        "團隊合作"
+      ],
+      "preferJobTitle": "教育科技工程師",
+      "viewCount": 120,
+      "createdAt": "2023-01-01T08:00:00Z",
+      "isSelf": 1,
+      "signIn": 45,
+      "followerCount": 10,
+      "followedCount": 5,
+      "followed": 0,
+      "isFollowed": 1,
+      "isFollowingMe": 0,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "uuid-1234-5678-9012",
+      "personalLink1Type": {
+        "text": "GitHub",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "LinkedIn",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://github.com/username",
+      "personalLink2Url": "https://linkedin.com/in/username",
+      "personalLink3Url": "https://username.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "現代簡約",
+          "value": 1,
+          "name": "modern_minimal"
+        },
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:50:59.182173",
+    "resume_type": "mle",
+    "index": 29,
+    "diversity_traits": {
+      "industry": "教育科技",
+      "work_style": "系統思考",
+      "career_stage": "初階專業人士",
+      "project_focus": "實時數據處理"
+    }
+  }
+}

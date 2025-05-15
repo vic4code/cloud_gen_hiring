@@ -1,0 +1,109 @@
+{
+  "name": "李雅婷",
+  "title": "電子商務數據科學專家",
+  "company": "Global E-Commerce Insights",
+  "location": "台北市, 台灣",
+  "about_chinese": "嗨，我是雅婷！專注於電子商務領域的數據科學專家，擁有強大的數據分析和機器學習背景。畢業於國立成功大學的資訊工程碩士學位，並在Global E-Commerce Insights擔任數據科學專家，推動自動化報告系統的開發。我熱衷於利用數據驅動的洞察來改善顧客體驗和提升業務績效！",
+  "about_english": "Hello, I’m Yating! A data science expert specializing in e-commerce, I hold a Master’s degree in Computer Science from National Cheng Kung University. Currently, at Global E-Commerce Insights, I drive the development of automated reporting systems. I am passionate about leveraging data-driven insights to enhance customer experiences and improve business performance!",
+  "techniques": [
+    "數據挖掘 (Data Mining)",
+    "預測分析 (Predictive Analytics)",
+    "自動化報告 (Automated Reporting)",
+    "顧客行為分析 (Customer Behavior Analysis)",
+    "機器學習 (Machine Learning)"
+  ],
+  "tools": [
+    "Python",
+    "SQL",
+    "Tableau",
+    "Power BI",
+    "Google Analytics",
+    "R"
+  ],
+  "links_text": "LinkedIn和GitHub",
+  "skills": [
+    "數據分析",
+    "業務洞察",
+    "創新思考",
+    "團隊合作",
+    "溝通技巧"
+  ],
+  "work_experience": [
+    {
+      "role": "數據科學專家 (Data Science Expert)",
+      "company": "Global E-Commerce Insights",
+      "duration": "2023/04~至今",
+      "details": [
+        "負責設計並實施自動化報告系統，每月分析超過100萬條顧客數據，提升報告效率50%。",
+        "使用Python和SQL進行大數據分析，為數十個電子商務客戶提供數據驅動的建議，幫助客戶提升轉換率。",
+        "建立機器學習模型，預測顧客購買行為，達成85%的預測準確度。"
+      ],
+      "tags": [
+        "#電子商務分析 (E-commerce Analytics)",
+        "#自動化報告 (Automated Reporting)",
+        "#機器學習 (Machine Learning)",
+        "#數據可視化 (Data Visualization)",
+        "#顧客洞察 (Customer Insights)"
+      ]
+    },
+    {
+      "role": "數據分析師 (Data Analyst)",
+      "company": "Tech Vision Agency",
+      "duration": "2022/01~2023/03",
+      "details": [
+        "為電子商務客戶開展深入的市場分析，使用R和Tableau進行數據可視化，成功提升業務成長率20%。",
+        "設計並實施A/B測試，分析不同市場策略對顧客購買行為的影響，提供可行性建議。",
+        "整理並報告關鍵性能指標(KPI)，支持業務决策，提高了內部報告的透明度。"
+      ],
+      "tags": [
+        "#市場分析 (Market Analysis)",
+        "#A/B測試 (A/B Testing)",
+        "#數據可視化 (Data Visualization)",
+        "#業務決策 (Business Decisions)",
+        "#分析報告 (Analytical Reporting)"
+      ]
+    },
+    {
+      "role": "業務助理 (Business Assistant)",
+      "company": "E-Com Solutions",
+      "duration": "2020/06~2021/12",
+      "details": [
+        "協助收集、整理及分析顧客反饋數據，提出改善建議，提高顧客滿意度15%。",
+        "參與創建數據儀表板，實現即時數據監控及報告生成，提升團隊工作效率。",
+        "協調內部部門之間的溝通，確保市場策略的有效實施。"
+      ],
+      "tags": [
+        "#數據分析 (Data Analysis)",
+        "#顧客滿意度 (Customer Satisfaction)",
+        "#數據儀表板 (Dashboards)",
+        "#內部溝通 (Internal Communication)",
+        "#業務支持 (Business Support)"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "國立成功大學 (National Cheng Kung University)",
+      "degree": "碩士學位",
+      "field": "資訊工程 (Computer Science)",
+      "duration": "2019/09~2021/06"
+    },
+    {
+      "institution": "國立中山大學 (National Sun Yat-sen University)",
+      "degree": "學士學位",
+      "field": "資訊管理 (Information Management)",
+      "duration": "2015/09~2019/06"
+    }
+  ],
+  "metadata": {
+    "generated_date": "2025-05-14T23:59:27.932612",
+    "resume_type": "ds",
+    "index": 14,
+    "diversity_traits": {
+      "industry": "電子商務",
+      "work_style": "創新思考",
+      "career_stage": "領域專家",
+      "project_focus": "自動化報告系統"
+    }
+  }
+}

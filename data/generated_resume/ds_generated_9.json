@@ -1,0 +1,148 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "Ying-Ting (瑩婷)",
+      "last_name": "Huang (黃)",
+      "gender": "female",
+      "emails": [
+        "ting.huang.data@gmail.com"
+      ],
+      "urls": [
+        "http://www.linkedin.com/in/yingtinghuang",
+        "https://www.portfolio-website.com/yingting"
+      ],
+      "phone_numbers": [
+        "+886-910-123-456"
+      ],
+      "date_of_birth": {
+        "year": 1995,
+        "month": 6,
+        "day": 15
+      },
+      "address": "台北市信義區光復南路456號6樓",
+      "total_experience_in_years": 4,
+      "profession": "數據分析師 / 商業智能專員",
+      "summary": "我是一名熱衷於數據分析的專業人士，在數位媒體行業擁有4年的經驗。擅長於商業智能實施及數據可視化，具備良好的跨部門溝通能力。\n\n--- 中文簡介 --- \n我對數據分析充滿熱情，擁有在數位媒體行業中的相關經驗，專注於商業智能的實施，能夠通過數據驅動的洞察來支持決策。擁有良好的問題解決能力和團隊合作精神，期待在數據驅動的環境中持續成長。 ",
+      "skills": [
+        "Python",
+        "R",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Data Visualization",
+        "Excel (進階)",
+        "Google Analytics",
+        "Data Warehousing",
+        "Project Management",
+        "Interpersonal Skills",
+        "Time Management",
+        "Problem Solving",
+        "Critical Thinking"
+      ],
+      "has_driving_license": false
+    },
+    "languages": [
+      {
+        "name": "Chinese",
+        "iso_code": "zh",
+        "fluency": 5
+      },
+      {
+        "name": "English",
+        "iso_code": "en",
+        "fluency": 4
+      }
+    ],
+    "educations": [
+      {
+        "start_year": 2014,
+        "is_current": false,
+        "end_year": 2018,
+        "issuing_organization": "國立台灣大學",
+        "description": "學士學位 | 資訊管理學系 | 台北市 (2014年9月 - 2018年6月)"
+      },
+      {
+        "start_year": 2020,
+        "is_current": false,
+        "end_year": 2021,
+        "issuing_organization": "國立政治大學",
+        "description": "碩士學位 | 商業管理 | 台北市 (2020年9月 - 2021年6月)"
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "year": 2021,
+        "issuing_organization": "Coursera",
+        "description": "Data Analysis and Visualization with Python"
+      },
+      {
+        "year": 2022,
+        "issuing_organization": "Microsoft",
+        "description": "Microsoft Certified: Data Analyst Associate"
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2022,
+          "month": 3
+        },
+        "is_current": true,
+        "end_date": {
+          "year": 0,
+          "month": 0
+        },
+        "duration_in_months": 12,
+        "company": "數位媒體科技有限公司",
+        "location": "台北市",
+        "title": "數據分析師",
+        "description": "自2022年3月起至今\n\n - 參與多個商業智能專案，負責數據收集、清理與可視化，提升業務決策的準確性。\n - 使用Tableau設計互動式儀表板，幫助團隊及客戶理解關鍵指標。\n - 優化數據流，導入自動化流程，減少數據處理時間達30%。"
+      },
+      {
+        "start_date": {
+          "year": 2020,
+          "month": 6
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2022,
+          "month": 2
+        },
+        "duration_in_months": 20,
+        "company": "新媒體發展公司",
+        "location": "台北市",
+        "title": "商業智能專員",
+        "description": "自2020年6月至2022年2月\n\n - 負責從數據庫中提取和分析數據以支持市場行銷決策。\n - 與跨部門團隊合作，確保數據準確性並提升報告效率。\n - 進行客戶數據分析，協助提升產品銷售額15%。"
+      },
+      {
+        "start_date": {
+          "year": 2019,
+          "month": 4
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2020,
+          "month": 5
+        },
+        "duration_in_months": 13,
+        "company": "創意科技有限公司",
+        "location": "台北市",
+        "title": "數據分析實習生",
+        "description": "自2019年4月至2020年5月\n\n - 協助數據分析團隊進行市場調研數據的整理與分析。\n - 開發基於Excel的報告模板，減少報告生成時間達40%。\n - 參與內部會議，協助團隊準備數據展示材料。"
+      }
+    ],
+    "awards": [],
+    "references": []
+  },
+  "metadata": {
+    "generated_date": "2025-05-14T23:57:28.793097",
+    "resume_type": "ds",
+    "index": 9,
+    "diversity_traits": {
+      "industry": "數位媒體",
+      "work_style": "績效專注",
+      "career_stage": "初階專業人士",
+      "project_focus": "商業智能實施"
+    }
+  }
+}

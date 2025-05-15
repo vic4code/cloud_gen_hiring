@@ -1,0 +1,147 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "何",
+      "last_name": "怡君",
+      "gender": "female",
+      "emails": [
+        "yijun_ho@gmail.com"
+      ],
+      "urls": [
+        "http://www.linkedin.com/in/yijunho",
+        "https://www.portfolio.com/yijunho"
+      ],
+      "phone_numbers": [
+        "0922345678"
+      ],
+      "date_of_birth": {
+        "year": 1996,
+        "month": 7,
+        "day": 25
+      },
+      "address": "台北市, 台灣",
+      "total_experience_in_years": 3,
+      "profession": "數據科學家",
+      "summary": "✔ 擁有超過 2 年的雲端數據分析與風險評估模型設計經驗\n✔ 具備豐富的 Python 與 SQL 使用能力，熟悉 Cloud services 及資料庫管理\n✔ 獲得國際資料科學證書，致力於具體化商業洞察\n✔ 良好的團隊合作能力，專注於數據驅動的決策過程",
+      "skills": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "TensorFlow",
+        "Pandas",
+        "Numpy",
+        "Azure",
+        "AWS",
+        "R",
+        "Data Visualization",
+        "Cloud Computing",
+        "Risk Assessment Models"
+      ],
+      "has_driving_license": false
+    },
+    "languages": [
+      {
+        "name": "Chinese",
+        "iso_code": "zh",
+        "fluency": 5
+      },
+      {
+        "name": "English",
+        "iso_code": "en",
+        "fluency": 4
+      }
+    ],
+    "educations": [
+      {
+        "start_year": 2015,
+        "end_year": 2019,
+        "is_current": false,
+        "issuing_organization": "國立台灣大學",
+        "description": "數學與資訊科學學士"
+      },
+      {
+        "start_year": 2020,
+        "end_year": 2021,
+        "is_current": false,
+        "issuing_organization": "Coursera",
+        "description": "資料科學專業證書"
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "year": 2022,
+        "issuing_organization": "學校進修推廣部",
+        "description": "雲端數據分析進階課程"
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2022,
+          "month": 5
+        },
+        "end_date": {
+          "year": 2023,
+          "month": 6
+        },
+        "is_current": true,
+        "duration_in_months": 13,
+        "company": "信義房屋",
+        "location": "台北市, 台灣",
+        "title": "數據科學師",
+        "description": "負責開發與維護風險評估模型，進行市場趨勢分析\n\n使用 Python 和 SQL 實現模型，分析歷史數據以預測未來市場變化\n整合雲端數據資源，運用 Tableau 進行視覺化報告，供高層決策參考\n定期與多部門協作，確保數據準確並符合業務需求"
+      },
+      {
+        "start_date": {
+          "year": 2021,
+          "month": 11
+        },
+        "end_date": {
+          "year": 2022,
+          "month": 5
+        },
+        "is_current": false,
+        "duration_in_months": 6,
+        "company": "台灣銀行",
+        "location": "台北市, 台灣",
+        "title": "數據分析實習生",
+        "description": "協助分析客戶信用風險，並運用數據建模進行預測\n\n參與製作風險評估報告，提出改善方案，提高客戶經驗\n使用 SQL 提取並分析核心數據，優化內部工作流程"
+      },
+      {
+        "start_date": {
+          "year": 2021,
+          "month": 7
+        },
+        "end_date": {
+          "year": 2021,
+          "month": 10
+        },
+        "is_current": false,
+        "duration_in_months": 4,
+        "company": "日月光半導體",
+        "location": "新竹市, 台灣",
+        "title": "實習數據工程師",
+        "description": "負責協助資料庫的優化與維護，確保數據的完整性\n\n學習使用 Cloud Services，與團隊一起提升資料處理效能"
+      }
+    ],
+    "awards": [
+      {
+        "year": 2023,
+        "title": "最佳新進員工獎",
+        "description": "於信義房屋獲得的表彰，因數據模型成功推動業務增長"
+      }
+    ],
+    "references": []
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T00:00:42.641659",
+    "resume_type": "ds",
+    "index": 17,
+    "diversity_traits": {
+      "industry": "雲端服務",
+      "work_style": "精確細緻",
+      "career_stage": "初階專業人士",
+      "project_focus": "風險評估模型"
+    }
+  }
+}

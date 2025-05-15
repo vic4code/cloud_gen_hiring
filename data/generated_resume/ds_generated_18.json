@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "妤靜",
+      "last_name": "林",
+      "gender": "女",
+      "emails": [
+        "yujing.lin@example.com"
+      ],
+      "urls": [
+        "https://www.linkedin.com/in/yujinglin"
+      ],
+      "phone_numbers": [
+        "+886 912 345 678"
+      ],
+      "date_of_birth": {
+        "year": 1990,
+        "month": 5,
+        "day": 15
+      },
+      "address": "新北市, 台灣",
+      "total_experience_in_years": 6,
+      "profession": "數據科學經理",
+      "summary": "擁有六年在醫療健康產業的數據分析和團隊管理經驗，專注於實時數據處理。擅長跨部門合作與創新思考，成功領導多個數據驅動的項目，改善醫療服務效率與用戶滿意度。希望能在前沿的數據科學團隊中持續探索與挑戰。",
+      "skills": [
+        "實時數據處理",
+        "機器學習",
+        "數據視覺化",
+        "Python",
+        "R",
+        "SQL",
+        "大數據分析",
+        "團隊管理",
+        "Scrum",
+        "統計模型"
+      ],
+      "has_driving_license": true
+    },
+    "languages": [
+      {
+        "language": "中文",
+        "level": "母語"
+      },
+      {
+        "language": "英文",
+        "level": "流利"
+      }
+    ],
+    "educations": [
+      {
+        "degree": "碩士",
+        "field_of_study": "數據科學",
+        "institution": "國立台灣大學",
+        "start_date": {
+          "year": 2012,
+          "month": 9
+        },
+        "end_date": {
+          "year": 2014,
+          "month": 6
+        }
+      },
+      {
+        "degree": "學士",
+        "field_of_study": "生物醫學工程",
+        "institution": "國防醫學院",
+        "start_date": {
+          "year": 2008,
+          "month": 9
+        },
+        "end_date": {
+          "year": 2012,
+          "month": 6
+        }
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "title": "機器學習專業證書",
+        "institution": "Coursera",
+        "date": {
+          "year": 2021,
+          "month": 8
+        }
+      },
+      {
+        "title": "項目管理專業證書",
+        "institution": "PMI",
+        "date": {
+          "year": 2020,
+          "month": 3
+        }
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2022,
+          "month": 1
+        },
+        "is_current": true,
+        "end_date": {},
+        "duration_in_months": null,
+        "company": "偉達醫療科技股份有限公司",
+        "location": "台北, 台灣",
+        "title": "數據科學經理",
+        "description": "➤ 領導一個跨學科的數據團隊，專注於實時數據分析及其在醫療健康中的應用，推動數據策略的制定與執行。\n➤ 開發並實現機器學習模型，以提高病患風險預測的準確性，並縮短醫療決策時間。成功將預測準確率提升15%。\n➤ 與醫療人員及IT團隊密切合作，設計並執行數據可視化儀表板，提升臨床診療過程中的數據可讀性及即時性。\n➤ 參與產品開發會議，針對數據需求提供建議，幫助形塑未來產品路線圖。"
+      },
+      {
+        "start_date": {
+          "year": 2019,
+          "month": 4
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2021,
+          "month": 12
+        },
+        "duration_in_months": 32,
+        "company": "健康資料分析有限公司",
+        "location": "台北, 台灣",
+        "title": "數據分析師",
+        "description": "➤ 負責分析病患資料並提供行為洞察，支持醫療政策制定及服務改善。\n➤ 利用R和Python進行數據清理及建模，分析結果有效協助提昇醫療服務質量。\n➤ 定期報告數據趨勢與分析結果，與管理層討論未來的數據需求，並提出改進建議。"
+      },
+      {
+        "start_date": {
+          "year": 2016,
+          "month": 6
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2019,
+          "month": 3
+        },
+        "duration_in_months": 34,
+        "company": "台灣衛生福利部",
+        "location": "台北, 台灣",
+        "title": "研究助理",
+        "description": "➤ 參與各類公共衛生研究計畫，協助數據收集與分析。\n➤ 撰寫研究報告，確保數據的準確性及完整性。\n➤ 協助制定數據驅動的健康政策建議，與各界專家合作進行成果發表。"
+      }
+    ],
+    "awards": [],
+    "references": []
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T00:01:13.190925",
+    "resume_type": "ds",
+    "index": 18,
+    "diversity_traits": {
+      "industry": "醫療健康",
+      "work_style": "創新思考",
+      "career_stage": "中階管理者",
+      "project_focus": "實時數據處理"
+    }
+  }
+}

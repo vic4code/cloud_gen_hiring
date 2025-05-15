@@ -1,0 +1,459 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "greenEnergyOverview"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "不限",
+          "value": 0
+        }
+      ],
+      "otherTimePeriod": "無特別限制",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "一個月內",
+        "value": 30
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年7月",
+        "value": "2024-07"
+      },
+      "salary": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryPeriod": {
+        "text": "每月",
+        "value": 1
+      },
+      "salaryOfHours": "無兼職時薪",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "綠能專案助理",
+      "preferArea": [
+        {
+          "no": 3,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 1,
+          "des": "全職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 12,
+          "des": "綠色能源"
+        }
+      ],
+      "preferJobContent": "跨部門協作與數據分析，支持綠色能源相關專案推進",
+      "remoteWork": {
+        "text": "部分遠端工作",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "清新綠",
+            "value": 2,
+            "name": "FreshGreen"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業簡約",
+            "value": 3,
+            "name": "ProSimple"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典藍",
+            "value": 1,
+            "name": "ClassicBlue"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代灰",
+            "value": 4,
+            "name": "ModernGray"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "自然綠",
+            "value": 2,
+            "name": "NatureGreen"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "溫和米",
+            "value": 1,
+            "name": "SoftBeige"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業藍",
+            "value": 3,
+            "name": "ProBlue"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡潔白",
+            "value": 1,
+            "name": "CleanWhite"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "活力橘",
+            "value": 2,
+            "name": "VibrantOrange"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 101,
+          "name": "國立臺灣大學",
+          "departments": [
+            {
+              "name": "環境工程學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "本科"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2020",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2024",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "應屆畢業",
+            "value": 2
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "應屆畢業生",
+        "value": 0
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "綠能科技股份有限公司",
+          "custNo": 5001,
+          "invoice": 20231001,
+          "logo": "https://example.com/logo/greenenergy.png",
+          "industry": [
+            {
+              "no": 12,
+              "des": "綠色能源"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "專案協助實習生",
+          "workArea": [
+            {
+              "no": 3,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "實習",
+            "value": 3
+          },
+          "jobCat": [
+            {
+              "no": 5,
+              "des": "專案管理"
+            }
+          ],
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "七月",
+              "value": 7
+            },
+            "endYear": "2023",
+            "endMonth": []
+          },
+          "description": "協助專案團隊進行資料整理與跨部門溝通，支持推薦系統資料收集與分析工作。",
+          "skill": [],
+          "salary": {
+            "monthPay": "無",
+            "yearPay": "無",
+            "jobParttimeType": {
+              "text": "實習",
+              "value": 3
+            },
+            "jobParttimePay": "無"
+          },
+          "companyVisibility": 1,
+          "stillWork": 0,
+          "salaryVisibility": 0
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "專業藍",
+        "value": 3,
+        "name": "ProBlue"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "Python程式設計",
+          "desc": "具備基礎資料處理與分析能力，熟悉pandas及numpy套件",
+          "status": 2,
+          "tag": [
+            {
+              "text": "中階",
+              "value": "intermediate"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 101,
+          "des": "環境工程師初階認證"
+        }
+      ],
+      "others": "無其他證照"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英文",
+            "value": 1
+          },
+          "listening": {
+            "text": "中等",
+            "value": 3
+          },
+          "speaking": {
+            "text": "中等",
+            "value": 3
+          },
+          "reading": {
+            "text": "良好",
+            "value": 4
+          },
+          "writing": {
+            "text": "中等",
+            "value": 3
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "多益",
+                "value": 1001
+              },
+              "grade": "750分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": {
+      "projects": [
+        {
+          "sort": 1,
+          "name": "綠能推薦系統開發專案",
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "三月",
+              "value": 3
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "isInProgress": 0,
+          "introduction": "參與設計並協助實施一套基於Python的綠能產品推薦系統，負責資料蒐集與初步分析，使用pandas和scikit-learn進行資料預處理及模型測試。",
+          "url": "https://github.com/user/greenenergy-recommender",
+          "img": {
+            "pic": "recommendation_system.png",
+            "fileId": "file12345",
+            "src": "https://example.com/images/recommendation_system.png"
+          }
+        }
+      ]
+    },
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "畢業專題報告",
+          "attach": {
+            "name": "GreenEnergy_Project_Report.pdf",
+            "status": 1,
+            "fileId": "file67890",
+            "url": "https://example.com/files/GreenEnergy_Project_Report.pdf",
+            "src": "https://example.com/files/GreenEnergy_Project_Report.pdf"
+          },
+          "attachType": {
+            "text": "PDF文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "熱衷於綠色科技與環境保護，具備跨領域溝通與資料分析能力，期望在綠能產業貢獻所學。",
+      "eng": "Passionate about green technology and environmental protection, with skills in cross-disciplinary communication and data analysis, eager to contribute to the green energy industry."
+    },
+    "custom1": [],
+    "custom2": [],
+    "custom3": [],
+    "custom4": [],
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "user_001",
+      "headshotUrl": "https://example.com/images/profile_headshot.jpg",
+      "imageUrl": "https://example.com/images/profile_banner.jpg",
+      "nickname": "綠能新星",
+      "title": {
+        "workExperience": 0,
+        "companyName": "綠能科技股份有限公司",
+        "jobName": "專案協助實習生",
+        "schoolName": "國立臺灣大學",
+        "majorName": "環境工程學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "剛畢業的環境工程學士，具備理論與實務基礎，擅長跨部門溝通與資料分析，熱衷於綠能產業的發展。",
+      "motto": "綠色未來，從我開始。",
+      "abilities": [
+        "跨領域團隊協作"
+      ],
+      "preferJobTitle": "綠能專案助理",
+      "viewCount": 123,
+      "createdAt": "2024-05-15T10:00:00Z",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 15,
+      "followedCount": 10,
+      "followed": 0,
+      "isFollowed": 0,
+      "isFollowingMe": 0,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "abc123xyz456",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/greenstar",
+      "personalLink2Url": "https://github.com/greenstar",
+      "personalLink3Url": "https://greenstar.example.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "清新綠",
+          "value": 2,
+          "name": "FreshGreen"
+        },
+        "backgroundColor": "#e6f2e6"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:42:21.389897",
+    "resume_type": "mle",
+    "index": 23,
+    "diversity_traits": {
+      "industry": "綠色能源",
+      "work_style": "跨領域溝通",
+      "career_stage": "應屆畢業生",
+      "project_focus": "推薦系統"
+    }
+  }
+}

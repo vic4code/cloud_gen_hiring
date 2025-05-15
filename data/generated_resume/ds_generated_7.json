@@ -1,0 +1,137 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "Yu-Chen (宇辰)",
+      "last_name": "Lin (林)",
+      "gender": "male",
+      "emails": [
+        "yuchen.lin@email.com"
+      ],
+      "urls": [
+        "http://www.linkedin.com/in/yuchenlin",
+        "https://www.portfolio.com/yuchen-lin"
+      ],
+      "phone_numbers": [
+        "+886-932-456-789"
+      ],
+      "date_of_birth": {
+        "year": 1995,
+        "month": 5,
+        "day": 15
+      },
+      "address": "No. 25, Dunhua S. Rd., Da’an Dist., Taipei City, Taiwan",
+      "total_experience_in_years": 4,
+      "profession": "數據分析師 / 教育科技專案經理",
+      "summary": "我是一位專注於教育科技領域的數據分析師，擁有超過四年的商業智能實施經驗。具備良好的數據視覺化能力，能夠將技術性數據轉化為具體的商業策略。喜歡面對挑戰，並且擅長跨部門協作，提供解決方案以提升運營效率。\n\n--- 中文摘要 ---\n我在教育科技行業中擁有四年的數據分析和專案管理經驗，熟悉使用各種數據工具和技術，並能夠將數據轉化為行動建議。",
+      "skills": [
+        "R",
+        "Python",
+        "Tableau",
+        "Power BI",
+        "SQL",
+        "Google Analytics",
+        "Excel",
+        "Project Management",
+        "Communication",
+        "Strategic Planning",
+        "Cross-functional Team Leadership",
+        "Data Visualization",
+        "Agile Methodologies"
+      ],
+      "has_driving_license": true
+    },
+    "languages": [
+      {
+        "name": "Chinese",
+        "iso_code": "zh",
+        "fluency": 5
+      },
+      {
+        "name": "English",
+        "iso_code": "en",
+        "fluency": 4
+      }
+    ],
+    "educations": [
+      {
+        "start_year": 2013,
+        "is_current": false,
+        "end_year": 2015,
+        "issuing_organization": "國立臺北教育大學",
+        "description": "碩士 | 教育科技 | 臺北市, 台灣 (Sep 2013 - Jun 2015)"
+      },
+      {
+        "start_year": 2009,
+        "is_current": false,
+        "end_year": 2013,
+        "issuing_organization": "國立中正大學",
+        "description": "學士 | 資訊管理 | 嘉義市, 台灣 (Sep 2009 - Jun 2013)"
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "year": 2021,
+        "issuing_organization": "Google",
+        "description": "Google Data Analytics Professional Certificate"
+      },
+      {
+        "year": 2020,
+        "issuing_organization": "Coursera",
+        "description": "Business Intelligence Foundations"
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2022,
+          "month": 1
+        },
+        "is_current": true,
+        "end_date": {
+          "year": 0,
+          "month": 0
+        },
+        "duration_in_months": 16,
+        "company": "EduTech Solutions",
+        "location": "Taipei, Taiwan",
+        "title": "數據分析師 / 專案經理",
+        "description": "自2022年1月起任職\n\n專案管理：負責教育科技產品的商業智能實施，協調跨部門團隊，確保專案按時交付。\n\n數據分析：利用R及Python分析學生學習數據，提供深入見解，協助改善教學策略。\n\n報告撰寫：定期撰寫分析報告，向管理層呈現數據趨勢，並提出基於數據的建議。\n\n工具應用：使用Tableau和Power BI製作可視化儀表板，幫助教學團隊做出數據驅動的決策。"
+      },
+      {
+        "start_date": {
+          "year": 2019,
+          "month": 7
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2021,
+          "month": 12
+        },
+        "duration_in_months": 30,
+        "company": "Smart Learning Tech",
+        "location": "Taipei, Taiwan",
+        "title": "數據分析師",
+        "description": "2019年7月至2021年12月\n\n數據視覺化：設計並開發了多個數據儀表板，幫助教育機構更好地理解學習者行為。\n\n業務支持：與各部門緊密合作，分析市場趨勢，支持業務決策。\n\n產品開發：參與教育產品的開發過程，通過數據分析提供改進建議，提升產品效益。"
+      }
+    ],
+    "awards": [
+      {
+        "year": 2021,
+        "title": "最佳創新專案獎",
+        "description": "因在教育科技產品中導入數據分析技術而獲得的獎項。"
+      }
+    ],
+    "references": []
+  },
+  "metadata": {
+    "generated_date": "2025-05-14T23:56:30.430796",
+    "resume_type": "ds",
+    "index": 7,
+    "diversity_traits": {
+      "industry": "教育科技",
+      "work_style": "策略規劃",
+      "career_stage": "初階專業人士",
+      "project_focus": "商業智能實施"
+    }
+  }
+}

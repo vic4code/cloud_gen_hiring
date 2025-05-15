@@ -1,0 +1,461 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "sidebar_001"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "實習",
+          "value": 2
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "短期",
+          "value": 1
+        }
+      ],
+      "otherTimePeriod": "無限制",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "立即報到",
+        "value": 0
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年7月",
+        "value": "2024-07"
+      },
+      "salary": {
+        "text": "面議",
+        "value": 0
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "無",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "永續能源實習生",
+      "preferArea": [
+        {
+          "no": 3,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 2,
+          "des": "全職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 10,
+          "des": "永續能源"
+        }
+      ],
+      "preferJobContent": "參與永續能源相關風險評估模型建置與數據分析，快速執行並協助團隊完成專案目標。",
+      "remoteWork": {
+        "text": "部分遠端",
+        "value": 1
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業簡約",
+            "value": 1,
+            "name": "professional_minimal"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "清晰條理",
+            "value": 2,
+            "name": "clear_structure"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "學術風",
+            "value": 3,
+            "name": "academic_style"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡潔明瞭",
+            "value": 1,
+            "name": "concise_clear"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "正式風格",
+            "value": 1,
+            "name": "formal_style"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業語言",
+            "value": 2,
+            "name": "professional_language"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "標準格式",
+            "value": 1,
+            "name": "standard_format"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "創意風格",
+            "value": 2,
+            "name": "creative_style"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "詳盡描述",
+            "value": 3,
+            "name": "detailed_description"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 101,
+          "name": "國立台灣大學",
+          "departments": [
+            {
+              "name": "能源工程學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "碩士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2022",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2024",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "碩士",
+            "value": 2
+          },
+          "status": {
+            "text": "在學",
+            "value": 1
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "實習生",
+        "value": 1
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "綠能科技股份有限公司",
+          "custNo": 5001,
+          "invoice": 123456,
+          "logo": "https://example.com/logo_greenenergy.png",
+          "industry": [
+            {
+              "no": 10,
+              "des": "永續能源"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "風險評估實習生",
+          "workArea": [
+            {
+              "no": 3,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "實習",
+            "value": 2
+          },
+          "jobCat": [
+            {
+              "no": 15,
+              "des": "資料分析"
+            }
+          ],
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "七月",
+              "value": 7
+            },
+            "endYear": "2023",
+            "endMonth": []
+          },
+          "description": "協助團隊快速執行風險評估模型數據整理與初步分析，使用Python及Excel進行資料處理，配合團隊需求完成報告撰寫。",
+          "skill": [],
+          "salary": {
+            "monthPay": "面議",
+            "yearPay": "無",
+            "jobParttimeType": {
+              "text": "無",
+              "value": 0
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": 1,
+          "stillWork": 0,
+          "salaryVisibility": 0
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "技術導向",
+        "value": 1,
+        "name": "tech_oriented"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "Python",
+          "desc": "熟悉基本資料分析及數據處理",
+          "status": 2,
+          "tag": [
+            {
+              "text": "程式語言",
+              "value": "python"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 1,
+          "des": "能源管理師初級證照"
+        }
+      ],
+      "others": "參加校內能源工程相關工作坊"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英文",
+            "value": 1
+          },
+          "listening": {
+            "text": "中等",
+            "value": 2
+          },
+          "speaking": {
+            "text": "中等",
+            "value": 2
+          },
+          "reading": {
+            "text": "良好",
+            "value": 3
+          },
+          "writing": {
+            "text": "中等",
+            "value": 2
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 1
+              },
+              "grade": "750分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": {
+      "projects": [
+        {
+          "sort": 1,
+          "name": "風險評估模型建置",
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "七月",
+              "value": 7
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "九月",
+              "value": 9
+            }
+          },
+          "isInProgress": 0,
+          "introduction": "參與風險評估模型開發，負責資料收集與清理，使用Python進行初步分析，協助團隊快速完成模型初版。",
+          "url": "https://github.com/username/risk-assessment-project",
+          "img": {
+            "pic": "risk_model.png",
+            "fileId": "file_123456",
+            "src": "https://example.com/images/risk_model.png"
+          }
+        }
+      ]
+    },
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "永續能源風險評估報告",
+          "attach": {
+            "name": "risk_assessment_report.pdf",
+            "status": 1,
+            "fileId": "file_7891011",
+            "url": "https://example.com/files/risk_assessment_report.pdf",
+            "src": "https://example.com/files/risk_assessment_report.pdf"
+          },
+          "attachType": {
+            "text": "PDF文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "熱衷於永續能源領域，具備基礎資料分析能力，期望在實習期間快速累積專業經驗並貢獻團隊。",
+      "eng": "Passionate about sustainable energy with fundamental data analysis skills, eager to gain practical experience and contribute to the team during internship."
+    },
+    "custom1": [],
+    "custom2": [],
+    "custom3": [],
+    "custom4": [],
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "profile_001",
+      "headshotUrl": "https://example.com/images/profile_headshot.jpg",
+      "imageUrl": "https://example.com/images/profile_background.jpg",
+      "nickname": "小綠",
+      "title": {
+        "workExperience": 1,
+        "companyName": "綠能科技股份有限公司",
+        "jobName": "風險評估實習生",
+        "schoolName": "國立台灣大學",
+        "majorName": "能源工程",
+        "degreeLevel": 2
+      },
+      "aboutMe": "目前為能源工程碩士在學學生，實習於永續能源公司，具備快速執行及團隊合作精神。",
+      "motto": "學以致用，持續精進",
+      "abilities": [
+        "資料分析",
+        "Python程式設計",
+        "風險評估基礎"
+      ],
+      "preferJobTitle": "永續能源實習生",
+      "viewCount": 150,
+      "createdAt": "2024-06-01T10:00:00+08:00",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 20,
+      "followedCount": 15,
+      "followed": 0,
+      "isFollowed": 0,
+      "isFollowingMe": 0,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://www.linkedin.com/in/xiaolu",
+      "personalLink2Url": "https://github.com/xiaolu",
+      "personalLink3Url": "https://xiaolu.example.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專業簡約",
+          "value": 1,
+          "name": "professional_minimal"
+        },
+        "backgroundColor": "#f5f5f5"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:34:57.566572",
+    "resume_type": "mle",
+    "index": 14,
+    "diversity_traits": {
+      "industry": "永續能源",
+      "work_style": "快速執行",
+      "career_stage": "實習生",
+      "project_focus": "風險評估模型"
+    }
+  }
+}

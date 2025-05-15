@@ -1,0 +1,85 @@
+{
+  "personal_info": {
+    "gender": "男性",
+    "age": 22,
+    "employment_status": "實習生",
+    "email": "alex.chang@example.com",
+    "address": "臺北市信義區松仁路100號",
+    "english_name": "Alex Chang",
+    "driver_licenses": [
+      "普通重型機車"
+    ]
+  },
+  "education": {
+    "school": "國立臺灣大學",
+    "department": "資訊管理學系",
+    "degree": "學士",
+    "period": "2020年9月 - 2024年6月"
+  },
+  "work_experience": {
+    "total_years": "0.5",
+    "jobs": [
+      {
+        "company": "區塊鏈新創科技有限公司",
+        "industry": "區塊鏈",
+        "company_size": "50人以下",
+        "title": "專案管理實習生",
+        "location": "臺北市",
+        "period": "2023年7月 - 2023年12月",
+        "description": [
+          "協助團隊進行區塊鏈大數據分析專案的資料整理與初步分析。",
+          "使用Python與Excel工具協助監控專案進度，整理會議紀錄並協調跨部門溝通。",
+          "參與策略規劃會議，提供數據支援以優化專案執行流程。"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "data_analysis": [
+      "Python基礎資料分析",
+      "Excel資料整理"
+    ],
+    "specialties": [
+      "區塊鏈基礎概念",
+      "專案進度監控",
+      "跨部門溝通協調"
+    ],
+    "data_driven_decision_making": "能夠根據資料分析結果，協助團隊制定合理的專案策略",
+    "collaboration": "具備良好的團隊合作精神，能在跨部門環境中有效溝通"
+  },
+  "self_intro": {
+    "current_position": "區塊鏈新創公司專案管理實習生，主要負責協助專案資料分析與溝通協調工作。",
+    "leadership": "雖為實習生，積極參與團隊討論並嘗試帶領小組完成特定任務。"
+  },
+  "job_preferences": {
+    "job_type": "實習/全職初階職位",
+    "working_hours": "彈性工時",
+    "availability": "2024年7月可開始上班",
+    "expected_salary": "面議",
+    "preferred_locations": [
+      "臺北市",
+      "新北市"
+    ],
+    "remote_work": "部分遠端工作可接受",
+    "desired_titles": [
+      "專案管理助理",
+      "初階產品經理"
+    ],
+    "preferred_categories": [
+      "區塊鏈技術",
+      "大數據分析",
+      "專案管理"
+    ]
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:54:32.308042",
+    "resume_type": "pm",
+    "index": 9,
+    "diversity_traits": {
+      "industry": "區塊鏈",
+      "work_style": "策略規劃",
+      "career_stage": "實習生",
+      "project_focus": "大數據分析"
+    }
+  }
+}

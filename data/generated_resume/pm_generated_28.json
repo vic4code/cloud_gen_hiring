@@ -1,0 +1,84 @@
+{
+  "personal_info": {
+    "gender": "女性",
+    "age": 23,
+    "employment_status": "應屆畢業生",
+    "email": "alice.chen@example.com",
+    "address": "台北市中正區仁愛路二段123號",
+    "english_name": "Alice Chen",
+    "driver_licenses": [
+      "普通重型機車駕照"
+    ]
+  },
+  "education": {
+    "school": "國立台灣大學",
+    "department": "資訊工程學系",
+    "degree": "學士",
+    "period": "2019/09 - 2023/06"
+  },
+  "work_experience": {
+    "total_years": "0.5",
+    "jobs": [
+      {
+        "company": "區塊鏈新創科技有限公司",
+        "industry": "區塊鏈",
+        "company_size": "50人以下",
+        "title": "產品助理",
+        "location": "台北市",
+        "period": "2023/01 - 2023/06",
+        "description": [
+          "協助資料管線建置專案的需求整理與進度追蹤",
+          "參與跨部門會議，協助溝通技術團隊與業務部門的需求",
+          "使用SQL協助資料初步分析，支援產品優化決策"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "data_analysis": [
+      "SQL",
+      "Excel資料整理"
+    ],
+    "specialties": [
+      "區塊鏈產品規劃",
+      "資料管線基礎建置"
+    ],
+    "data_driven_decision_making": "具備基本的資料分析能力，能根據數據協助產品決策",
+    "collaboration": "善於跨部門溝通，積極參與團隊合作並持續學習新知"
+  },
+  "self_intro": {
+    "current_position": "剛完成區塊鏈新創公司的產品助理實習，熱衷於資料驅動的產品管理",
+    "leadership": "具備團隊合作精神，願意學習與成長，未來期待擔任產品經理角色"
+  },
+  "job_preferences": {
+    "job_type": "全職",
+    "working_hours": "彈性工時",
+    "availability": "立即可上班",
+    "expected_salary": "新台幣40,000-50,000元/月",
+    "preferred_locations": [
+      "台北市",
+      "新北市"
+    ],
+    "remote_work": "部分遠端工作可接受",
+    "desired_titles": [
+      "產品助理",
+      "初階產品經理"
+    ],
+    "preferred_categories": [
+      "區塊鏈",
+      "資料工程",
+      "產品管理"
+    ]
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:59:47.877639",
+    "resume_type": "pm",
+    "index": 28,
+    "diversity_traits": {
+      "industry": "區塊鏈",
+      "work_style": "持續學習",
+      "career_stage": "應屆畢業生",
+      "project_focus": "資料管線建置"
+    }
+  }
+}

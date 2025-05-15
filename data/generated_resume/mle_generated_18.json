@@ -1,0 +1,369 @@
+{
+  "data": {
+    "item": {
+      "id": 10234,
+      "name": "客戶行為分析專案報告",
+      "description": "深入分析數位媒體平台上的用戶行為，提供策略建議以提升用戶參與度與轉換率。",
+      "path": "/projects/customer-behavior-analysis",
+      "liked": 128,
+      "is_owner": 1,
+      "added_to_folder": 54,
+      "votes_total": 76,
+      "lang": "zh-TW",
+      "theme": "professional",
+      "editor_version": 3,
+      "style": "modern",
+      "style_config": {},
+      "spacing": "comfortable",
+      "connected_with_posts": 12,
+      "seems_spam": 0,
+      "should_confirm_external_links": 0,
+      "system_generated": 0,
+      "exported_from_profile": 1,
+      "body": "在此專案中，我負責帶領團隊利用Python與R語言進行數據清理與分析，並結合Google Analytics與Tableau視覺化工具，成功找出關鍵行為模式，提升行銷轉換率達15%。",
+      "body_json_v2": null,
+      "user": {
+        "name": "陳怡君",
+        "username": "chenyijun",
+        "id": 4589,
+        "first_name": "怡君",
+        "last_name": "陳",
+        "description": "資深數據分析師，專注於數位媒體領域的客戶行為洞察與策略制定，擅長跨部門團隊合作。",
+        "cover_image": {
+          "url": "https://example.com/images/cover_chenyijun.jpg",
+          "small": {
+            "url": "https://example.com/images/cover_chenyijun_small.jpg"
+          },
+          "medium": {
+            "url": "https://example.com/images/cover_chenyijun_medium.jpg"
+          },
+          "large": {
+            "url": "https://example.com/images/cover_chenyijun_large.jpg"
+          },
+          "small_3_1": {
+            "url": "https://example.com/images/cover_chenyijun_small_3_1.jpg"
+          },
+          "medium_3_1": {
+            "url": "https://example.com/images/cover_chenyijun_medium_3_1.jpg"
+          }
+        },
+        "avatar": {
+          "url": "https://example.com/avatars/chenyijun.jpg",
+          "tiny": {
+            "url": "https://example.com/avatars/chenyijun_tiny.jpg"
+          },
+          "small": {
+            "url": "https://example.com/avatars/chenyijun_small.jpg"
+          },
+          "medium": {
+            "url": "https://example.com/avatars/chenyijun_medium.jpg"
+          },
+          "large": {
+            "url": "https://example.com/avatars/chenyijun_large.jpg"
+          },
+          "xlarge": {
+            "url": "https://example.com/avatars/chenyijun_xlarge.jpg"
+          }
+        },
+        "avatar_tiny_url": "https://example.com/avatars/chenyijun_tiny.jpg",
+        "avatar_small_url": "https://example.com/avatars/chenyijun_small.jpg",
+        "avatar_medium_url": "https://example.com/avatars/chenyijun_medium.jpg",
+        "has_phone": 1,
+        "has_email": 1,
+        "main_public_item_path": "/users/chenyijun",
+        "main_signed_url_non_hidden_item_path": null,
+        "posts_count": 38,
+        "published_posts_count": 35,
+        "profile_privacy_level": "public",
+        "online_status": "active",
+        "recommendee_token": "abc123def456",
+        "public_recommendations_count": 18,
+        "mutual_connections_count": 24,
+        "unique_impressions_count": 4800,
+        "is_premium": 1,
+        "no_branding": 0,
+        "seems_spam": 0,
+        "desired_job_type": "全職",
+        "job_search_progress": "積極尋找",
+        "current_employment_status": "在職",
+        "is_freelancer": "否",
+        "work_experience": "超過10年數據分析與策略規劃經驗，涵蓋數位媒體與行銷領域。",
+        "relevant_work_experience": "具備多個大型數位媒體客戶行為分析專案帶領經驗，熟悉Python、R、SQL與視覺化工具。",
+        "desired_position": "資深數據分析師",
+        "role": "分析師",
+        "languages": [
+          "中文",
+          "英文"
+        ],
+        "remote": "可遠端工作",
+        "country": "台灣",
+        "city": null,
+        "city_name": null,
+        "city_name_en": null,
+        "google_place_id": "ChIJU1ZlC9uYQjQRvBVQ7ar5J6E",
+        "google_place_name": "臺北市",
+        "google_place_name_en": "Taipei City",
+        "google_place_country_name_en": "Taiwan",
+        "google_place_region_name_en": "Taipei",
+        "desired_location_google_place_ids": [
+          "ChIJL8dH2-2bQjQRH1l2zTfQ5k8"
+        ],
+        "desired_location_names": [
+          "新北市"
+        ],
+        "desired_location_names_en": [
+          "New Taipei City"
+        ],
+        "desired_location_country_names_en": [
+          "Taiwan"
+        ],
+        "desired_location_region_names_en": [
+          null
+        ],
+        "cr_location": {
+          "id": "1001",
+          "full_name": "臺北市, 台灣",
+          "country": "台灣",
+          "admin_level_1": "臺北市",
+          "locale": "zh-TW"
+        },
+        "cr_desired_locations": [
+          {
+            "id": "1002",
+            "full_name": "新北市, 台灣",
+            "country": "台灣",
+            "admin_level_1": null,
+            "locale": "zh-TW"
+          }
+        ],
+        "eligible_work_locations": [],
+        "graduated_from_school": "國立臺灣大學",
+        "graduated_from_field": "資訊管理",
+        "skill_list": [
+          "Python",
+          "R語言",
+          "SQL",
+          "Tableau",
+          "數據分析",
+          "客戶行為分析"
+        ],
+        "professions": [
+          "數據分析師",
+          "數據科學家"
+        ],
+        "industries": [
+          "數位媒體",
+          "行銷"
+        ],
+        "headline": "資深數據分析師｜專注數位媒體客戶行為洞察與策略規劃",
+        "number_of_management": "3",
+        "education_level": "碩士",
+        "last_seen_at_days_ago_level": 2,
+        "network_profile": {
+          "id": "4589",
+          "avatar": {
+            "url": "https://example.com/avatars/chenyijun.jpg",
+            "tiny": {
+              "url": "https://example.com/avatars/chenyijun_tiny.jpg"
+            },
+            "small": {
+              "url": "https://example.com/avatars/chenyijun_small.jpg"
+            },
+            "medium": {
+              "url": "https://example.com/avatars/chenyijun_medium.jpg"
+            },
+            "large": {
+              "url": "https://example.com/avatars/chenyijun_large.jpg"
+            },
+            "xlarge": {
+              "url": "https://example.com/avatars/chenyijun_xlarge.jpg"
+            }
+          },
+          "status": "active",
+          "description": "專注於數據驅動決策，領導跨部門團隊實現業務目標。",
+          "identity_types": [
+            "分析師",
+            "團隊領導"
+          ],
+          "topics_to_learn": [
+            "機器學習應用",
+            "大數據處理"
+          ],
+          "topics_to_share": [
+            "數據視覺化",
+            "客戶行為洞察"
+          ],
+          "tags": [],
+          "badges": [],
+          "suspended": 0,
+          "user": {
+            "name": "陳怡君",
+            "username": "chenyijun",
+            "first_name": "怡君",
+            "last_name": "陳",
+            "description": "資深數據分析師，擁有豐富的數位媒體分析經驗。",
+            "cover_image": {
+              "url": "https://example.com/images/cover_chenyijun.jpg",
+              "small": {
+                "url": "https://example.com/images/cover_chenyijun_small.jpg"
+              },
+              "medium": {
+                "url": "https://example.com/images/cover_chenyijun_medium.jpg"
+              },
+              "large": {
+                "url": "https://example.com/images/cover_chenyijun_large.jpg"
+              },
+              "small_3_1": {
+                "url": "https://example.com/images/cover_chenyijun_small_3_1.jpg"
+              },
+              "medium_3_1": {
+                "url": "https://example.com/images/cover_chenyijun_medium_3_1.jpg"
+              }
+            },
+            "avatar": {
+              "url": "https://example.com/avatars/chenyijun.jpg",
+              "tiny": {
+                "url": "https://example.com/avatars/chenyijun_tiny.jpg"
+              },
+              "small": {
+                "url": "https://example.com/avatars/chenyijun_small.jpg"
+              },
+              "medium": {
+                "url": "https://example.com/avatars/chenyijun_medium.jpg"
+              },
+              "large": {
+                "url": "https://example.com/avatars/chenyijun_large.jpg"
+              },
+              "xlarge": {
+                "url": "https://example.com/avatars/chenyijun_xlarge.jpg"
+              }
+            },
+            "avatar_tiny_url": "https://example.com/avatars/chenyijun_tiny.jpg",
+            "avatar_small_url": "https://example.com/avatars/chenyijun_small.jpg",
+            "avatar_medium_url": "https://example.com/avatars/chenyijun_medium.jpg",
+            "profile_privacy_level": "public",
+            "online_status": "active",
+            "current_job_title": "資深數據分析師",
+            "current_company": "數位行銷股份有限公司",
+            "headline": "專長於數據分析與團隊管理",
+            "is_premium": 1,
+            "status": "active"
+          },
+          "review_application": {
+            "precedence": 1,
+            "status": "approved",
+            "reject_reason": null,
+            "reject_details": null
+          }
+        },
+        "most_recent_work_experience": {
+          "title": "資深數據分析師",
+          "currently_work_here": 1,
+          "from_year": 2016,
+          "from_month": 7,
+          "end_year": null,
+          "end_month": null,
+          "organization": {
+            "name": "數位行銷股份有限公司",
+            "id": 230,
+            "logo": {
+              "url": "https://example.com/logos/digital_marketing_co.jpg",
+              "tiny": {
+                "url": "https://example.com/logos/digital_marketing_co_tiny.jpg"
+              },
+              "thumb": {
+                "url": "https://example.com/logos/digital_marketing_co_thumb.jpg"
+              },
+              "medium": {
+                "url": "https://example.com/logos/digital_marketing_co_medium.jpg"
+              },
+              "large": null,
+              "og_image": {
+                "url": null
+              }
+            }
+          }
+        },
+        "most_recent_education": {
+          "degree_type": "碩士",
+          "majors": [
+            "資訊管理"
+          ],
+          "from_year": 2012,
+          "end_year": 2014,
+          "organization": {
+            "name": "國立臺灣大學",
+            "id": 101,
+            "logo": {
+              "url": "https://example.com/logos/ntu_logo.jpg",
+              "tiny": {
+                "url": "https://example.com/logos/ntu_logo_tiny.jpg"
+              },
+              "thumb": {
+                "url": "https://example.com/logos/ntu_logo_thumb.jpg"
+              },
+              "medium": {
+                "url": "https://example.com/logos/ntu_logo_medium.jpg"
+              },
+              "large": null,
+              "og_image": {
+                "url": null
+              }
+            }
+          }
+        }
+      },
+      "use_signed_url": 1,
+      "no_branding": 0,
+      "privacy_level": 1,
+      "signed_or_not_item_url": "https://example.com/projects/customer-behavior-analysis",
+      "metadata": {
+        "images": [
+          {
+            "src": "https://example.com/images/project_overview.jpg",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      },
+      "ga_tracking_code": null,
+      "has_permission_ga": 1,
+      "draft_update_count": 3
+    },
+    "meta_tags": {
+      "title": "陳怡君｜資深數據分析師｜數位媒體客戶行為分析專家",
+      "description": "陳怡君專注於數位媒體領域的數據分析與客戶行為洞察，擁有超過10年的專業經驗。",
+      "canonical": "https://example.com/users/chenyijun",
+      "og": {
+        "type": "profile",
+        "image": "https://example.com/avatars/chenyijun_medium.jpg"
+      },
+      "nofollow": 0,
+      "noindex": 0,
+      "amphtml": "https://example.com/users/chenyijun/amp"
+    },
+    "structured_data_sets": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "陳怡君",
+        "image": "https://example.com/avatars/chenyijun_large.jpg",
+        "description": "資深數據分析師，專注於數位媒體的客戶行為分析與策略規劃，帶領團隊提升數據洞察能力。",
+        "url": "https://example.com/users/chenyijun",
+        "jobTitle": "資深數據分析師",
+        "sameAs": "https://linkedin.com/in/chenyijun"
+      }
+    ]
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:37:50.152810",
+    "resume_type": "mle",
+    "index": 18,
+    "diversity_traits": {
+      "industry": "數位媒體",
+      "work_style": "團隊合作",
+      "career_stage": "資深專家",
+      "project_focus": "客戶行為分析"
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "家瑋",
+      "last_name": "林",
+      "gender": "male",
+      "emails": [
+        "jiawei.lin@example.com"
+      ],
+      "urls": [],
+      "phone_numbers": [
+        "0987-654-321"
+      ],
+      "date_of_birth": {
+        "year": 1988,
+        "month": 5,
+        "day": 12
+      },
+      "address": "台北市信義區光復南路123號",
+      "total_experience_in_years": 10,
+      "profession": "資深資料科學家",
+      "summary": "專注於金融科技領域，具備超過十年的數據科學經驗，特別在預測模型開發方面有深入的專業知識。擅長跨領域溝通，協調各部門需求，推進數據驅動決策。熟悉機器學習及統計模型，並有實戰經驗，持續提升預測準確性和業務效率。",
+      "skills": [
+        "機器學習與深度學習應用",
+        "數學與統計模型應用",
+        "數據可視化",
+        "Python",
+        "SQL",
+        "R",
+        "Tableau",
+        "SAS",
+        "Spark",
+        "Azure",
+        "TensorFlow",
+        "Docker"
+      ],
+      "has_driving_license": true
+    },
+    "languages": [
+      {
+        "name": "Chinese",
+        "iso_code": "zh",
+        "fluency": 5
+      },
+      {
+        "name": "English",
+        "iso_code": "en",
+        "fluency": 4
+      }
+    ],
+    "educations": [
+      {
+        "start_year": 2010,
+        "is_current": false,
+        "end_year": 2012,
+        "issuing_organization": "國立台灣大學 資訊管理研究所",
+        "description": "碩士畢業"
+      },
+      {
+        "start_year": 2006,
+        "is_current": false,
+        "end_year": 2010,
+        "issuing_organization": "國立成功大學 電子工程學系",
+        "description": "大學畢業"
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "year": 2023,
+        "issuing_organization": "Coursera",
+        "description": "Course : Advanced Data Analysis with Python 2023/05~2023/05"
+      },
+      {
+        "year": 2022,
+        "issuing_organization": "AWS",
+        "description": "Certification : AWS Certified Data Analytics - Specialty"
+      },
+      {
+        "year": 2021,
+        "issuing_organization": "Microsoft",
+        "description": "Certification : Microsoft Certified: Azure Data Scientist Associate"
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2021,
+          "month": 4
+        },
+        "is_current": true,
+        "end_date": {
+          "year": 2023,
+          "month": 10
+        },
+        "duration_in_months": 30,
+        "company": "台灣金融科技股份有限公司",
+        "location": "台北市",
+        "title": "資深資料科學家",
+        "description": "專注於開發和優化金融預測模型，運用各種機器學習算法提高模型預測準確率達到85%以上。與不同部門協調，收集業務需求，持續改進模型架構並更新數據集，成功推動數據驅動的決策流程。建立數據可視化儀表板，幫助業務單位快速理解數據趨勢。"
+      },
+      {
+        "start_date": {
+          "year": 2018,
+          "month": 5
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2021,
+          "month": 3
+        },
+        "duration_in_months": 34,
+        "company": "華南銀行",
+        "location": "台北市",
+        "title": "資深數據分析師",
+        "description": "負責建立客戶行為分析模型，透過R和Python進行數據處理和分析，提升行銷活動的針對性。參與跨部門項目，為產品開發提供數據支持，並利用數據可視化工具展示分析結果，增強決策透明度。"
+      },
+      {
+        "start_date": {
+          "year": 2015,
+          "month": 6
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2018,
+          "month": 4
+        },
+        "duration_in_months": 35,
+        "company": "大華證券",
+        "location": "台北市",
+        "title": "數據分析師",
+        "description": "處理和分析交易數據，編寫報告識別市場趨勢。使用SAS進行統計分析，協助風險管理部門制定風險預警系統，並將分析結果轉化為商業策略，提升公司收益。"
+      }
+    ],
+    "awards": [],
+    "references": []
+  },
+  "metadata": {
+    "generated_date": "2025-05-14T23:55:15.600616",
+    "resume_type": "ds",
+    "index": 4,
+    "diversity_traits": {
+      "industry": "金融科技",
+      "work_style": "跨領域溝通",
+      "career_stage": "資深專家",
+      "project_focus": "預測模型開發"
+    }
+  }
+}

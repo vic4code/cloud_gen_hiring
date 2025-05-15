@@ -1,0 +1,461 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "financial_tech_expert_sidebar"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "長期",
+          "value": 12
+        }
+      ],
+      "otherTimePeriod": "彈性排班",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "一個月內",
+        "value": 30
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年7月",
+        "value": "2024-07"
+      },
+      "salary": {
+        "text": "新台幣 80,000",
+        "value": 80000
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "新台幣 500",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "資深金融科技分析師",
+      "preferArea": [
+        {
+          "no": 1,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 1,
+          "des": "全職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 101,
+          "des": "金融科技"
+        }
+      ],
+      "preferJobContent": "市場區隔分析及策略制定，團隊協作推動專案落地。",
+      "remoteWork": {
+        "text": "部分遠端",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典藍",
+            "value": 3,
+            "name": "classic_blue"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代灰",
+            "value": 2,
+            "name": "modern_grey"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "清新綠",
+            "value": 4,
+            "name": "fresh_green"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業紫",
+            "value": 5,
+            "name": "professional_purple"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "沉穩灰",
+            "value": 1,
+            "name": "steady_grey"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "清晰白",
+            "value": 2,
+            "name": "clear_white"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業藍",
+            "value": 3,
+            "name": "professional_blue"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "創意橘",
+            "value": 4,
+            "name": "creative_orange"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "穩重黑",
+            "value": 5,
+            "name": "solid_black"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 201,
+          "name": "國立臺灣大學",
+          "departments": [
+            {
+              "name": "資訊管理學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2008",
+            "startMonth": {
+              "text": "9月",
+              "value": 9
+            },
+            "endYear": "2012",
+            "endMonth": {
+              "text": "6月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "已畢業",
+            "value": 1
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "資深專家",
+        "value": 5
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "宏達電子股份有限公司",
+          "custNo": 123456,
+          "invoice": 654321,
+          "logo": "https://example.com/logo/htc.png",
+          "industry": [
+            {
+              "no": 101,
+              "des": "金融科技"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "資深市場分析師",
+          "workArea": [
+            {
+              "no": 1,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 10,
+              "des": "市場分析"
+            }
+          ],
+          "duration": {
+            "startYear": "2016",
+            "startMonth": {
+              "text": "7月",
+              "value": 7
+            },
+            "endYear": "2023",
+            "endMonth": []
+          },
+          "description": "負責金融科技市場區隔分析，運用Python及SQL進行大數據挖掘與客戶行為分析，帶領跨部門團隊制定行銷策略，成功提升客戶轉換率15%。",
+          "skill": [],
+          "salary": {
+            "monthPay": "90000",
+            "yearPay": "1080000",
+            "jobParttimeType": {
+              "text": "無兼職",
+              "value": 0
+            },
+            "jobParttimePay": "0"
+          },
+          "companyVisibility": 1,
+          "stillWork": 0,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "專業技能",
+        "value": 1,
+        "name": "professional_skills"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "Python",
+          "desc": "熟悉數據分析與腳本開發，具備處理金融數據的經驗。",
+          "status": 1,
+          "tag": [
+            {
+              "text": "程式語言",
+              "value": "python"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 101,
+          "des": "金融風險管理師 (FRM)"
+        }
+      ],
+      "others": "持有PMP專案管理專業證照"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英文",
+            "value": 1
+          },
+          "listening": {
+            "text": "流利",
+            "value": 5
+          },
+          "speaking": {
+            "text": "流利",
+            "value": 5
+          },
+          "reading": {
+            "text": "流利",
+            "value": 5
+          },
+          "writing": {
+            "text": "良好",
+            "value": 4
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEFL",
+                "value": 101
+              },
+              "grade": "100分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": {
+      "projects": [
+        {
+          "sort": 1,
+          "name": "智能市場區隔分析系統",
+          "duration": {
+            "startYear": "2021",
+            "startMonth": {
+              "text": "3月",
+              "value": 3
+            },
+            "endYear": "2022",
+            "endMonth": {
+              "text": "12月",
+              "value": 12
+            }
+          },
+          "isInProgress": 0,
+          "introduction": "開發基於機器學習的市場區隔工具，整合大數據與客戶行為分析，協助團隊精準定位目標客群。",
+          "url": "https://example.com/projects/market_segmentation",
+          "img": {
+            "pic": "market_segmentation.png",
+            "fileId": "file_123456789",
+            "src": "https://example.com/assets/market_segmentation.png"
+          }
+        }
+      ]
+    },
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "金融科技市場分析報告",
+          "attach": {
+            "name": "Market_Analysis_Report.pdf",
+            "status": 1,
+            "fileId": "file_987654321",
+            "url": "https://example.com/portfolio/Market_Analysis_Report.pdf",
+            "src": "https://example.com/portfolio/Market_Analysis_Report.pdf"
+          },
+          "attachType": {
+            "text": "PDF文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "具備超過七年金融科技領域市場分析經驗，專注於數據驅動的市場區隔與策略制定，擅長跨部門協作與專案管理。",
+      "eng": "Over seven years of experience in fintech market analysis, focusing on data-driven segmentation and strategic planning, skilled in cross-department collaboration and project management."
+    },
+    "custom1": [],
+    "custom2": [],
+    "custom3": [],
+    "custom4": [],
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "profile_fintech_expert_001",
+      "headshotUrl": "https://example.com/images/headshot_fintech_expert.jpg",
+      "imageUrl": "https://example.com/images/background_fintech.jpg",
+      "nickname": "金融達人",
+      "title": {
+        "workExperience": 7,
+        "companyName": "宏達電子股份有限公司",
+        "jobName": "資深市場分析師",
+        "schoolName": "國立臺灣大學",
+        "majorName": "資訊管理學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "我是一位專注於金融科技市場分析的資深專家，擅長利用數據分析驅動決策，並帶領團隊實現商業目標。",
+      "motto": "數據為王，策略為先。",
+      "abilities": [
+        "數據分析",
+        "機器學習應用",
+        "專案管理"
+      ],
+      "preferJobTitle": "資深金融科技分析師",
+      "viewCount": 1500,
+      "createdAt": "2016-07-01T08:00:00+08:00",
+      "isSelf": 1,
+      "signIn": 200,
+      "followerCount": 120,
+      "followedCount": 85,
+      "followed": 1,
+      "isFollowed": 1,
+      "isFollowingMe": 1,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "uuid-1234-5678-9012",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/fintechexpert",
+      "personalLink2Url": "https://github.com/fintechexpert",
+      "personalLink3Url": "https://fintechexpert.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專業藍",
+          "value": 3,
+          "name": "professional_blue"
+        },
+        "backgroundColor": "#003366"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:28:50.632358",
+    "resume_type": "mle",
+    "index": 6,
+    "diversity_traits": {
+      "industry": "金融科技",
+      "work_style": "團隊合作",
+      "career_stage": "資深專家",
+      "project_focus": "市場區隔分析"
+    }
+  }
+}

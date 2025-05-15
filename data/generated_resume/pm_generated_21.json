@@ -1,0 +1,89 @@
+{
+  "personal_info": {
+    "gender": "男",
+    "age": 38,
+    "employment_status": "在職",
+    "email": "chen.junwei@example.com",
+    "address": "台北市信義區松仁路123號",
+    "english_name": "Junwei Chen",
+    "driver_licenses": [
+      "汽車駕照"
+    ]
+  },
+  "education": {
+    "school": "國立陽明交通大學",
+    "department": "生物資訊與生物科技學系",
+    "degree": "碩士",
+    "period": "2006 - 2008"
+  },
+  "work_experience": {
+    "total_years": "12年",
+    "jobs": [
+      {
+        "company": "新世代生技股份有限公司",
+        "industry": "生物科技",
+        "company_size": "中型企業（200-500人）",
+        "title": "高級產品經理",
+        "location": "新竹市",
+        "period": "2015 - 至今",
+        "description": [
+          "負責機器學習演算法在基因資料分析平台的優化與產品規劃，帶領跨部門團隊開發高效能資料處理模組。",
+          "運用Python、TensorFlow與PyTorch實現模型改良，提升預測準確率15%，加速資料分析流程30%。",
+          "與研發、行銷及用戶體驗團隊密切合作，推動創新解決方案，成功將新功能導入市場，提升產品競爭力。",
+          "制定產品路線圖，並結合市場分析與用戶反饋，持續優化產品功能與使用者介面。"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "data_analysis": [
+      "Python",
+      "R語言",
+      "SQL",
+      "機器學習模型評估"
+    ],
+    "specialties": [
+      "機器學習演算法優化",
+      "產品策略規劃",
+      "跨部門專案協調",
+      "生物資料分析"
+    ],
+    "data_driven_decision_making": "擅長利用數據分析結果制定產品決策，確保專案方向與市場需求一致。",
+    "collaboration": "具備豐富跨部門合作經驗，能有效整合研發與行銷資源，推動專案順利進行。"
+  },
+  "self_intro": {
+    "current_position": "現任新世代生技股份有限公司高級產品經理，專注於機器學習與生物技術的產品創新。",
+    "leadership": "具備領導跨功能團隊的經驗，善於激發團隊創新思維與凝聚共識，推動專案達成目標。"
+  },
+  "job_preferences": {
+    "job_type": "全職",
+    "working_hours": "彈性工時",
+    "availability": "一個月內可到職",
+    "expected_salary": "120萬至150萬新台幣／年",
+    "preferred_locations": [
+      "台北市",
+      "新竹市"
+    ],
+    "remote_work": "部分遠端工作可接受",
+    "desired_titles": [
+      "資深產品經理",
+      "產品總監"
+    ],
+    "preferred_categories": [
+      "生物科技",
+      "人工智慧",
+      "軟體產品管理"
+    ]
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:58:20.592134",
+    "resume_type": "pm",
+    "index": 21,
+    "diversity_traits": {
+      "industry": "生物科技",
+      "work_style": "創新思考",
+      "career_stage": "資深專家",
+      "project_focus": "機器學習演算法優化"
+    }
+  }
+}

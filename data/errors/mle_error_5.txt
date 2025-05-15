@@ -1,0 +1,585 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "profile"
+      },
+      {
+        "id": "education"
+      },
+      {
+        "id": "experience"
+      },
+      {
+        "id": "jobCondition"
+      },
+      {
+        "id": "language"
+      },
+      {
+        "id": "skill"
+      },
+      {
+        "id": "certificate"
+      },
+      {
+        "id": "portfolio"
+      },
+      {
+        "id": "bio"
+      },
+      {
+        "id": "project"
+      },
+      {
+        "id": "referrer"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職工作",
+          "value": "1"
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "日班",
+          "value": "1"
+        }
+      ],
+      "otherTimePeriod": "",
+      "workShift": "1",
+      "onBoardAfterGetOffer": {
+        "text": "一週",
+        "value": "1"
+      },
+      "customOnBoardDate": {
+        "year": "",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "錄取後",
+        "value": "1"
+      },
+      "salary": {
+        "text": "面議",
+        "value": "1"
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": "5"
+      },
+      "salaryOfHours": "",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "數據科學顧問、技術顧問、資料分析師、後端工程師、演算法工程師",
+      "preferArea": [
+        {
+          "no": 6001001000,
+          "des": "台北市"
+        },
+        {
+          "no": 6001002000,
+          "des": "新北市"
+        },
+        {
+          "no": 6001008000,
+          "des": "台中市"
+        },
+        {
+          "no": 6001014000,
+          "des": "台南市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 2007001010,
+          "des": "資料分析師"
+        },
+        {
+          "no": 2007001012,
+          "des": "演算法工程師"
+        },
+        {
+          "no": 2007001006,
+          "des": "Internet程式設計師"
+        },
+        {
+          "no": 2007001050,
+          "des": "技術顧問"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 1001001000,
+          "des": "軟體及網路相關業"
+        },
+        {
+          "no": 1002000000,
+          "des": "數位內容產業"
+        },
+        {
+          "no": 1001003000,
+          "des": "資訊服務業"
+        }
+      ],
+      "preferJobContent": "",
+      "remoteWork": {
+        "text": "對遠端工作有意願",
+        "value": "1"
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典風格",
+            "value": "1",
+            "name": "ProfileThemeClassic"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "卡片式",
+            "value": "2",
+            "name": "SkillThemeCard"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "EducationThemeList"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "ExperienceThemeList"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "JobConditionThemeList"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "LanguageThemeList"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "CertificateThemeList"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "三欄式",
+            "value": "1",
+            "name": "PortfolioTheme3Column"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "單欄式",
+            "value": "1",
+            "name": "ProjectTheme1Column"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 5023000000,
+          "name": "國立臺灣大學",
+          "departments": [
+            {
+              "name": "資訊管理學系",
+              "type": [
+                {
+                  "no": 3011017000,
+                  "des": "資訊管理相關"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2016",
+            "startMonth": {
+              "text": "9",
+              "value": 9
+            },
+            "endYear": "2020",
+            "endMonth": {
+              "text": "6",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "大學",
+            "value": "3"
+          },
+          "status": {
+            "text": "畢業",
+            "value": "1"
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 7001053000
+          }
+        },
+        {
+          "sort": 2,
+          "schoolId": 5032000000,
+          "name": "國立政治大學",
+          "departments": [
+            {
+              "name": "數位媒體設計研究所",
+              "type": [
+                {
+                  "no": 3011020000,
+                  "des": "數位媒體相關"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2020",
+            "startMonth": {
+              "text": "9",
+              "value": 9
+            },
+            "endYear": "2022",
+            "endMonth": {
+              "text": "6",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "碩士",
+            "value": "2"
+          },
+          "status": {
+            "text": "畢業",
+            "value": "1"
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 7001053000
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "3年以上",
+        "value": "3"
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "數位媒體顧問股份有限公司",
+          "custNo": "dmconsult123",
+          "invoice": 12345678,
+          "logo": "https://example.com/logo_dmconsult.png",
+          "industry": [
+            {
+              "no": 1002000000,
+              "des": "數位內容產業"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "技術顧問",
+          "workArea": [
+            {
+              "no": 6001001000,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": "1"
+          },
+          "jobCat": [
+            {
+              "no": 2007001050,
+              "des": "技術顧問"
+            }
+          ],
+          "duration": {
+            "startYear": "2022",
+            "startMonth": {
+              "text": "7",
+              "value": 7
+            },
+            "endYear": "",
+            "endMonth": []
+          },
+          "description": "● 擔任市場區隔分析專案技術顧問，協助客戶制定精準行銷策略\n● 負責數據分析模型設計與優化，提升客戶決策效率\n● 主導敏捷開發團隊，推動多次迭代優化產品功能\n● 使用Python與SQL進行資料處理與視覺化報告製作\n● 與跨部門團隊密切合作，促進專案順利進行",
+          "skill": [],
+          "salary": {
+            "monthPay": "",
+            "yearPay": "",
+            "jobParttimeType": {
+              "text": "平均月薪",
+              "value": "3"
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": true,
+          "stillWork": true,
+          "salaryVisibility": false
+        },
+        {
+          "sort": 2,
+          "companyName": "智媒科技股份有限公司",
+          "custNo": "intelli123",
+          "invoice": 87654321,
+          "logo": "https://example.com/logo_intelli.png",
+          "industry": [
+            {
+              "no": 1001001000,
+              "des": "軟體及網路相關業"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "資料分析師",
+          "workArea": [
+            {
+              "no": 6001002000,
+              "des": "新北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": "1"
+          },
+          "jobCat": [
+            {
+              "no": 2007001010,
+              "des": "資料分析師"
+            }
+          ],
+          "duration": {
+            "startYear": "2020",
+            "startMonth": {
+              "text": "8",
+              "value": 8
+            },
+            "endYear": "2022",
+            "endMonth": {
+              "text": "6",
+              "value": 6
+            }
+          },
+          "description": "● 參與多個數位媒體市場區隔分析專案，提供策略建議\n● 利用R與Python建立資料模型，提升用戶行為預測準確度\n● 協助團隊導入敏捷開發流程，縮短專案交付時間\n● 撰寫技術文件及報告，定期與客戶溝通專案進度與成果\n● 負責建立自動化資料處理流程，提升工作效率",
+          "skill": [],
+          "salary": {
+            "monthPay": "",
+            "yearPay": "",
+            "jobParttimeType": {
+              "text": "平均月薪",
+              "value": "3"
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": true,
+          "stillWork": false,
+          "salaryVisibility": false
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "卡片式",
+        "value": "2",
+        "name": "SkillThemeCard"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "程式語言",
+          "desc": "<p>熟悉的程式語言：</p><p>● Python</p><p>● R</p><p>● SQL</p><p>學習中的語言：</p><p>● JavaScript</p>",
+          "status": 1,
+          "tag": [
+            {
+              "text": "軟體程式設計",
+              "value": "11009005001"
+            }
+          ]
+        },
+        {
+          "sort": 2,
+          "name": "資料分析與機器學習",
+          "desc": "專精於資料清理、特徵工程及模型訓練：\n● Pandas、NumPy\n● Scikit-learn\n● TensorFlow\n● XGBoost\n● 資料視覺化工具如Matplotlib、Seaborn",
+          "status": 1,
+          "tag": [
+            {
+              "text": "Machine Learning",
+              "value": "11009005007"
+            }
+          ]
+        },
+        {
+          "sort": 3,
+          "name": "後端開發",
+          "desc": "具備敏捷開發經驗與API設計能力：\n● Flask\n● Django\n● RESTful API\n● Docker容器化部署\n● Git版本控制",
+          "status": 1,
+          "tag": []
+        },
+        {
+          "sort": 4,
+          "name": "資料庫管理",
+          "desc": "熟悉關聯式與非關聯式資料庫：\n● MySQL\n● PostgreSQL\n● MongoDB\n● 資料庫設計與優化",
+          "status": 1,
+          "tag": []
+        },
+        {
+          "sort": 5,
+          "name": "專案與團隊協作",
+          "desc": "<p>具備敏捷開發流程實務經驗，善於跨部門溝通協調，推動專案順利完成。</p><p>熟悉Jira、Trello專案管理工具。</p>",
+          "status": 1,
+          "tag": []
+        },
+        {
+          "sort": 6,
+          "name": "工具與平台",
+          "desc": "<p>● Linux環境操作 (Ubuntu)</p><p>● Git版本控制與協作</p><p>● AWS雲端服務基礎應用</p><p>● Jupyter Notebook</p><p>● Tableau資料視覺化</p>",
+          "status": 1,
+          "tag": [
+            {
+              "text": "Git",
+              "value": "12001002018"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 4001001005,
+          "des": "TOEIC (多益測驗)"
+        },
+        {
+          "no": 4001002001,
+          "des": "Google Data Analytics Professional Certificate"
+        }
+      ],
+      "others": "正在準備AWS Certified Solutions Architect 認證"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英文",
+            "value": "1"
+          },
+          "listening": {
+            "text": "中等",
+            "value": "8"
+          },
+          "speaking": {
+            "text": "中等",
+            "value": "8"
+          },
+          "reading": {
+            "text": "中等",
+            "value": "8"
+          },
+          "writing": {
+            "text": "中等",
+            "value": "8"
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC (多益測驗)",
+                "value": 4001001005
+              },
+              "grade": "785"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": {
+      "projects": [
+        {
+          "sort": 1,
+          "name": "數位媒體市場區隔分析平台",
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "3",
+              "value": 3
+            },
+            "endYear": "",
+            "endMonth": []
+          },
+          "isInProgress": true,
+          "introduction": "本專案聚焦於數位媒體消費者行為分析，透過資料科學技術協助客戶精準劃分市場區隔。\n- 專案角色：技術顧問\n- 使用技術：Python資料分析、機器學習模型、敏捷開發流程\n- 成果：提供多維度消費者分析報告，支援客戶行銷決策，並持續優化分析模型。",
+          "url": "",
+          "img": {
+            "pic": "1",
+            "fileId": "digital_media_segment.jpeg",
+            "src": "https://example.com/images/digital_media_segment.jpeg"
+          }
+        },
+        {
+          "sort": 2,
+          "name": "敏捷開發導入與團隊協作優化",
+          "duration": {
+            "startYear": "2022",
+            "startMonth": {
+              "text": "7",
+              "value": 7
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "2",
+              "value": 2
+            }
+          },
+          "isInProgress": false,
+          "introduction": "協助數位媒體團隊導入敏捷開發流程，包含每日站立會議、迭代規劃與回顧，提升團隊溝通效率及產品交付速度。\n- 角色：技術顧問兼敏捷教練\n- 成效：專案交付時間縮短20%，團隊成員滿意度提升。",
+          "url": "",
+          "img": {
+            "pic":

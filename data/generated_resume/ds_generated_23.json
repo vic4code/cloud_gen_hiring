@@ -1,0 +1,144 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "Chih Wei",
+      "last_name": "Chen",
+      "gender": "male",
+      "emails": [
+        "chihwei.chen@example.com"
+      ],
+      "urls": [
+        "http://www.linkedin.com/in/chihwei-chen",
+        "https://medium.com/@chihwei_chen"
+      ],
+      "phone_numbers": [
+        "0987654321"
+      ],
+      "date_of_birth": {
+        "year": 1988,
+        "month": 11,
+        "day": 5
+      },
+      "address": "台北市, 台灣",
+      "total_experience_in_years": 8,
+      "profession": "資深數據科學家",
+      "summary": "✔ 專注於數位媒體的實時數據處理，擁有超過 6 年的實務經驗\n✔ 精通 Python、R 和 SQL，熟悉大數據分析及機器學習技術\n✔ 曾負責多個成功的數據驅動專案，提升業務運營效率和決策質量\n✔ 擅長團隊合作，具備良好的跨部門溝通技巧，能有效協調各方面需求",
+      "skills": [
+        "Python",
+        "R",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "Tableau",
+        "AWS",
+        "GCP",
+        "TensorFlow",
+        "Scikit-Learn",
+        "Data Visualization",
+        "Machine Learning",
+        "ETL",
+        "Real-time Analytics",
+        "Kubernetes"
+      ],
+      "has_driving_license": true
+    },
+    "languages": [
+      {
+        "name": "Chinese",
+        "iso_code": "zh",
+        "fluency": 5
+      },
+      {
+        "name": "English",
+        "iso_code": "en",
+        "fluency": 4
+      }
+    ],
+    "educations": [
+      {
+        "start_year": 2010,
+        "end_year": 2012,
+        "is_current": false,
+        "issuing_organization": "National Taiwan University",
+        "description": "碩士學位 - 資訊管理"
+      },
+      {
+        "start_year": 2006,
+        "end_year": 2010,
+        "is_current": false,
+        "issuing_organization": "National Cheng Kung University",
+        "description": "學士學位 - 資訊工程"
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "year": 2023,
+        "issuing_organization": "Coursera",
+        "description": "深度學習專業證書"
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2021,
+          "month": 3
+        },
+        "end_date": {
+          "year": 2023,
+          "month": 8
+        },
+        "is_current": true,
+        "duration_in_months": 30,
+        "company": "數位媒體科技公司",
+        "location": "台北市, 台灣",
+        "title": "資深數據科學家",
+        "description": "負責開發和部署實時數據處理系統，支持多個業務單位的需求，促進數據驅動決策\n\n使用 Spark 和 Kafka 建構實時數據流處理框架，提升數據處理效率 50%\n設計和實施機器學習模型，優化用戶推薦系統，增加用戶留存率 30%\n協調跨部門團隊，加強數據治理，確保數據質量和一致性"
+      },
+      {
+        "start_date": {
+          "year": 2018,
+          "month": 6
+        },
+        "end_date": {
+          "year": 2021,
+          "month": 2
+        },
+        "is_current": false,
+        "duration_in_months": 32,
+        "company": "T-Media 互動媒體",
+        "location": "台北市, 台灣",
+        "title": "數據分析師",
+        "description": "建立數據分析模型，支持市場策略的決策過程，提升業務洞察力\n\n發展數據可視化工具，以 Tableau 提供即時數據報告，支持管理層決策\n分析用戶行為數據，提出改善方案，成功提高網站轉換率 20%"
+      },
+      {
+        "start_date": {
+          "year": 2016,
+          "month": 5
+        },
+        "end_date": {
+          "year": 2018,
+          "month": 5
+        },
+        "is_current": false,
+        "duration_in_months": 24,
+        "company": "資訊科技顧問公司",
+        "location": "台北市, 台灣",
+        "title": "數據工程師",
+        "description": "專注於數據候選者的數據整合和ETL任務，自動化數據處理工作流\n\n設計和建構穩定的數據管道，支持分析團隊需求，減少數據處理時間 40%\n優化資料庫架構和查詢效能，提升系統穩定性和運行效率"
+      }
+    ],
+    "awards": [],
+    "references": []
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T00:03:28.737889",
+    "resume_type": "ds",
+    "index": 23,
+    "diversity_traits": {
+      "industry": "數位媒體",
+      "work_style": "團隊合作",
+      "career_stage": "資深專家",
+      "project_focus": "實時數據處理"
+    }
+  }
+}

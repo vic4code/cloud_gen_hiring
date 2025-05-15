@@ -1,0 +1,129 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "子瑜",
+      "last_name": "李",
+      "gender": "female",
+      "emails": [
+        "ziyu.lee@example.com"
+      ],
+      "urls": [],
+      "phone_numbers": [],
+      "date_of_birth": {
+        "year": 1995,
+        "month": 5,
+        "day": 15
+      },
+      "address": "台北市大安區信義路100號",
+      "total_experience_in_years": 4,
+      "profession": "數據科學家",
+      "summary": "作為一名熱衷於醫療健康行業的數據科學家，我擁有跨領域的溝通能力，致力於通過數據分析為醫療決策提供支持。我的專業背景使我能夠在面對複雜的數據時，提出具體可行的解決方案，提升業務價值。\n具備良好的團隊合作精神，能有效與不同專業領域的同事協作，推動專案的成功落地。\n\n---\n\n專案作品\n\n市場區隔分析專案 2022/01~2022/06\n針對不同人口統計特徵進行數據分析\n利用聚類分析技術確定潛在市場區隔\n提供市場策略建議以支援業務推廣\n\n病人流量預測系統 2021/06~2021/12\n利用時間序列分析預測病人就診趨勢\n提升醫療資源分配的效率\n\n健康影響因素分析 2020/01~2020/12\n分析不同生活習慣對健康的影響\n建立回歸模型，預測健康指標\n\n醫療服務滿意度調查分析 2023/01~2023/06\n設計調查問卷，收集病人回饋\n運用文本分析技術處理開放式問題\n提供改進建議以提升醫療服務品質",
+      "skills": [
+        "統計分析",
+        "數據視覺化",
+        "Python",
+        "R",
+        "SQL",
+        "Machine Learning",
+        "Tableau",
+        "Excel",
+        "Jupyter Notebook",
+        "Django",
+        "AWS"
+      ],
+      "has_driving_license": false
+    },
+    "languages": [
+      {
+        "name": "Chinese",
+        "iso_code": "zh",
+        "fluency": 5
+      },
+      {
+        "name": "English",
+        "iso_code": "en",
+        "fluency": 4
+      }
+    ],
+    "educations": [
+      {
+        "start_year": 2013,
+        "is_current": false,
+        "end_year": 2015,
+        "issuing_organization": "國立臺灣大學 公共衛生學研究所",
+        "description": "碩士畢業"
+      },
+      {
+        "start_year": 2009,
+        "is_current": false,
+        "end_year": 2013,
+        "issuing_organization": "國立中興大學 資訊管理學系",
+        "description": "大學畢業"
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "year": 2023,
+        "issuing_organization": "Coursera",
+        "description": "Course: Data Science and Machine Learning Bootcamp with R"
+      },
+      {
+        "year": 2023,
+        "issuing_organization": "Udacity",
+        "description": "Certification: Data Analyst Nanodegree"
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2022,
+          "month": 3
+        },
+        "is_current": true,
+        "end_date": {
+          "year": 2023,
+          "month": 10
+        },
+        "duration_in_months": 19,
+        "company": "健康科技股份有限公司",
+        "location": "Taiwan",
+        "title": "數據科學家",
+        "description": "負責設計與分析病人流量預測模型\n通過使用時間序列分析技術，提高預測準確率達到90%\n開發健康影響因素的分析報告，協助醫療團隊理解病人的需求\n與醫療人員密切合作，確保數據分析結果能有效支援臨床決策\n提升醫療資源配置效率，減少病人等待時間\n\nEnhancing Patient Flow Prediction Models\n\nUtilized time-series analysis techniques, achieving a forecast accuracy of 90%.\nDeveloped analytical reports on health impact factors, aiding medical teams in understanding patient needs.\nCollaborated closely with healthcare staff to ensure data analysis results effectively support clinical decisions.\n",
+      },
+      {
+        "start_date": {
+          "year": 2020,
+          "month": 1
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2022,
+          "month": 2
+        },
+        "duration_in_months": 25,
+        "company": "醫療資訊系統股份有限公司",
+        "location": "Taiwan",
+        "title": "數據分析師",
+        "description": "進行醫療數據的深入分析與報告撰寫\n協助開發病人滿意度調查問卷，並分析結果\n利用統計分析方法，發現服務改進的潛在方向\n與各部門協作，提出具體的數據驅動改進方案\n\nConducting In-depth Analysis and Reporting of Healthcare Data\n\nAssisted in developing patient satisfaction surveys and analyzed the results.\nUtilized statistical analysis methods to identify potential directions for service improvement.\nCollaborated with various departments to propose concrete data-driven improvement plans."
+      },
+      {
+        "start_date": {
+          "year": 2016,
+          "month": 7
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2019,
+          "month": 6
+        },
+        "duration_in_months": 36,
+        "company": "醫療研究中心",
+        "location": "Taiwan",
+        "title": "研究助理",
+        "description": "協助進行各項醫療研究的數據收集與分析\n負責數據庫的建立與維護，保證資料的正確性\n參與撰寫研究報告，提供數據支援\n\nAssisting in Data Collection and Analysis for Various Medical Studies\n\nResponsible for establishing and maintaining databases to ensure data accuracy.\nParticipated in writing research reports, providing data support."
+      }
+    ],
+    "awards": [],
+    "references": []
+  }
+}

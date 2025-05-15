@@ -1,0 +1,462 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "sidebar-001"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "上午 9 點至下午 6 點",
+          "value": 1
+        }
+      ],
+      "otherTimePeriod": "無彈性工時需求",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "兩週內報到",
+        "value": 14
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年7月",
+        "value": "2024-07"
+      },
+      "salary": {
+        "text": "新台幣 80,000 元",
+        "value": 80000
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "無時薪資訊",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "策略規劃資深專家",
+      "preferArea": [
+        {
+          "no": 3,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 2,
+          "des": "全職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 12,
+          "des": "永續能源"
+        }
+      ],
+      "preferJobContent": "專注於永續能源領域的策略規劃與技術研發，推動企業數位轉型與創新專案執行",
+      "remoteWork": {
+        "text": "部分遠端工作",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典藍",
+            "value": 3,
+            "name": "ClassicBlue"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代簡潔",
+            "value": 5,
+            "name": "ModernSimple"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業風",
+            "value": 2,
+            "name": "ProfessionalStyle"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專家級",
+            "value": 4,
+            "name": "ExpertLevel"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "清晰明快",
+            "value": 1,
+            "name": "ClearAndBright"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "正式專業",
+            "value": 3,
+            "name": "FormalProfessional"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "精簡風",
+            "value": 2,
+            "name": "ConciseStyle"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "創新亮眼",
+            "value": 5,
+            "name": "InnovativeBright"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "技術導向",
+            "value": 4,
+            "name": "TechFocused"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 101,
+          "name": "國立臺灣大學",
+          "departments": [
+            {
+              "name": "電機工程學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2008",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2012",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "畢業",
+            "value": 1
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "資深專家",
+        "value": 5
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "綠能科技股份有限公司",
+          "custNo": 500123,
+          "invoice": 1,
+          "logo": "https://example.com/logos/greentech.png",
+          "industry": [
+            {
+              "no": 12,
+              "des": "永續能源"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "策略規劃經理",
+          "workArea": [
+            {
+              "no": 3,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 2,
+              "des": "策略規劃"
+            }
+          ],
+          "duration": {
+            "startYear": "2017",
+            "startMonth": {
+              "text": "三月",
+              "value": 3
+            },
+            "endYear": "2023",
+            "endMonth": []
+          },
+          "description": "負責公司長期策略規劃，主導永續能源相關技術的市場分析與發展路線設計。帶領跨部門團隊推動AI與NLP技術應用於能源管理系統，提升運營效率與預測準確度。成功規劃並執行多項專案，包含智能電網優化與能源消耗數據分析。",
+          "skill": [],
+          "salary": {
+            "monthPay": "90000",
+            "yearPay": "1080000",
+            "jobParttimeType": {
+              "text": "無兼職",
+              "value": 0
+            },
+            "jobParttimePay": "0"
+          },
+          "companyVisibility": 1,
+          "stillWork": 0,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "專業技能",
+        "value": 3,
+        "name": "ProfessionalSkills"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "自然語言處理 (NLP)",
+          "desc": "熟練運用Python及相關NLP工具（如spaCy、NLTK、Transformers）進行文本分析與模型訓練，包含情感分析與主題建模。",
+          "status": 5,
+          "tag": [
+            {
+              "text": "專家",
+              "value": "expert"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 1001,
+          "des": "PMP 專案管理專業認證"
+        }
+      ],
+      "others": "持有能源管理師證照"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英文",
+            "value": 1
+          },
+          "listening": {
+            "text": "流利",
+            "value": 5
+          },
+          "speaking": {
+            "text": "流利",
+            "value": 5
+          },
+          "reading": {
+            "text": "流利",
+            "value": 5
+          },
+          "writing": {
+            "text": "良好",
+            "value": 4
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 2
+              },
+              "grade": "900"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": {
+      "projects": [
+        {
+          "sort": 1,
+          "name": "智能能源預測系統開發",
+          "duration": {
+            "startYear": "2021",
+            "startMonth": {
+              "text": "一月",
+              "value": 1
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "isInProgress": 0,
+          "introduction": "領導團隊開發基於NLP與機器學習的能源需求預測平台，整合多源數據並利用深度學習模型提高預測準確率，成功協助公司優化能源調度策略。",
+          "url": "https://github.com/greentech/energy-prediction",
+          "img": {
+            "pic": "energy_project.png",
+            "fileId": "file_12345",
+            "src": "https://example.com/projects/energy_project.png"
+          }
+        }
+      ]
+    },
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "永續能源策略報告",
+          "attach": {
+            "name": "Sustainability_Strategy_Report.pdf",
+            "status": 1,
+            "fileId": "file_67890",
+            "url": "https://example.com/portfolio/Sustainability_Strategy_Report.pdf",
+            "src": "https://example.com/portfolio/Sustainability_Strategy_Report.pdf"
+          },
+          "attachType": {
+            "text": "PDF 文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "資深永續能源專家，具備超過10年的策略規劃與專案管理經驗，專長於將NLP及AI技術應用於能源產業，推動企業數位轉型與創新。",
+      "eng": "Senior expert in sustainable energy with over 10 years of experience in strategic planning and project management. Specialized in applying NLP and AI technologies in the energy sector to drive digital transformation and innovation."
+    },
+    "custom1": [],
+    "custom2": [],
+    "custom3": [],
+    "custom4": [],
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "profile-0001",
+      "headshotUrl": "https://example.com/images/headshot.jpg",
+      "imageUrl": "https://example.com/images/profile_bg.jpg",
+      "nickname": "綠能大師",
+      "title": {
+        "workExperience": 12,
+        "companyName": "綠能科技股份有限公司",
+        "jobName": "策略規劃經理",
+        "schoolName": "國立臺灣大學",
+        "majorName": "電機工程學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "熱衷於永續能源發展與智能技術整合，專注於策略規劃與跨領域合作，致力於推動綠色轉型並創造永續價值。",
+      "motto": "創新驅動永續，科技改變未來。",
+      "abilities": [
+        "策略規劃",
+        "專案管理",
+        "自然語言處理",
+        "機器學習"
+      ],
+      "preferJobTitle": "策略規劃資深專家",
+      "viewCount": 2560,
+      "createdAt": "2023-05-01T08:00:00Z",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 300,
+      "followedCount": 120,
+      "followed": 0,
+      "isFollowed": 1,
+      "isFollowingMe": 0,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "550e8400-e29b-41d4-a716-446655440000",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/greenenergypro",
+      "personalLink2Url": "https://github.com/greenenergypro",
+      "personalLink3Url": "https://greenenergypro.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "永續綠",
+          "value": 6,
+          "name": "SustainableGreen"
+        },
+        "backgroundColor": "#2E7D32"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:36:34.341051",
+    "resume_type": "mle",
+    "index": 17,
+    "diversity_traits": {
+      "industry": "永續能源",
+      "work_style": "策略規劃",
+      "career_stage": "資深專家",
+      "project_focus": "NLP應用"
+    }
+  }
+}

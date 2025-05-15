@@ -1,0 +1,604 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "blockchain_intern_001"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "彈性時間",
+          "value": 2
+        }
+      ],
+      "otherTimePeriod": "無特定時段限制",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "一個月內",
+        "value": 30
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "即時可上班",
+        "value": "2024-06-01"
+      },
+      "salary": {
+        "text": "面議",
+        "value": 0
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "300元/小時",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "區塊鏈實習生",
+      "preferArea": [
+        {
+          "no": 3,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 1,
+          "des": "實習"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 12,
+          "des": "區塊鏈技術"
+        }
+      ],
+      "preferJobContent": "參與區塊鏈資料管線建置，協助數據清理與處理",
+      "remoteWork": {
+        "text": "部分遠端",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業簡潔風",
+            "value": 1,
+            "name": "Professional"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代科技風",
+            "value": 2,
+            "name": "ModernTech"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "學術風格",
+            "value": 3,
+            "name": "Academic"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "清晰條列",
+            "value": 1,
+            "name": "ClearList"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "標準格式",
+            "value": 1,
+            "name": "Standard"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "語言專業",
+            "value": 2,
+            "name": "LanguagePro"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "證書展示",
+            "value": 1,
+            "name": "CertShow"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "作品集風格",
+            "value": 2,
+            "name": "PortfolioStyle"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專案導向",
+            "value": 1,
+            "name": "ProjectFocus"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 1001,
+          "name": "國立台灣大學",
+          "departments": [
+            {
+              "name": "資訊工程學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "大學部"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2021",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2025",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "在學",
+            "value": 1
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "實習生",
+        "value": 0
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "區塊鏈創新科技有限公司",
+          "custNo": "BC123456",
+          "invoice": 0,
+          "logo": "https://example.com/logo_bc_innovate.png",
+          "industry": [
+            {
+              "no": 12,
+              "des": "區塊鏈技術"
+            }
+          ],
+          "companyScale": {
+            "text": "中型企業(51-200人)",
+            "value": 2
+          },
+          "jobName": "資料管線實習工程師",
+          "workArea": [
+            {
+              "no": 3,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "實習",
+            "value": 4
+          },
+          "jobCat": [
+            {
+              "no": 5,
+              "des": "資料工程"
+            }
+          ],
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "七月",
+              "value": 7
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "十二月",
+              "value": 12
+            }
+          },
+          "description": "協助團隊建置區塊鏈資料管線，負責資料清理、格式轉換及簡易的ETL流程設計，使用Python及SQL進行數據處理，確保資料準確性與完整性。",
+          "skill": [],
+          "salary": {
+            "monthPay": "15000",
+            "yearPay": "180000",
+            "jobParttimeType": {
+              "text": "無",
+              "value": 0
+            },
+            "jobParttimePay": "0"
+          },
+          "companyVisibility": 1,
+          "stillWork": 0,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "技術精簡",
+        "value": 1,
+        "name": "TechSimple"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "Python",
+          "desc": "具備基礎資料處理及簡單自動化腳本撰寫能力",
+          "status": 1,
+          "tag": [
+            {
+              "text": "程式語言",
+              "value": "python"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 1,
+          "des": "Python程式設計初階認證"
+        }
+      ],
+      "others": "無其他證書"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英文",
+            "value": 1
+          },
+          "listening": {
+            "text": "中等",
+            "value": 3
+          },
+          "speaking": {
+            "text": "基礎",
+            "value": 2
+          },
+          "reading": {
+            "text": "中等",
+            "value": 3
+          },
+          "writing": {
+            "text": "中等",
+            "value": 3
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "多益 TOEIC",
+                "value": 101
+              },
+              "grade": "750分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": [],
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "區塊鏈資料管線建置專案",
+          "attach": {
+            "name": "資料管線報告.pdf",
+            "status": 1,
+            "fileId": "file_20230601_001",
+            "url": "https://example.com/portfolio/blockchain_pipeline_report.pdf",
+            "src": "https://example.com/portfolio/blockchain_pipeline_report.pdf"
+          },
+          "attachType": {
+            "text": "PDF文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "資訊工程系學生，熱衷於區塊鏈技術與資料處理，具備基礎Python程式能力，期望於區塊鏈產業累積實務經驗。",
+      "eng": "Computer Science student passionate about blockchain technology and data processing, with basic Python programming skills, aiming to gain practical experience in the blockchain industry."
+    },
+    "custom1": {
+      "custom": {
+        "sort": 1,
+        "name": "專題經驗",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2023",
+              "startMonth": {
+                "text": "三月",
+                "value": 3
+              },
+              "endYear": "2023",
+              "endMonth": {
+                "text": "六月",
+                "value": 6
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "參與校內區塊鏈資料管線建置專題，負責資料擷取與清洗，使用Python完成資料轉換流程。",
+            "url": "https://github.com/username/blockchain_project"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "簡約風",
+          "value": 1,
+          "name": "Simple"
+        }
+      },
+      "img": {
+        "pic": 1,
+        "fileId": "img_blockchain_proj_001",
+        "src": "https://example.com/images/blockchain_project.png"
+      },
+      "img2": {
+        "pic": 2,
+        "fileId": "img_blockchain_proj_002",
+        "src": "https://example.com/images/blockchain_project_detail.png"
+      }
+    },
+    "custom2": {
+      "custom": {
+        "sort": 2,
+        "name": "志工經驗",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2022",
+              "startMonth": {
+                "text": "七月",
+                "value": 7
+              },
+              "endYear": "2022",
+              "endMonth": {
+                "text": "十二月",
+                "value": 12
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "協助社團資料整理與活動規劃，培養組織與溝通能力。",
+            "url": ""
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "活潑風",
+          "value": 2,
+          "name": "Lively"
+        }
+      },
+      "img": {
+        "pic": 1,
+        "fileId": "img_volunteer_001",
+        "src": "https://example.com/images/volunteer.png"
+      },
+      "img2": {
+        "pic": 1,
+        "fileId": "img_volunteer_002",
+        "src": "https://example.com/images/volunteer_detail.png"
+      }
+    },
+    "custom3": {
+      "custom": {
+        "sort": 3,
+        "name": "專業證照",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2023",
+              "startMonth": {
+                "text": "五月",
+                "value": 5
+              },
+              "endYear": "2023",
+              "endMonth": {
+                "text": "五月",
+                "value": 5
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "取得Python程式設計初階認證，增強基礎程式能力。",
+            "url": ""
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "正式風",
+          "value": 3,
+          "name": "Formal"
+        }
+      },
+      "img": {
+        "pic": 0,
+        "fileId": "",
+        "src": ""
+      },
+      "img2": {
+        "pic": 0,
+        "fileId": "",
+        "src": ""
+      }
+    },
+    "custom4": {
+      "custom": {
+        "sort": 4,
+        "name": "自我提升",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2023",
+              "startMonth": {
+                "text": "一月",
+                "value": 1
+              },
+              "endYear": "2023",
+              "endMonth": {
+                "text": "四月",
+                "value": 4
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "自學區塊鏈基礎理論與應用，參加線上課程與實作。",
+            "url": "https://www.coursera.org/learn/blockchain-basics"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "學習風",
+          "value": 1,
+          "name": "Learning"
+        }
+      },
+      "img": {
+        "pic": 0,
+        "fileId": "",
+        "src": ""
+      },
+      "img2": {
+        "pic": 0,
+        "fileId": "",
+        "src": ""
+      }
+    },
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "blockchain_intern_001",
+      "headshotUrl": "https://example.com/images/headshot.jpg",
+      "imageUrl": "https://example.com/images/background.jpg",
+      "nickname": "小明",
+      "title": {
+        "workExperience": 1,
+        "companyName": "區塊鏈創新科技有限公司",
+        "jobName": "資料管線實習工程師",
+        "schoolName": "國立台灣大學",
+        "majorName": "資訊工程學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "資訊工程系學生，對區塊鏈技術充滿熱忱，喜歡精確細緻的工作內容，期望於實習中累積實務經驗。",
+      "motto": "細節決定成敗",
+      "abilities": [
+        "資料處理",
+        "Python程式設計",
+        "區塊鏈基礎"
+      ],
+      "preferJobTitle": "區塊鏈實習生",
+      "viewCount": 120,
+      "createdAt": "2023-06-01T12:00:00Z",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 10,
+      "followedCount": 5,
+      "followed": 0,
+      "isFollowed": 0,
+      "isFollowingMe": 0,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "123e4567-e89b-12d3-a456-426614174000",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/xiaoming",
+      "personalLink2Url": "https://github.com/xiaoming",
+      "personalLink3Url": "https://xiaoming.dev",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專業簡潔風",
+          "value": 1,
+          "name": "Professional"
+        },
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:43:14.871190",
+    "resume_type": "mle",
+    "index": 24,
+    "diversity_traits": {
+      "industry": "區塊鏈",
+      "work_style": "精確細緻",
+      "career_stage": "實習生",
+      "project_focus": "資料管線建置"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "personal_info": {
+    "gender": "男",
+    "age": 26,
+    "military_status": "役畢",
+    "employment_status": "在職",
+    "email": "chen.james@example.com",
+    "address": "台北市中正區忠孝西路一段100號",
+    "english_name": "James Chen",
+    "driver_licenses": [
+      "普通重型機車"
+    ]
+  },
+  "education": {
+    "school": "國立臺灣大學",
+    "department": "資訊管理學系",
+    "degree": "學士",
+    "period": "2016年9月 - 2020年6月"
+  },
+  "work_experience": {
+    "total_years": "2",
+    "jobs": [
+      {
+        "company": "雲端科技股份有限公司",
+        "industry": "雲端服務",
+        "company_size": "100-200人",
+        "title": "初階產品經理",
+        "location": "新北市板橋區",
+        "period": "2021年7月 - 2023年7月",
+        "description": [
+          "協助產品團隊進行敏捷開發流程，負責規劃與管理大數據分析平台的功能需求。",
+          "與開發與設計團隊密切合作，確保產品開發符合客戶需求及時程。",
+          "參與數據分析專案，使用JIRA進行任務追蹤及進度管理。"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "data_analysis": [
+      "SQL",
+      "Excel數據透視表",
+      "Tableau基礎視覺化"
+    ],
+    "specialties": [
+      "敏捷專案管理",
+      "需求分析與文件撰寫",
+      "跨部門溝通協調"
+    ],
+    "data_driven_decision_making": "能夠利用數據分析結果輔助決策，提升產品優化效率",
+    "collaboration": "具備良好的團隊協作能力，擅長跨團隊溝通與協調"
+  },
+  "self_intro": {
+    "current_position": "初階產品經理，專注於雲端大數據分析平台的產品規劃與管理",
+    "leadership": "曾協助帶領小組完成敏捷開發任務，促進團隊合作與任務達成",
+    "future_goal": "希望成為具備策略思維的資深產品經理，推動創新產品落地"
+  },
+  "job_preferences": {
+    "job_type": "全職",
+    "working_hours": "彈性工時",
+    "availability": "一個月內可到職",
+    "expected_salary": "60000-70000新台幣/月",
+    "preferred_locations": [
+      "台北市",
+      "新北市"
+    ],
+    "remote_work": "部分遠端",
+    "desired_titles": [
+      "產品經理",
+      "專案經理"
+    ],
+    "preferred_categories": [
+      "雲端服務",
+      "大數據分析"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "敏捷專案管理認證 (ACP)",
+      "issuer": "PMI"
+    }
+  ],
+  "metadata": {
+    "generated_date": "2025-05-15T11:58:43.041940",
+    "resume_type": "pm",
+    "index": 23,
+    "diversity_traits": {
+      "industry": "雲端服務",
+      "work_style": "敏捷開發",
+      "career_stage": "初階專業人士",
+      "project_focus": "大數據分析"
+    }
+  }
+}

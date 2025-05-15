@@ -1,0 +1,154 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "明宇",
+      "last_name": "陳",
+      "gender": "male",
+      "emails": [
+        "mingyu.chen@gmail.com"
+      ],
+      "urls": [
+        "http://www.linkedin.com/in/mingyuchen",
+        "https://portfolio.mingyu.com"
+      ],
+      "phone_numbers": [
+        "+886-912-345-678"
+      ],
+      "date_of_birth": {
+        "year": 1988,
+        "month": 5,
+        "day": 15
+      },
+      "address": "台北市大安區信義路四段88號",
+      "total_experience_in_years": 10,
+      "profession": "數據科學經理 / 專案管理專家",
+      "summary": "我是一名具有超過十年經驗的數據科學經理，專注於永續能源領域。擅長跨領域溝通並管理大型專案，尤其在自動化報告系統方面有深入的專業知識，可以有效地協調技術與業務需求。\n\n--- 中文專業摘要 ---\n具備良好的分析能力及溝通協調能力，成功主導多個自動化報告系統專案，提升業務決策效率。對於永續能源有高度關注，並積極尋求將數據驅動的解決方案應用於環境保護及資源管理。具備強大的團隊領導能力及項目執行經驗。",
+      "skills": [
+        "R",
+        "Python",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Microsoft Azure",
+        "資料庫管理",
+        "機器學習",
+        "專案管理",
+        "溝通技巧",
+        "跨領域協作",
+        "敏捷開發",
+        "報告自動化",
+        "分析思維",
+        "問題解決"
+      ],
+      "has_driving_license": true
+    },
+    "languages": [
+      {
+        "name": "中文",
+        "iso_code": "zh",
+        "fluency": 5
+      },
+      {
+        "name": "英文",
+        "iso_code": "en",
+        "fluency": 4
+      }
+    ],
+    "educations": [
+      {
+        "start_year": 2010,
+        "is_current": false,
+        "end_year": 2011,
+        "issuing_organization": "國立交通大學",
+        "description": "碩士 | 資訊管理 | 新竹市, 台灣 (2010年9月 - 2011年6月)"
+      },
+      {
+        "start_year": 2006,
+        "is_current": false,
+        "end_year": 2010,
+        "issuing_organization": "國立中興大學",
+        "description": "學士 | 電機工程 | 台中市, 台灣 (2006年9月 - 2010年6月)"
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "year": 2022,
+        "issuing_organization": "Microsoft",
+        "description": "Microsoft Certified: Azure Data Scientist Associate"
+      },
+      {
+        "year": 2021,
+        "issuing_organization": "Coursera",
+        "description": "Machine Learning by Stanford University"
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2022,
+          "month": 6
+        },
+        "is_current": true,
+        "end_date": {
+          "year": 0,
+          "month": 0
+        },
+        "duration_in_months": 12,
+        "company": "台灣能源科技股份有限公司",
+        "location": "台北, 台灣",
+        "title": "數據科學經理",
+        "description": "負責設計和推動公司內部數據自動化報告系統，透過建立能夠即時更新的數據儀表板，協助管理層快速做出決策。主導跨部門專案，整合技術團隊與業務需求，有效提升報告生成效率達60%。"
+      },
+      {
+        "start_date": {
+          "year": 2018,
+          "month": 4
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2022,
+          "month": 5
+        },
+        "duration_in_months": 49,
+        "company": "綠能數據解決方案",
+        "location": "高雄, 台灣",
+        "title": "數據分析師 / 專案負責人",
+        "description": "負責開發量化指標和數據視覺化工具，協助客戶掌握其能源使用趨勢。成功執行多項自動化報告專案，減少手動數據處理的時間，提升工作效率30%。"
+      },
+      {
+        "start_date": {
+          "year": 2015,
+          "month": 1
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2018,
+          "month": 3
+        },
+        "duration_in_months": 39,
+        "company": "世邦魏理仕",
+        "location": "台北, 台灣",
+        "title": "數據分析員",
+        "description": "分析房地產市場數據，為客戶提供投資建議。建立數據模型，進行需求預測及市場分析，並撰寫報告供高層參考。"
+      }
+    ],
+    "awards": [
+      {
+        "year": 2023,
+        "description": "最佳專案管理獎，表彰在跨部門合作中的卓越表現"
+      }
+    ],
+    "references": []
+  },
+  "metadata": {
+    "generated_date": "2025-05-14T23:58:36.720579",
+    "resume_type": "ds",
+    "index": 12,
+    "diversity_traits": {
+      "industry": "永續能源",
+      "work_style": "跨領域溝通",
+      "career_stage": "中階管理者",
+      "project_focus": "自動化報告系統"
+    }
+  }
+}

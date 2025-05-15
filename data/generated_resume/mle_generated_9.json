@@ -1,0 +1,367 @@
+{
+  "data": {
+    "item": {
+      "id": 10234,
+      "name": "金融科技電腦視覺專案分析師",
+      "description": "專注於金融科技領域的電腦視覺專案，擁有豐富的數據分析與模型優化經驗。",
+      "path": "/profiles/10234-fintech-cv-analyst",
+      "liked": 128,
+      "is_owner": 1,
+      "added_to_folder": 54,
+      "votes_total": 200,
+      "lang": "zh-TW",
+      "theme": "professional",
+      "editor_version": 3,
+      "style": "modern",
+      "style_config": {},
+      "spacing": "normal",
+      "connected_with_posts": 15,
+      "seems_spam": 0,
+      "should_confirm_external_links": 0,
+      "system_generated": 0,
+      "exported_from_profile": 0,
+      "body": "具備逾10年金融科技領域電腦視覺專案經驗，擅長運用深度學習與圖像處理技術分析金融數據，提升風險控制與市場預測的準確度。",
+      "body_json_v2": null,
+      "user": {
+        "name": "陳志明",
+        "username": "chenzhiming",
+        "id": 98765,
+        "first_name": "志明",
+        "last_name": "陳",
+        "description": "資深金融科技專家，專注電腦視覺技術於金融風險管理與數據洞察。",
+        "cover_image": {
+          "url": "https://example.com/images/cover_fintech.jpg",
+          "small": {
+            "url": "https://example.com/images/cover_fintech_small.jpg"
+          },
+          "medium": {
+            "url": "https://example.com/images/cover_fintech_medium.jpg"
+          },
+          "large": {
+            "url": "https://example.com/images/cover_fintech_large.jpg"
+          },
+          "small_3_1": {
+            "url": "https://example.com/images/cover_fintech_small_3_1.jpg"
+          },
+          "medium_3_1": {
+            "url": "https://example.com/images/cover_fintech_medium_3_1.jpg"
+          }
+        },
+        "avatar": {
+          "url": "https://example.com/avatars/chenzhiming.jpg",
+          "tiny": {
+            "url": "https://example.com/avatars/chenzhiming_tiny.jpg"
+          },
+          "small": {
+            "url": "https://example.com/avatars/chenzhiming_small.jpg"
+          },
+          "medium": {
+            "url": "https://example.com/avatars/chenzhiming_medium.jpg"
+          },
+          "large": {
+            "url": "https://example.com/avatars/chenzhiming_large.jpg"
+          },
+          "xlarge": {
+            "url": "https://example.com/avatars/chenzhiming_xlarge.jpg"
+          }
+        },
+        "avatar_tiny_url": "https://example.com/avatars/chenzhiming_tiny.jpg",
+        "avatar_small_url": "https://example.com/avatars/chenzhiming_small.jpg",
+        "avatar_medium_url": "https://example.com/avatars/chenzhiming_medium.jpg",
+        "has_phone": 1,
+        "has_email": 1,
+        "main_public_item_path": "/profiles/chenzhiming",
+        "main_signed_url_non_hidden_item_path": null,
+        "posts_count": 45,
+        "published_posts_count": 40,
+        "profile_privacy_level": "public",
+        "online_status": "active",
+        "recommendee_token": "token123456",
+        "public_recommendations_count": 12,
+        "mutual_connections_count": 30,
+        "unique_impressions_count": 5000,
+        "is_premium": 1,
+        "no_branding": 0,
+        "seems_spam": 0,
+        "desired_job_type": "全職",
+        "job_search_progress": "積極尋找",
+        "current_employment_status": "在職",
+        "is_freelancer": "否",
+        "work_experience": "10年以上金融科技及電腦視覺相關工作經驗，主導多項大型專案。",
+        "relevant_work_experience": "深度學習模型構建、影像數據分析及金融市場風險評估。",
+        "desired_position": "資深數據科學家",
+        "role": "分析師/專家",
+        "languages": [
+          "中文",
+          "英文"
+        ],
+        "remote": "可遠端工作",
+        "country": "台灣",
+        "city": null,
+        "city_name": null,
+        "city_name_en": null,
+        "google_place_id": "ChIJLfySpTOuEmsRsc_JfJtljdc",
+        "google_place_name": "台北市",
+        "google_place_name_en": "Taipei",
+        "google_place_country_name_en": "Taiwan",
+        "google_place_region_name_en": "Taiwan",
+        "desired_location_google_place_ids": [
+          "ChIJLfySpTOuEmsRsc_JfJtljdc"
+        ],
+        "desired_location_names": [
+          "台北市"
+        ],
+        "desired_location_names_en": [
+          "Taipei"
+        ],
+        "desired_location_country_names_en": [
+          "Taiwan"
+        ],
+        "desired_location_region_names_en": [
+          null
+        ],
+        "cr_location": {
+          "id": "TW-TP",
+          "full_name": "台灣台北市",
+          "country": "台灣",
+          "admin_level_1": "台北市",
+          "locale": "zh-TW"
+        },
+        "cr_desired_locations": [
+          {
+            "id": "TW-TP",
+            "full_name": "台灣台北市",
+            "country": "台灣",
+            "admin_level_1": null,
+            "locale": "zh-TW"
+          }
+        ],
+        "eligible_work_locations": [],
+        "graduated_from_school": "國立臺灣大學",
+        "graduated_from_field": "資訊工程學系",
+        "skill_list": [
+          "Python",
+          "TensorFlow",
+          "OpenCV",
+          "金融數據分析",
+          "深度學習"
+        ],
+        "professions": [
+          "數據科學家",
+          "機器學習工程師"
+        ],
+        "industries": [
+          "金融科技",
+          "人工智慧"
+        ],
+        "headline": "金融科技領域資深電腦視覺專家，擅長深度學習與數據分析",
+        "number_of_management": "5",
+        "education_level": "碩士",
+        "last_seen_at_days_ago_level": 1,
+        "network_profile": {
+          "id": "net12345",
+          "avatar": {
+            "url": "https://example.com/network/avatars/chenzhiming.jpg",
+            "tiny": {
+              "url": "https://example.com/network/avatars/chenzhiming_tiny.jpg"
+            },
+            "small": {
+              "url": "https://example.com/network/avatars/chenzhiming_small.jpg"
+            },
+            "medium": {
+              "url": "https://example.com/network/avatars/chenzhiming_medium.jpg"
+            },
+            "large": {
+              "url": "https://example.com/network/avatars/chenzhiming_large.jpg"
+            },
+            "xlarge": {
+              "url": "https://example.com/network/avatars/chenzhiming_xlarge.jpg"
+            }
+          },
+          "status": "活躍",
+          "description": "專注於金融科技領域的深度學習與電腦視覺技術應用。",
+          "identity_types": [
+            "專業人士"
+          ],
+          "topics_to_learn": [
+            "強化學習",
+            "生成對抗網絡"
+          ],
+          "topics_to_share": [
+            "金融風險模型",
+            "電腦視覺最佳實踐"
+          ],
+          "tags": [],
+          "badges": [],
+          "suspended": 0,
+          "user": {
+            "name": "陳志明",
+            "username": "chenzhiming",
+            "first_name": "志明",
+            "last_name": "陳",
+            "description": "金融科技專家，專長深度學習與金融應用。",
+            "cover_image": {
+              "url": "https://example.com/images/cover_fintech.jpg",
+              "small": {
+                "url": "https://example.com/images/cover_fintech_small.jpg"
+              },
+              "medium": {
+                "url": "https://example.com/images/cover_fintech_medium.jpg"
+              },
+              "large": {
+                "url": "https://example.com/images/cover_fintech_large.jpg"
+              },
+              "small_3_1": {
+                "url": "https://example.com/images/cover_fintech_small_3_1.jpg"
+              },
+              "medium_3_1": {
+                "url": "https://example.com/images/cover_fintech_medium_3_1.jpg"
+              }
+            },
+            "avatar": {
+              "url": "https://example.com/avatars/chenzhiming.jpg",
+              "tiny": {
+                "url": "https://example.com/avatars/chenzhiming_tiny.jpg"
+              },
+              "small": {
+                "url": "https://example.com/avatars/chenzhiming_small.jpg"
+              },
+              "medium": {
+                "url": "https://example.com/avatars/chenzhiming_medium.jpg"
+              },
+              "large": {
+                "url": "https://example.com/avatars/chenzhiming_large.jpg"
+              },
+              "xlarge": {
+                "url": "https://example.com/avatars/chenzhiming_xlarge.jpg"
+              }
+            },
+            "avatar_tiny_url": "https://example.com/avatars/chenzhiming_tiny.jpg",
+            "avatar_small_url": "https://example.com/avatars/chenzhiming_small.jpg",
+            "avatar_medium_url": "https://example.com/avatars/chenzhiming_medium.jpg",
+            "profile_privacy_level": "public",
+            "online_status": "active",
+            "current_job_title": "資深機器學習工程師",
+            "current_company": "智融金融科技有限公司",
+            "headline": "金融科技專家，專注於電腦視覺與深度學習",
+            "is_premium": 1,
+            "status": "正常"
+          },
+          "review_application": {
+            "precedence": 1,
+            "status": "approved",
+            "reject_reason": null,
+            "reject_details": null
+          }
+        },
+        "most_recent_work_experience": {
+          "title": "資深機器學習工程師",
+          "currently_work_here": 1,
+          "from_year": 2018,
+          "from_month": 6,
+          "end_year": null,
+          "end_month": null,
+          "organization": {
+            "name": "智融金融科技有限公司",
+            "id": 3456,
+            "logo": {
+              "url": "https://example.com/logos/zhirong_fintech.png",
+              "tiny": {
+                "url": "https://example.com/logos/zhirong_fintech_tiny.png"
+              },
+              "thumb": {
+                "url": "https://example.com/logos/zhirong_fintech_thumb.png"
+              },
+              "medium": {
+                "url": "https://example.com/logos/zhirong_fintech_medium.png"
+              },
+              "large": null,
+              "og_image": {
+                "url": null
+              }
+            }
+          }
+        },
+        "most_recent_education": {
+          "degree_type": "碩士",
+          "majors": [
+            "資訊工程"
+          ],
+          "from_year": 2012,
+          "end_year": 2014,
+          "organization": {
+            "name": "國立臺灣大學",
+            "id": 1122,
+            "logo": {
+              "url": "https://example.com/logos/ntu.png",
+              "tiny": {
+                "url": "https://example.com/logos/ntu_tiny.png"
+              },
+              "thumb": {
+                "url": "https://example.com/logos/ntu_thumb.png"
+              },
+              "medium": {
+                "url": "https://example.com/logos/ntu_medium.png"
+              },
+              "large": null,
+              "og_image": {
+                "url": null
+              }
+            }
+          }
+        }
+      },
+      "use_signed_url": 0,
+      "no_branding": 0,
+      "privacy_level": 1,
+      "signed_or_not_item_url": "https://example.com/profiles/10234-fintech-cv-analyst",
+      "metadata": {
+        "images": [
+          {
+            "src": "https://example.com/images/fintech_cv_project.jpg",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      },
+      "ga_tracking_code": null,
+      "has_permission_ga": 1,
+      "draft_update_count": 2
+    },
+    "meta_tags": {
+      "title": "陳志明 - 金融科技電腦視覺專案分析師",
+      "description": "資深金融科技專家，專注於電腦視覺與深度學習技術，提升金融風險管理效能。",
+      "canonical": "https://example.com/profiles/10234-fintech-cv-analyst",
+      "og": {
+        "type": "profile",
+        "image": "https://example.com/images/fintech_cv_project.jpg"
+      },
+      "nofollow": 0,
+      "noindex": 0,
+      "amphtml": "https://example.com/profiles/10234-fintech-cv-analyst/amp"
+    },
+    "structured_data_sets": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "陳志明",
+        "image": "https://example.com/avatars/chenzhiming_medium.jpg",
+        "description": "資深金融科技電腦視覺專家，擁有多項大型專案實績。",
+        "url": "https://example.com/profiles/chenzhiming",
+        "jobTitle": "資深數據科學家",
+        "sameAs": "https://linkedin.com/in/chenzhiming"
+      }
+    ]
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:31:29.000658",
+    "resume_type": "mle",
+    "index": 9,
+    "diversity_traits": {
+      "industry": "金融科技",
+      "work_style": "分析洞察",
+      "career_stage": "資深專家",
+      "project_focus": "電腦視覺專案"
+    }
+  }
+}

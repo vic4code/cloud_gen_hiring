@@ -1,0 +1,93 @@
+{
+  "name": "李志豪",
+  "title": "數據科學專家",
+  "company": "商業智能解決方案有限公司",
+  "location": "台北市, 台灣",
+  "about_chinese": "您好，我是志豪！擁有超過五年的數據分析經驗，專注於電子商務領域。我畢業於國立中山大學資訊管理碩士，擅長於建立自動化報告系統，幫助企業提高運營效率。熱愛探索數據中的潛在價值，並希望以我的專業技能助力企業做出更明智的決策！",
+  "about_english": "Hello, I'm Chih-Hao! With over five years of data analysis experience focused on e-commerce, I graduated with a Master’s Degree in Information Management from National Sun Yat-sen University. I specialize in developing automated reporting systems to enhance operational efficiency. Passionate about uncovering the hidden value in data, I aim to leverage my expertise to help businesses make informed decisions!",
+  "techniques": [
+    "自動化報告系統 (Automated Reporting Systems)",
+    "數據挖掘 (Data Mining)",
+    "機器學習 (Machine Learning)",
+    "探索性資料分析 (Exploratory Data Analysis, EDA)",
+    "統計推論 (Statistical Inference)"
+  ],
+  "tools": [
+    "Python",
+    "R",
+    "SQL",
+    "Tableau",
+    "Google Data Studio",
+    "Excel",
+    "Power BI"
+  ],
+  "links_text": "GitHub and LinkedIn (具體的連結未直接可用)",
+  "skills": [
+    "數據分析",
+    "自動化解決方案",
+    "問題解決",
+    "創意思維",
+    "有效溝通"
+  ],
+  "work_experience": [
+    {
+      "role": "高級數據科學專家",
+      "company": "商業智能解決方案有限公司",
+      "duration": "2022/05~至今",
+      "details": [
+        "設計並實施了一個自動化報告系統，將每月報告生成時間縮短了50%，提升了內部溝通效率。",
+        "使用 Python 和 SQL 對 500K+ 的電子商務交易數據進行了深入分析，識別出影響銷售的關鍵因素。",
+        "開發數據可視化儀表板，幫助高管團隊即時查看 KPI 數據，迅速做出業務決策。"
+      ],
+      "tags": [
+        "#數據科學",
+        "#自動化報告系統",
+        "#數據可視化",
+        "#業務洞察",
+        "#電子商務"
+      ]
+    },
+    {
+      "role": "數據分析師",
+      "company": "數據驅動科技股份有限公司",
+      "duration": "2019/06~2022/05",
+      "details": [
+        "負責開展消費者行為分析，運用探索性資料分析技術，提供可行建議以助力營銷策略。",
+        "優化了報告生成流程，使得每周報告的生成時間由72小時減少至24小時，顯著提升了工作效率。",
+        "進行市場趨勢分析，幫助團隊制定相應的產品策略，促進銷售增長。"
+      ],
+      "tags": [
+        "#數據分析",
+        "#市場趨勢",
+        "#流程優化",
+        "#數據挖掘",
+        "#消費者行為"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "國立中山大學",
+      "degree": "碩士學位",
+      "field": "資訊管理",
+      "duration": "2017/09~2019/06"
+    },
+    {
+      "institution": "國立中正大學",
+      "degree": "學士學位",
+      "field": "資訊工程",
+      "duration": "2013/09~2017/06"
+    }
+  ],
+  "metadata": {
+    "generated_date": "2025-05-14T23:54:28.704611",
+    "resume_type": "ds",
+    "index": 2,
+    "diversity_traits": {
+      "industry": "電子商務",
+      "work_style": "獨立解決問題",
+      "career_stage": "領域專家",
+      "project_focus": "自動化報告系統"
+    }
+  }
+}

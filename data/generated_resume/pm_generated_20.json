@@ -1,0 +1,95 @@
+{
+  "personal_info": {
+    "gender": "男性",
+    "age": 38,
+    "military_status": "已服役",
+    "employment_status": "在職",
+    "email": "leo.chang@example.com",
+    "address": "台北市信義區松仁路100號",
+    "english_name": "Leo Chang",
+    "driver_licenses": [
+      "普通重型機車駕照"
+    ]
+  },
+  "education": {
+    "school": "國立台灣大學",
+    "department": "資訊管理學系",
+    "degree": "碩士",
+    "period": "2006 - 2008"
+  },
+  "work_experience": {
+    "total_years": "12",
+    "jobs": [
+      {
+        "company": "區塊鏈數據科技股份有限公司",
+        "industry": "區塊鏈技術",
+        "company_size": "中型企業(100-300人)",
+        "title": "產品經理部門主管",
+        "location": "台北市",
+        "period": "2017 - 2023",
+        "description": [
+          "領導跨部門團隊開發區塊鏈應用中的推薦系統，提升用戶精準匹配率達25%。",
+          "負責產品路線規劃與快速迭代，結合市場需求與技術可行性，縮短產品從設計到上線的周期30%。",
+          "導入敏捷開發流程，推動每兩週發布版本，確保專案按時交付並持續優化。",
+          "協調資料科學家與工程團隊，整合Python、TensorFlow與區塊鏈智能合約技術，實現去中心化推薦演算法。"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "data_analysis": [
+      "Python數據分析",
+      "SQL查詢優化",
+      "TensorFlow模型評估"
+    ],
+    "specialties": [
+      "區塊鏈應用產品管理",
+      "推薦系統設計與優化",
+      "敏捷開發流程管理"
+    ],
+    "data_driven_decision_making": "擅長透過數據分析指標制定產品策略，提升用戶參與度與留存率。",
+    "collaboration": "善於跨部門溝通協調，推動團隊快速達成共識與目標。"
+  },
+  "self_intro": {
+    "current_position": "區塊鏈數據科技產品經理部門主管",
+    "leadership": "具備帶領多個跨領域團隊的經驗，能有效激勵團隊成員並提升整體執行力。",
+    "future_goal": "希望在區塊鏈領域持續深耕，帶領團隊打造更多具突破性的產品，推動產業創新。"
+  },
+  "job_preferences": {
+    "job_type": "全職",
+    "working_hours": "彈性工時",
+    "availability": "一個月內可到職",
+    "expected_salary": "新台幣150,000元/月以上",
+    "preferred_locations": [
+      "台北市",
+      "新北市"
+    ],
+    "remote_work": "部分遠端工作可接受",
+    "desired_titles": [
+      "產品經理主管",
+      "高級產品經理"
+    ],
+    "preferred_categories": [
+      "區塊鏈技術",
+      "金融科技",
+      "大數據分析"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "敏捷專案管理認證 (PMI-ACP)",
+      "issuer": "Project Management Institute"
+    }
+  ],
+  "metadata": {
+    "generated_date": "2025-05-15T11:58:03.035812",
+    "resume_type": "pm",
+    "index": 20,
+    "diversity_traits": {
+      "industry": "區塊鏈",
+      "work_style": "快速執行",
+      "career_stage": "部門主管",
+      "project_focus": "推薦系統"
+    }
+  }
+}

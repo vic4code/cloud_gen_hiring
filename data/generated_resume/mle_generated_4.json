@@ -1,0 +1,367 @@
+{
+  "data": {
+    "item": {
+      "id": 1024,
+      "name": "技術顧問 - 客戶行為分析專案",
+      "description": "專注於教育科技領域的客戶行為分析，運用批判性思維優化產品策略。",
+      "path": "/profiles/tech-consultant-edu-tech",
+      "liked": 58,
+      "is_owner": 1,
+      "added_to_folder": 12,
+      "votes_total": 45,
+      "lang": "zh-TW",
+      "theme": "professional",
+      "editor_version": 3,
+      "style": "modern",
+      "style_config": {},
+      "spacing": "normal",
+      "connected_with_posts": 5,
+      "seems_spam": 0,
+      "should_confirm_external_links": 0,
+      "system_generated": 0,
+      "exported_from_profile": 0,
+      "body": "具備超過五年教育科技領域的技術顧問經驗，擅長運用數據分析與行為洞察提升客戶滿意度與使用率。曾帶領跨部門團隊完成多項大數據專案，成功協助客戶優化產品功能與用戶體驗。",
+      "body_json_v2": null,
+      "user": {
+        "name": "陳柏宇",
+        "username": "bryan_chen",
+        "id": 5897,
+        "first_name": "柏宇",
+        "last_name": "陳",
+        "description": "教育科技領域的資深技術顧問，專長於客戶行為分析與數據驅動策略制定。",
+        "cover_image": {
+          "url": "https://example.com/images/cover/edu-tech-banner.jpg",
+          "small": {
+            "url": "https://example.com/images/cover/edu-tech-banner-small.jpg"
+          },
+          "medium": {
+            "url": "https://example.com/images/cover/edu-tech-banner-medium.jpg"
+          },
+          "large": {
+            "url": "https://example.com/images/cover/edu-tech-banner-large.jpg"
+          },
+          "small_3_1": {
+            "url": "https://example.com/images/cover/edu-tech-banner-small-3-1.jpg"
+          },
+          "medium_3_1": {
+            "url": "https://example.com/images/cover/edu-tech-banner-medium-3-1.jpg"
+          }
+        },
+        "avatar": {
+          "url": "https://example.com/avatars/bryan_chen.jpg",
+          "tiny": {
+            "url": "https://example.com/avatars/tiny/bryan_chen.jpg"
+          },
+          "small": {
+            "url": "https://example.com/avatars/small/bryan_chen.jpg"
+          },
+          "medium": {
+            "url": "https://example.com/avatars/medium/bryan_chen.jpg"
+          },
+          "large": {
+            "url": "https://example.com/avatars/large/bryan_chen.jpg"
+          },
+          "xlarge": {
+            "url": "https://example.com/avatars/xlarge/bryan_chen.jpg"
+          }
+        },
+        "avatar_tiny_url": "https://example.com/avatars/tiny/bryan_chen.jpg",
+        "avatar_small_url": "https://example.com/avatars/small/bryan_chen.jpg",
+        "avatar_medium_url": "https://example.com/avatars/medium/bryan_chen.jpg",
+        "has_phone": 1,
+        "has_email": 1,
+        "main_public_item_path": "/profiles/bryan_chen",
+        "main_signed_url_non_hidden_item_path": null,
+        "posts_count": 34,
+        "published_posts_count": 28,
+        "profile_privacy_level": "public",
+        "online_status": "active",
+        "recommendee_token": "rec12345token",
+        "public_recommendations_count": 15,
+        "mutual_connections_count": 8,
+        "unique_impressions_count": 1200,
+        "is_premium": 0,
+        "no_branding": 0,
+        "seems_spam": 0,
+        "desired_job_type": "全職",
+        "job_search_progress": "積極尋找",
+        "current_employment_status": "在職",
+        "is_freelancer": "否",
+        "work_experience": "五年以上教育科技行業技術顧問經驗，專注於數據分析與策略建議。",
+        "relevant_work_experience": "客戶行為數據分析、跨部門專案管理、教育產品優化。",
+        "desired_position": "資深技術顧問",
+        "role": "技術顧問",
+        "languages": [
+          "中文",
+          "英文"
+        ],
+        "remote": "可遠端工作",
+        "country": "台灣",
+        "city": null,
+        "city_name": null,
+        "city_name_en": null,
+        "google_place_id": "ChIJN1t_tDeuEmsRUsoyG83frY4",
+        "google_place_name": "台北市",
+        "google_place_name_en": "Taipei",
+        "google_place_country_name_en": "Taiwan",
+        "google_place_region_name_en": "Taipei City",
+        "desired_location_google_place_ids": [
+          "ChIJa147K9HX3jARx2fTGq_1qjQ"
+        ],
+        "desired_location_names": [
+          "新竹"
+        ],
+        "desired_location_names_en": [
+          "Hsinchu"
+        ],
+        "desired_location_country_names_en": [
+          "Taiwan"
+        ],
+        "desired_location_region_names_en": [
+          null
+        ],
+        "cr_location": {
+          "id": "TW-TP",
+          "full_name": "台灣台北市",
+          "country": "台灣",
+          "admin_level_1": "台北市",
+          "locale": "zh-TW"
+        },
+        "cr_desired_locations": [
+          {
+            "id": "TW-HC",
+            "full_name": "台灣新竹市",
+            "country": "台灣",
+            "admin_level_1": null,
+            "locale": "zh-TW"
+          }
+        ],
+        "eligible_work_locations": [],
+        "graduated_from_school": "國立台灣大學",
+        "graduated_from_field": "資訊管理",
+        "skill_list": [
+          "Python",
+          "SQL",
+          "數據分析",
+          "教育科技",
+          "專案管理"
+        ],
+        "professions": [
+          "技術顧問",
+          "數據分析師"
+        ],
+        "industries": [
+          "教育科技",
+          "資訊服務"
+        ],
+        "headline": "教育科技領域技術顧問，專精客戶行為數據分析與策略規劃",
+        "number_of_management": "3",
+        "education_level": "大學本科",
+        "last_seen_at_days_ago_level": 2,
+        "network_profile": {
+          "id": "net_5897",
+          "avatar": {
+            "url": "https://example.com/network/avatars/bryan_chen.jpg",
+            "tiny": {
+              "url": "https://example.com/network/avatars/tiny/bryan_chen.jpg"
+            },
+            "small": {
+              "url": "https://example.com/network/avatars/small/bryan_chen.jpg"
+            },
+            "medium": {
+              "url": "https://example.com/network/avatars/medium/bryan_chen.jpg"
+            },
+            "large": {
+              "url": "https://example.com/network/avatars/large/bryan_chen.jpg"
+            },
+            "xlarge": {
+              "url": "https://example.com/network/avatars/xlarge/bryan_chen.jpg"
+            }
+          },
+          "status": "活躍會員",
+          "description": "專注教育科技與數據分析的技術專家，熱衷分享行業見解。",
+          "identity_types": [
+            "技術顧問"
+          ],
+          "topics_to_learn": [
+            "機器學習",
+            "用戶行為模型"
+          ],
+          "topics_to_share": [
+            "教育科技趨勢",
+            "數據分析實務"
+          ],
+          "tags": [],
+          "badges": [],
+          "suspended": 0,
+          "user": {
+            "name": "陳柏宇",
+            "username": "bryan_chen",
+            "first_name": "柏宇",
+            "last_name": "陳",
+            "description": "教育科技領域技術顧問，專注數據驅動決策。",
+            "cover_image": {
+              "url": "https://example.com/images/cover/edu-tech-banner.jpg",
+              "small": {
+                "url": "https://example.com/images/cover/edu-tech-banner-small.jpg"
+              },
+              "medium": {
+                "url": "https://example.com/images/cover/edu-tech-banner-medium.jpg"
+              },
+              "large": {
+                "url": "https://example.com/images/cover/edu-tech-banner-large.jpg"
+              },
+              "small_3_1": {
+                "url": "https://example.com/images/cover/edu-tech-banner-small-3-1.jpg"
+              },
+              "medium_3_1": {
+                "url": "https://example.com/images/cover/edu-tech-banner-medium-3-1.jpg"
+              }
+            },
+            "avatar": {
+              "url": "https://example.com/avatars/bryan_chen.jpg",
+              "tiny": {
+                "url": "https://example.com/avatars/tiny/bryan_chen.jpg"
+              },
+              "small": {
+                "url": "https://example.com/avatars/small/bryan_chen.jpg"
+              },
+              "medium": {
+                "url": "https://example.com/avatars/medium/bryan_chen.jpg"
+              },
+              "large": {
+                "url": "https://example.com/avatars/large/bryan_chen.jpg"
+              },
+              "xlarge": {
+                "url": "https://example.com/avatars/xlarge/bryan_chen.jpg"
+              }
+            },
+            "avatar_tiny_url": "https://example.com/avatars/tiny/bryan_chen.jpg",
+            "avatar_small_url": "https://example.com/avatars/small/bryan_chen.jpg",
+            "avatar_medium_url": "https://example.com/avatars/medium/bryan_chen.jpg",
+            "profile_privacy_level": "public",
+            "online_status": "active",
+            "current_job_title": "技術顧問",
+            "current_company": "教育科技有限公司",
+            "headline": "教育科技技術顧問，專長數據分析與產品優化",
+            "is_premium": 0,
+            "status": "活躍"
+          },
+          "review_application": {
+            "precedence": 1,
+            "status": "通過",
+            "reject_reason": null,
+            "reject_details": null
+          }
+        },
+        "most_recent_work_experience": {
+          "title": "技術顧問",
+          "currently_work_here": 1,
+          "from_year": 2019,
+          "from_month": 6,
+          "end_year": null,
+          "end_month": null,
+          "organization": {
+            "name": "教育科技有限公司",
+            "id": 301,
+            "logo": {
+              "url": "https://example.com/logos/edu-tech-co.jpg",
+              "tiny": {
+                "url": "https://example.com/logos/tiny/edu-tech-co.jpg"
+              },
+              "thumb": {
+                "url": "https://example.com/logos/thumb/edu-tech-co.jpg"
+              },
+              "medium": {
+                "url": "https://example.com/logos/medium/edu-tech-co.jpg"
+              },
+              "large": null,
+              "og_image": {
+                "url": null
+              }
+            }
+          }
+        },
+        "most_recent_education": {
+          "degree_type": "學士",
+          "majors": [
+            "資訊管理"
+          ],
+          "from_year": 2012,
+          "end_year": 2016,
+          "organization": {
+            "name": "國立台灣大學",
+            "id": 102,
+            "logo": {
+              "url": "https://example.com/logos/ntu.jpg",
+              "tiny": {
+                "url": "https://example.com/logos/tiny/ntu.jpg"
+              },
+              "thumb": {
+                "url": "https://example.com/logos/thumb/ntu.jpg"
+              },
+              "medium": {
+                "url": "https://example.com/logos/medium/ntu.jpg"
+              },
+              "large": null,
+              "og_image": {
+                "url": null
+              }
+            }
+          }
+        }
+      },
+      "use_signed_url": 0,
+      "no_branding": 0,
+      "privacy_level": 1,
+      "signed_or_not_item_url": "https://example.com/profiles/bryan_chen",
+      "metadata": {
+        "images": [
+          {
+            "src": "https://example.com/images/profile/cover.jpg",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      },
+      "ga_tracking_code": null,
+      "has_permission_ga": 1,
+      "draft_update_count": 3
+    },
+    "meta_tags": {
+      "title": "陳柏宇的技術顧問履歷 - 教育科技",
+      "description": "陳柏宇，教育科技領域技術顧問，擅長客戶行為分析與策略規劃，擁有五年以上專業經驗。",
+      "canonical": "https://example.com/profiles/bryan_chen",
+      "og": {
+        "type": "profile",
+        "image": "https://example.com/images/profile/cover.jpg"
+      },
+      "nofollow": 0,
+      "noindex": 0,
+      "amphtml": "https://example.com/profiles/bryan_chen/amp"
+    },
+    "structured_data_sets": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "陳柏宇",
+        "image": "https://example.com/avatars/medium/bryan_chen.jpg",
+        "description": "教育科技技術顧問，專注客戶行為分析與數據驅動決策。",
+        "url": "https://example.com/profiles/bryan_chen",
+        "jobTitle": "技術顧問",
+        "sameAs": "https://linkedin.com/in/bryan_chen"
+      }
+    ]
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:27:10.174380",
+    "resume_type": "mle",
+    "index": 4,
+    "diversity_traits": {
+      "industry": "教育科技",
+      "work_style": "批判性思維",
+      "career_stage": "技術顧問",
+      "project_focus": "客戶行為分析"
+    }
+  }
+}

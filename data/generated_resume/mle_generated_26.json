@@ -1,0 +1,604 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "sidebar_ecommerce_tech_consultant_001"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "長期",
+          "value": 12
+        }
+      ],
+      "otherTimePeriod": "無特定其他時間",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "一個月內",
+        "value": 30
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年7月",
+        "value": "2024-07"
+      },
+      "salary": {
+        "text": "面議",
+        "value": 0
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "無時薪",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "技術顧問",
+      "preferArea": [
+        {
+          "no": 101,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 2,
+          "des": "技術顧問"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 15,
+          "des": "電子商務"
+        }
+      ],
+      "preferJobContent": "專注於電子商務平台的實時數據處理與客戶需求分析，提供技術方案與系統優化建議。",
+      "remoteWork": {
+        "text": "部分遠端",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業簡潔",
+            "value": 3,
+            "name": "pro_clean"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "技術展示",
+            "value": 2,
+            "name": "tech_showcase"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "學歷重點",
+            "value": 1,
+            "name": "education_focus"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經驗詳述",
+            "value": 4,
+            "name": "experience_detail"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "條件清晰",
+            "value": 2,
+            "name": "condition_clear"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "語言能力",
+            "value": 1,
+            "name": "language_skill"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "證照展示",
+            "value": 1,
+            "name": "certificate_display"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "作品展示",
+            "value": 3,
+            "name": "portfolio_show"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專案詳述",
+            "value": 4,
+            "name": "project_detail"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 501,
+          "name": "國立台灣大學",
+          "departments": [
+            {
+              "name": "資訊工程學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2012",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2016",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "畢業",
+            "value": 2
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "5年以上",
+        "value": 5
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "智達電子商務股份有限公司",
+          "custNo": "CUST123456",
+          "invoice": 2001,
+          "logo": "https://example.com/logo/zhida.png",
+          "industry": [
+            {
+              "no": 15,
+              "des": "電子商務"
+            }
+          ],
+          "companyScale": {
+            "text": "中型企業(100-500人)",
+            "value": 3
+          },
+          "jobName": "技術顧問",
+          "workArea": [
+            {
+              "no": 101,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 2,
+              "des": "技術顧問"
+            }
+          ],
+          "duration": {
+            "startYear": "2018",
+            "startMonth": {
+              "text": "七月",
+              "value": 7
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "description": "負責電子商務平台的實時數據處理架構設計與優化，協助客戶分析需求並制定技術解決方案。導入Apache Kafka與Spark Streaming提升數據處理效率，並優化系統回應時間達30%。",
+          "skill": [],
+          "salary": {
+            "monthPay": "70000",
+            "yearPay": "840000",
+            "jobParttimeType": {
+              "text": "無兼職",
+              "value": 0
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": 1,
+          "stillWork": 0,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "技術專長",
+        "value": 2,
+        "name": "skill_focus"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "實時數據處理",
+          "desc": "熟悉Apache Kafka、Spark Streaming與Flink，具備高效數據流處理與系統優化經驗。",
+          "status": 2,
+          "tag": [
+            {
+              "text": "數據流",
+              "value": "stream_processing"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 1001,
+          "des": "Apache Kafka Developer 認證"
+        }
+      ],
+      "others": "持有AWS Certified Solutions Architect - Associate"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英語",
+            "value": 1
+          },
+          "listening": {
+            "text": "流利",
+            "value": 4
+          },
+          "speaking": {
+            "text": "流利",
+            "value": 4
+          },
+          "reading": {
+            "text": "流利",
+            "value": 4
+          },
+          "writing": {
+            "text": "良好",
+            "value": 3
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 101
+              },
+              "grade": "900分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": [],
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "電子商務實時數據監控系統",
+          "attach": {
+            "name": "監控系統說明文件.pdf",
+            "status": 1,
+            "fileId": "file_ecomm_001",
+            "url": "https://example.com/portfolio/ecomm_monitor.pdf",
+            "src": "https://example.com/portfolio/ecomm_monitor_thumbnail.png"
+          },
+          "attachType": {
+            "text": "PDF文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "專注於電子商務領域的技術顧問，擅長實時數據處理與系統優化，具備五年以上相關經驗，致力於幫助客戶提升平台效能。",
+      "eng": "A technical consultant specialized in e-commerce with expertise in real-time data processing and system optimization, possessing over five years of relevant experience."
+    },
+    "custom1": {
+      "custom": {
+        "sort": 1,
+        "name": "專業培訓",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2020",
+              "startMonth": {
+                "text": "三月",
+                "value": 3
+              },
+              "endYear": "2020",
+              "endMonth": {
+                "text": "六月",
+                "value": 6
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "完成Apache Kafka高級應用培訓，強化數據流架構設計能力。",
+            "url": "https://training.example.com/kafka-advanced"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "培訓項目",
+          "value": 1,
+          "name": "training"
+        }
+      },
+      "img": {
+        "pic": 1,
+        "fileId": "training_cert_001",
+        "src": "https://example.com/certs/kafka_advanced.png"
+      },
+      "img2": {
+        "pic": 0,
+        "fileId": "",
+        "src": ""
+      }
+    },
+    "custom2": {
+      "custom": {
+        "sort": 2,
+        "name": "專業講座",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2021",
+              "startMonth": {
+                "text": "十一月",
+                "value": 11
+              },
+              "endYear": "2021",
+              "endMonth": {
+                "text": "十一月",
+                "value": 11
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "主講電子商務平台的數據流處理與系統優化策略。",
+            "url": "https://seminar.example.com/ecomm-data"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "講座分享",
+          "value": 2,
+          "name": "seminar"
+        }
+      },
+      "img": {
+        "pic": 1,
+        "fileId": "seminar_img_001",
+        "src": "https://example.com/seminars/ecomm_speaker.jpg"
+      },
+      "img2": {
+        "pic": 0,
+        "fileId": "",
+        "src": ""
+      }
+    },
+    "custom3": {
+      "custom": {
+        "sort": 3,
+        "name": "專案經驗",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2022",
+              "startMonth": {
+                "text": "一月",
+                "value": 1
+              },
+              "endYear": "2023",
+              "endMonth": {
+                "text": "六月",
+                "value": 6
+              }
+            },
+            "isInProgress": 0,
+            "introduction": "設計並實施一套基於Spark Streaming的訂單實時監控系統，提升交易處理效率與數據準確率。",
+            "url": "https://project.example.com/order_monitor"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專案分享",
+          "value": 3,
+          "name": "project_share"
+        }
+      },
+      "img": {
+        "pic": 1,
+        "fileId": "project_img_001",
+        "src": "https://example.com/projects/order_monitor.png"
+      },
+      "img2": {
+        "pic": 0,
+        "fileId": "",
+        "src": ""
+      }
+    },
+    "custom4": {
+      "custom": {
+        "sort": 4,
+        "name": "個人心得",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2023",
+              "startMonth": {
+                "text": "七月",
+                "value": 7
+              },
+              "endYear": "2023",
+              "endMonth": {
+                "text": "七月",
+                "value": 7
+              }
+            },
+            "isInProgress": 1,
+            "introduction": "持續學習最新數據處理技術並提升跨部門溝通能力，以提供更精準的技術建議。",
+            "url": ""
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "心路歷程",
+          "value": 4,
+          "name": "personal_journey"
+        }
+      },
+      "img": {
+        "pic": 0,
+        "fileId": "",
+        "src": ""
+      },
+      "img2": {
+        "pic": 0,
+        "fileId": "",
+        "src": ""
+      }
+    },
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "profile_001_ecommerce_consultant",
+      "headshotUrl": "https://example.com/photos/headshot_001.jpg",
+      "imageUrl": "https://example.com/photos/profile_bg_001.jpg",
+      "nickname": "技術顧問A",
+      "title": {
+        "workExperience": 5,
+        "companyName": "智達電子商務股份有限公司",
+        "jobName": "技術顧問",
+        "schoolName": "國立台灣大學",
+        "majorName": "資訊工程",
+        "degreeLevel": 1
+      },
+      "aboutMe": "擁有五年以上電子商務領域的技術顧問經驗，專精於實時數據處理與系統優化，致力於提供客戶量身打造的技術解決方案。",
+      "motto": "持續學習，創造價值。",
+      "abilities": [
+        "實時數據處理",
+        "系統架構設計",
+        "客戶需求分析"
+      ],
+      "preferJobTitle": "技術顧問",
+      "viewCount": 1500,
+      "createdAt": "2018-07-01T10:00:00Z",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 120,
+      "followedCount": 75,
+      "followed": 0,
+      "isFollowed": 1,
+      "isFollowingMe": 0,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "uuid-1234-5678-9012",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/techconsultantA",
+      "personalLink2Url": "https://github.com/techconsultantA",
+      "personalLink3Url": "https://techconsultantA.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專業風格",
+          "value": 3,
+          "name": "professional_style"
+        },
+        "backgroundColor": "#f5f5f5"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:45:28.506797",
+    "resume_type": "mle",
+    "index": 26,
+    "diversity_traits": {
+      "industry": "電子商務",
+      "work_style": "客戶導向",
+      "career_stage": "技術顧問",
+      "project_focus": "實時數據處理"
+    }
+  }
+}

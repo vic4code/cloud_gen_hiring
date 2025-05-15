@@ -1,0 +1,81 @@
+{
+  "job_preferences": {
+    "job_type": "全職",
+    "desired_titles": [
+      "產品經理"
+    ],
+    "preferred_content": "策略規劃與產品路線圖制定",
+    "preferred_category": "數位媒體產品管理",
+    "preferred_industries": [
+      "數位媒體"
+    ],
+    "preferred_locations": [
+      "台北市"
+    ],
+    "remote_work": "部分遠端",
+    "expected_salary": "新台幣120萬至150萬/年",
+    "availability": "一個月內可上任",
+    "working_hours": "彈性工時"
+  },
+  "experience": {
+    "total_years": "8",
+    "roles": [
+      {
+        "title": "資深產品經理",
+        "duration": "5年"
+      }
+    ],
+    "jobs": [
+      {
+        "company": "威訊數位科技有限公司",
+        "title": "資深產品經理",
+        "period": "2018年6月 - 2023年5月",
+        "industry": "數位媒體",
+        "category": "產品管理",
+        "company_size": "中型企業(100-500人)",
+        "skills": [
+          "產品策略規劃",
+          "風險評估",
+          "市場分析",
+          "跨部門溝通",
+          "敏捷專案管理工具(JIRA、Confluence)"
+        ],
+        "description": "負責數位媒體產品的全生命周期管理，主導風險評估模型的設計與落地，提升產品風險預測準確度30%，協助團隊制定長期產品發展路線圖，並與開發、設計及行銷部門密切合作，確保產品符合市場需求與公司策略。",
+        "projects": [
+          {
+            "name": "風險評估模型開發專案",
+            "summary": "主導跨部門團隊開發基於機器學習的風險評估模型，使用Python與Scikit-learn進行數據分析與建模，成功預測用戶流失風險並制定風險緩解策略，提升用戶留存率10%。"
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "highest": {
+      "degree": "碩士",
+      "school": "國立台灣大學",
+      "department": "資訊管理學系",
+      "period": "2014年9月 - 2016年6月"
+    },
+    "bachelor": {
+      "degree": "學士",
+      "school": "國立政治大學",
+      "department": "企業管理學系",
+      "period": "2010年9月 - 2014年6月"
+    }
+  },
+  "self_intro": {
+    "summary": "具備8年數位媒體產品管理經驗，專長於策略規劃與風險評估模型設計。擅長跨部門協作與敏捷專案管理，致力於以數據驅動決策，提升產品競爭力與用戶體驗。期望在創新且具挑戰性的環境中，持續推動產品價值最大化。"
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:58:55.165181",
+    "resume_type": "pm",
+    "index": 24,
+    "diversity_traits": {
+      "industry": "數位媒體",
+      "work_style": "策略規劃",
+      "career_stage": "資深專家",
+      "project_focus": "風險評估模型"
+    }
+  }
+}

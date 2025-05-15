@@ -1,0 +1,606 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "profile"
+      },
+      {
+        "id": "education"
+      },
+      {
+        "id": "experience"
+      },
+      {
+        "id": "jobCondition"
+      },
+      {
+        "id": "language"
+      },
+      {
+        "id": "skill"
+      },
+      {
+        "id": "certificate"
+      },
+      {
+        "id": "portfolio"
+      },
+      {
+        "id": "bio"
+      },
+      {
+        "id": "project"
+      },
+      {
+        "id": "referrer"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職工作",
+          "value": "1"
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "日班",
+          "value": "1"
+        }
+      ],
+      "otherTimePeriod": "",
+      "workShift": "1",
+      "onBoardAfterGetOffer": {
+        "text": "兩週",
+        "value": "2"
+      },
+      "customOnBoardDate": {
+        "year": "",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "錄取後",
+        "value": "1"
+      },
+      "salary": {
+        "text": "面議",
+        "value": "1"
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": "5"
+      },
+      "salaryOfHours": "",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "演算法工程師、軟/韌體工程師、資料科學家、後端工程師、光學(研發)工程師",
+      "preferArea": [
+        {
+          "no": 6001001000,
+          "des": "台北市"
+        },
+        {
+          "no": 6001002000,
+          "des": "新北市"
+        },
+        {
+          "no": 6001005000,
+          "des": "桃園市"
+        },
+        {
+          "no": 6001008000,
+          "des": "台中市"
+        },
+        {
+          "no": 6001014000,
+          "des": "台南市"
+        },
+        {
+          "no": 6001006000,
+          "des": "新竹縣市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 2008001018,
+          "des": "光電工程師"
+        },
+        {
+          "no": 2008001019,
+          "des": "光學工程師"
+        },
+        {
+          "no": 2007001012,
+          "des": "演算法工程師"
+        },
+        {
+          "no": 2007001006,
+          "des": "Internet程式設計師"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 1001001000,
+          "des": "軟體及網路相關業"
+        },
+        {
+          "no": 1001004000,
+          "des": "光電及光學相關業"
+        },
+        {
+          "no": 1002000000,
+          "des": "智慧製造業"
+        }
+      ],
+      "preferJobContent": "",
+      "remoteWork": {
+        "text": "對遠端工作有意願",
+        "value": "1"
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典風格",
+            "value": "1",
+            "name": "ProfileThemeClassic"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "卡片式",
+            "value": "2",
+            "name": "SkillThemeCard"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "EducationThemeList"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "ExperienceThemeList"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "JobConditionThemeList"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "LanguageThemeList"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "CertificateThemeList"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "三欄式",
+            "value": "1",
+            "name": "PortfolioTheme3Column"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "單欄式",
+            "value": "1",
+            "name": "ProjectTheme1Column"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": "1",
+          "schoolId": 5023000000,
+          "name": "國立臺北科技大學",
+          "departments": [
+            {
+              "name": "光電工程系",
+              "type": [
+                {
+                  "no": 3011016000,
+                  "des": "光電工程相關"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2018",
+            "startMonth": {
+              "text": "9",
+              "value": 9
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "6",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "碩士",
+            "value": "2"
+          },
+          "status": {
+            "text": "畢業",
+            "value": "1"
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 7001053000
+          }
+        },
+        {
+          "sort": "2",
+          "schoolId": 5030000000,
+          "name": "國立聯合大學",
+          "departments": [
+            {
+              "name": "光電工程學系",
+              "type": [
+                {
+                  "no": 3011016000,
+                  "des": "光電工程相關"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2014",
+            "startMonth": {
+              "text": "9",
+              "value": 9
+            },
+            "endYear": "2018",
+            "endMonth": {
+              "text": "6",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "大學",
+            "value": "3"
+          },
+          "status": {
+            "text": "畢業",
+            "value": "1"
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 7001053000
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "1年(含)以下",
+        "value": "0"
+      },
+      "experiences": [
+        {
+          "sort": "4",
+          "companyName": "智製科技有限公司",
+          "custNo": "0",
+          "invoice": 95123456,
+          "logo": "",
+          "industry": [
+            {
+              "no": 1002000000,
+              "des": "智慧製造業"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "機器學習實習工程師",
+          "workArea": [
+            {
+              "no": 6001006001,
+              "des": "新竹市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": "1"
+          },
+          "jobCat": [
+            {
+              "no": 2007001020,
+              "des": "AI工程師"
+            }
+          ],
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "4",
+              "value": 4
+            },
+            "endYear": "",
+            "endMonth": []
+          },
+          "description": "<p>負責智慧製造產線中使用電腦視覺進行瑕疵檢測專案，透過深度學習模型提升檢測準確率。</p><p>應用卷積神經網路(CNN)進行產品影像分類，並優化模型以縮短推論時間。</p><p>協助部署模型於工業邊緣計算設備，確保系統穩定運行。</p>",
+          "skill": [],
+          "salary": {
+            "monthPay": "",
+            "yearPay": "",
+            "jobParttimeType": {
+              "text": "平均時薪",
+              "value": "1"
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": true,
+          "stillWork": true,
+          "salaryVisibility": false
+        },
+        {
+          "sort": "1",
+          "companyName": "創智軟體股份有限公司",
+          "custNo": "1b3d7klp9z",
+          "invoice": 25896314,
+          "logo": "https://static.104.com.tw/b_profile/cust_picture/2589/130000000082589/logo.png?v=20240610120000",
+          "industry": [
+            {
+              "no": 1001001000,
+              "des": "軟體及網路相關業"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "AI實習工程師",
+          "workArea": [
+            {
+              "no": 6001001005,
+              "des": "台北市信義區"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": "1"
+          },
+          "jobCat": [
+            {
+              "no": 2007001004,
+              "des": "軟體工程師"
+            }
+          ],
+          "duration": {
+            "startYear": "2022",
+            "startMonth": {
+              "text": "9",
+              "value": 9
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "3",
+              "value": 3
+            }
+          },
+          "description": "● 參與電腦視覺專案，使用OpenCV與PyTorch開發瑕疵檢測模型\n● 協助撰寫資料前處理腳本，提升訓練資料品質\n● 參與團隊策略規劃會議，提出模型部署優化建議\n● 協助撰寫API以整合模型於生產線系統",
+          "skill": [],
+          "salary": {
+            "monthPay": "",
+            "yearPay": "",
+            "jobParttimeType": {
+              "text": "平均時薪",
+              "value": "1"
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": true,
+          "stillWork": false,
+          "salaryVisibility": false
+        },
+        {
+          "sort": "2",
+          "companyName": "光電科技股份有限公司",
+          "custNo": "a7k53l9",
+          "invoice": 23123456,
+          "logo": "https://static.104.com.tw/b_profile/cust_picture/2300/23123456000/logo.png?v=20230615090000",
+          "industry": [
+            {
+              "no": 1001004000,
+              "des": "光電及光學相關業"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "研究助理",
+          "workArea": [
+            {
+              "no": 6001006001,
+              "des": "新竹市"
+            }
+          ],
+          "jobType": {
+            "text": "兼職",
+            "value": "2"
+          },
+          "jobCat": [
+            {
+              "no": 2016001013,
+              "des": "研究助理"
+            }
+          ],
+          "duration": {
+            "startYear": "2021",
+            "startMonth": {
+              "text": "9",
+              "value": 9
+            },
+            "endYear": "2022",
+            "endMonth": {
+              "text": "8",
+              "value": 8
+            }
+          },
+          "description": "● 協助光學模擬及繞射分析，使用Matlab完成數值演算法實作\n● 參與光學系統設計專案，並分析光學元件性能優化\n● 撰寫報告與簡報，支持團隊策略規劃與決策",
+          "skill": [],
+          "salary": {
+            "monthPay": "",
+            "yearPay": "",
+            "jobParttimeType": {
+              "text": "平均時薪",
+              "value": "1"
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": true,
+          "stillWork": false,
+          "salaryVisibility": false
+        },
+        {
+          "sort": "3",
+          "companyName": "未來智控股份有限公司",
+          "custNo": "12xj8p9z",
+          "invoice": 84213457,
+          "logo": "https://static.104.com.tw/b_profile/cust_picture/8400/84213457000/logo.png?v=20240110113000",
+          "industry": [
+            {
+              "no": 1002000000,
+              "des": "智慧製造業"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "實習生",
+          "workArea": [
+            {
+              "no": 6001005001,
+              "des": "桃園市"
+            }
+          ],
+          "jobType": {
+            "text": "兼職",
+            "value": "2"
+          },
+          "jobCat": [
+            {
+              "no": 2008001018,
+              "des": "光電工程師"
+            }
+          ],
+          "duration": {
+            "startYear": "2019",
+            "startMonth": {
+              "text": "7",
+              "value": 7
+            },
+            "endYear": "2019",
+            "endMonth": {
+              "text": "9",
+              "value": 9
+            }
+          },
+          "description": "● 協助智慧工廠光學設備維護與測試\n● 實作基於影像處理的瑕疵偵測流程\n● 學習使用SolidWorks進行設備3D建模與設計輔助",
+          "skill": [
+            {
+              "text": "影像處理",
+              "value": "0"
+            },
+            {
+              "text": "3D建模",
+              "value": "0"
+            }
+          ],
+          "salary": {
+            "monthPay": "",
+            "yearPay": "",
+            "jobParttimeType": {
+              "text": "平均月薪",
+              "value": "3"
+            },
+            "jobParttimePay": "26000"
+          },
+          "companyVisibility": true,
+          "stillWork": false,
+          "salaryVisibility": false
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "卡片式",
+        "value": "2",
+        "name": "SkillThemeCard"
+      },
+      "skills": [
+        {
+          "sort": "1",
+          "name": "程式語言",
+          "desc": "<p>熟悉程式語言 :</p><p>● Python</p><p>● Matlab</p><p>學習中 :</p><p>● C++</p>",
+          "status": 1,
+          "tag": [
+            {
+              "text": "軟體程式設計",
+              "value": "11009005001"
+            }
+          ]
+        },
+        {
+          "sort": "2",
+          "name": "後端開發",
+          "desc": "後端架構與服務部署技能 :\n● Flask\n● Docker\n● GCP\n● RESTful API",
+          "status": 1,
+          "tag": []
+        },
+        {
+          "sort": "3",
+          "name": "資料庫",
+          "desc": "資料庫與資料操作 :\n● MySQL\n● MongoDB",
+          "status": 1,
+          "tag": []
+        },
+        {
+          "sort": "4",
+          "name": "人工智慧",
+          "desc": "機器學習與深度學習框架 :\n● TensorFlow\n● PyTorch\n● Scikit-learn",
+          "status": 1,
+          "tag": [
+            {
+              "text": "Machine Learning",
+              "value": "11009005007"
+            }
+          ]
+        },
+        {
+          "sort": "5",
+          "name": "工程技術",
+          "desc": "<p>● 影像處理與電腦視覺</p><p>● 信號處理 (FFT, Wavelet Transform)</p><p>● 光學模

@@ -1,0 +1,117 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "怡君",
+      "last_name": "林",
+      "gender": "female",
+      "emails": [
+        "yijun.lin@example.com"
+      ],
+      "urls": [],
+      "phone_numbers": [
+        "0912345678"
+      ],
+      "date_of_birth": {
+        "year": 1999,
+        "month": 5,
+        "day": 12
+      },
+      "address": "台北市信義區松仁路123號",
+      "total_experience_in_years": 0,
+      "profession": "數據科學家",
+      "summary": "作為一名應屆畢業生，我在電子商務的數據科學領域中有著堅實的理論基礎和實務經驗。我對分析數據、生成實用見解以及獨立解決問題充滿熱情，期望能夠在未來的工作中不斷學習和成長。擅長Python及資料視覺化，致力於支援商業智能實施專案，提升數據驅動的商業決策能力。",
+      "skills": [
+        "Python",
+        "R",
+        "Tableau",
+        "SQL",
+        "資料視覺化",
+        "Excel",
+        "機器學習",
+        "商業智能分析",
+        "數據清理"
+      ],
+      "has_driving_license": false
+    },
+    "languages": [
+      {
+        "name": "Chinese",
+        "iso_code": "zh",
+        "fluency": 5
+      },
+      {
+        "name": "English",
+        "iso_code": "en",
+        "fluency": 4
+      }
+    ],
+    "educations": [
+      {
+        "start_year": 2017,
+        "is_current": false,
+        "end_year": 2023,
+        "issuing_organization": "國立台灣大學 資訊管理學系",
+        "description": "獲得學士學位"
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "year": 2023,
+        "issuing_organization": "Coursera",
+        "description": "Data Science Specialization by Johns Hopkins University"
+      },
+      {
+        "year": 2023,
+        "issuing_organization": "Google",
+        "description": "Google Data Analytics Professional Certificate"
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2022,
+          "month": 6
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2023,
+          "month": 1
+        },
+        "duration_in_months": 7,
+        "company": "福華電子商務股份有限公司",
+        "location": "台北市",
+        "title": "數據分析實習生",
+        "description": "協助收集和整理電子商務平台的客戶數據，利用Python進行資料分析，並使用Tableau製作可視化報告。對網站流量和銷售數據進行深入分析，以提供業務決策的依據，提出改善建議。此外，參與自動化數據清理流程，提升數據處理效率，減少人工錯誤。"
+      },
+      {
+        "start_date": {
+          "year": 2021,
+          "month": 9
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2022,
+          "month": 5
+        },
+        "duration_in_months": 8,
+        "company": "明智科技股份有限公司",
+        "location": "台北市",
+        "title": "數據科學專案助手",
+        "description": "參與商業智能實施專案，協助開發數據模型以預測消費者行為，進行市場趨勢分析。負責數據清理與整合，並運用統計分析方法來提供數據支持，協助團隊達成專案目標。"
+      }
+    ],
+    "awards": [],
+    "references": []
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T00:04:59.202661",
+    "resume_type": "ds",
+    "index": 27,
+    "diversity_traits": {
+      "industry": "電子商務",
+      "work_style": "獨立解決問題",
+      "career_stage": "應屆畢業生",
+      "project_focus": "商業智能實施"
+    }
+  }
+}

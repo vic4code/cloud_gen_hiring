@@ -1,0 +1,618 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "sidebar_001"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "彈性工作時間",
+          "value": 2
+        }
+      ],
+      "otherTimePeriod": "無特定限制",
+      "workShift": "1",
+      "onBoardAfterGetOffer": {
+        "text": "一個月內",
+        "value": 30
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "可立即報到",
+        "value": "immediate"
+      },
+      "salary": {
+        "text": "月薪 4萬至6萬新台幣",
+        "value": 40000
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "無時薪需求",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "後端工程師",
+      "preferArea": [
+        {
+          "no": "3",
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": "1",
+          "des": "軟體工程師"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": "5",
+          "des": "數位媒體"
+        }
+      ],
+      "preferJobContent": "參與推薦系統開發，專注於遠端協作與敏捷開發流程",
+      "remoteWork": {
+        "text": "完全遠端工作",
+        "value": 3
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代簡潔風",
+            "value": "1",
+            "name": "modern_simplified"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "技術專業風",
+            "value": "2",
+            "name": "tech_professional"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "學術風格",
+            "value": "3",
+            "name": "academic_style"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經驗展示風",
+            "value": "4",
+            "name": "experience_showcase"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "條件明確風",
+            "value": "5",
+            "name": "condition_clear"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "語言能力風",
+            "value": "6",
+            "name": "language_proficiency"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "證書展示風",
+            "value": "7",
+            "name": "certificate_display"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "作品集風格",
+            "value": "8",
+            "name": "portfolio_style"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專案經驗風",
+            "value": "9",
+            "name": "project_experience"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": "1",
+          "schoolId": "101",
+          "name": "國立台灣大學",
+          "departments": [
+            {
+              "name": "資訊工程學系",
+              "type": [
+                {
+                  "no": "1",
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2015",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2019",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "已畢業",
+            "value": 1
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "轉職初階工程師",
+        "value": 2
+      },
+      "experiences": [
+        {
+          "sort": "1",
+          "companyName": "數位媒體科技有限公司",
+          "custNo": "cust00123",
+          "invoice": "1",
+          "logo": "https://example.com/logo.png",
+          "industry": [
+            {
+              "no": "5",
+              "des": "數位媒體"
+            }
+          ],
+          "companyScale": {
+            "text": "中小企業(50-200人)",
+            "value": 2
+          },
+          "jobName": "後端工程師",
+          "workArea": [
+            {
+              "no": "3",
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": "1",
+              "des": "軟體開發"
+            }
+          ],
+          "duration": {
+            "startYear": "2022",
+            "startMonth": {
+              "text": "三月",
+              "value": 3
+            },
+            "endYear": "2024",
+            "endMonth": {
+              "text": "五月",
+              "value": 5
+            }
+          },
+          "description": "負責推薦系統後端服務開發，使用Python與Django框架，串接MongoDB資料庫。協助團隊進行遠端協作，參與敏捷開發流程，完成多項功能模組並優化推薦算法效能。",
+          "skill": [],
+          "salary": {
+            "monthPay": "45000",
+            "yearPay": "540000",
+            "jobParttimeType": {
+              "text": "無兼職",
+              "value": 0
+            },
+            "jobParttimePay": "0"
+          },
+          "companyVisibility": "1",
+          "stillWork": "0",
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "技術專業風",
+        "value": "2",
+        "name": "tech_professional"
+      },
+      "skills": [
+        {
+          "sort": "1",
+          "name": "Python",
+          "desc": "熟悉Python語言，具備Django框架開發經驗，能有效實作後端服務。",
+          "status": "1",
+          "tag": [
+            {
+              "text": "後端開發",
+              "value": "backend"
+            }
+          ]
+        },
+        {
+          "sort": "2",
+          "name": "MongoDB",
+          "desc": "具備NoSQL資料庫MongoDB的使用經驗，能設計與優化資料結構。",
+          "status": "1",
+          "tag": [
+            {
+              "text": "資料庫",
+              "value": "database"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": "101",
+          "des": "Python程式設計認證"
+        },
+        {
+          "no": "102",
+          "des": "AWS雲端架構師初級認證"
+        }
+      ],
+      "others": "無其他證書"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": "1",
+          "type": {
+            "text": "英語",
+            "value": 1
+          },
+          "listening": {
+            "text": "中等",
+            "value": 3
+          },
+          "speaking": {
+            "text": "中等",
+            "value": 3
+          },
+          "reading": {
+            "text": "良好",
+            "value": 4
+          },
+          "writing": {
+            "text": "中等",
+            "value": 3
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 201
+              },
+              "grade": "750分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": [],
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": "1",
+          "name": "推薦系統後端服務",
+          "attach": {
+            "name": "推薦系統API設計.pdf",
+            "status": "1",
+            "fileId": "file12345",
+            "url": "https://example.com/files/recommendation_api.pdf",
+            "src": "https://example.com/files/recommendation_api_thumbnail.jpg"
+          },
+          "attachType": {
+            "text": "PDF文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "熱衷於數位媒體領域的後端工程師，專注於推薦系統的開發與優化，擅長跨團隊遠端協作，致力於以技術解決實際問題。",
+      "eng": "Passionate backend engineer in the digital media field, focusing on development and optimization of recommendation systems, skilled in remote collaboration across teams, committed to solving practical problems through technology."
+    },
+    "custom1": {
+      "custom": {
+        "sort": "1",
+        "name": "專業培訓",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2021",
+              "startMonth": {
+                "text": "七月",
+                "value": 7
+              },
+              "endYear": "2021",
+              "endMonth": {
+                "text": "九月",
+                "value": 9
+              }
+            },
+            "isInProgress": "0",
+            "introduction": "完成Python全端開發訓練營，涵蓋Django、REST API設計與資料庫應用。",
+            "url": "https://example.com/trainings/python_fullstack"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "簡潔風",
+          "value": "1",
+          "name": "simple_style"
+        }
+      },
+      "img": {
+        "pic": "1",
+        "fileId": "img_training1",
+        "src": "https://example.com/images/training1.jpg"
+      },
+      "img2": {
+        "pic": "2",
+        "fileId": "img_training2",
+        "src": "https://example.com/images/training2.jpg"
+      }
+    },
+    "custom2": {
+      "custom": {
+        "sort": "2",
+        "name": "社團經歷",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2017",
+              "startMonth": {
+                "text": "三月",
+                "value": 3
+              },
+              "endYear": "2019",
+              "endMonth": {
+                "text": "十二月",
+                "value": 12
+              }
+            },
+            "isInProgress": "0",
+            "introduction": "擔任校園資訊社幹部，負責組織技術分享與工作坊。",
+            "url": ""
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "活潑風",
+          "value": "2",
+          "name": "vibrant_style"
+        }
+      },
+      "img": {
+        "pic": "3",
+        "fileId": "img_club1",
+        "src": "https://example.com/images/club1.jpg"
+      },
+      "img2": {
+        "pic": "4",
+        "fileId": "img_club2",
+        "src": "https://example.com/images/club2.jpg"
+      }
+    },
+    "custom3": {
+      "custom": {
+        "sort": "3",
+        "name": "個人興趣",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2015",
+              "startMonth": {
+                "text": "一月",
+                "value": 1
+              },
+              "endYear": "2024",
+              "endMonth": {
+                "text": "六月",
+                "value": 6
+              }
+            },
+            "isInProgress": "1",
+            "introduction": "熱愛閱讀科技與數位媒體相關書籍，持續學習新技術與趨勢。",
+            "url": ""
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "自然風",
+          "value": "3",
+          "name": "natural_style"
+        }
+      },
+      "img": {
+        "pic": "5",
+        "fileId": "img_hobby1",
+        "src": "https://example.com/images/hobby1.jpg"
+      },
+      "img2": {
+        "pic": "6",
+        "fileId": "img_hobby2",
+        "src": "https://example.com/images/hobby2.jpg"
+      }
+    },
+    "custom4": {
+      "custom": {
+        "sort": "4",
+        "name": "志願服務",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2018",
+              "startMonth": {
+                "text": "六月",
+                "value": 6
+              },
+              "endYear": "2019",
+              "endMonth": {
+                "text": "八月",
+                "value": 8
+              }
+            },
+            "isInProgress": "0",
+            "introduction": "參與社區數位教育推廣，協助設計程式教學課程。",
+            "url": ""
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "溫馨風",
+          "value": "4",
+          "name": "warm_style"
+        }
+      },
+      "img": {
+        "pic": "7",
+        "fileId": "img_volunteer1",
+        "src": "https://example.com/images/volunteer1.jpg"
+      },
+      "img2": {
+        "pic": "8",
+        "fileId": "img_volunteer2",
+        "src": "https://example.com/images/volunteer2.jpg"
+      }
+    },
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "profile_001",
+      "headshotUrl": "https://example.com/images/headshot.jpg",
+      "imageUrl": "https://example.com/images/profile_bg.jpg",
+      "nickname": "小明",
+      "title": {
+        "workExperience": "2",
+        "companyName": "數位媒體科技有限公司",
+        "jobName": "後端工程師",
+        "schoolName": "國立台灣大學",
+        "majorName": "資訊工程學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "具備兩年推薦系統後端開發經驗，熟悉Python與MongoDB，適應遠端團隊協作，熱愛技術學習與挑戰。",
+      "motto": "不斷學習，持續成長。",
+      "abilities": [
+        "後端程式設計"
+      ],
+      "preferJobTitle": "後端工程師",
+      "viewCount": "120",
+      "createdAt": "2022-06-01",
+      "isSelf": "1",
+      "signIn": "100",
+      "followerCount": "30",
+      "followedCount": "25",
+      "followed": "0",
+      "isFollowed": "0",
+      "isFollowingMe": "0",
+      "hasBeenRequested": "0",
+      "hasRequestedMe": "0",
+      "publicStatus": "1",
+      "uuid": "uuid-1234-abcd-5678-efgh",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/username",
+      "personalLink2Url": "https://github.com/username",
+      "personalLink3Url": "https://username.dev",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "現代簡潔風",
+          "value": "1",
+          "name": "modern_simplified"
+        },
+        "backgroundColor": "#f5f5f5"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:47:36.143877",
+    "resume_type": "mle",
+    "index": 28,
+    "diversity_traits": {
+      "industry": "數位媒體",
+      "work_style": "遠端協作",
+      "career_stage": "轉職工程師",
+      "project_focus": "推薦系統"
+    }
+  }
+}

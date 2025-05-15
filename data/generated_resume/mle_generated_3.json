@@ -1,0 +1,620 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "profileSummary"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "上午9點至下午6點",
+          "value": 1
+        }
+      ],
+      "otherTimePeriod": "無彈性時間需求",
+      "workShift": "1",
+      "onBoardAfterGetOffer": {
+        "text": "一個月內",
+        "value": 30
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年6月",
+        "value": "2024-06"
+      },
+      "salary": {
+        "text": "新台幣 120,000 元",
+        "value": 120000
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "無",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "人工智能部門主管",
+      "preferArea": [
+        {
+          "no": "3",
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": "1",
+          "des": "全職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": "7",
+          "des": "人工智能"
+        }
+      ],
+      "preferJobContent": "負責團隊管理與AI專案規劃，專注於自動化報告系統的開發與優化。",
+      "remoteWork": {
+        "text": "部分遠端工作",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典藍",
+            "value": "1",
+            "name": "classicBlue"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代風",
+            "value": "2",
+            "name": "modernStyle"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡潔風",
+            "value": "3",
+            "name": "minimalist"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業風",
+            "value": "4",
+            "name": "professional"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "正式風",
+            "value": "1",
+            "name": "formal"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "語言風格",
+            "value": "2",
+            "name": "languageTheme"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "證書風",
+            "value": "1",
+            "name": "certificateStyle"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "作品集風",
+            "value": "2",
+            "name": "portfolioStyle"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專案風",
+            "value": "3",
+            "name": "projectStyle"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": "1",
+          "schoolId": "101",
+          "name": "國立臺灣大學",
+          "departments": [
+            {
+              "name": "資訊工程學系",
+              "type": [
+                {
+                  "no": "1",
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2008",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2012",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "畢業",
+            "value": 2
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "部門主管",
+        "value": 5
+      },
+      "experiences": [
+        {
+          "sort": "1",
+          "companyName": "智匯科技股份有限公司",
+          "custNo": "ZH12345678",
+          "invoice": "12345678",
+          "logo": "https://example.com/logo/zhihui.png",
+          "industry": [
+            {
+              "no": "7",
+              "des": "人工智能"
+            }
+          ],
+          "companyScale": {
+            "text": "中大型企業",
+            "value": 3
+          },
+          "jobName": "人工智能部門主管",
+          "workArea": [
+            {
+              "no": "3",
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": "101",
+              "des": "軟體開發"
+            }
+          ],
+          "duration": {
+            "startYear": "2018",
+            "startMonth": {
+              "text": "三月",
+              "value": 3
+            },
+            "endYear": "2024",
+            "endMonth": {
+              "text": "五月",
+              "value": 5
+            }
+          },
+          "description": "領導AI團隊開發自動化報告系統，採用Python與TensorFlow進行模型訓練與優化，成功提升報告生成效率30%。負責專案管理與跨部門協調，確保產品符合精確細緻的質量要求。",
+          "skill": [],
+          "salary": {
+            "monthPay": "120000",
+            "yearPay": "1440000",
+            "jobParttimeType": {
+              "text": "無",
+              "value": 0
+            },
+            "jobParttimePay": "0"
+          },
+          "companyVisibility": "1",
+          "stillWork": "1",
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "專業風",
+        "value": "1",
+        "name": "professional"
+      },
+      "skills": [
+        {
+          "sort": "1",
+          "name": "Python程式設計",
+          "desc": "熟練使用Python進行數據處理與機器學習模型開發，具備自動化腳本撰寫經驗。",
+          "status": "1",
+          "tag": [
+            {
+              "text": "Python",
+              "value": "python"
+            }
+          ]
+        },
+        {
+          "sort": "2",
+          "name": "機器學習與深度學習",
+          "desc": "精通TensorFlow與PyTorch框架，具備模型訓練、調參與部署經驗。",
+          "status": "1",
+          "tag": [
+            {
+              "text": "TensorFlow",
+              "value": "tensorflow"
+            }
+          ]
+        },
+        {
+          "sort": "3",
+          "name": "專案管理",
+          "desc": "具備團隊領導與專案協調能力，熟悉敏捷開發流程。",
+          "status": "1",
+          "tag": [
+            {
+              "text": "Agile",
+              "value": "agile"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": "1",
+          "des": "Google雲端機器學習工程師認證"
+        },
+        {
+          "no": "2",
+          "des": "PMP專案管理專業人士"
+        }
+      ],
+      "others": "參加多場AI與大數據相關研討會並獲邀擔任講者"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": "1",
+          "type": {
+            "text": "英語",
+            "value": 1
+          },
+          "listening": {
+            "text": "流利",
+            "value": 4
+          },
+          "speaking": {
+            "text": "流利",
+            "value": 4
+          },
+          "reading": {
+            "text": "流利",
+            "value": 4
+          },
+          "writing": {
+            "text": "良好",
+            "value": 3
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 1
+              },
+              "grade": "900分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": [],
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": "1",
+          "name": "自動化報告系統開發",
+          "attach": {
+            "name": "報告系統示範影片.mp4",
+            "status": "1",
+            "fileId": "file12345",
+            "url": "https://example.com/portfolio/autoReport.mp4",
+            "src": "https://example.com/portfolio/autoReport.mp4"
+          },
+          "attachType": {
+            "text": "影片",
+            "value": 2
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "具備十年以上人工智能領域經驗，專長於機器學習模型開發及團隊管理，致力於追求工作精確細緻與效率提升。",
+      "eng": "Over 10 years of experience in artificial intelligence, specializing in machine learning model development and team management, dedicated to precision and efficiency."
+    },
+    "custom1": {
+      "custom": {
+        "sort": "1",
+        "name": "專業講座",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2022",
+              "startMonth": {
+                "text": "五月",
+                "value": 5
+              },
+              "endYear": "2022",
+              "endMonth": {
+                "text": "五月",
+                "value": 5
+              }
+            },
+            "isInProgress": "0",
+            "introduction": "於人工智能國際研討會分享自動化報告系統優化經驗。",
+            "url": "https://conference2022.example.com/presentation"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專業風",
+          "value": "1",
+          "name": "professional"
+        }
+      },
+      "img": {
+        "pic": "1",
+        "fileId": "img12345",
+        "src": "https://example.com/images/presentation.jpg"
+      },
+      "img2": {
+        "pic": "2",
+        "fileId": "img12346",
+        "src": "https://example.com/images/presentation2.jpg"
+      }
+    },
+    "custom2": {
+      "custom": {
+        "sort": "2",
+        "name": "技術研發",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2019",
+              "startMonth": {
+                "text": "一月",
+                "value": 1
+              },
+              "endYear": "2021",
+              "endMonth": {
+                "text": "十二月",
+                "value": 12
+              }
+            },
+            "isInProgress": "0",
+            "introduction": "帶領團隊開發基於深度學習的數據分析平台。",
+            "url": "https://company.example.com/research"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "現代風",
+          "value": "2",
+          "name": "modernStyle"
+        }
+      },
+      "img": {
+        "pic": "3",
+        "fileId": "img23456",
+        "src": "https://example.com/images/research.jpg"
+      },
+      "img2": {
+        "pic": "4",
+        "fileId": "img23457",
+        "src": "https://example.com/images/research2.jpg"
+      }
+    },
+    "custom3": {
+      "custom": {
+        "sort": "3",
+        "name": "社會服務",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2017",
+              "startMonth": {
+                "text": "六月",
+                "value": 6
+              },
+              "endYear": "2018",
+              "endMonth": {
+                "text": "五月",
+                "value": 5
+              }
+            },
+            "isInProgress": "0",
+            "introduction": "志願擔任青少年程式設計教學講師，推動科技教育。",
+            "url": "https://volunteer.example.com/programming"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "溫馨風",
+          "value": "3",
+          "name": "warmStyle"
+        }
+      },
+      "img": {
+        "pic": "5",
+        "fileId": "img34567",
+        "src": "https://example.com/images/volunteer.jpg"
+      },
+      "img2": {
+        "pic": "6",
+        "fileId": "img34568",
+        "src": "https://example.com/images/volunteer2.jpg"
+      }
+    },
+    "custom4": {
+      "custom": {
+        "sort": "4",
+        "name": "個人興趣",
+        "content": [
+          {
+            "duration": {
+              "startYear": "2015",
+              "startMonth": {
+                "text": "一月",
+                "value": 1
+              },
+              "endYear": "2024",
+              "endMonth": {
+                "text": "五月",
+                "value": 5
+              }
+            },
+            "isInProgress": "1",
+            "introduction": "熱愛攝影與旅行，致力於捕捉生活中精細美好的瞬間。",
+            "url": "https://instagram.com/sampleuser"
+          }
+        ]
+      },
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "輕快風",
+          "value": "4",
+          "name": "lightStyle"
+        }
+      },
+      "img": {
+        "pic": "7",
+        "fileId": "img45678",
+        "src": "https://example.com/images/hobby.jpg"
+      },
+      "img2": {
+        "pic": "8",
+        "fileId": "img45679",
+        "src": "https://example.com/images/hobby2.jpg"
+      }
+    },
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "AI_Dept_Head_001",
+      "headshotUrl": "https://example.com/images/headshot.jpg",
+      "imageUrl": "https://example.com/images/background.jpg",
+      "nickname": "智匯小李",
+      "title": {
+        "workExperience": "12",
+        "companyName": "智匯科技股份有限公司",
+        "jobName": "人工智能部門主管",
+        "schoolName": "國立臺灣大學",
+        "majorName": "資訊工程學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "熱衷於人工智能技術與團隊管理，強調工作中的精確與細節，持續推動自動化與效率提升。",
+      "motto": "精準決策，細節決定成敗。",
+      "abilities": [
+        "團隊領導",
+        "機器學習開發",
+        "專案管理"
+      ],
+      "preferJobTitle": "人工智能部門主管",
+      "viewCount": "3500",
+      "createdAt": "2010-05-15T08:00:00Z",
+      "isSelf": "1",
+      "signIn": "1",
+      "followerCount": "120",
+      "followedCount": "80",
+      "followed": "0",
+      "isFollowed": "1",
+      "isFollowingMe": "0",
+      "hasBeenRequested": "0",
+      "hasRequestedMe": "0",
+      "publicStatus": "1",
+      "uuid": "550e8400-e29b-41d4-a716-446655440000",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      }
+    }
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:26:23.953783",
+    "resume_type": "mle",
+    "index": 3,
+    "diversity_traits": {
+      "industry": "人工智能",
+      "work_style": "精確細緻",
+      "career_stage": "部門主管",
+      "project_focus": "自動化報告系統"
+    }
+  }
+}

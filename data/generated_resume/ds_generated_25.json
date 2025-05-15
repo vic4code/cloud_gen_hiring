@@ -1,0 +1,126 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "恆宇",
+      "last_name": "李",
+      "gender": "male",
+      "emails": [
+        "hengyu.lee@gmail.com"
+      ],
+      "urls": [
+        "http://www.linkedin.com/in/hengyu-lee",
+        "https://www.github.com/hengyulee"
+      ],
+      "phone_numbers": [
+        "0956123456"
+      ],
+      "date_of_birth": {
+        "year": 2000,
+        "month": 5,
+        "day": 22
+      },
+      "address": "台北市, 台灣",
+      "total_experience_in_years": 0,
+      "profession": "數據科學新鮮人",
+      "summary": "✔ 應屆畢業生，擁有商業智能與數據分析的實習經驗\n✔ 對智慧製造有濃厚的興趣，致力於推動數據驅動的決策過程\n✔ 熟悉Python及其數據科學庫，能夠迅速學習新技術\n✔ 優秀的團隊合作能力和創新思考，曾參與多個專案"
+    },
+    "skills": [
+      "Python",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "R",
+      "Power BI",
+      "Machine Learning",
+      "Data Visualization",
+      "ETL Processes"
+    ],
+    "languages": [
+      {
+        "name": "Chinese",
+        "iso_code": "zh",
+        "fluency": 5
+      },
+      {
+        "name": "English",
+        "iso_code": "en",
+        "fluency": 4
+      }
+    ],
+    "educations": [
+      {
+        "start_year": 2018,
+        "end_year": 2022,
+        "is_current": false,
+        "issuing_organization": "國防醫學院",
+        "description": "資訊科學學士"
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2021,
+        "is_current": false,
+        "issuing_organization": "Coursera",
+        "description": "數據科學專業認證"
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "year": 2022,
+        "issuing_organization": "資策會",
+        "description": "數據分析與商業智慧課程"
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2022,
+          "month": 7
+        },
+        "end_date": {
+          "year": 2023,
+          "month": 1
+        },
+        "is_current": false,
+        "duration_in_months": 6,
+        "company": "智造科技有限公司",
+        "location": "台北市, 台灣",
+        "title": "實習數據分析師",
+        "description": "在智慧製造專案中協助數據收集與分析，實現數據驅動決策，成功提升生產效率15%\n\n使用Python及SQL對生產數據進行清理與分析，生成分析報告\n設計並展示交互式儀表板，供內部團隊監控關鍵指標\n參與跨部門會議，收集需求並提供數據洞察，支持業務決策"
+      },
+      {
+        "start_date": {
+          "year": 2021,
+          "month": 6
+        },
+        "end_date": {
+          "year": 2021,
+          "month": 8
+        },
+        "is_current": false,
+        "duration_in_months": 2,
+        "company": "未來科技實驗室",
+        "location": "台北市, 台灣",
+        "title": "數據科學實習生",
+        "description": "協助數據科學團隊進行數據預處理，開發模型以預測產品需求\n\n使用R語言及Python進行數據分析，並協助部署分析結果至內部系統\n參加專案會議，提出創新的數據解決方案，協助優化專案流程"
+      }
+    ],
+    "awards": [
+      {
+        "year": 2020,
+        "description": "校內數據科學競賽第一名"
+      }
+    ],
+    "references": []
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T00:04:11.463927",
+    "resume_type": "ds",
+    "index": 25,
+    "diversity_traits": {
+      "industry": "智慧製造",
+      "work_style": "創新思考",
+      "career_stage": "應屆畢業生",
+      "project_focus": "商業智能實施"
+    }
+  }
+}

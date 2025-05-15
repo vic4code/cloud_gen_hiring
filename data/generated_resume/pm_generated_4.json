@@ -1,0 +1,88 @@
+{
+  "personal_info": {
+    "gender": "男性",
+    "age": 38,
+    "employment_status": "全職",
+    "email": "chen.john.greenenergy@example.com",
+    "address": "台北市信義區松山路123號8樓",
+    "english_name": "John Chen",
+    "driver_licenses": [
+      "普通重型機車駕照"
+    ]
+  },
+  "education": {
+    "school": "國立台灣大學",
+    "department": "工業管理學系",
+    "degree": "碩士",
+    "period": "2006年9月 - 2008年6月"
+  },
+  "work_experience": {
+    "total_years": "12年",
+    "jobs": [
+      {
+        "company": "綠能科技股份有限公司",
+        "industry": "綠色能源",
+        "company_size": "中型企業 (200-500人)",
+        "title": "資深產品經理",
+        "location": "台北市",
+        "period": "2015年7月 - 至今",
+        "description": [
+          "主導風險評估模型開發專案，運用Python與R進行數據分析及模型構建，提升風險預測準確率15%。",
+          "獨立帶領跨部門團隊，整合市場、技術和法規數據，制定產品策略以符合綠能政策趨勢。",
+          "設計並優化專案管理流程，導入敏捷開發方法，專案交付時間縮短20%。",
+          "負責市場需求調研，分析競爭對手產品，調整產品路線圖以強化市場競爭力。"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "data_analysis": [
+      "Python (Pandas, NumPy, Scikit-learn)",
+      "R語言",
+      "Tableau資料視覺化"
+    ],
+    "specialties": [
+      "風險評估模型建立",
+      "綠色能源市場分析",
+      "專案管理與流程優化"
+    ],
+    "data_driven_decision_making": "具備扎實的數據分析能力，能夠獨立完成資料收集、處理及模型應用，支持產品決策制定。",
+    "collaboration": "善於跨部門溝通協調，能在團隊中扮演橋樑角色，推動專案進展與資源整合。"
+  },
+  "self_intro": {
+    "current_position": "綠能科技股份有限公司資深產品經理，專注於風險評估模型與綠色能源產品策略規劃。",
+    "leadership": "具備領導跨部門團隊經驗，推動多項專案成功落地，強調自主解決問題與精準決策。"
+  },
+  "job_preferences": {
+    "job_type": "全職",
+    "working_hours": "彈性工時",
+    "availability": "一個月內可到職",
+    "expected_salary": "1300000台幣/年",
+    "preferred_locations": [
+      "台北市",
+      "新北市"
+    ],
+    "remote_work": "部分遠端工作可接受",
+    "desired_titles": [
+      "產品經理",
+      "資深產品經理",
+      "專案主管"
+    ],
+    "preferred_categories": [
+      "綠色能源",
+      "環境科技",
+      "可再生能源"
+    ]
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:53:12.561079",
+    "resume_type": "pm",
+    "index": 4,
+    "diversity_traits": {
+      "industry": "綠色能源",
+      "work_style": "獨立解決問題",
+      "career_stage": "領域專家",
+      "project_focus": "風險評估模型"
+    }
+  }
+}

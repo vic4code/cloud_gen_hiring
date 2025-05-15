@@ -1,0 +1,94 @@
+{
+  "personal_info": {
+    "gender": "男性",
+    "age": 35,
+    "military_status": "已服役",
+    "employment_status": "在職",
+    "email": "chen.jason@example.com",
+    "address": "台北市信義區松仁路100號",
+    "english_name": "Jason Chen",
+    "driver_licenses": [
+      "普通重型機車"
+    ]
+  },
+  "education": {
+    "school": "國立台灣大學",
+    "department": "資訊管理學系",
+    "degree": "碩士",
+    "period": "2008年9月 - 2012年6月"
+  },
+  "work_experience": {
+    "total_years": "12",
+    "jobs": [
+      {
+        "company": "樂遊科技股份有限公司",
+        "industry": "遊戲開發",
+        "company_size": "中型（100-500人）",
+        "title": "資深產品經理",
+        "location": "台北市",
+        "period": "2018年7月 - 目前",
+        "description": [
+          "負責遊戲推薦系統的產品規劃與優化，帶領跨部門團隊完成數據驅動的產品決策。",
+          "運用機器學習技術（Python、TensorFlow）分析玩家行為，提升推薦準確率達15%。",
+          "設計並推動A/B測試流程，持續優化用戶體驗與遊戲留存率。",
+          "協調研發與數據科學團隊，確保推薦算法符合市場需求與技術可行性。"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "data_analysis": [
+      "Python",
+      "SQL",
+      "Tableau"
+    ],
+    "specialties": [
+      "推薦系統設計",
+      "數據驅動產品策略",
+      "跨部門團隊協作"
+    ],
+    "data_driven_decision_making": "擅長運用數據分析支持產品決策，結合用戶行為數據制定策略。",
+    "collaboration": "積極推動跨部門溝通，促進技術與業務團隊協同合作。"
+  },
+  "self_intro": {
+    "current_position": "擔任遊戲開發領域的資深產品經理，專注於推薦系統產品的創新與實踐。",
+    "leadership": "具備帶領多功能團隊協作的經驗，善於激發團隊創新思考與解決問題能力。",
+    "future_goal": "期望在遊戲產品領域持續深耕推薦系統技術，推動更個人化且具市場競爭力的遊戲體驗。"
+  },
+  "job_preferences": {
+    "job_type": "全職",
+    "working_hours": "彈性工時",
+    "availability": "一個月內可到職",
+    "expected_salary": "150000-180000新台幣/月",
+    "preferred_locations": [
+      "台北市",
+      "新北市"
+    ],
+    "remote_work": "部分遠端",
+    "desired_titles": [
+      "資深產品經理",
+      "產品總監"
+    ],
+    "preferred_categories": [
+      "遊戲開發",
+      "科技軟體"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "PMP專案管理專業人士認證",
+      "issuer": "Project Management Institute (PMI)"
+    }
+  ],
+  "metadata": {
+    "generated_date": "2025-05-15T11:53:27.966960",
+    "resume_type": "pm",
+    "index": 5,
+    "diversity_traits": {
+      "industry": "遊戲開發",
+      "work_style": "創新思考",
+      "career_stage": "領域專家",
+      "project_focus": "推薦系統"
+    }
+  }
+}

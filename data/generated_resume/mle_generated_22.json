@@ -1,0 +1,459 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "sidebar-ml-intern"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "可立即上班",
+          "value": 0
+        }
+      ],
+      "otherTimePeriod": "無特別限制",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "一週內",
+        "value": 7
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年6月",
+        "value": "2024-06"
+      },
+      "salary": {
+        "text": "面議",
+        "value": 0
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "無",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "機器學習實習生",
+      "preferArea": [
+        {
+          "no": 3,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 1,
+          "des": "全職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 15,
+          "des": "數位媒體"
+        }
+      ],
+      "preferJobContent": "參與機器學習演算法開發與優化，協助數據處理與模型訓練。",
+      "remoteWork": {
+        "text": "部分遠端工作",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代風格",
+            "value": 1,
+            "name": "modern"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡潔風",
+            "value": 2,
+            "name": "simple"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業風",
+            "value": 3,
+            "name": "professional"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "明亮風",
+            "value": 1,
+            "name": "bright"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "清晰風",
+            "value": 1,
+            "name": "clear"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡約風",
+            "value": 2,
+            "name": "minimal"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業風",
+            "value": 3,
+            "name": "professional"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代風格",
+            "value": 1,
+            "name": "modern"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡潔風",
+            "value": 2,
+            "name": "simple"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 101,
+          "name": "國立台灣大學",
+          "departments": [
+            {
+              "name": "資訊工程學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "本科"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2021",
+            "startMonth": {
+              "text": "9月",
+              "value": 9
+            },
+            "endYear": "2024",
+            "endMonth": {
+              "text": "6月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "在學",
+            "value": 1
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "實習生",
+        "value": 0
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "數位媒體科技股份有限公司",
+          "custNo": 301,
+          "invoice": 0,
+          "logo": "https://example.com/logo.png",
+          "industry": [
+            {
+              "no": 15,
+              "des": "數位媒體"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "機器學習實習生",
+          "workArea": [
+            {
+              "no": 3,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 101,
+              "des": "實習"
+            }
+          ],
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "7月",
+              "value": 7
+            },
+            "endYear": "2023",
+            "endMonth": []
+          },
+          "description": "協助團隊進行機器學習模型資料前處理與演算法優化，參與日常模型訓練與測試工作。",
+          "skill": [],
+          "salary": {
+            "monthPay": "面議",
+            "yearPay": "面議",
+            "jobParttimeType": {
+              "text": "實習",
+              "value": 0
+            },
+            "jobParttimePay": "面議"
+          },
+          "companyVisibility": 1,
+          "stillWork": 0,
+          "salaryVisibility": 0
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "技能列表風格",
+        "value": 1,
+        "name": "skill-list"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "Python",
+          "desc": "熟悉基礎語法與資料處理，具備使用Pandas、NumPy進行數據分析經驗。",
+          "status": 1,
+          "tag": [
+            {
+              "text": "程式語言",
+              "value": "python"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 201,
+          "des": "Google數據分析專業證書"
+        }
+      ],
+      "others": "參加多場線上機器學習與數據科學課程。"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英文",
+            "value": 1
+          },
+          "listening": {
+            "text": "中等",
+            "value": 3
+          },
+          "speaking": {
+            "text": "中等",
+            "value": 3
+          },
+          "reading": {
+            "text": "良好",
+            "value": 4
+          },
+          "writing": {
+            "text": "中等",
+            "value": 3
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 101
+              },
+              "grade": "750"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": {
+      "projects": [
+        {
+          "sort": 1,
+          "name": "機器學習演算法優化專案",
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "8月",
+              "value": 8
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "11月",
+              "value": 11
+            }
+          },
+          "isInProgress": 0,
+          "introduction": "參與數位媒體平台的推薦系統優化，使用Python與Scikit-learn進行模型訓練與參數調整，提升預測準確率約5%。",
+          "url": "https://github.com/username/ml-optimization",
+          "img": {
+            "pic": "project-thumbnail.png",
+            "fileId": "proj12345",
+            "src": "https://example.com/project-thumbnail.png"
+          }
+        }
+      ]
+    },
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "機器學習專案集",
+          "attach": {
+            "name": "ML_Project_Portfolio.pdf",
+            "status": 1,
+            "fileId": "file123456",
+            "url": "https://example.com/portfolio/ml_project.pdf",
+            "src": "https://example.com/portfolio/ml_project_preview.png"
+          },
+          "attachType": {
+            "text": "PDF文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "熱衷於機器學習與數據分析，具備基礎模型開發與優化經驗，期望於數位媒體領域持續成長。",
+      "eng": "Enthusiastic about machine learning and data analysis with foundational experience in model development and optimization, seeking growth in the digital media industry."
+    },
+    "custom1": [],
+    "custom2": [],
+    "custom3": [],
+    "custom4": [],
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "profile-001",
+      "headshotUrl": "https://example.com/photos/headshot.jpg",
+      "imageUrl": "https://example.com/photos/background.jpg",
+      "nickname": "小明",
+      "title": {
+        "workExperience": 1,
+        "companyName": "數位媒體科技股份有限公司",
+        "jobName": "機器學習實習生",
+        "schoolName": "國立台灣大學",
+        "majorName": "資訊工程學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "目前就讀資訊工程學系，專注於機器學習與數據分析，期望透過實習累積實務經驗，提升技術能力。",
+      "motto": "持續學習，不斷成長。",
+      "abilities": [
+        "Python程式設計"
+      ],
+      "preferJobTitle": "機器學習實習生",
+      "viewCount": 150,
+      "createdAt": "2024-05-01T10:00:00+08:00",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 20,
+      "followedCount": 10,
+      "followed": 0,
+      "isFollowed": 0,
+      "isFollowingMe": 0,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "uuid-1234-5678-9012",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/username",
+      "personalLink2Url": "https://github.com/username",
+      "personalLink3Url": "https://username.github.io",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "現代風格",
+          "value": 1,
+          "name": "modern"
+        },
+        "backgroundColor": "#f0f2f5"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:41:44.272987",
+    "resume_type": "mle",
+    "index": 22,
+    "diversity_traits": {
+      "industry": "數位媒體",
+      "work_style": "績效專注",
+      "career_stage": "實習生",
+      "project_focus": "機器學習演算法優化"
+    }
+  }
+}

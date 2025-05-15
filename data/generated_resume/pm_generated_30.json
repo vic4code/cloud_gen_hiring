@@ -1,0 +1,85 @@
+{
+  "personal_info": {
+    "gender": "女性",
+    "age": 27,
+    "employment_status": "全職",
+    "email": "amy.chang@example.com",
+    "address": "台北市信義區松山路88號",
+    "english_name": "Amy Chang",
+    "driver_licenses": [
+      "普通小型車駕照"
+    ]
+  },
+  "education": {
+    "school": "國立臺灣大學",
+    "department": "資訊管理學系",
+    "degree": "學士",
+    "period": "2015 - 2019"
+  },
+  "work_experience": {
+    "total_years": "2年",
+    "jobs": [
+      {
+        "company": "星辰數位科技股份有限公司",
+        "industry": "數位媒體",
+        "company_size": "中型企業(100-500人)",
+        "title": "初階產品經理",
+        "location": "台北市",
+        "period": "2021-07 至 2023-07",
+        "description": [
+          "協助推薦系統產品的需求收集與分析，與技術團隊溝通確保專案進度。",
+          "參與用戶行為數據分析，利用Google Analytics和SQL協助優化產品推薦邏輯。",
+          "協助制定產品路線圖，並參與敏捷開發會議，持續學習產品管理相關知識。"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "data_analysis": [
+      "SQL基礎查詢",
+      "Google Analytics",
+      "Excel資料整理"
+    ],
+    "specialties": [
+      "推薦系統產品需求分析",
+      "用戶行為數據理解",
+      "跨部門協作"
+    ],
+    "data_driven_decision_making": "具備基礎數據分析能力，能夠透過數據支持產品決策。",
+    "collaboration": "積極與研發、設計及行銷團隊合作，確保專案順利推進。"
+  },
+  "self_intro": {
+    "current_position": "初階產品經理，專注於數位媒體領域的推薦系統產品。",
+    "leadership": "具備良好的團隊溝通能力，雖為初階職位，積極主動協助團隊達成目標。"
+  },
+  "job_preferences": {
+    "job_type": "全職",
+    "working_hours": "彈性工時",
+    "availability": "一個月內可上班",
+    "expected_salary": "60000-70000新台幣/月",
+    "preferred_locations": [
+      "台北市",
+      "新北市"
+    ],
+    "remote_work": "部分遠端工作可接受",
+    "desired_titles": [
+      "產品經理",
+      "初階產品經理"
+    ],
+    "preferred_categories": [
+      "數位媒體",
+      "科技產業"
+    ]
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T12:00:10.940409",
+    "resume_type": "pm",
+    "index": 30,
+    "diversity_traits": {
+      "industry": "數位媒體",
+      "work_style": "持續學習",
+      "career_stage": "初階專業人士",
+      "project_focus": "推薦系統"
+    }
+  }
+}

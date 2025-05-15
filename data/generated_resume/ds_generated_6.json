@@ -1,0 +1,165 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "婷妤",
+      "last_name": "涂",
+      "gender": "女",
+      "emails": [
+        "tingyu.tu@example.com"
+      ],
+      "urls": [
+        "https://www.linkedin.com/in/tingyu-tu"
+      ],
+      "phone_numbers": [
+        "0912-345-678"
+      ],
+      "date_of_birth": {
+        "year": 1990,
+        "month": 3,
+        "day": 15
+      },
+      "address": "新北市, 台灣",
+      "total_experience_in_years": 6,
+      "profession": "數據科學經理",
+      "summary": "我是一位專注於永續能源領域的數據科學經理，擁有6年的市場分析經驗。擅長跨部門合作，能有效整合數據以支持業務決策與策略發展。我曾領導多個市場區隔分析專案，並成功提升產品的市場進入策略與客戶滿意度，期待進一步推動可持續發展的目標。",
+      "skills": [
+        "數據分析",
+        "市場研究",
+        "Python",
+        "R語言",
+        "SQL",
+        "機器學習",
+        "A/B測試",
+        "商業智慧",
+        "跨部門協作",
+        "報告撰寫"
+      ],
+      "has_driving_license": true
+    },
+    "languages": [
+      {
+        "language": "中文",
+        "fluency": "母語"
+      },
+      {
+        "language": "英文",
+        "fluency": "商業流利"
+      }
+    ],
+    "educations": [
+      {
+        "institution": "國立台灣大學",
+        "area": "統計學",
+        "degree": "碩士",
+        "start_date": {
+          "year": 2012,
+          "month": 9
+        },
+        "end_date": {
+          "year": 2014,
+          "month": 6
+        }
+      },
+      {
+        "institution": "國立中興大學",
+        "area": "環境工程",
+        "degree": "學士",
+        "start_date": {
+          "year": 2008,
+          "month": 9
+        },
+        "end_date": {
+          "year": 2012,
+          "month": 6
+        }
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "title": "數據科學證書",
+        "institution": "Coursera",
+        "date": {
+          "year": 2021,
+          "month": 5
+        }
+      },
+      {
+        "title": "永續能源專業認證",
+        "institution": "台灣綠能協會",
+        "date": {
+          "year": 2020,
+          "month": 3
+        }
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2021,
+          "month": 1
+        },
+        "is_current": true,
+        "end_date": {},
+        "duration_in_months": null,
+        "company": "綠地能源科技股份有限公司",
+        "location": "新北市, 台灣",
+        "title": "數據科學經理",
+        "description": "➤ 主導市場區隔分析專案，利用數據模型識別潛在客戶群，協助開發針對性的市場進入策略。\n➤ 與產品開發與行銷團隊密切合作，透過數據分析提升客戶滿意度，成功將NPS提升20%。\n➤ 建立跨部門數據共享平台，促進資訊流通，提高團隊之間的合作效率。"
+      },
+      {
+        "start_date": {
+          "year": 2018,
+          "month": 6
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2020,
+          "month": 12
+        },
+        "duration_in_months": 30,
+        "company": "綠色未來公司",
+        "location": "台北市, 台灣",
+        "title": "數據分析師",
+        "description": "➤ 負責市場研究與數據分析，為永續能源產品提供洞察力，推動業務成長。\n➤ 分析消費者行為數據，提出策略建議，協助公司進行產品調整與行銷規劃。\n➤ 使用Python及R語言進行數據建模，提升預測準確性，並撰寫分析報告向高層報告。"
+      },
+      {
+        "start_date": {
+          "year": 2015,
+          "month": 8
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2018,
+          "month": 5
+        },
+        "duration_in_months": 34,
+        "company": "綠色地球計畫",
+        "location": "台北市, 台灣",
+        "title": "市場研究助理",
+        "description": "➤ 協助進行市場調研，收集並分析數據以支持業務決策。\n➤ 負責撰寫市場分析報告，並參與定期的業務回顧會議。\n➤ 協調內部資源，以推進市場進入計畫，並跟蹤實施效果。"
+      }
+    ],
+    "awards": [
+      {
+        "title": "最佳數據分析專案獎",
+        "date": {
+          "year": 2022,
+          "month": 10
+        },
+        "awarding_institution": "綠色能源博覽會"
+      }
+    ],
+    "references": []
+  },
+  "metadata": {
+    "generated_date": "2025-05-14T23:56:05.345263",
+    "resume_type": "ds",
+    "index": 6,
+    "diversity_traits": {
+      "industry": "永續能源",
+      "work_style": "跨領域溝通",
+      "career_stage": "中階管理者",
+      "project_focus": "市場區隔分析"
+    }
+  }
+}

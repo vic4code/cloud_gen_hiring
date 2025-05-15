@@ -1,0 +1,490 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "金融科技策略規劃專家"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "長期穩定",
+          "value": 12
+        }
+      ],
+      "otherTimePeriod": "願意接受彈性工作時間",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "面議後一週內報到",
+        "value": 7
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年7月",
+        "value": "2024-07"
+      },
+      "salary": {
+        "text": "面議",
+        "value": 0
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "無",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "金融科技策略規劃師",
+      "preferArea": [
+        {
+          "no": 3,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 1,
+          "des": "全職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 5,
+          "des": "金融科技"
+        }
+      ],
+      "preferJobContent": "專注於金融科技領域的策略規劃與資料分析，強調資料視覺化與決策支持系統開發。",
+      "remoteWork": {
+        "text": "部分遠端",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代簡約",
+            "value": 3,
+            "name": "modern_minimal"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業清晰",
+            "value": 2,
+            "name": "professional_clear"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典正式",
+            "value": 1,
+            "name": "classic_formal"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "詳細完整",
+            "value": 4,
+            "name": "detailed_full"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡潔明瞭",
+            "value": 1,
+            "name": "concise_clear"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業標準",
+            "value": 2,
+            "name": "professional_standard"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "正式嚴謹",
+            "value": 3,
+            "name": "formal_rigorous"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "創意展示",
+            "value": 2,
+            "name": "creative_display"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "技術深入",
+            "value": 4,
+            "name": "technical_in_depth"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 101,
+          "name": "國立台灣大學",
+          "departments": [
+            {
+              "name": "資訊管理學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2010",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2014",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "畢業",
+            "value": 2
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "領域專家",
+        "value": 5
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "智匯金融科技有限公司",
+          "custNo": 202301,
+          "invoice": 98765432,
+          "logo": "https://example.com/logo_zhihui.png",
+          "industry": [
+            {
+              "no": 5,
+              "des": "金融科技"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "策略規劃經理",
+          "workArea": [
+            {
+              "no": 3,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 2,
+              "des": "策略規劃"
+            }
+          ],
+          "duration": {
+            "startYear": "2018",
+            "startMonth": {
+              "text": "一月",
+              "value": 1
+            },
+            "endYear": "2024",
+            "endMonth": []
+          },
+          "description": "負責金融科技產品的策略規劃與市場分析，領導團隊開發資料視覺化儀表板以提升決策效率。導入BI工具如Tableau與Power BI，結合Python資料分析腳本，自動化報表產出，提升年營收10%。與跨部門協作，制定長期技術路線圖，並監督專案進度與成果。",
+          "skill": [],
+          "salary": {
+            "monthPay": "120000",
+            "yearPay": "1440000",
+            "jobParttimeType": {
+              "text": "無",
+              "value": 0
+            },
+            "jobParttimePay": "0"
+          },
+          "companyVisibility": 1,
+          "stillWork": 1,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "專業技能",
+        "value": 3,
+        "name": "professional_skills"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "資料視覺化",
+          "desc": "熟練使用Tableau、Power BI及D3.js進行金融數據視覺化與儀表板開發",
+          "status": 3,
+          "tag": [
+            {
+              "text": "Tableau",
+              "value": "tableau"
+            }
+          ]
+        },
+        {
+          "sort": 2,
+          "name": "策略規劃",
+          "desc": "具備金融科技產業的策略分析與規劃經驗，善於市場趨勢預測與產品定位",
+          "status": 3,
+          "tag": [
+            {
+              "text": "策略規劃",
+              "value": "strategy_planning"
+            }
+          ]
+        },
+        {
+          "sort": 3,
+          "name": "資料分析",
+          "desc": "熟悉Python及SQL，能夠進行複雜資料處理與分析",
+          "status": 3,
+          "tag": [
+            {
+              "text": "Python",
+              "value": "python"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 1,
+          "des": "金融科技專案管理師"
+        },
+        {
+          "no": 2,
+          "des": "資料分析師認證"
+        }
+      ],
+      "others": "持續參與FinTech相關研討會與工作坊"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英語",
+            "value": 1
+          },
+          "listening": {
+            "text": "精通",
+            "value": 4
+          },
+          "speaking": {
+            "text": "流利",
+            "value": 4
+          },
+          "reading": {
+            "text": "精通",
+            "value": 4
+          },
+          "writing": {
+            "text": "精通",
+            "value": 4
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEFL iBT",
+                "value": 101
+              },
+              "grade": "100分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": {
+      "projects": [
+        {
+          "sort": 1,
+          "name": "金融數據視覺化儀表板開發",
+          "duration": {
+            "startYear": "2020",
+            "startMonth": {
+              "text": "三月",
+              "value": 3
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "十二月",
+              "value": 12
+            }
+          },
+          "isInProgress": 0,
+          "introduction": "帶領團隊設計並開發多款金融數據視覺化儀表板，整合多數據來源，提供即時決策支持。使用技術包括Tableau、Power BI及Python自動化腳本，提升報表產出效率並強化數據洞察力。",
+          "url": "https://example.com/project_dashboard",
+          "img": {
+            "pic": "dashboard_preview.png",
+            "fileId": "file123456",
+            "src": "https://example.com/images/dashboard_preview.png"
+          }
+        }
+      ]
+    },
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "策略規劃與資料視覺化案例集",
+          "attach": {
+            "name": "Strategy_DataViz_CaseStudy.pdf",
+            "status": 1,
+            "fileId": "file78910",
+            "url": "https://example.com/portfolio/Strategy_DataViz_CaseStudy.pdf",
+            "src": "https://example.com/portfolio/Strategy_DataViz_CaseStudy_preview.png"
+          },
+          "attachType": {
+            "text": "PDF文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "具有超過六年金融科技策略規劃經驗，專注於資料視覺化與決策支持，擅長跨部門協作與專案管理。",
+      "eng": "Over six years of experience in fintech strategic planning, specializing in data visualization and decision support, proficient in cross-department collaboration and project management."
+    },
+    "custom1": [],
+    "custom2": [],
+    "custom3": [],
+    "custom4": [],
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "fintech_strategy_expert_001",
+      "headshotUrl": "https://example.com/images/headshot.jpg",
+      "imageUrl": "https://example.com/images/background.jpg",
+      "nickname": "策略大師",
+      "title": {
+        "workExperience": 6,
+        "companyName": "智匯金融科技有限公司",
+        "jobName": "策略規劃經理",
+        "schoolName": "國立台灣大學",
+        "majorName": "資訊管理學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "專注於金融科技領域策略規劃與資料視覺化，熱愛用數據驅動商業決策，並持續學習最新技術。",
+      "motto": "數據驅動未來，策略成就價值。",
+      "abilities": [
+        "金融科技策略規劃",
+        "資料視覺化設計",
+        "團隊領導與協作",
+        "Python資料分析"
+      ],
+      "preferJobTitle": "金融科技策略規劃師",
+      "viewCount": 1582,
+      "createdAt": "2020-05-15T08:30:00Z",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 230,
+      "followedCount": 45,
+      "followed": 1,
+      "isFollowed": 1,
+      "isFollowingMe": 1,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "123e4567-e89b-12d3-a456-426614174000",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/strategyexpert",
+      "personalLink2Url": "https://github.com/strategyexpert",
+      "personalLink3Url": "https://strategyexpert.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "現代專業",
+          "value": 3,
+          "name": "modern_professional"
+        },
+        "backgroundColor": "#f5f7fa"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:25:36.641029",
+    "resume_type": "mle",
+    "index": 2,
+    "diversity_traits": {
+      "industry": "金融科技",
+      "work_style": "策略規劃",
+      "career_stage": "領域專家",
+      "project_focus": "資料視覺化儀表板"
+    }
+  }
+}

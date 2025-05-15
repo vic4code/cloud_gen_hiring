@@ -1,0 +1,152 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "Chih Yu",
+      "last_name": "Chen",
+      "gender": "female",
+      "emails": [
+        "chihyu.chen@example.com"
+      ],
+      "urls": [
+        "http://www.linkedin.com/in/chihyu-chen",
+        "https://github.com/chihyu-data"
+      ],
+      "phone_numbers": [
+        "0987654321"
+      ],
+      "date_of_birth": {
+        "year": 1991,
+        "month": 3,
+        "day": 15
+      },
+      "address": "台北市, 台灣",
+      "total_experience_in_years": 6,
+      "profession": "數據科學家",
+      "summary": "✔ 擁有超過 5 年醫療健康領域的數據科學經驗，專精於大數據分析及機器學習\n✔ 成功實施多項數據驅動決策專案，提升運營效率與病患滿意度\n✔ 獲得國際認證的數據分析師，持續關注最新的數據科技發展\n✔ 強調團隊合作，致力於將數據轉化為實際應用，助力企業成功"
+    },
+    "skills": [
+      "Python",
+      "R",
+      "SQL",
+      "TensorFlow",
+      "Hadoop",
+      "Tableau",
+      "Spark",
+      "AWS",
+      "Excel",
+      "Machine Learning",
+      "Statistics",
+      "Data Visualization",
+      "Data Mining"
+    ],
+    "has_driving_license": true
+  },
+  "languages": [
+    {
+      "name": "Chinese",
+      "iso_code": "zh",
+      "fluency": 5
+    },
+    {
+      "name": "English",
+      "iso_code": "en",
+      "fluency": 4
+    }
+  ],
+  "educations": [
+    {
+      "start_year": 2015,
+      "end_year": 2017,
+      "is_current": false,
+      "issuing_organization": "國防醫學院",
+      "description": "碩士 - 生醫資訊學"
+    },
+    {
+      "start_year": 2009,
+      "end_year": 2013,
+      "is_current": false,
+      "issuing_organization": "國立中興大學",
+      "description": "學士 - 生物科技"
+    }
+  ],
+  "trainings_and_certifications": [
+    {
+      "year": 2022,
+      "issuing_organization": "Coursera",
+      "description": "數據科學專業證書"
+    },
+    {
+      "year": 2023,
+      "issuing_organization": "AWS",
+      "description": "AWS 認證解決方案架構師"
+    }
+  ],
+  "professional_experiences": [
+    {
+      "start_date": {
+        "year": 2023,
+        "month": 1
+      },
+      "end_date": {
+        "year": 2025,
+        "month": 1
+      },
+      "is_current": true,
+      "duration_in_months": 24,
+      "company": "某醫療科技公司",
+      "location": "台北, 台灣",
+      "title": "數據科學家",
+      "description": "專注於醫療數據的大數據分析，協助開發病患預測模型，提升醫療服務效率\n\n- 利用機器學習和統計分析，成功預測病患流行趨勢，提升醫療資源配置效率30%\n- 與臨床醫生合作，分析病歷數據，提供數據驅動的改善建議，促進病患治療滿意度\n- 發展可視化儀表板，展示關鍵醫療指標，協助管理層做出數據驅動的商業決策"
+    },
+    {
+      "start_date": {
+        "year": 2020,
+        "month": 5
+      },
+      "end_date": {
+        "year": 2022,
+        "month": 12
+      },
+      "is_current": false,
+      "duration_in_months": 30,
+      "company": "健康數據中心",
+      "location": "台北, 台灣",
+      "title": "數據分析師",
+      "description": "負責醫療數據的整理和分析，為決策提供可靠的數據支持\n\n- 建立 ETL 流程，整理病患資料庫，提高查詢效率，支援報告生成\n- 開發 Tableau 儀表板，向內部和外部利益相關者展示分析結果\n- 提供數據洞察，支持多項醫療政策修訂，提升醫療服務品質"
+    },
+    {
+      "start_date": {
+        "year": 2018,
+        "month": 6
+      },
+      "end_date": {
+        "year": 2020,
+        "month": 4
+      },
+      "is_current": false,
+      "duration_in_months": 22,
+      "company": "健康科技初創公司",
+      "location": "台北, 台灣",
+      "title": "數據工程師",
+      "description": "開發數據管道，以支持健康科技產品的數據需求\n\n- 搭建基於 AWS 的數據架構，提升資料存儲及查詢性能\n- 自動化數據擷取過程，減少人力需求40%，提升運營效率\n- 與產品團隊緊密合作，確保數據分析需求無縫對接產品開發"
+    }
+  ],
+  "awards": [
+    {
+      "year": 2023,
+      "description": "最佳數據分析專案獎 - 2023 國際健康科技大會"
+    }
+  ],
+  "references": [],
+  "metadata": {
+    "generated_date": "2025-05-15T00:03:00.635894",
+    "resume_type": "ds",
+    "index": 22,
+    "diversity_traits": {
+      "industry": "醫療健康",
+      "work_style": "績效專注",
+      "career_stage": "領域專家",
+      "project_focus": "大數據分析"
+    }
+  }
+}

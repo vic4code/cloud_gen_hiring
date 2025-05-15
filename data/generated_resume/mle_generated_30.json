@@ -1,0 +1,368 @@
+{
+  "data": {
+    "item": {
+      "id": 1024,
+      "name": "智慧製造領域客戶行為分析策略規劃",
+      "description": "專注於智慧製造產業中客戶行為的分析與策略規劃，結合數據科學與機器學習技術，提升客戶體驗與產品優化。",
+      "path": "/profiles/mle-smart-manufacturing-customer-behavior",
+      "liked": 87,
+      "is_owner": 1,
+      "added_to_folder": 15,
+      "votes_total": 120,
+      "lang": "zh-TW",
+      "theme": "dark",
+      "editor_version": 3,
+      "style": "professional",
+      "style_config": {},
+      "spacing": "comfortable",
+      "connected_with_posts": 25,
+      "seems_spam": 0,
+      "should_confirm_external_links": 0,
+      "system_generated": 0,
+      "exported_from_profile": 0,
+      "body": "博士研究員，專注於智慧製造領域的客戶行為分析與策略制定，擅長應用機器學習模型於實際業務場景，推動產品與服務優化。",
+      "body_json_v2": null,
+      "user": {
+        "name": "陳冠宇",
+        "username": "guanyu_chen",
+        "id": 4589,
+        "first_name": "冠宇",
+        "last_name": "陳",
+        "description": "智慧製造領域的博士研究員，專長於客戶行為分析與策略規劃，致力於將先進數據技術應用於產業升級。",
+        "cover_image": {
+          "url": "https://example.com/images/cover_guanyu_chen.jpg",
+          "small": {
+            "url": "https://example.com/images/cover_guanyu_chen_small.jpg"
+          },
+          "medium": {
+            "url": "https://example.com/images/cover_guanyu_chen_medium.jpg"
+          },
+          "large": {
+            "url": "https://example.com/images/cover_guanyu_chen_large.jpg"
+          },
+          "small_3_1": {
+            "url": "https://example.com/images/cover_guanyu_chen_small_3_1.jpg"
+          },
+          "medium_3_1": {
+            "url": "https://example.com/images/cover_guanyu_chen_medium_3_1.jpg"
+          }
+        },
+        "avatar": {
+          "url": "https://example.com/avatars/guanyu_chen.jpg",
+          "tiny": {
+            "url": "https://example.com/avatars/guanyu_chen_tiny.jpg"
+          },
+          "small": {
+            "url": "https://example.com/avatars/guanyu_chen_small.jpg"
+          },
+          "medium": {
+            "url": "https://example.com/avatars/guanyu_chen_medium.jpg"
+          },
+          "large": {
+            "url": "https://example.com/avatars/guanyu_chen_large.jpg"
+          },
+          "xlarge": {
+            "url": "https://example.com/avatars/guanyu_chen_xlarge.jpg"
+          }
+        },
+        "avatar_tiny_url": "https://example.com/avatars/guanyu_chen_tiny.jpg",
+        "avatar_small_url": "https://example.com/avatars/guanyu_chen_small.jpg",
+        "avatar_medium_url": "https://example.com/avatars/guanyu_chen_medium.jpg",
+        "has_phone": 1,
+        "has_email": 1,
+        "main_public_item_path": "/profiles/guanyu_chen",
+        "main_signed_url_non_hidden_item_path": null,
+        "posts_count": 42,
+        "published_posts_count": 38,
+        "profile_privacy_level": "public",
+        "online_status": "online",
+        "recommendee_token": "token_abc123",
+        "public_recommendations_count": 12,
+        "mutual_connections_count": 8,
+        "unique_impressions_count": 1500,
+        "is_premium": 0,
+        "no_branding": 1,
+        "seems_spam": 0,
+        "desired_job_type": "全職",
+        "job_search_progress": "積極尋找",
+        "current_employment_status": "在職",
+        "is_freelancer": "否",
+        "work_experience": "具備五年智慧製造與數據分析相關研究經驗，專注於策略規劃與機器學習應用。",
+        "relevant_work_experience": "在博士研究期間主導多項客戶行為分析專案，成功提升產品策略決策效率。",
+        "desired_position": "數據科學家／策略規劃師",
+        "role": "博士研究員",
+        "languages": [
+          "中文",
+          "英文"
+        ],
+        "remote": "可遠端工作",
+        "country": "台灣",
+        "city": null,
+        "city_name": null,
+        "city_name_en": null,
+        "google_place_id": "ChIJd_Y0eVIvkIARuQyDN0F1LBA",
+        "google_place_name": "台北市",
+        "google_place_name_en": "Taipei City",
+        "google_place_country_name_en": "Taiwan",
+        "google_place_region_name_en": "Taipei",
+        "desired_location_google_place_ids": [
+          "ChIJaXQRs6lPbjQRy9y4r9SZW_k"
+        ],
+        "desired_location_names": [
+          "新竹市"
+        ],
+        "desired_location_names_en": [
+          "Hsinchu City"
+        ],
+        "desired_location_country_names_en": [
+          "Taiwan"
+        ],
+        "desired_location_region_names_en": [
+          null
+        ],
+        "cr_location": {
+          "id": "TW-TP",
+          "full_name": "台灣臺北市",
+          "country": "台灣",
+          "admin_level_1": "臺北市",
+          "locale": "zh-TW"
+        },
+        "cr_desired_locations": [
+          {
+            "id": "TW-HC",
+            "full_name": "台灣新竹市",
+            "country": "台灣",
+            "admin_level_1": null,
+            "locale": "zh-TW"
+          }
+        ],
+        "eligible_work_locations": [],
+        "graduated_from_school": "國立台灣大學",
+        "graduated_from_field": "工業工程與管理",
+        "skill_list": [
+          "機器學習",
+          "策略規劃",
+          "數據分析",
+          "Python",
+          "R"
+        ],
+        "professions": [
+          "數據科學家",
+          "研究員"
+        ],
+        "industries": [
+          "智慧製造",
+          "資訊科技"
+        ],
+        "headline": "智慧製造博士研究員 | 專精客戶行為分析與策略規劃",
+        "number_of_management": "無管理經驗",
+        "education_level": "博士",
+        "last_seen_at_days_ago_level": 2,
+        "network_profile": {
+          "id": "net_4589",
+          "avatar": {
+            "url": "https://example.com/avatars/guanyu_chen_network.jpg",
+            "tiny": {
+              "url": "https://example.com/avatars/guanyu_chen_network_tiny.jpg"
+            },
+            "small": {
+              "url": "https://example.com/avatars/guanyu_chen_network_small.jpg"
+            },
+            "medium": {
+              "url": "https://example.com/avatars/guanyu_chen_network_medium.jpg"
+            },
+            "large": {
+              "url": "https://example.com/avatars/guanyu_chen_network_large.jpg"
+            },
+            "xlarge": {
+              "url": "https://example.com/avatars/guanyu_chen_network_xlarge.jpg"
+            }
+          },
+          "status": "活躍中",
+          "description": "積極參與智慧製造與數據科學領域的社群交流與合作。",
+          "identity_types": [
+            "博士研究員",
+            "數據分析師"
+          ],
+          "topics_to_learn": [
+            "深度學習",
+            "大數據處理"
+          ],
+          "topics_to_share": [
+            "客戶行為模型",
+            "策略規劃方法"
+          ],
+          "tags": [],
+          "badges": [],
+          "suspended": 0,
+          "user": {
+            "name": "陳冠宇",
+            "username": "guanyu_chen",
+            "first_name": "冠宇",
+            "last_name": "陳",
+            "description": "智慧製造領域博士研究員，數據分析與策略規劃專家。",
+            "cover_image": {
+              "url": "https://example.com/images/cover_guanyu_chen.jpg",
+              "small": {
+                "url": "https://example.com/images/cover_guanyu_chen_small.jpg"
+              },
+              "medium": {
+                "url": "https://example.com/images/cover_guanyu_chen_medium.jpg"
+              },
+              "large": {
+                "url": "https://example.com/images/cover_guanyu_chen_large.jpg"
+              },
+              "small_3_1": {
+                "url": "https://example.com/images/cover_guanyu_chen_small_3_1.jpg"
+              },
+              "medium_3_1": {
+                "url": "https://example.com/images/cover_guanyu_chen_medium_3_1.jpg"
+              }
+            },
+            "avatar": {
+              "url": "https://example.com/avatars/guanyu_chen.jpg",
+              "tiny": {
+                "url": "https://example.com/avatars/guanyu_chen_tiny.jpg"
+              },
+              "small": {
+                "url": "https://example.com/avatars/guanyu_chen_small.jpg"
+              },
+              "medium": {
+                "url": "https://example.com/avatars/guanyu_chen_medium.jpg"
+              },
+              "large": {
+                "url": "https://example.com/avatars/guanyu_chen_large.jpg"
+              },
+              "xlarge": {
+                "url": "https://example.com/avatars/guanyu_chen_xlarge.jpg"
+              }
+            },
+            "avatar_tiny_url": "https://example.com/avatars/guanyu_chen_tiny.jpg",
+            "avatar_small_url": "https://example.com/avatars/guanyu_chen_small.jpg",
+            "avatar_medium_url": "https://example.com/avatars/guanyu_chen_medium.jpg",
+            "profile_privacy_level": "public",
+            "online_status": "online",
+            "current_job_title": "博士研究員",
+            "current_company": "國立台灣大學智慧製造研究中心",
+            "headline": "智慧製造博士研究員 | 擅長客戶行為分析",
+            "is_premium": 0,
+            "status": "活躍"
+          }
+        },
+        "review_application": {
+          "precedence": 1,
+          "status": "通過",
+          "reject_reason": null,
+          "reject_details": null
+        }
+      },
+      "most_recent_work_experience": {
+        "title": "博士研究員",
+        "currently_work_here": 1,
+        "from_year": 2019,
+        "from_month": 9,
+        "end_year": null,
+        "end_month": null,
+        "organization": {
+          "name": "國立台灣大學智慧製造研究中心",
+          "id": 301,
+          "logo": {
+            "url": "https://ntu.edu.tw/logo.png",
+            "tiny": {
+              "url": "https://ntu.edu.tw/logo_tiny.png"
+            },
+            "thumb": {
+              "url": "https://ntu.edu.tw/logo_thumb.png"
+            },
+            "medium": {
+              "url": "https://ntu.edu.tw/logo_medium.png"
+            },
+            "large": null,
+            "og_image": {
+              "url": null
+            }
+          }
+        }
+      },
+      "most_recent_education": {
+        "degree_type": "博士",
+        "majors": [
+          "工業工程與管理"
+        ],
+        "from_year": 2015,
+        "end_year": 2019,
+        "organization": {
+          "name": "國立台灣大學",
+          "id": 101,
+          "logo": {
+            "url": "https://ntu.edu.tw/logo.png",
+            "tiny": {
+              "url": "https://ntu.edu.tw/logo_tiny.png"
+            },
+            "thumb": {
+              "url": "https://ntu.edu.tw/logo_thumb.png"
+            },
+            "medium": {
+              "url": "https://ntu.edu.tw/logo_medium.png"
+            },
+            "large": null,
+            "og_image": {
+              "url": null
+            }
+          }
+        }
+      }
+    },
+    "use_signed_url": 1,
+    "no_branding": 1,
+    "privacy_level": 0,
+    "signed_or_not_item_url": "https://platform.example.com/items/1024",
+    "metadata": {
+      "images": [
+        {
+          "src": "https://example.com/images/profile_header.jpg",
+          "width": 1200,
+          "height": 630
+        }
+      ]
+    },
+    "ga_tracking_code": null,
+    "has_permission_ga": 1,
+    "draft_update_count": 3
+  },
+  "meta_tags": {
+    "title": "陳冠宇 - 智慧製造博士研究員 | 客戶行為分析專家",
+    "description": "專注於智慧製造領域客戶行為分析與策略規劃，結合機器學習技術提升產業競爭力。",
+    "canonical": "https://platform.example.com/profiles/guanyu_chen",
+    "og": {
+      "type": "profile",
+      "image": "https://example.com/avatars/guanyu_chen_large.jpg"
+    },
+    "nofollow": 0,
+    "noindex": 0,
+    "amphtml": "https://platform.example.com/profiles/guanyu_chen/amp"
+  },
+  "structured_data_sets": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "陳冠宇",
+      "image": "https://example.com/avatars/guanyu_chen_medium.jpg",
+      "description": "智慧製造博士研究員，專注於客戶行為分析與策略規劃，應用機器學習提升產業效能。",
+      "url": "https://platform.example.com/profiles/guanyu_chen",
+      "jobTitle": "博士研究員",
+      "sameAs": "https://www.linkedin.com/in/guanyu-chen"
+    }
+  ],
+  "metadata": {
+    "generated_date": "2025-05-15T11:52:06.279407",
+    "resume_type": "mle",
+    "index": 30,
+    "diversity_traits": {
+      "industry": "智慧製造",
+      "work_style": "策略規劃",
+      "career_stage": "博士研究員",
+      "project_focus": "客戶行為分析"
+    }
+  }
+}

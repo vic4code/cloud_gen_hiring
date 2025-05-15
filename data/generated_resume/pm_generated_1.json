@@ -1,0 +1,91 @@
+{
+  "personal_info": {
+    "gender": "女性",
+    "age": 23,
+    "military_status": "免役",
+    "employment_status": "應屆畢業生",
+    "email": "alice.chang@example.com",
+    "address": "台北市信義區松仁路100號",
+    "english_name": "Alice Chang",
+    "driver_licenses": [
+      "普通重型機車"
+    ]
+  },
+  "education": {
+    "school": "國立臺灣大學",
+    "department": "資訊工程學系",
+    "degree": "學士",
+    "period": "2019-2023"
+  },
+  "work_experience": {
+    "total_years": "0.5",
+    "jobs": [
+      {
+        "company": "區塊鏈科技新創公司",
+        "industry": "區塊鏈",
+        "company_size": "50-100人",
+        "title": "產品助理",
+        "location": "遠端",
+        "period": "2022-07至2023-01",
+        "description": [
+          "協助產品經理整理用戶需求及競品分析報告",
+          "參與電腦視覺應用於數位資產識別的專案溝通與資料整理",
+          "使用Jira和Confluence協助團隊進行敏捷開發流程管理"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "data_analysis": [
+      "Python資料分析基礎",
+      "Excel數據整理與視覺化"
+    ],
+    "specialties": [
+      "電腦視覺基礎理解",
+      "區塊鏈技術應用概念"
+    ],
+    "data_driven_decision_making": "具備初步數據分析能力，能協助產品決策提供數據支援",
+    "collaboration": "熟悉遠端團隊協作工具，能有效溝通並協助跨部門合作"
+  },
+  "self_intro": {
+    "current_position": "產品助理",
+    "leadership": "在校期間擔任專案小組領導，協調組員分工並推動專案進度",
+    "future_goal": "期望成為能結合區塊鏈與電腦視覺的產品經理，帶領團隊打造創新應用"
+  },
+  "job_preferences": {
+    "job_type": "全職",
+    "working_hours": "彈性工時",
+    "availability": "一個月內可上班",
+    "expected_salary": "面議",
+    "preferred_locations": [
+      "台北",
+      "遠端"
+    ],
+    "remote_work": "是",
+    "desired_titles": [
+      "產品經理",
+      "助理產品經理"
+    ],
+    "preferred_categories": [
+      "區塊鏈",
+      "科技新創"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "Python程式設計認證",
+      "issuer": "資策會"
+    }
+  ],
+  "metadata": {
+    "generated_date": "2025-05-15T11:52:21.462829",
+    "resume_type": "pm",
+    "index": 1,
+    "diversity_traits": {
+      "industry": "區塊鏈",
+      "work_style": "遠端協作",
+      "career_stage": "應屆畢業生",
+      "project_focus": "電腦視覺專案"
+    }
+  }
+}

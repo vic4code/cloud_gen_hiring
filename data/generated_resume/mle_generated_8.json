@@ -1,0 +1,461 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "sidebar_biotech_001"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "長期",
+          "value": 12
+        }
+      ],
+      "otherTimePeriod": "無特殊時段限制",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "一個月內",
+        "value": 30
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "2024年7月",
+        "value": "2024-07"
+      },
+      "salary": {
+        "text": "新台幣 80,000",
+        "value": 80000
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "無時薪設定",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "資料工程師 / 中階管理者",
+      "preferArea": [
+        {
+          "no": 3,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 1,
+          "des": "全職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 15,
+          "des": "生物科技"
+        }
+      ],
+      "preferJobContent": "專注於資料管線設計與團隊管理，推動資料驅動決策",
+      "remoteWork": {
+        "text": "部分遠距工作",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業簡約",
+            "value": 1,
+            "name": "theme_professional_minimal"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "清晰明瞭",
+            "value": 2,
+            "name": "theme_clear_overview"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "正式嚴謹",
+            "value": 3,
+            "name": "theme_formal_academic"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "詳盡敘述",
+            "value": 4,
+            "name": "theme_detailed_experience"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代風格",
+            "value": 2,
+            "name": "theme_modern_style"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡潔風",
+            "value": 1,
+            "name": "theme_simple_language"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "標準格式",
+            "value": 1,
+            "name": "theme_standard_certificate"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業展示",
+            "value": 2,
+            "name": "theme_professional_portfolio"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "重點突出",
+            "value": 3,
+            "name": "theme_project_highlight"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 101,
+          "name": "國立臺灣大學生物資源暨農學院",
+          "departments": [
+            {
+              "name": "生物資訊學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2010",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2014",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "畢業",
+            "value": 2
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "中階管理者",
+        "value": 3
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "台灣生技股份有限公司",
+          "custNo": 5001,
+          "invoice": 12345678,
+          "logo": "https://example.com/logo/biotech.png",
+          "industry": [
+            {
+              "no": 15,
+              "des": "生物科技"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "資料管線主管",
+          "workArea": [
+            {
+              "no": 3,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 2,
+              "des": "管理職"
+            }
+          ],
+          "duration": {
+            "startYear": "2018",
+            "startMonth": {
+              "text": "一月",
+              "value": 1
+            },
+            "endYear": "2023",
+            "endMonth": []
+          },
+          "description": "負責規劃與管理公司生物資料管線建置，導入Python與Apache Airflow自動化工作流程，提升資料處理效率30%。帶領5人團隊進行資料清理、整合與分析，確保資料品質符合研究需求。",
+          "skill": [],
+          "salary": {
+            "monthPay": "80000",
+            "yearPay": "960000",
+            "jobParttimeType": {
+              "text": "無",
+              "value": 0
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": 1,
+          "stillWork": 0,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "專業技能",
+        "value": 1,
+        "name": "skill_theme_professional"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "資料管線建置",
+          "desc": "熟悉Python、Airflow及ETL流程設計，具備團隊協作與管理經驗。",
+          "status": 2,
+          "tag": [
+            {
+              "text": "Python",
+              "value": "python"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 101,
+          "des": "PMP專案管理專業人士認證"
+        }
+      ],
+      "others": "持有生物資訊相關工作坊證書"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英語",
+            "value": 1
+          },
+          "listening": {
+            "text": "中高級",
+            "value": 3
+          },
+          "speaking": {
+            "text": "中級",
+            "value": 2
+          },
+          "reading": {
+            "text": "中高級",
+            "value": 3
+          },
+          "writing": {
+            "text": "中級",
+            "value": 2
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 1
+              },
+              "grade": "850"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": {
+      "projects": [
+        {
+          "sort": 1,
+          "name": "生物資料管線自動化建置",
+          "duration": {
+            "startYear": "2020",
+            "startMonth": {
+              "text": "三月",
+              "value": 3
+            },
+            "endYear": "2022",
+            "endMonth": {
+              "text": "十二月",
+              "value": 12
+            }
+          },
+          "isInProgress": 0,
+          "introduction": "設計並實施自動化資料管線，使用Apache Airflow排程，整合多種生物資料來源，提升數據處理效率與準確度。",
+          "url": "https://github.com/username/biopipeline",
+          "img": {
+            "pic": "https://example.com/project/biopipeline.png",
+            "fileId": "proj_001",
+            "src": "https://example.com/project/biopipeline.png"
+          }
+        }
+      ]
+    },
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "資料管線設計方案",
+          "attach": {
+            "name": "biopipeline_proposal.pdf",
+            "status": 1,
+            "fileId": "file_001",
+            "url": "https://example.com/portfolio/biopipeline_proposal.pdf",
+            "src": "https://example.com/portfolio/biopipeline_proposal.pdf"
+          },
+          "attachType": {
+            "text": "文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "具有五年生物科技產業資料管理與團隊領導經驗，專注於資料管線自動化與品質控管。",
+      "eng": "Experienced in data pipeline management and team leadership in the biotech industry for five years, focusing on automation and quality control."
+    },
+    "custom1": [],
+    "custom2": [],
+    "custom3": [],
+    "custom4": [],
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "profile_biotech_001",
+      "headshotUrl": "https://example.com/images/headshot.jpg",
+      "imageUrl": "https://example.com/images/background.jpg",
+      "nickname": "資料長",
+      "title": {
+        "workExperience": 5,
+        "companyName": "台灣生技股份有限公司",
+        "jobName": "資料管線主管",
+        "schoolName": "國立臺灣大學",
+        "majorName": "生物資訊學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "我熱愛將複雜的生物資料轉化為可操作的洞見，致力於領導團隊提升資料處理效能。",
+      "motto": "持續學習，精益求精",
+      "abilities": [
+        "資料管理",
+        "團隊領導",
+        "專案管理"
+      ],
+      "preferJobTitle": "資料管線主管",
+      "viewCount": 1200,
+      "createdAt": "2022-01-15T08:00:00Z",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 250,
+      "followedCount": 180,
+      "followed": 1,
+      "isFollowed": 1,
+      "isFollowingMe": 1,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "uuid-1234-5678-biotek-001",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://linkedin.com/in/biotechmanager",
+      "personalLink2Url": "https://github.com/biotechmanager",
+      "personalLink3Url": "https://biotechportfolio.com",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "專業簡約",
+          "value": 1,
+          "name": "theme_professional_minimal"
+        },
+        "backgroundColor": "#f5f7fa"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:30:48.492570",
+    "resume_type": "mle",
+    "index": 8,
+    "diversity_traits": {
+      "industry": "生物科技",
+      "work_style": "客戶導向",
+      "career_stage": "中階管理者",
+      "project_focus": "資料管線建置"
+    }
+  }
+}

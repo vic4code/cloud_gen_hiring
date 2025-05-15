@@ -1,0 +1,632 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "profile"
+      },
+      {
+        "id": "education"
+      },
+      {
+        "id": "skill"
+      },
+      {
+        "id": "experience"
+      },
+      {
+        "id": "jobCondition"
+      },
+      {
+        "id": "certificate"
+      },
+      {
+        "id": "language"
+      },
+      {
+        "id": "custom2"
+      },
+      {
+        "id": "custom1"
+      },
+      {
+        "id": "custom3"
+      },
+      {
+        "id": "custom4"
+      },
+      {
+        "id": "bio"
+      },
+      {
+        "id": "portfolio"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職工作",
+          "value": "1"
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "日班",
+          "value": "1"
+        }
+      ],
+      "otherTimePeriod": "",
+      "workShift": "0",
+      "onBoardAfterGetOffer": {
+        "text": "隨時",
+        "value": "0"
+      },
+      "customOnBoardDate": {
+        "year": "",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "錄取後",
+        "value": "1"
+      },
+      "salary": {
+        "text": "面議",
+        "value": "1"
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": "5"
+      },
+      "salaryOfHours": "",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "機器學習工程師、資料科學家、區塊鏈資料分析師、資料視覺化工程師、數據工程師",
+      "preferArea": [
+        {
+          "no": 6001001000,
+          "des": "台北市"
+        },
+        {
+          "no": 6001002000,
+          "des": "新北市"
+        },
+        {
+          "no": 6001006000,
+          "des": "新竹縣市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 2007001001,
+          "des": "機器學習工程師"
+        },
+        {
+          "no": 2007002005,
+          "des": "資料庫分析師"
+        },
+        {
+          "no": 2007002002,
+          "des": "資料庫管理人員"
+        },
+        {
+          "no": 2007001004,
+          "des": "軟體工程師"
+        },
+        {
+          "no": 2016001007,
+          "des": "統計學研究員"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 1001000000,
+          "des": "電子資訊／軟體／半導體相關業"
+        },
+        {
+          "no": 1003000000,
+          "des": "資訊服務業"
+        },
+        {
+          "no": 1011000000,
+          "des": "金融服務業"
+        }
+      ],
+      "preferJobContent": "",
+      "remoteWork": {
+        "text": "對遠端工作有意願",
+        "value": "1"
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典風格",
+            "value": "1",
+            "name": "ProfileThemeClassic"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "卡片式",
+            "value": "2",
+            "name": "SkillThemeCard"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "EducationThemeList"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "ExperienceThemeList"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "JobConditionThemeList"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "LanguageThemeList"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "列表式",
+            "value": "1",
+            "name": "CertificateThemeList"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "三欄式",
+            "value": "1",
+            "name": "PortfolioTheme3Column"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "單欄式",
+            "value": "1",
+            "name": "ProjectTheme1Column"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": "1",
+          "schoolId": 5180000000,
+          "name": "國立陽明交通大學",
+          "departments": [
+            {
+              "name": "資訊工程研究所",
+              "type": [
+                {
+                  "no": 3001001000,
+                  "des": "資訊工程相關"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2018",
+            "startMonth": {
+              "text": "9",
+              "value": 9
+            },
+            "endYear": "2020",
+            "endMonth": {
+              "text": "7",
+              "value": 7
+            }
+          },
+          "highest": {
+            "text": "碩士",
+            "value": "2"
+          },
+          "status": {
+            "text": "畢業",
+            "value": "1"
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 7001053000
+          }
+        },
+        {
+          "sort": "2",
+          "schoolId": 5065000000,
+          "name": "國立交通大學",
+          "departments": [
+            {
+              "name": "資訊管理學系",
+              "type": [
+                {
+                  "no": 3001003000,
+                  "des": "資訊管理相關"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2014",
+            "startMonth": {
+              "text": "9",
+              "value": 9
+            },
+            "endYear": "2018",
+            "endMonth": {
+              "text": "6",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "大學",
+            "value": "3"
+          },
+          "status": {
+            "text": "畢業",
+            "value": "1"
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "台灣",
+            "value": 7001053000
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "10年以上",
+        "value": "5"
+      },
+      "experiences": [
+        {
+          "sort": "1",
+          "companyName": "區塊鏈技術有限公司",
+          "custNo": "blockchain001",
+          "invoice": 12345678,
+          "logo": "https://example.com/logo_blockchain.png",
+          "industry": [
+            {
+              "no": 1001001005,
+              "des": "區塊鏈技術開發"
+            }
+          ],
+          "companyScale": {
+            "text": "200-500人",
+            "value": "3"
+          },
+          "jobName": "資深機器學習工程師",
+          "workArea": [
+            {
+              "no": 6001001000,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": "1"
+          },
+          "jobCat": [
+            {
+              "no": 2007001001,
+              "des": "機器學習工程師"
+            }
+          ],
+          "duration": {
+            "startYear": "2021",
+            "startMonth": {
+              "text": "4",
+              "value": 4
+            },
+            "endYear": "",
+            "endMonth": []
+          },
+          "description": "● 領導團隊開發區塊鏈資料視覺化儀表板，提升資料解讀效率30%\n● 利用機器學習模型分析區塊鏈交易資料，預測潛在風險與異常交易\n● 設計並實作高效能資料管道，整合多源數據供分析與監控\n● 與跨部門合作，優化系統架構與資料可視化工具，提升使用者體驗\n● 指導初級工程師，推廣最佳實踐與技術分享",
+          "skill": [
+            {
+              "text": "Python",
+              "value": "12001003045"
+            },
+            {
+              "text": "機器學習",
+              "value": "12001005001"
+            },
+            {
+              "text": "資料視覺化",
+              "value": "12001007001"
+            },
+            {
+              "text": "區塊鏈技術",
+              "value": "12002001001"
+            }
+          ],
+          "salary": {
+            "monthPay": "",
+            "yearPay": "",
+            "jobParttimeType": {
+              "text": "",
+              "value": ""
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": true,
+          "stillWork": true,
+          "salaryVisibility": false
+        },
+        {
+          "sort": "2",
+          "companyName": "大數據分析科技股份有限公司",
+          "custNo": "bigdata123",
+          "invoice": 87654321,
+          "logo": "https://example.com/logo_bigdata.png",
+          "industry": [
+            {
+              "no": 1001000001,
+              "des": "資訊軟體服務"
+            }
+          ],
+          "companyScale": {
+            "text": "100-200人",
+            "value": "2"
+          },
+          "jobName": "高級資料科學家",
+          "workArea": [
+            {
+              "no": 6001002000,
+              "des": "新北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": "1"
+          },
+          "jobCat": [
+            {
+              "no": 2016001007,
+              "des": "統計學研究員"
+            }
+          ],
+          "duration": {
+            "startYear": "2016",
+            "startMonth": {
+              "text": "9",
+              "value": 9
+            },
+            "endYear": "2021",
+            "endMonth": {
+              "text": "3",
+              "value": 3
+            }
+          },
+          "description": "● 建置並維護大型資料視覺化儀表板，協助客戶快速洞察關鍵指標\n● 利用R與Python進行資料清理、分析與機器學習模型開發\n● 參與區塊鏈數據分析專案，設計交易模式偵測與異常警示系統\n● 與產品團隊協作，定義資料需求及報告格式，提升決策效率\n● 撰寫技術文件與培訓課程，提升團隊整體技術水平",
+          "skill": [
+            {
+              "text": "R",
+              "value": "12001003050"
+            },
+            {
+              "text": "Python",
+              "value": "12001003045"
+            },
+            {
+              "text": "資料視覺化",
+              "value": "12001007001"
+            },
+            {
+              "text": "機器學習",
+              "value": "12001005001"
+            }
+          ],
+          "salary": {
+            "monthPay": "",
+            "yearPay": "",
+            "jobParttimeType": {
+              "text": "",
+              "value": ""
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": true,
+          "stillWork": false,
+          "salaryVisibility": false
+        },
+        {
+          "sort": "3",
+          "companyName": "創新區塊鏈科技股份有限公司",
+          "custNo": "blockchaininc",
+          "invoice": 23456789,
+          "logo": "https://example.com/logo_blockchaininc.png",
+          "industry": [
+            {
+              "no": 1001001005,
+              "des": "區塊鏈技術開發"
+            }
+          ],
+          "companyScale": {
+            "text": "50-100人",
+            "value": "2"
+          },
+          "jobName": "資料工程師",
+          "workArea": [
+            {
+              "no": 6001006000,
+              "des": "新竹縣市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": "1"
+          },
+          "jobCat": [
+            {
+              "no": 2007002002,
+              "des": "資料庫管理人員"
+            }
+          ],
+          "duration": {
+            "startYear": "2014",
+            "startMonth": {
+              "text": "7",
+              "value": 7
+            },
+            "endYear": "2016",
+            "endMonth": {
+              "text": "8",
+              "value": 8
+            }
+          },
+          "description": "● 設計與維護區塊鏈資料庫及資料管線，確保資料品質與流暢度\n● 協助資料科學團隊搭建資料視覺化平台，提供即時分析報告\n● 實施ETL流程，整合多樣化資料來源，提升資料可用性\n● 監控系統效能，優化資料存取速度及資源使用率\n● 參與跨部門專案會議，提供技術支援與解決方案",
+          "skill": [
+            {
+              "text": "SQL",
+              "value": "12001003060"
+            },
+            {
+              "text": "資料庫管理",
+              "value": "11009002005"
+            },
+            {
+              "text": "資料視覺化",
+              "value": "12001007001"
+            }
+          ],
+          "salary": {
+            "monthPay": "",
+            "yearPay": "",
+            "jobParttimeType": {
+              "text": "",
+              "value": ""
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": true,
+          "stillWork": false,
+          "salaryVisibility": false
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "卡片式",
+        "value": "2",
+        "name": "SkillThemeCard"
+      },
+      "skills": [
+        {
+          "sort": "1",
+          "name": "程式語言",
+          "desc": "Python、R、SQL、Solidity",
+          "status": 1,
+          "tag": [
+            {
+              "text": "Python",
+              "value": "12001003045"
+            },
+            {
+              "text": "R",
+              "value": "12001003050"
+            },
+            {
+              "text": "SQL",
+              "value": "12001003060"
+            },
+            {
+              "text": "Solidity",
+              "value": "12001003070"
+            }
+          ]
+        },
+        {
+          "sort": "2",
+          "name": "資料視覺化工具",
+          "desc": "Tableau、Power BI、D3.js",
+          "status": 1,
+          "tag": [
+            {
+              "text": "Tableau",
+              "value": "12002007001"
+            },
+            {
+              "text": "Power BI",
+              "value": "12002007002"
+            },
+            {
+              "text": "D3.js",
+              "value": "12002007003"
+            }
+          ]
+        },
+        {
+          "sort": "3",
+          "name": "機器學習與深度學習",
+          "desc": "Scikit-learn、TensorFlow、PyTorch",
+          "status": 1,
+          "tag": [
+            {
+              "text": "機器學習",
+              "value": "12001005001"
+            },
+            {
+              "text": "深度學習",
+              "value": "12001005002"
+            },
+            {
+              "text": "Scikit-learn",
+              "value": "12001005010"
+            },
+            {
+              "text": "TensorFlow",
+              "value": "12001005011"
+            },
+            {
+              "text": "PyTorch",
+              "value": "12001005012"
+            }
+          ]
+        },
+        {
+          "sort": "4",
+          "name": "區塊鏈技術",
+          "desc": "智能合約開發、區塊鏈資料分析、加密技術",
+          "status": 1,
+          "tag": [
+            {
+              "text": "區塊鏈技

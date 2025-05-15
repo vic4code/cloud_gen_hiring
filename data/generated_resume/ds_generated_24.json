@@ -1,0 +1,137 @@
+{
+  "profile": {
+    "basics": {
+      "first_name": "子軒",
+      "last_name": "林",
+      "gender": "男",
+      "emails": [
+        "zixuan.lin@email.com"
+      ],
+      "urls": [
+        "https://www.linkedin.com/in/zixuanlin"
+      ],
+      "phone_numbers": [
+        "+886 912 345 678"
+      ],
+      "date_of_birth": {
+        "year": 2000,
+        "month": 4,
+        "day": 15
+      },
+      "address": "新北市, 台灣",
+      "total_experience_in_years": 1,
+      "profession": "數據科學淺學者",
+      "summary": "我是一名對數據分析充滿熱情的應屆畢業生，擁有實習經驗和多個相關專案成果。在金融科技領域的學習中，我專注於商業智能的實施與應用，並希望能結合數據驅動的洞察，協助組織做出更明智的決策。我具備良好的數據分析能力，以及使用各種數據工具的實務經驗，期待能在數據科學的舞台上發光發熱。",
+      "skills": [
+        "Python",
+        "R",
+        "SQL",
+        "Tableau",
+        "商業智能",
+        "數據視覺化",
+        "數據清洗",
+        "機器學習基礎",
+        "金融數據分析",
+        "演算法思維"
+      ],
+      "has_driving_license": false
+    },
+    "languages": [
+      {
+        "language": "中文",
+        "fluency": "母語"
+      },
+      {
+        "language": "英文",
+        "fluency": "流利"
+      }
+    ],
+    "educations": [
+      {
+        "institution": "國立台灣大學",
+        "area": "資訊管理學系",
+        "study_type": "學士",
+        "start_date": {
+          "year": 2018,
+          "month": 9
+        },
+        "end_date": {
+          "year": 2022,
+          "month": 6
+        },
+        "gpa": "3.8/4.0"
+      }
+    ],
+    "trainings_and_certifications": [
+      {
+        "title": "數據科學與機器學習專業證書",
+        "issuer": "Coursera",
+        "date": {
+          "year": 2022,
+          "month": 11
+        }
+      },
+      {
+        "title": "SQL 資料庫管理",
+        "issuer": "Udacity",
+        "date": {
+          "year": 2023,
+          "month": 1
+        }
+      }
+    ],
+    "professional_experiences": [
+      {
+        "start_date": {
+          "year": 2023,
+          "month": 3
+        },
+        "is_current": true,
+        "end_date": {},
+        "duration_in_months": null,
+        "company": "智金融科技有限公司",
+        "location": "新北市, 台灣",
+        "title": "數據分析實習生",
+        "description": "➤ 負責收集和清洗金融交易數據，協助建立數據報表，支持商業智能的實施。\n➤ 利用 Python 和 Tableau 製作數據視覺化儀表板，幫助團隊理解業務趨勢。\n➤ 參與數據挖掘專案，運用機器學習模型預測客戶行為，提升模型準確度達85%。"
+      },
+      {
+        "start_date": {
+          "year": 2022,
+          "month": 7
+        },
+        "is_current": false,
+        "end_date": {
+          "year": 2023,
+          "month": 2
+        },
+        "duration_in_months": 7,
+        "company": "新商業智庫",
+        "location": "台北市, 台灣",
+        "title": "數據分析實習生",
+        "description": "➤ 協助整理業界數據報告，分析市場趨勢，並提出具體建議。 \n➤ 使用 SQL 查詢數據資料庫，整理客戶資料，並支持市場部門的決策。\n➤ 參與數據分析工具的導入計畫，簡化團隊工作流程，提升效率30%。"
+      }
+    ],
+    "awards": [
+      {
+        "title": "校內學術獎",
+        "date": {
+          "year": 2021,
+          "month": 5
+        },
+        "description": "因專案報告表現優異獲得學校頒發的學術獎。"
+      }
+    ],
+    "references": []
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T00:03:50.787393",
+    "resume_type": "ds",
+    "index": 24,
+    "diversity_traits": {
+      "industry": "金融科技",
+      "work_style": "分析洞察",
+      "career_stage": "應屆畢業生",
+      "project_focus": "商業智能實施"
+    }
+  }
+}

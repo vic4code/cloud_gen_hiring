@@ -1,0 +1,485 @@
+{
+  "data": {
+    "sidebar": [
+      {
+        "id": "eduTechSidebar01"
+      }
+    ],
+    "jobCondition": {
+      "jobTimeType": [
+        {
+          "text": "全職",
+          "value": 1
+        }
+      ],
+      "jobTimePeriod": [
+        {
+          "text": "長期",
+          "value": 12
+        }
+      ],
+      "otherTimePeriod": "彈性排班",
+      "workShift": 1,
+      "onBoardAfterGetOffer": {
+        "text": "一個月內",
+        "value": 30
+      },
+      "customOnBoardDate": {
+        "year": "2024",
+        "month": [],
+        "date": []
+      },
+      "onBoardDate": {
+        "text": "最早可立即報到",
+        "value": "immediate"
+      },
+      "salary": {
+        "text": "面議",
+        "value": 0
+      },
+      "salaryPeriod": {
+        "text": "月薪",
+        "value": 1
+      },
+      "salaryOfHours": "無時薪需求",
+      "salaryOfMonth": {
+        "unitOfTenThousand": [],
+        "unitOfThousand": []
+      },
+      "salariesOfYear": [],
+      "preferJobTitle": "初階軟體工程師",
+      "preferArea": [
+        {
+          "no": 3,
+          "des": "台北市"
+        }
+      ],
+      "preferJobType": [
+        {
+          "no": 1,
+          "des": "全職"
+        }
+      ],
+      "preferJobIndustry": [
+        {
+          "no": 10,
+          "des": "教育科技"
+        }
+      ],
+      "preferJobContent": "希望參與教育平台開發與商業智能系統實施，提升學習成效分析能力。",
+      "remoteWork": {
+        "text": "部分遠端",
+        "value": 2
+      }
+    },
+    "layout": {
+      "profile": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "現代簡約",
+            "value": 1,
+            "name": "modernMinimal"
+          }
+        }
+      },
+      "skill": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "科技感",
+            "value": 2,
+            "name": "techStyle"
+          }
+        }
+      },
+      "education": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "正式教育風格",
+            "value": 3,
+            "name": "formalEducation"
+          }
+        }
+      },
+      "experience": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專業經驗",
+            "value": 1,
+            "name": "professionalExp"
+          }
+        }
+      },
+      "jobCondition": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "簡潔明瞭",
+            "value": 2,
+            "name": "clearLayout"
+          }
+        }
+      },
+      "language": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "語言專區",
+            "value": 1,
+            "name": "languageSection"
+          }
+        }
+      },
+      "certificate": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "證書展示",
+            "value": 2,
+            "name": "certShowcase"
+          }
+        }
+      },
+      "portfolio": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "作品集風格A",
+            "value": 1,
+            "name": "portfolioStyleA"
+          }
+        }
+      },
+      "project": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "專案詳述",
+            "value": 3,
+            "name": "detailedProject"
+          }
+        }
+      }
+    },
+    "education": {
+      "educations": [
+        {
+          "sort": 1,
+          "schoolId": 1001,
+          "name": "國立臺灣大學",
+          "departments": [
+            {
+              "name": "資訊工程學系",
+              "type": [
+                {
+                  "no": 1,
+                  "des": "學士"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "startYear": "2016",
+            "startMonth": {
+              "text": "九月",
+              "value": 9
+            },
+            "endYear": "2020",
+            "endMonth": {
+              "text": "六月",
+              "value": 6
+            }
+          },
+          "highest": {
+            "text": "學士",
+            "value": 1
+          },
+          "status": {
+            "text": "畢業",
+            "value": 1
+          },
+          "inSchoolStatus": [],
+          "foreign": [],
+          "region": {
+            "text": "臺灣",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "experience": {
+      "seniority": {
+        "text": "1年",
+        "value": 1
+      },
+      "experiences": [
+        {
+          "sort": 1,
+          "companyName": "新世代教育科技有限公司",
+          "custNo": 2001,
+          "invoice": 1,
+          "logo": "https://example.com/logo/eduTech.png",
+          "industry": [
+            {
+              "no": 10,
+              "des": "教育科技"
+            }
+          ],
+          "companyScale": [],
+          "jobName": "初階軟體工程師",
+          "workArea": [
+            {
+              "no": 3,
+              "des": "台北市"
+            }
+          ],
+          "jobType": {
+            "text": "全職",
+            "value": 1
+          },
+          "jobCat": [
+            {
+              "no": 101,
+              "des": "軟體開發"
+            }
+          ],
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "一月",
+              "value": 1
+            },
+            "endYear": "2024",
+            "endMonth": []
+          },
+          "description": "負責教育數據平台的功能開發，主要使用Python與Django框架，協助實施商業智能BI報表，提升數據分析效率。參與團隊系統思考討論，優化學習成效追蹤模組。",
+          "skill": [],
+          "salary": {
+            "monthPay": "45000",
+            "yearPay": "540000",
+            "jobParttimeType": {
+              "text": "無兼職",
+              "value": 0
+            },
+            "jobParttimePay": ""
+          },
+          "companyVisibility": 1,
+          "stillWork": 1,
+          "salaryVisibility": 1
+        }
+      ]
+    },
+    "skill": {
+      "themeChoose": {
+        "text": "技能清單",
+        "value": 1,
+        "name": "skillList"
+      },
+      "skills": [
+        {
+          "sort": 1,
+          "name": "Python",
+          "desc": "熟悉Python基礎語法與Django框架，應用於教育平台後端開發。",
+          "status": 1,
+          "tag": [
+            {
+              "text": "後端開發",
+              "value": "backend"
+            }
+          ]
+        },
+        {
+          "sort": 2,
+          "name": "SQL",
+          "desc": "具備SQL查詢撰寫能力，能分析並優化資料庫結構。",
+          "status": 1,
+          "tag": [
+            {
+              "text": "資料庫管理",
+              "value": "database"
+            }
+          ]
+        },
+        {
+          "sort": 3,
+          "name": "Power BI",
+          "desc": "基礎商業智能報表設計與數據視覺化經驗。",
+          "status": 1,
+          "tag": [
+            {
+              "text": "BI工具",
+              "value": "biTool"
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "certificates": [
+        {
+          "no": 101,
+          "des": "Python程式設計初級證書"
+        }
+      ],
+      "others": "參加過多場教育科技相關線上研討會"
+    },
+    "language": {
+      "foreign": [
+        {
+          "sort": 1,
+          "type": {
+            "text": "英文",
+            "value": 1
+          },
+          "listening": {
+            "text": "中等",
+            "value": 2
+          },
+          "speaking": {
+            "text": "基礎",
+            "value": 1
+          },
+          "reading": {
+            "text": "中等",
+            "value": 2
+          },
+          "writing": {
+            "text": "基礎",
+            "value": 1
+          },
+          "certificate": [
+            {
+              "title": {
+                "text": "TOEIC",
+                "value": 201
+              },
+              "grade": "750分"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "project": {
+      "projects": [
+        {
+          "sort": 1,
+          "name": "教育數據分析平台商業智能實施",
+          "duration": {
+            "startYear": "2023",
+            "startMonth": {
+              "text": "三月",
+              "value": 3
+            },
+            "endYear": "2023",
+            "endMonth": {
+              "text": "十二月",
+              "value": 12
+            }
+          },
+          "isInProgress": 0,
+          "introduction": "協助團隊導入Power BI進行教育平台數據視覺化，設計學習成效分析報表，提升決策效率。",
+          "url": "https://project.example.com/edu-data-bi",
+          "img": {
+            "pic": "https://project.example.com/images/bi_dashboard.png",
+            "fileId": "file123456",
+            "src": "https://project.example.com/images/bi_dashboard.png"
+          }
+        }
+      ]
+    },
+    "portfolio": {
+      "portfolios": [
+        {
+          "sort": 1,
+          "name": "教育平台後端服務開發",
+          "attach": {
+            "name": "education_backend_dev.pdf",
+            "status": 1,
+            "fileId": "file654321",
+            "url": "https://portfolio.example.com/education_backend_dev.pdf",
+            "src": "https://portfolio.example.com/education_backend_dev.pdf"
+          },
+          "attachType": {
+            "text": "PDF文件",
+            "value": 1
+          }
+        }
+      ]
+    },
+    "bio": {
+      "chi": "具備資訊工程背景，熱衷於教育科技領域的軟體開發與數據分析，致力於以系統思考方法解決學習成效問題。",
+      "eng": "Background in Computer Science, passionate about software development and data analysis in EdTech, committed to solving learning effectiveness issues with systems thinking."
+    },
+    "custom1": [],
+    "custom2": [],
+    "custom3": [],
+    "custom4": [],
+    "custom5": [],
+    "custom6": [],
+    "profile": {
+      "key": "profile202406",
+      "headshotUrl": "https://example.com/images/headshot.jpg",
+      "imageUrl": "https://example.com/images/background.jpg",
+      "nickname": "小明",
+      "title": {
+        "workExperience": 1,
+        "companyName": "新世代教育科技有限公司",
+        "jobName": "初階軟體工程師",
+        "schoolName": "國立臺灣大學",
+        "majorName": "資訊工程學系",
+        "degreeLevel": 1
+      },
+      "aboutMe": "熱愛學習與成長，具備良好的系統思考能力，期望在教育科技領域深耕軟體開發與商業智能應用。",
+      "motto": "持續進步，成就未來",
+      "abilities": [
+        "系統思考",
+        "團隊合作",
+        "問題解決"
+      ],
+      "preferJobTitle": "初階軟體工程師",
+      "viewCount": 120,
+      "createdAt": "2024-06-01T09:00:00+08:00",
+      "isSelf": 1,
+      "signIn": 1,
+      "followerCount": 15,
+      "followedCount": 5,
+      "followed": 1,
+      "isFollowed": 1,
+      "isFollowingMe": 0,
+      "hasBeenRequested": 0,
+      "hasRequestedMe": 0,
+      "publicStatus": 1,
+      "uuid": "a1b2c3d4e5f67890",
+      "personalLink1Type": {
+        "text": "LinkedIn",
+        "value": 1
+      },
+      "personalLink2Type": {
+        "text": "GitHub",
+        "value": 2
+      },
+      "personalLink3Type": {
+        "text": "個人網站",
+        "value": 3
+      },
+      "personalLink1Url": "https://www.linkedin.com/in/xiaoming",
+      "personalLink2Url": "https://github.com/xiaoming",
+      "personalLink3Url": "https://xiaoming.dev",
+      "themeChoose": {
+        "selectedTheme": {
+          "text": "現代簡約",
+          "value": 1,
+          "name": "modernMinimal"
+        },
+        "backgroundColor": "#f0f4f8"
+      }
+    },
+    "publicStatus": 1
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:46:35.170537",
+    "resume_type": "mle",
+    "index": 27,
+    "diversity_traits": {
+      "industry": "教育科技",
+      "work_style": "系統思考",
+      "career_stage": "轉職工程師",
+      "project_focus": "商業智能實施"
+    }
+  }
+}

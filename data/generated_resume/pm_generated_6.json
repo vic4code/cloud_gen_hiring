@@ -1,0 +1,87 @@
+{
+  "job_preferences": {
+    "job_type": "全職",
+    "desired_titles": [
+      "產品經理"
+    ],
+    "preferred_content": "數據驅動的產品開發與優化",
+    "preferred_category": "數位媒體",
+    "preferred_industries": [
+      "數位媒體",
+      "科技服務"
+    ],
+    "preferred_locations": [
+      "台北市",
+      "新北市"
+    ],
+    "remote_work": "部分遠端",
+    "expected_salary": "新台幣 90,000 至 120,000 元/月",
+    "availability": "一個月內可到職",
+    "working_hours": "彈性工時，週一至週五"
+  },
+  "experience": {
+    "total_years": "6",
+    "roles": [
+      {
+        "title": "中階產品經理",
+        "duration": "4年"
+      },
+      {
+        "title": "產品助理",
+        "duration": "2年"
+      }
+    ],
+    "jobs": [
+      {
+        "company": "智媒科技股份有限公司",
+        "title": "產品經理",
+        "period": "2019年7月 - 至今",
+        "industry": "數位媒體",
+        "category": "產品管理",
+        "company_size": "100-200人",
+        "skills": [
+          "產品策略規劃",
+          "數據分析",
+          "跨部門協作",
+          "敏捷開發流程",
+          "資料管線設計"
+        ],
+        "description": "負責公司數位媒體產品的需求分析與產品路線圖制定，協調技術團隊和設計團隊推動專案進度，並持續優化產品功能以提升用戶體驗與留存率。",
+        "projects": [
+          {
+            "name": "用戶行為資料管線建置專案",
+            "summary": "主導建立一套完善的用戶行為資料收集與處理管線，利用Apache Kafka與Spark進行即時數據流處理，提升資料準確性與處理效率，支援後端決策分析和個性化推薦系統。"
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "highest": {
+      "degree": "碩士",
+      "school": "國立臺灣大學",
+      "department": "資訊管理學系",
+      "period": "2015年9月 - 2017年6月"
+    },
+    "bachelor": {
+      "degree": "學士",
+      "school": "國立政治大學",
+      "department": "企業管理學系",
+      "period": "2011年9月 - 2015年6月"
+    }
+  },
+  "self_intro": {
+    "summary": "具備6年數位媒體產品管理經驗，專注於資料驅動的產品策略及跨部門協作。擅長整合用戶需求與技術資源，推動資料管線與數據分析專案，提升產品競爭力與用戶滿意度。工作風格強調團隊合作與敏捷迭代，期望在持續成長的數位媒體領域發揮專業價值。"
+  },
+  "metadata": {
+    "generated_date": "2025-05-15T11:53:35.777091",
+    "resume_type": "pm",
+    "index": 6,
+    "diversity_traits": {
+      "industry": "數位媒體",
+      "work_style": "團隊合作",
+      "career_stage": "中階管理者",
+      "project_focus": "資料管線建置"
+    }
+  }
+}
