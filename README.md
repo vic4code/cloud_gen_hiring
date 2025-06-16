@@ -1,41 +1,41 @@
-# 履歷資料生成器
+# Resume Data Generator
 
-這個專案用於生成三種不同類型（DS、MLE、PM）的履歷資料，每種類型生成 30 份隨機資料。
+This project is used to generate three different types of resume data (DS, MLE, PM), with 30 random samples for each type.
 
-## 環境設置
+## Environment Setup
 
-1. 安裝依賴：
+1. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. 設置 OpenAI API key：
+2. Set up OpenAI API key:
 ```bash
 export OPENAI_API_KEY='your-api-key-here'
 ```
 
-## 使用方法
+## Usage
 
-1. 確保 `data/resume` 目錄下有範例履歷檔案：
+1. Ensure there are sample resume files in the `data/resume` directory:
    - ds_sample1.json
    - mle_sample1.json
    - pm_sample1.json
 
-2. 運行腳本：
+2. Run the script:
 ```bash
 python generate_resumes.py
 ```
 
-3. 生成的履歷資料將保存在 `data/generated_resumes` 目錄下，格式為：
-   - ds_generated_1.json 到 ds_generated_30.json
-   - mle_generated_1.json 到 mle_generated_30.json
-   - pm_generated_1.json 到 pm_generated_30.json
+3. Generated resume data will be saved in the `data/generated_resumes` directory with the following format:
+   - ds_generated_1.json to ds_generated_30.json
+   - mle_generated_1.json to mle_generated_30.json
+   - pm_generated_1.json to pm_generated_30.json
 
-## 注意事項
+## Notes
 
-1. 需要有效的 OpenAI API key
-2. 生成的履歷資料會保持原始 schema 結構
-3. 所有生成的資料都是中文內容
-4. 不會包含任何個人隱私資訊
+1. A valid OpenAI API key is required
+2. Generated resume data will maintain the original schema structure
+3. All generated content will be in Chinese
+4. No personal privacy information will be included
 
 ## Project Structure 
