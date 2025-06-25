@@ -1,0 +1,82 @@
+[
+  {
+    "resume_id": "resume_TECH-FE-DEV-daec5eb7_2025-06-05T03-13-55-206Z_jason-test-resume-a7f74271-20250605",
+    "job_id": "TECH-FE-DEV-daec5eb7",
+    "similarity_score": 0.7225285251084169
+  },
+  {
+    "resume_id": "resume_CFU-DATAAI-AI-5cbcaa38_2025-06-13T00-47-08-025Z_dsa003-75e10690-20250613",
+    "job_id": "CFU-DATAAI-AI-5cbcaa38",
+    "similarity_score": 0.6856289942435847
+  },
+  {
+    "resume_id": "resume_T1-T2-T3-e74df5e0_2025-06-17T05-29-49-409Z_resume_CFU-DATAAI-AI-5cbcaa38_2025-06-13T00-47-08-025Z_dsa003-75e10690-20250613-27974a1f-20250617",
+    "job_id": "T1-T2-T3-e74df5e0",
+    "similarity_score": 0.6825962097897299
+  },
+  {
+    "resume_id": "cake",
+    "job_id": "CFU-DATAAI-AI-5cbcaa38",
+    "similarity_score": 0.6470556980874245
+  },
+  {
+    "resume_id": "resume_CFU-DATAAI-AI-5cbcaa38_2025-06-13T00-47-17-266Z_dsa004-56cf3731-20250613",
+    "job_id": "CFU-DATAAI-AI-5cbcaa38",
+    "similarity_score": 0.6434911753209345
+  },
+  {
+    "resume_id": "resume_T1-T2-T3-e74df5e0_2025-06-17T05-40-58-467Z_吳宗仁___Cake-1587ceab-20250617",
+    "job_id": "T1-T2-T3-e74df5e0",
+    "similarity_score": 0.6379533387863282
+  },
+  {
+    "resume_id": "resume_CFU-DATAAI-AI-5cbcaa38_2025-06-17T07-29-08-598Z_Alex_Hsu_Cake-51a26326-20250617",
+    "job_id": "CFU-DATAAI-AI-5cbcaa38",
+    "similarity_score": 0.6264884762055435
+  },
+  {
+    "resume_id": "吳宗仁 _ Cake",
+    "job_id": "T1-T2-T3-e74df5e0",
+    "similarity_score": 0.5192069133480414
+  },
+  {
+    "resume_id": "TEST___Cake-266c2058-20250617",
+    "job_id": "T1-T2-T3-e74df5e0",
+    "similarity_score": 0.5152770933730116
+  },
+  {
+    "resume_id": "resume_CFU-DATAAI-AI-5cbcaa38_2025-06-13T00-47-32-499Z_da001-ee261484-20250613",
+    "job_id": "CFU-DATAAI-AI-5cbcaa38",
+    "similarity_score": 0.48465644005202035
+  },
+  {
+    "resume_id": "resume_CXI-DATAAI-CT-53285b61_2025-06-04T08-30-22-429Z_resume_CFU-DATAAI-AI-b67efbc1_2025-06-04T06-37-05-563Z_cake-resume-benson001-d942f4ee-20250604-1ae60898-20250604",
+    "job_id": "CXI-DATAAI-CT-53285b61",
+    "similarity_score": 0.0
+  },
+  {
+    "resume_id": "wang-xiaoming-resume",
+    "job_id": "TECH-FE-DEV-89c83426",
+    "similarity_score": 0.0
+  },
+  {
+    "resume_id": "resume_CXI-DATAAI-CT-53285b61_2025-06-04T10-46-08-088Z_resume_CFU-DATAAI-AI-b67efbc1_2025-06-04T06-37-05-563Z_cake-resume-benson001-d942f4ee-20250604-26150b26-20250604",
+    "job_id": "CXI-DATAAI-CT-53285b61",
+    "similarity_score": 0.0
+  },
+  {
+    "resume_id": "resume_TECH-FE-DEV-89c83426_2025-06-04T10-48-32-103Z_resume_CFU-DATAAI-AI-b67efbc1_2025-06-04T06-37-05-563Z_cake-resume-benson001-d942f4ee-20250604-ef24f8df-20250604",
+    "job_id": "TECH-FE-DEV-89c83426",
+    "similarity_score": 0.0
+  },
+  {
+    "resume_id": "resume_CFU-DATAAI-AI-b67efbc1_2025-06-04T06-37-05-563Z_cake-resume-benson001-d942f4ee-20250604",
+    "job_id": "CFU-DATAAI-AI-b67efbc1",
+    "similarity_score": 0.0
+  },
+  {
+    "resume_id": "chen-meihui-resume",
+    "job_id": "TECH-FE-DEV-89c83426",
+    "similarity_score": 0.0
+  }
+]

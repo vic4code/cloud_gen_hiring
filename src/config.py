@@ -2,16 +2,18 @@
 # 集中管理所有配置参数
 
 # DynamoDB配置
-DYNAMODB_TABLE = 'benson-haire-parsed_resume'
+RESUME_TABLE = 'benson-haire-parsed_resume'
+JOBS_TABLE = 'haire-jobs'
 
 # OpenSearch Serverless配置
 OPENSEARCH_COLLECTION = 'haire-vector-db'
 OPENSEARCH_COLLECTION_ENDPOINT = 'https://c3qceibouiy9tqnj94d6.ap-southeast-1.aoss.amazonaws.com'
 OPENSEARCH_COLLECTION_ARN = 'arn:aws:aoss:ap-southeast-1:570851831916:collection/c3qceibouiy9tqnj94d6'
-OPENSEARCH_INDEX = 'haire-vector-db-resume-chunks-embeddings'
+RESUME_INDEX = 'haire-vector-db-resume-chunks-embeddings'
+JOBS_INDEX = 'haire-vector-db-jobs-chunks-embeddings'
 
 # 文本处理配置
-CHUNK_SIZE = 32  # 文本分块大小
+CHUNK_SIZE = 256  # 文本分块大小
 
 # Bedrock配置
 BEDROCK_MODEL_ID = 'cohere.embed-multilingual-v3'
