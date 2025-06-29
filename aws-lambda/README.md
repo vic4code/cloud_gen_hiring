@@ -1,28 +1,28 @@
 # AWS Lambda Functions for OpenSearch Indexing
 
-This directory contains two independent AWS Lambda functions for processing data from DynamoDB and indexing it into OpenSearch.
+This directory contains three independent AWS Lambda functions for processing data from DynamoDB and indexing it into OpenSearch.
 
 ## Architecture Overview
 
 ```
 aws-lambda/
-├── resume-lambda/          # Lambda for processing resume data
+├── resume-lambda/                              # Lambda for processing resume data
 │   ├── resume_to_opensearch.py
 │   ├── requirements.txt
 │   ├── deploy.sh
 │   └── README.md
-├── jobs-lambda/            # Lambda for processing job data
+├── jobs-lambda/                                # Lambda for processing job data
 │   ├── jobs_to_opensearch.py
 │   ├── requirements.txt
 │   ├── deploy.sh
 │   └── README.md
-├── resume-jobs-matching/   # Lambda for resume-job matching
-│   ├── resume_jobs_matching.py
+├── resume-jobs-embedding-matching-lambda/      # Lambda for resume-job embedding matching
+│   ├── resume_jobs_embedding_matching.py
 │   ├── requirements.txt
 │   ├── deploy.sh
 │   └── README.md
-├── deploy_all.sh           # Deploy all Lambdas
-└── README.md               # This file
+├── deploy_all.sh                               # Deploy all Lambdas
+└── README.md                                   # This file
 ```
 
 ## Lambda Function Descriptions
@@ -39,7 +39,7 @@ aws-lambda/
 - **Target Index**: `haire-vector-db-jobs-chunks-embeddings`
 - **Trigger**: DynamoDB Streams
 
-### 3. Resume-Jobs Matching Lambda (`resume-jobs-matching/`)
+### 3. Resume-Jobs Embedding Matching Lambda (`resume-jobs-embedding-matching-lambda/`)
 - **Function**: Calculate similarities between resume and job chunks
 - **Data Source**: OpenSearch indices
 - **Target Tables**: `resume-jobs-similarity`, `embedding-filtered-resume-test`
@@ -70,8 +70,8 @@ cd ../jobs-lambda
 chmod +x deploy.sh
 ./deploy.sh
 
-# Deploy Resume-Jobs Matching Lambda
-cd ../resume-jobs-matching
+# Deploy Resume-Jobs Embedding Matching Lambda
+cd ../resume-jobs-embedding-matching-lambda
 chmod +x deploy.sh
 ./deploy.sh
 ```
@@ -96,10 +96,10 @@ Create three functions in AWS Lambda Console:
 - **Timeout**: 15 minutes (900 seconds)
 - **Memory**: 1024 MB or higher
 
-#### Resume-Jobs Matching Lambda
-- **Function Name**: `resume-jobs-matching`
+#### Resume-Jobs Embedding Matching Lambda
+- **Function Name**: `resume-jobs-embedding-matching`
 - **Runtime**: Python 3.9+
-- **Handler**: `resume_jobs_matching.lambda_handler`
+- **Handler**: `resume_jobs_embedding_matching.lambda_handler`
 - **Timeout**: 15 minutes (900 seconds)
 - **Memory**: 2048 MB (recommended for numpy operations)
 
@@ -217,9 +217,9 @@ Add the following permissions to each Lambda execution role:
 
 ### Manual Execution
 ```bash
-# Test Resume-Jobs Matching Lambda
+# Test Resume-Jobs Embedding Matching Lambda
 aws lambda invoke \
-  --function-name resume-jobs-matching \
+  --function-name resume-jobs-embedding-matching \
   --payload '{}' \
   response.json
 ```

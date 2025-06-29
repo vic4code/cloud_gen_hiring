@@ -19,8 +19,8 @@ aws-lambda/
 │   ├── deploy.sh                    # Individual deployment script
 │   ├── README.md                    # Detailed documentation
 │   └── resume_lambda_deployment.zip # Deployment package (16MB)
-└── resume-jobs-matching/            # Lambda for resume-job matching
-    ├── resume_jobs_matching.py      # Lambda function code
+└── resume-jobs-embedding-matching-lambda/ # Lambda for resume-job embedding matching
+    ├── resume_jobs_embedding_matching.py # Lambda function code
     ├── requirements.txt             # Python dependencies
     ├── deploy.sh                    # Individual deployment script
     ├── README.md                    # Detailed documentation
@@ -36,7 +36,7 @@ aws-lambda/
 
 ### Lambda Directory Files
 Each Lambda directory contains:
-- `*_to_opensearch.py` or `*_matching.py`: Lambda function main code
+- `*_to_opensearch.py` or `*_embedding_matching.py`: Lambda function main code
 - `requirements.txt`: Python dependency packages
 - `deploy.sh`: Individual deployment script
 - `README.md`: Detailed configuration documentation
@@ -58,8 +58,8 @@ cd resume-lambda && ./deploy.sh
 # Deploy Jobs Lambda
 cd jobs-lambda && ./deploy.sh
 
-# Deploy Resume-Jobs Matching Lambda
-cd resume-jobs-matching && ./deploy.sh
+# Deploy Resume-Jobs Embedding Matching Lambda
+cd resume-jobs-embedding-matching-lambda && ./deploy.sh
 ```
 
 ## Cleanup Notes
@@ -88,7 +88,7 @@ Retained files:
 - **Output**: OpenSearch index `haire-vector-db-jobs-chunks-embeddings`
 - **Trigger**: DynamoDB Streams events
 
-### Resume-Jobs Matching Lambda
+### Resume-Jobs Embedding Matching Lambda
 - **Purpose**: Calculate similarities between resume and job chunks
 - **Input**: OpenSearch indices
 - **Output**: DynamoDB tables `resume-jobs-similarity`, `embedding-filtered-resume-test`

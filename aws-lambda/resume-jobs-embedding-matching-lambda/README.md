@@ -1,4 +1,4 @@
-# Resume-Jobs Matching Lambda
+# Resume-Jobs Embedding Matching Lambda
 
 This AWS Lambda function calculates embedding similarities between resume chunks and job chunks stored in OpenSearch, and updates DynamoDB tables with the results.
 
@@ -92,7 +92,7 @@ For each unique `resume_id`:
 2. Upload the generated `resume_jobs_matching_lambda_deployment.zip` to AWS Lambda
 
 3. Configure the Lambda function:
-   - **Handler**: `resume_jobs_matching.lambda_handler`
+   - **Handler**: `resume_jobs_embedding_matching.lambda_handler`
    - **Timeout**: 15 minutes (900 seconds)
    - **Memory**: 2048 MB (recommended for numpy operations)
    - **Runtime**: Python 3.9+

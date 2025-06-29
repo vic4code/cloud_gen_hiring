@@ -1,44 +1,46 @@
 #!/bin/bash
 
-# Deploy both Lambda functions
+# AWS Lambda deployment script for all Lambda functions
 set -e
 
-echo "=== Deploying Both Lambda Functions ==="
-echo ""
+echo "Starting deployment of all AWS Lambda functions..."
 
 # Deploy Resume Lambda
-echo "1. Deploying Resume Lambda..."
+echo ""
+echo "=== Deploying Resume Lambda ==="
 cd resume-lambda
 chmod +x deploy.sh
 ./deploy.sh
 cd ..
 
+# Deploy Jobs Lambda
 echo ""
-echo "2. Deploying Jobs Lambda..."
+echo "=== Deploying Jobs Lambda ==="
 cd jobs-lambda
 chmod +x deploy.sh
 ./deploy.sh
 cd ..
 
+# Deploy Resume-Jobs Embedding Matching Lambda
 echo ""
-echo "=== Deployment Complete ==="
+echo "=== Deploying Resume-Jobs Embedding Matching Lambda ==="
+cd resume-jobs-embedding-matching-lambda
+chmod +x deploy.sh
+./deploy.sh
+cd ..
+
 echo ""
-echo "Generated deployment packages:"
-echo "- resume-lambda/resume_lambda_deployment.zip"
-echo "- jobs-lambda/jobs_lambda_deployment.zip"
+echo "=== All Lambda functions deployed successfully! ==="
+echo ""
+echo "Deployment Summary:"
+echo "- Resume Lambda: resume_lambda_deployment.zip"
+echo "- Jobs Lambda: jobs_lambda_deployment.zip"
+echo "- Resume-Jobs Embedding Matching Lambda: resume_jobs_embedding_matching_lambda_deployment.zip"
 echo ""
 echo "Next steps:"
-echo "1. Create two Lambda functions in AWS Console"
-echo "2. Upload respective deployment packages"
-echo "3. Configure DynamoDB Streams for both tables"
-echo "4. Set up Lambda triggers for DynamoDB Streams"
+echo "1. Upload deployment packages to AWS Lambda Console"
+echo "2. Configure Lambda functions with appropriate settings"
+echo "3. Set up DynamoDB Streams triggers"
+echo "4. Configure IAM permissions"
 echo ""
-echo "Resume Lambda:"
-echo "- Handler: resume_to_opensearch.lambda_handler"
-echo "- Table: benson-haire-parsed_resume"
-echo "- Index: haire-vector-db-resume-chunks-embeddings"
-echo ""
-echo "Jobs Lambda:"
-echo "- Handler: jobs_to_opensearch.lambda_handler"
-echo "- Table: haire-jobs"
-echo "- Index: haire-vector-db-jobs-chunks-embeddings"
+echo "See README.md for detailed configuration instructions."

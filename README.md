@@ -47,7 +47,7 @@ This project consists of multiple components working together to create an intel
 - Generates embeddings using Bedrock
 - Indexes to OpenSearch
 
-#### Resume-Jobs Matching Lambda (`resume-jobs-matching/`)
+#### Resume-Jobs Embedding Matching Lambda (`resume-jobs-embedding-matching-lambda/`)
 - Calculates similarities between resume and job chunks
 - Updates DynamoDB with matching results
 - Provides comprehensive similarity scores
@@ -110,8 +110,8 @@ cd aws-lambda/resume-lambda && ./deploy.sh
 # Jobs Lambda
 cd aws-lambda/jobs-lambda && ./deploy.sh
 
-# Resume-Jobs Matching Lambda
-cd aws-lambda/resume-jobs-matching && ./deploy.sh
+# Resume-Jobs Embedding Matching Lambda
+cd aws-lambda/resume-jobs-embedding-matching-lambda && ./deploy.sh
 ```
 
 ### Run Similarity Matching
@@ -141,7 +141,7 @@ python src/resume_jobs_matching.py
 - **AWS Lambda Functions**:
   - `resume-opensearch-indexing`: Process resume data
   - `jobs-opensearch-indexing`: Process job data
-  - `resume-jobs-matching`: Calculate similarities
+  - `resume-jobs-embedding-matching`: Calculate similarities
 
 ### Environment Variables
 - `OPENAI_API_KEY`: OpenAI API key for content generation
@@ -151,23 +151,23 @@ python src/resume_jobs_matching.py
 
 ```
 cloud_gen_hiring/
-├── aws-lambda/                    # AWS Lambda functions
-│   ├── resume-lambda/            # Resume processing Lambda
-│   ├── jobs-lambda/              # Job processing Lambda
-│   ├── resume-jobs-matching/     # Similarity matching Lambda
-│   ├── deploy_all.sh             # Deployment script
-│   └── README.md                 # Lambda documentation
-├── src/                          # Source code and utilities
-│   ├── resume_jobs_matching.py   # Similarity matching script
-│   ├── analyze_resumes.py        # Resume analysis utilities
-│   └── ...                       # Other utility scripts
-├── data/                         # Data files
-│   ├── resume/                   # Sample resume files
-│   ├── generated_resume/         # Generated resume data
-│   └── ...                       # Other data files
-├── generate_resumes.py           # Resume generation script
-├── requirements.txt              # Python dependencies
-└── README.md                     # This file
+├── aws-lambda/                                    # AWS Lambda functions
+│   ├── resume-lambda/                            # Resume processing Lambda
+│   ├── jobs-lambda/                              # Job processing Lambda
+│   ├── resume-jobs-embedding-matching-lambda/    # Similarity matching Lambda
+│   ├── deploy_all.sh                             # Deployment script
+│   └── README.md                                 # Lambda documentation
+├── src/                                          # Source code and utilities
+│   ├── resume_jobs_matching.py                   # Similarity matching script
+│   ├── analyze_resumes.py                        # Resume analysis utilities
+│   └── ...                                       # Other utility scripts
+├── data/                                         # Data files
+│   ├── resume/                                   # Sample resume files
+│   ├── generated_resume/                         # Generated resume data
+│   └── ...                                       # Other data files
+├── generate_resumes.py                           # Resume generation script
+├── requirements.txt                              # Python dependencies
+└── README.md                                     # This file
 ```
 
 ## Monitoring and Troubleshooting

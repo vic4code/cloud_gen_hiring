@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# AWS Lambda deployment script for Resume-Jobs Matching Lambda
+# AWS Lambda deployment script for Resume-Jobs Embedding Matching Lambda
 set -e
 
-echo "Starting Resume-Jobs Matching Lambda deployment..."
+echo "Starting Resume-Jobs Embedding Matching Lambda deployment..."
 
 # Create deployment directory
 DEPLOY_DIR="lambda_deployment"
@@ -16,21 +16,21 @@ pip install -r requirements.txt -t $DEPLOY_DIR
 
 # Copy Lambda function
 echo "Copying Lambda function..."
-cp resume_jobs_matching.py $DEPLOY_DIR/
+cp resume_jobs_embedding_matching.py $DEPLOY_DIR/
 
 # Create deployment package
 echo "Creating deployment package..."
 cd $DEPLOY_DIR
-zip -r ../resume_jobs_matching_lambda_deployment.zip .
+zip -r ../resume_jobs_embedding_matching_lambda_deployment.zip .
 cd ..
 
-echo "Deployment package created: resume_jobs_matching_lambda_deployment.zip"
+echo "Deployment package created: resume_jobs_embedding_matching_lambda_deployment.zip"
 echo ""
 echo "To deploy to AWS Lambda:"
 echo "1. Go to AWS Lambda Console"
-echo "2. Create or update your resume-jobs matching function"
-echo "3. Upload resume_jobs_matching_lambda_deployment.zip"
-echo "4. Set handler to: resume_jobs_matching.lambda_handler"
+echo "2. Create or update your resume-jobs embedding matching function"
+echo "3. Upload resume_jobs_embedding_matching_lambda_deployment.zip"
+echo "4. Set handler to: resume_jobs_embedding_matching.lambda_handler"
 echo "5. Set timeout to at least 15 minutes (900 seconds)"
 echo "6. Set memory to at least 2048 MB (recommended for numpy operations)"
 echo ""
