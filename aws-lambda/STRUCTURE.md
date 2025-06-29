@@ -1,64 +1,95 @@
-# AWS Lambda 目錄結構
+# AWS Lambda Directory Structure
 
-## 清理後的目錄結構
+## Cleaned Directory Structure
 
 ```
 aws-lambda/
-├── deploy_all.sh                    # 同時部署兩個 Lambda 的腳本
-├── README.md                        # 總體說明文件
-├── jobs-lambda/                     # 處理職位數據的 Lambda
-│   ├── jobs_to_opensearch.py        # Lambda 函數代碼
-│   ├── requirements.txt             # Python 依賴
-│   ├── deploy.sh                    # 單獨部署腳本
-│   ├── README.md                    # 詳細說明文件
-│   └── jobs_lambda_deployment.zip   # 部署包 (16MB)
-└── resume-lambda/                   # 處理簡歷數據的 Lambda
-    ├── resume_to_opensearch.py      # Lambda 函數代碼
-    ├── requirements.txt             # Python 依賴
-    ├── deploy.sh                    # 單獨部署腳本
-    ├── README.md                    # 詳細說明文件
-    └── resume_lambda_deployment.zip # 部署包 (16MB)
+├── deploy_all.sh                    # Script to deploy all Lambdas
+├── README.md                        # Overall documentation
+├── STRUCTURE.md                     # This file
+├── jobs-lambda/                     # Lambda for processing job data
+│   ├── jobs_to_opensearch.py        # Lambda function code
+│   ├── requirements.txt             # Python dependencies
+│   ├── deploy.sh                    # Individual deployment script
+│   ├── README.md                    # Detailed documentation
+│   └── jobs_lambda_deployment.zip   # Deployment package (16MB)
+├── resume-lambda/                   # Lambda for processing resume data
+│   ├── resume_to_opensearch.py      # Lambda function code
+│   ├── requirements.txt             # Python dependencies
+│   ├── deploy.sh                    # Individual deployment script
+│   ├── README.md                    # Detailed documentation
+│   └── resume_lambda_deployment.zip # Deployment package (16MB)
+└── resume-jobs-matching/            # Lambda for resume-job matching
+    ├── resume_jobs_matching.py      # Lambda function code
+    ├── requirements.txt             # Python dependencies
+    ├── deploy.sh                    # Individual deployment script
+    ├── README.md                    # Detailed documentation
+    └── resume_jobs_matching_lambda_deployment.zip # Deployment package (25MB)
 ```
 
-## 文件說明
+## File Descriptions
 
-### 根目錄文件
-- `deploy_all.sh`: 一鍵部署兩個 Lambda 函數
-- `README.md`: 總體架構和部署指南
+### Root Directory Files
+- `deploy_all.sh`: One-click deployment for all Lambda functions
+- `README.md`: Overall architecture and deployment guide
+- `STRUCTURE.md`: This file
 
-### Lambda 目錄文件
-每個 Lambda 目錄包含：
-- `*_to_opensearch.py`: Lambda 函數主代碼
-- `requirements.txt`: Python 依賴包
-- `deploy.sh`: 單獨部署腳本
-- `README.md`: 詳細配置說明
-- `*_lambda_deployment.zip`: 完整的部署包
+### Lambda Directory Files
+Each Lambda directory contains:
+- `*_to_opensearch.py` or `*_matching.py`: Lambda function main code
+- `requirements.txt`: Python dependency packages
+- `deploy.sh`: Individual deployment script
+- `README.md`: Detailed configuration documentation
+- `*_lambda_deployment.zip`: Complete deployment package
 
-## 使用方式
+## Usage
 
-### 快速部署（推薦）
+### Quick Deployment (Recommended)
 ```bash
 chmod +x deploy_all.sh
 ./deploy_all.sh
 ```
 
-### 單獨部署
+### Individual Deployment
 ```bash
-# 部署 Resume Lambda
+# Deploy Resume Lambda
 cd resume-lambda && ./deploy.sh
 
-# 部署 Jobs Lambda
+# Deploy Jobs Lambda
 cd jobs-lambda && ./deploy.sh
+
+# Deploy Resume-Jobs Matching Lambda
+cd resume-jobs-matching && ./deploy.sh
 ```
 
-## 清理說明
+## Cleanup Notes
 
-已移除的文件：
-- 根目錄的舊文件（已移至子目錄）
-- 部署過程中的臨時目錄 `lambda_deployment/`
-- 重複的配置文件
+Removed files:
+- Old files in root directory (moved to subdirectories)
+- Temporary directories `lambda_deployment/` from deployment process
+- Duplicate configuration files
 
-保留的文件：
-- 所有必要的源代碼和配置文件
-- 完整的部署包
-- 詳細的文檔說明
+Retained files:
+- All necessary source code and configuration files
+- Complete deployment packages
+- Detailed documentation
+
+## Function Overview
+
+### Resume Lambda
+- **Purpose**: Process resume data and generate embeddings
+- **Input**: DynamoDB Streams from `benson-haire-parsed_resume`
+- **Output**: OpenSearch index `haire-vector-db-resume-chunks-embeddings`
+- **Trigger**: DynamoDB Streams events
+
+### Jobs Lambda
+- **Purpose**: Process job data and generate embeddings
+- **Input**: DynamoDB Streams from `haire-jobs`
+- **Output**: OpenSearch index `haire-vector-db-jobs-chunks-embeddings`
+- **Trigger**: DynamoDB Streams events
+
+### Resume-Jobs Matching Lambda
+- **Purpose**: Calculate similarities between resume and job chunks
+- **Input**: OpenSearch indices
+- **Output**: DynamoDB tables `resume-jobs-similarity`, `embedding-filtered-resume-test`
+- **Trigger**: Manual or EventBridge schedule

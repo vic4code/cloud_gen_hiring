@@ -1,114 +1,137 @@
 # AWS Lambda Functions for OpenSearch Indexing
 
-這個目錄包含兩個獨立的 AWS Lambda 函數，用於將 DynamoDB 中的數據處理並索引到 OpenSearch 中。
+This directory contains two independent AWS Lambda functions for processing data from DynamoDB and indexing it into OpenSearch.
 
-## 架構概覽
+## Architecture Overview
 
 ```
 aws-lambda/
-├── resume-lambda/          # 處理簡歷數據的 Lambda
+├── resume-lambda/          # Lambda for processing resume data
 │   ├── resume_to_opensearch.py
 │   ├── requirements.txt
 │   ├── deploy.sh
 │   └── README.md
-├── jobs-lambda/            # 處理職位數據的 Lambda
+├── jobs-lambda/            # Lambda for processing job data
 │   ├── jobs_to_opensearch.py
 │   ├── requirements.txt
 │   ├── deploy.sh
 │   └── README.md
-├── deploy_all.sh           # 同時部署兩個 Lambda
-└── README.md               # 本文件
+├── resume-jobs-matching/   # Lambda for resume-job matching
+│   ├── resume_jobs_matching.py
+│   ├── requirements.txt
+│   ├── deploy.sh
+│   └── README.md
+├── deploy_all.sh           # Deploy all Lambdas
+└── README.md               # This file
 ```
 
-## Lambda 函數說明
+## Lambda Function Descriptions
 
 ### 1. Resume Lambda (`resume-lambda/`)
-- **功能**: 處理簡歷數據並生成嵌入向量
-- **數據源**: DynamoDB 表 `benson-haire-parsed_resume`
-- **目標索引**: `haire-vector-db-resume-chunks-embeddings`
-- **觸發方式**: DynamoDB Streams
+- **Function**: Process resume data and generate embeddings
+- **Data Source**: DynamoDB table `benson-haire-parsed_resume`
+- **Target Index**: `haire-vector-db-resume-chunks-embeddings`
+- **Trigger**: DynamoDB Streams
 
 ### 2. Jobs Lambda (`jobs-lambda/`)
-- **功能**: 處理職位數據並生成嵌入向量
-- **數據源**: DynamoDB 表 `haire-jobs`
-- **目標索引**: `haire-vector-db-jobs-chunks-embeddings`
-- **觸發方式**: DynamoDB Streams
+- **Function**: Process job data and generate embeddings
+- **Data Source**: DynamoDB table `haire-jobs`
+- **Target Index**: `haire-vector-db-jobs-chunks-embeddings`
+- **Trigger**: DynamoDB Streams
 
-## 快速部署
+### 3. Resume-Jobs Matching Lambda (`resume-jobs-matching/`)
+- **Function**: Calculate similarities between resume and job chunks
+- **Data Source**: OpenSearch indices
+- **Target Tables**: `resume-jobs-similarity`, `embedding-filtered-resume-test`
+- **Trigger**: Manual or EventBridge schedule
 
-### 部署所有 Lambda 函數
+## Quick Deployment
+
+### Deploy All Lambda Functions
 
 ```bash
-# 給部署腳本執行權限
+# Grant execute permission to deployment script
 chmod +x deploy_all.sh
 
-# 執行部署
+# Execute deployment
 ./deploy_all.sh
 ```
 
-### 單獨部署
+### Individual Deployment
 
 ```bash
-# 部署 Resume Lambda
+# Deploy Resume Lambda
 cd resume-lambda
 chmod +x deploy.sh
 ./deploy.sh
 
-# 部署 Jobs Lambda
+# Deploy Jobs Lambda
 cd ../jobs-lambda
+chmod +x deploy.sh
+./deploy.sh
+
+# Deploy Resume-Jobs Matching Lambda
+cd ../resume-jobs-matching
 chmod +x deploy.sh
 ./deploy.sh
 ```
 
-## AWS 配置步驟
+## AWS Configuration Steps
 
-### 1. 創建 Lambda 函數
+### 1. Create Lambda Functions
 
-在 AWS Lambda Console 中創建兩個函數：
+Create three functions in AWS Lambda Console:
 
 #### Resume Lambda
-- **函數名稱**: `resume-opensearch-indexing`
+- **Function Name**: `resume-opensearch-indexing`
 - **Runtime**: Python 3.9+
 - **Handler**: `resume_to_opensearch.lambda_handler`
-- **超時**: 15 分鐘 (900 秒)
-- **內存**: 1024 MB 或更高
+- **Timeout**: 15 minutes (900 seconds)
+- **Memory**: 1024 MB or higher
 
 #### Jobs Lambda
-- **函數名稱**: `jobs-opensearch-indexing`
+- **Function Name**: `jobs-opensearch-indexing`
 - **Runtime**: Python 3.9+
 - **Handler**: `jobs_to_opensearch.lambda_handler`
-- **超時**: 15 分鐘 (900 秒)
-- **內存**: 1024 MB 或更高
+- **Timeout**: 15 minutes (900 seconds)
+- **Memory**: 1024 MB or higher
 
-### 2. 配置 DynamoDB Streams
+#### Resume-Jobs Matching Lambda
+- **Function Name**: `resume-jobs-matching`
+- **Runtime**: Python 3.9+
+- **Handler**: `resume_jobs_matching.lambda_handler`
+- **Timeout**: 15 minutes (900 seconds)
+- **Memory**: 2048 MB (recommended for numpy operations)
 
-#### 為 `benson-haire-parsed_resume` 表啟用 Streams
-1. 在 DynamoDB Console 中選擇表
-2. 點擊 "Exports and streams" 標籤
-3. 在 "DynamoDB stream details" 部分點擊 "Enable stream"
-4. 選擇 "New and old images"
-5. 點擊 "Enable"
+### 2. Configure DynamoDB Streams
 
-#### 為 `haire-jobs` 表啟用 Streams
-1. 重複上述步驟
-2. 確保兩個表都有獨立的 Stream ARN
+#### Enable Streams for `benson-haire-parsed_resume` table
+1. Select the table in DynamoDB Console
+2. Click "Exports and streams" tab
+3. Click "Enable stream" in "DynamoDB stream details" section
+4. Select "New and old images"
+5. Click "Enable"
 
-### 3. 配置 Lambda 觸發器
+#### Enable Streams for `haire-jobs` table
+1. Repeat the above steps
+2. Ensure both tables have independent Stream ARNs
 
-#### Resume Lambda 觸發器
-1. 在 Lambda 函數頁面點擊 "Add trigger"
-2. 選擇 "DynamoDB"
-3. 選擇 `benson-haire-parsed_resume` 表的 Stream ARN
-4. 設置批處理大小為 1
-5. 點擊 "Add"
+### 3. Configure Lambda Triggers
 
-#### Jobs Lambda 觸發器
-1. 重複上述步驟
-2. 選擇 `haire-jobs` 表的 Stream ARN
+#### Resume Lambda Trigger
+1. Click "Add trigger" on Lambda function page
+2. Select "DynamoDB"
+3. Select Stream ARN of `benson-haire-parsed_resume` table
+4. Set batch size to 1
+5. Click "Add"
 
-### 4. IAM 權限配置
+#### Jobs Lambda Trigger
+1. Repeat the above steps
+2. Select Stream ARN of `haire-jobs` table
 
-為每個 Lambda 執行角色添加以下權限：
+### 4. IAM Permission Configuration
+
+Add the following permissions to each Lambda execution role:
 
 ```json
 {
@@ -127,11 +150,17 @@ chmod +x deploy.sh
         {
             "Effect": "Allow",
             "Action": [
-                "dynamodb:Scan"
+                "dynamodb:Scan",
+                "dynamodb:GetItem",
+                "dynamodb:PutItem",
+                "dynamodb:CreateTable",
+                "dynamodb:DescribeTable"
             ],
             "Resource": [
                 "arn:aws:dynamodb:*:*:table/benson-haire-parsed_resume",
-                "arn:aws:dynamodb:*:*:table/haire-jobs"
+                "arn:aws:dynamodb:*:*:table/haire-jobs",
+                "arn:aws:dynamodb:*:*:table/resume-jobs-similarity",
+                "arn:aws:dynamodb:*:*:table/embedding-filtered-resume-test"
             ]
         },
         {
@@ -147,30 +176,55 @@ chmod +x deploy.sh
                 "aoss:*"
             ],
             "Resource": "arn:aws:aoss:ap-southeast-1:570851831916:collection/c3qceibouiy9tqnj94d6"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogGroup",
+                "logs:CreateLogStream",
+                "logs:PutLogEvents"
+            ],
+            "Resource": "arn:aws:logs:*:*:*"
         }
     ]
 }
 ```
 
-## 監控和故障排除
+## Monitoring and Troubleshooting
 
 ### CloudWatch Logs
-- 每個 Lambda 函數都有獨立的 CloudWatch Log Group
-- 查看日誌來監控執行情況和錯誤
+- Each Lambda function has independent CloudWatch Log Group
+- Check logs to monitor execution status and errors
 
-### 常見問題
-1. **超時錯誤**: 增加 Lambda 超時時間或內存
-2. **權限錯誤**: 檢查 IAM 角色權限
-3. **OpenSearch 錯誤**: 檢查 OpenSearch 集合容量和權限
+### Common Issues
+1. **Timeout Errors**: Increase Lambda timeout or memory
+2. **Permission Errors**: Check IAM role permissions
+3. **OpenSearch Errors**: Check OpenSearch collection capacity and permissions
 
-## 成本優化
+## Cost Optimization
 
-1. **內存配置**: 根據數據量調整內存設置
-2. **超時設置**: 避免不必要的長時間運行
-3. **批處理**: 考慮批量處理多個記錄
+1. **Memory Configuration**: Adjust memory settings based on data volume
+2. **Timeout Settings**: Avoid unnecessary long-running executions
+3. **Batch Processing**: Consider batch processing multiple records
 
-## 安全注意事項
+## Security Considerations
 
-1. **最小權限原則**: 只授予必要的 IAM 權限
-2. **環境變數**: 敏感配置使用環境變數
-3. **VPC 配置**: 考慮將 Lambda 放在 VPC 中以增強安全性
+1. **Principle of Least Privilege**: Only grant necessary IAM permissions
+2. **Environment Variables**: Use environment variables for sensitive configurations
+3. **VPC Configuration**: Consider placing Lambda in VPC for enhanced security
+
+## Usage Examples
+
+### Manual Execution
+```bash
+# Test Resume-Jobs Matching Lambda
+aws lambda invoke \
+  --function-name resume-jobs-matching \
+  --payload '{}' \
+  response.json
+```
+
+### Scheduled Execution
+Set up EventBridge rule for periodic execution:
+- **Cron expression**: `0 */6 * * ? *` (every 6 hours)
+- **Target**: Your Lambda function

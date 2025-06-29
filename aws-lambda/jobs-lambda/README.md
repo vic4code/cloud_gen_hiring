@@ -1,44 +1,54 @@
 # Jobs to OpenSearch Lambda Function
 
-這個 AWS Lambda 函數用於將 DynamoDB 中的職位數據處理並索引到 OpenSearch 中。
+This AWS Lambda function processes job data from DynamoDB and indexes it into OpenSearch.
 
-## 功能
+## Features
 
-- 從 DynamoDB 表 `haire-jobs` 讀取職位數據
-- 提取 required_skills、requirements、responsibilities 字段
-- 將文本分塊並使用 Bedrock 生成嵌入向量
-- 將嵌入向量寫入 OpenSearch 索引 `haire-vector-db-jobs-chunks-embeddings`
+- Reads job data from DynamoDB table `haire-jobs`
+- Extracts required_skills, requirements, responsibilities fields
+- Chunks text and generates embeddings using Bedrock
+- Writes embeddings to OpenSearch index `haire-vector-db-jobs-chunks-embeddings`
 
-## 部署步驟
+## Deployment Steps
 
-### 1. 準備部署包
+### 1. Prepare Deployment Package
 
 ```bash
-# 給部署腳本執行權限
+# Grant execute permission to deployment script
 chmod +x deploy.sh
 
-# 執行部署腳本
+# Execute deployment script
 ./deploy.sh
 ```
 
-### 2. AWS Lambda 配置
+### 2. AWS Lambda Configuration
 
-1. 在 AWS Lambda Console 中創建新函數或更新現有函數
-2. 上傳生成的 `jobs_lambda_deployment.zip`
-3. 設置以下配置：
+1. Create new function or update existing function in AWS Lambda Console
+2. Upload the generated `jobs_lambda_deployment.zip`
+3. Set the following configuration:
    - **Handler**: `jobs_to_opensearch.lambda_handler`
-   - **Runtime**: Python 3.9 或更高版本
-   - **Timeout**: 15 分鐘 (900 秒)
-   - **Memory**: 1024 MB 或更高
+   - **Runtime**: Python 3.9 or higher
+   - **Timeout**: 15 minutes (900 seconds)
+   - **Memory**: 1024 MB or higher
 
-### 3. IAM 權限
+### 3. IAM Permissions
 
-Lambda 執行角色需要以下權限：
+Lambda execution role requires the following permissions:
 
 ```json
 {
     "Version": "2012-10-17",
     "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:GetRecords",
+                "dynamodb:GetShardIterator",
+                "dynamodb:DescribeStream",
+                "dynamodb:ListStreams"
+            ],
+            "Resource": "*"
+        },
         {
             "Effect": "Allow",
             "Action": [
@@ -59,38 +69,47 @@ Lambda 執行角色需要以下權限：
                 "aoss:*"
             ],
             "Resource": "arn:aws:aoss:ap-southeast-1:570851831916:collection/c3qceibouiy9tqnj94d6"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogGroup",
+                "logs:CreateLogStream",
+                "logs:PutLogEvents"
+            ],
+            "Resource": "arn:aws:logs:*:*:*"
         }
     ]
 }
 ```
 
-### 4. DynamoDB Streams 配置
+### 4. DynamoDB Streams Configuration
 
-1. 在 DynamoDB Console 中啟用 `haire-jobs` 表的 Streams
-2. 設置 Stream 類型為 "New and old images"
-3. 在 Lambda Console 中添加 DynamoDB Streams 觸發器
-4. 選擇剛創建的 Stream ARN
+1. Enable Streams for `haire-jobs` table in DynamoDB Console
+2. Set Stream type to "New and old images"
+3. Add DynamoDB Streams trigger in Lambda Console
+4. Select the newly created Stream ARN
 
-### 5. 環境變數 (可選)
+### 5. Environment Variables (Optional)
 
-如果需要自定義配置，可以設置以下環境變數：
+If custom configuration is needed, you can set the following environment variables:
 
-- `CHUNK_SIZE`: 文本分塊大小 (預設: 256)
-- `BEDROCK_MODEL_ID`: Bedrock 模型 ID (預設: cohere.embed-multilingual-v3)
-- `JOBS_TABLE`: DynamoDB 表名 (預設: haire-jobs)
+- `CHUNK_SIZE`: Text chunk size (default: 256)
+- `BEDROCK_MODEL_ID`: Bedrock model ID (default: cohere.embed-multilingual-v3)
+- `JOBS_TABLE`: DynamoDB table name (default: haire-jobs)
 
-## 執行
+## Execution
 
-函數可以通過以下方式觸發：
+The function can be triggered in the following ways:
 
-1. **DynamoDB Streams**: 當 haire-jobs 表有更新時自動觸發
-2. **手動觸發**: 在 Lambda Console 中點擊 "Test"
-3. **API Gateway**: 通過 HTTP 請求觸發
-4. **EventBridge**: 按時間表觸發
+1. **DynamoDB Streams**: Automatically triggered when haire-jobs table is updated
+2. **Manual Trigger**: Click "Test" in Lambda Console
+3. **API Gateway**: Triggered via HTTP request
+4. **EventBridge**: Triggered on schedule
 
-## 輸出
+## Output
 
-函數成功執行後會返回：
+The function returns the following on successful execution:
 
 ```json
 {
@@ -103,15 +122,39 @@ Lambda 執行角色需要以下權限：
 }
 ```
 
-## 監控
+## Monitoring
 
-- 查看 CloudWatch Logs 來監控執行情況
-- 函數會記錄處理進度和錯誤信息
-- 每處理 10 個項目會記錄一次進度
+- Check CloudWatch Logs to monitor execution status
+- Function logs processing progress and error information
+- Progress is logged every 10 processed items
 
-## 注意事項
+## Important Notes
 
-1. 函數會清空現有的 OpenSearch 索引，請確保這是預期行為
-2. 處理大量數據時可能需要調整 Lambda 的超時和內存設置
-3. 確保 OpenSearch 集合有足夠的容量來存儲所有嵌入向量
-4. 此函數與 resume-lambda 獨立運行，不會互相影響
+1. Function will clear existing OpenSearch index, ensure this is expected behavior
+2. Processing large amounts of data may require adjusting Lambda timeout and memory settings
+3. Ensure OpenSearch collection has sufficient capacity to store all embeddings
+4. This function runs independently from resume-lambda and will not interfere with each other
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Timeout Errors**: Increase Lambda timeout or memory allocation
+2. **Permission Errors**: Check IAM role permissions for DynamoDB, Bedrock, and OpenSearch
+3. **OpenSearch Errors**: Verify OpenSearch collection capacity and permissions
+4. **Stream Processing Errors**: Check DynamoDB Streams configuration
+
+### Debug Mode
+
+Enable debug logging by setting the log level to DEBUG in the Lambda function:
+
+```python
+logger.setLevel(logging.DEBUG)
+```
+
+## Performance Considerations
+
+- **Memory**: 1024 MB recommended for embedding generation
+- **Timeout**: 15 minutes for large datasets
+- **Batch Processing**: Consider processing multiple records in batches
+- **Caching**: OpenSearch queries are not cached, consider optimization for large datasets

@@ -40,4 +40,9 @@ env/
 Thumbs.db
 
 # Project specific
-data/resume/*.json 
+data/resume/*.json
+
+# Deployment files and directories
+lambda_deployment/
+*.zip
+jobs_lambda_deployment.zip 

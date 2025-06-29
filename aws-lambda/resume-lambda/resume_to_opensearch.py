@@ -5,27 +5,23 @@ from requests_aws4auth import AWS4Auth
 import logging
 import time
 import os
+from boto3.dynamodb.types import TypeDeserializer
 
 # Set up logging
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-# Configuration - inline for Lambda deployment
+# Configuration
 CHUNK_SIZE = 256
 BEDROCK_MODEL_ID = 'cohere.embed-multilingual-v3'
-RESUME_TABLE = 'benson-haire-parsed_resume'
-
-# OpenSearch configuration
 OPENSEARCH_COLLECTION_ENDPOINT = "c3qceibouiy9tqnj94d6.ap-southeast-1.aoss.amazonaws.com"
 OPENSEARCH_INDEX = "haire-vector-db-resume-chunks-embeddings"
 
 def get_aws_auth():
-    """Get AWS authentication for OpenSearch"""
     try:
         session = boto3.Session()
         credentials = session.get_credentials().get_frozen_credentials()
         region = session.region_name or "ap-southeast-1"
-        
         return AWS4Auth(
             credentials.access_key,
             credentials.secret_key,
@@ -38,164 +34,149 @@ def get_aws_auth():
         raise e
 
 def chunk_text(text, chunk_size):
-    """Split text into chunks of specified size"""
     if not text:
         return []
     return [text[i:i + chunk_size] for i in range(0, len(text), chunk_size)]
 
 def generate_embedding(bedrock_client, text_chunk):
-    """Generate embedding for text chunk using Bedrock"""
     try:
         request_body = {
             "texts": [text_chunk],
             "input_type": "search_document"
         }
-        
         response = bedrock_client.invoke_model(
             modelId=BEDROCK_MODEL_ID,
             contentType="application/json",
             accept="application/json",
             body=json.dumps(request_body)
         )
-        
         result = json.loads(response['body'].read())
         return result['embeddings'][0]
-        
     except Exception as e:
         logger.error(f"Error in generate_embedding: {e}")
         raise e
 
-def clear_opensearch_index(awsauth):
-    """Clear existing OpenSearch index"""
-    logger.info("Clearing OpenSearch index...")
+def delete_chunks_for_resume(resume_id, awsauth):
+    logger.info(f"[DELETE] Removing all chunks for resume_id={resume_id}")
+    query = {
+        "query": {
+            "term": {"resume_id": resume_id}
+        }
+    }
     try:
-        index_url = f"https://{OPENSEARCH_COLLECTION_ENDPOINT}/{OPENSEARCH_INDEX}"
-        index_check = requests.head(index_url, auth=awsauth, timeout=30)
-        
-        if index_check.status_code == 200:
-            logger.info(f"Index {OPENSEARCH_INDEX} exists, proceeding to clear it...")
-            
-            delete_index_url = f"https://{OPENSEARCH_COLLECTION_ENDPOINT}/{OPENSEARCH_INDEX}"
-            delete_response = requests.delete(delete_index_url, auth=awsauth, timeout=30)
-            
-            if delete_response.status_code in [200, 201, 404]:
-                logger.info("Successfully deleted OpenSearch index")
-                time.sleep(3)
-            else:
-                logger.warning(f"Failed to delete index. Status: {delete_response.status_code}, Response: {delete_response.text}")
+        url = f"https://{OPENSEARCH_COLLECTION_ENDPOINT}/{OPENSEARCH_INDEX}/_delete_by_query"
+        res = requests.post(
+            url,
+            headers={"Content-Type": "application/json"},
+            auth=awsauth,
+            data=json.dumps(query),
+            timeout=30
+        )
+        if res.status_code == 200:
+            logger.info(f"      └─ [OpenSearch] ✅ Deleted existing chunks for resume_id={resume_id}")
         else:
-            logger.info(f"Index {OPENSEARCH_INDEX} does not exist, will be created when first document is written")
-            
+            logger.warning(f"      └─ [OpenSearch] ❌ Failed to delete. Status={res.status_code}, Response={res.text}")
     except Exception as e:
-        logger.warning(f"Error during index clearing: {e}")
-        logger.info("Continuing with data processing...")
+        logger.error(f"      └─ [ERROR] Failed to delete chunks for resume_id={resume_id}: {e}")
 
 def process_resume_item(item, bedrock_client, awsauth):
-    """Process a single resume item and create embeddings"""
     resume_id = item.get('resume_id')
     job_id = item.get('job_id')
     profile = item.get('profile', {})
-    
+
+    logger.info(f"[START] Processing resume_id={resume_id}, job_id={job_id}")
+
     professional_experiences = profile.get('professional_experiences', [])
     if not professional_experiences:
-        logger.warning(f"No professional experiences found for resume_id: {resume_id}, job_id: {job_id}")
+        logger.warning(f"[SKIP] No professional experiences for resume_id={resume_id}")
         return []
-        
+
     descriptions = " ".join([exp.get('description', '') for exp in professional_experiences])
-    logger.info(f"Extracted descriptions for resume_id: {resume_id}, job_id: {job_id}")
-    
+    logger.info(f"[INFO] Extracted total description length: {len(descriptions)} characters")
+
     chunks = chunk_text(descriptions, CHUNK_SIZE)
-    logger.info(f"Processing resume_id: {resume_id}, job_id: {job_id}, number of chunks: {len(chunks)}")
-    
+    logger.info(f"[INFO] Split into {len(chunks)} chunks")
+
     chunk_data_list = []
     for idx, chunk in enumerate(chunks):
+        chunk_id = f"{resume_id}_{idx}"
+        logger.info(f"  └─ [Chunk {idx+1}/{len(chunks)}] chunk_id={chunk_id}, len={len(chunk)}")
         try:
             embedding = generate_embedding(bedrock_client, chunk)
-            
+            logger.info(f"      └─ [Embedding] Success, dim={len(embedding)}")
             chunk_data = {
-                'chunk_id': f"{resume_id}_{idx}",
+                'chunk_id': chunk_id,
                 'resume_id': resume_id,
                 'job_id': job_id,
                 'chunk': chunk,
                 'embedding': embedding
             }
-            
-            # Write to OpenSearch
             url = f"https://{OPENSEARCH_COLLECTION_ENDPOINT}/{OPENSEARCH_INDEX}/_doc"
             res = requests.post(
-                url, 
-                headers={"Content-Type": "application/json"}, 
-                auth=awsauth, 
+                url,
+                headers={"Content-Type": "application/json"},
+                auth=awsauth,
                 data=json.dumps(chunk_data),
                 timeout=30
             )
-            
             if res.status_code == 201:
-                logger.info(f"Successfully wrote chunk {chunk_data['chunk_id']} to OpenSearch.")
+                logger.info(f"      └─ [OpenSearch] ✅ Chunk {chunk_id} written successfully")
                 chunk_data_list.append(chunk_data)
             else:
-                logger.error(f"Failed to write chunk {chunk_data['chunk_id']} to OpenSearch. Status code: {res.status_code}")
-                
+                logger.error(f"      └─ [OpenSearch] ❌ Failed to write chunk {chunk_id}. Status={res.status_code}, Response={res.text}")
         except Exception as e:
-            logger.error(f"Error processing chunk {idx} for resume {resume_id}: {e}")
+            logger.error(f"      └─ [ERROR] Failed to process chunk {chunk_id}: {e}")
             continue
-            
+
+    logger.info(f"[DONE] Finished resume_id={resume_id}, total chunks={len(chunk_data_list)}\n")
     return chunk_data_list
 
+def deserialize_dynamodb_item(dynamodb_item):
+    deserializer = TypeDeserializer()
+    return {k: deserializer.deserialize(v) for k, v in dynamodb_item.items()}
+
 def lambda_handler(event, context):
-    """Main Lambda handler function"""
     try:
-        logger.info("Starting resume processing Lambda function")
-        
-        # Initialize clients
-        dynamodb = boto3.resource('dynamodb')
+        logger.info("=== Lambda triggered from DynamoDB Streams ===")
         bedrock_client = boto3.client('bedrock-runtime')
         awsauth = get_aws_auth()
-        
-        # Get items from DynamoDB
-        resume_table = dynamodb.Table(RESUME_TABLE)
-        response = resume_table.scan()
-        items = response['Items']
-        
-        logger.info(f"Found {len(items)} items in DynamoDB table")
-        
-        # Clear existing index
-        clear_opensearch_index(awsauth)
-        
-        # Process all items
-        all_chunk_data = []
-        processed_count = 0
-        
-        for item in items:
-            try:
-                chunk_data_list = process_resume_item(item, bedrock_client, awsauth)
-                all_chunk_data.extend(chunk_data_list)
-                processed_count += 1
-                
-                # Log progress every 10 items
-                if processed_count % 10 == 0:
-                    logger.info(f"Processed {processed_count}/{len(items)} items")
-                    
-            except Exception as e:
-                logger.error(f"Error processing item {item.get('resume_id', 'unknown')}: {e}")
-                continue
-            
-        logger.info(f"Successfully processed {processed_count} resumes and created {len(all_chunk_data)} chunks")
-        
+
+        for record in event.get("Records", []):
+            event_type = record.get("eventName")
+            new_image = record.get("dynamodb", {}).get("NewImage")
+            old_image = record.get("dynamodb", {}).get("OldImage")
+            resume_key = record.get("dynamodb", {}).get("Keys", {}).get("resume_id", {}).get("S", "UNKNOWN")
+
+            logger.info(f"[EVENT] Type={event_type}, Resume ID={resume_key}")
+
+            if event_type == "INSERT":
+                logger.info("[INSERT] NewImage: " + json.dumps(new_image, indent=2))
+                item = deserialize_dynamodb_item(new_image)
+                process_resume_item(item, bedrock_client, awsauth)
+
+            elif event_type == "MODIFY":
+                logger.info("[MODIFY] OldImage: " + json.dumps(old_image, indent=2))
+                logger.info("[MODIFY] NewImage: " + json.dumps(new_image, indent=2))
+                old_item = deserialize_dynamodb_item(old_image)
+                delete_chunks_for_resume(old_item.get("resume_id"), awsauth)
+                item = deserialize_dynamodb_item(new_image)
+                process_resume_item(item, bedrock_client, awsauth)
+
+            elif event_type == "REMOVE":
+                logger.info("[REMOVE] OldImage: " + json.dumps(old_image, indent=2))
+                old_item = deserialize_dynamodb_item(old_image)
+                delete_chunks_for_resume(old_item.get("resume_id"), awsauth)
+
         return {
             'statusCode': 200,
             'body': json.dumps({
-                'message': f'Successfully processed {processed_count} resumes and created {len(all_chunk_data)} chunks',
-                'processed_items': processed_count,
-                'total_chunks': len(all_chunk_data)
+                'message': 'Stream events processed.'
             })
         }
-        
+
     except Exception as e:
-        logger.error(f"Error in lambda execution: {e}")
+        logger.error(f"[FATAL] Lambda execution error: {e}")
         return {
             'statusCode': 500,
-            'body': json.dumps({
-                'error': str(e)
-            })
+            'body': json.dumps({'error': str(e)})
         }
