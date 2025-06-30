@@ -61,33 +61,52 @@ def generate_embedding(bedrock_client, text_chunk):
     result = json.loads(response['body'].read())
     return result['embeddings'][0]
 
-# Delete existing chunks in OpenSearch for job_id
+# Delete existing chunks in OpenSearch for job_id (笨但100%保險的做法)
 def delete_chunks_for_job(job_id, awsauth):
     logger.info(f"[DELETE] Removing all chunks for job_id={job_id}")
-    query = {
+    search_url = f"https://{OPENSEARCH_COLLECTION_ENDPOINT}/{OPENSEARCH_INDEX}/_search"
+    search_query = {
         "query": {
-            "term": {"job_id": job_id}
-        }
+            "term": {"job_id.keyword": job_id}
+        },
+        "size": 1000  # 若有超過1000筆可改大，或加分頁
     }
-    url = f"https://{OPENSEARCH_COLLECTION_ENDPOINT}/{OPENSEARCH_INDEX}/_delete_by_query"
-    res = requests.post(
-        url,
-        headers={"Content-Type": "application/json"},
-        auth=awsauth,
-        data=json.dumps(query),
-        timeout=30
-    )
-    if res.status_code == 200:
-        logger.info(f"      └─ [OpenSearch] ✅ Deleted existing chunks for job_id={job_id}")
-    else:
-        logger.warning(f"      └─ [OpenSearch] ❌ Failed to delete. Status={res.status_code}, Response={res.text}")
+    try:
+        res = requests.get(
+            search_url,
+            headers={"Content-Type": "application/json"},
+            auth=awsauth,
+            data=json.dumps(search_query),
+            timeout=30
+        )
+        if res.status_code != 200:
+            logger.warning(f"      └─ [OpenSearch] ❌ Failed to query docs for job_id={job_id}. Status={res.status_code}, Response={res.text}")
+            return
+        hits = res.json().get("hits", {}).get("hits", [])
+        logger.info(f"      └─ [OpenSearch] Found {len(hits)} chunks to delete for job_id={job_id}")
+
+        for hit in hits:
+            doc_id = hit["_id"]
+            del_url = f"https://{OPENSEARCH_COLLECTION_ENDPOINT}/{OPENSEARCH_INDEX}/_doc/{doc_id}"
+            del_res = requests.delete(
+                del_url,
+                headers={"Content-Type": "application/json"},
+                auth=awsauth,
+                timeout=30
+            )
+            if del_res.status_code in [200, 202]:
+                logger.info(f"         └─ [OpenSearch] ✅ Deleted _id={doc_id}")
+            else:
+                logger.warning(f"         └─ [OpenSearch] ❌ Failed to delete _id={doc_id}. Status={del_res.status_code}, Response={del_res.text}")
+
+    except Exception as e:
+        logger.error(f"      └─ [ERROR] Exception during deletion: {e}")
 
 # Process one DynamoDB item
 def process_job_item(item, bedrock_client, awsauth):
     job_id = item.get('job_id')
     logger.info(f"[START] Processing job_id={job_id}")
 
-    # Extract and flatten text
     required_skills = item.get('required_skills', '')
     requirements = item.get('requirements', '')
     responsibilities = item.get('responsibilities', '')

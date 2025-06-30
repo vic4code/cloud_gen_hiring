@@ -58,26 +58,44 @@ def generate_embedding(bedrock_client, text_chunk):
 
 def delete_chunks_for_resume(resume_id, awsauth):
     logger.info(f"[DELETE] Removing all chunks for resume_id={resume_id}")
-    query = {
+    search_url = f"https://{OPENSEARCH_COLLECTION_ENDPOINT}/{OPENSEARCH_INDEX}/_search"
+    search_query = {
         "query": {
-            "term": {"resume_id": resume_id}
-        }
+            "term": {"resume_id.keyword": resume_id}
+        },
+        "size": 1000
     }
     try:
-        url = f"https://{OPENSEARCH_COLLECTION_ENDPOINT}/{OPENSEARCH_INDEX}/_delete_by_query"
-        res = requests.post(
-            url,
+        res = requests.get(
+            search_url,
             headers={"Content-Type": "application/json"},
             auth=awsauth,
-            data=json.dumps(query),
+            data=json.dumps(search_query),
             timeout=30
         )
-        if res.status_code == 200:
-            logger.info(f"      └─ [OpenSearch] ✅ Deleted existing chunks for resume_id={resume_id}")
-        else:
-            logger.warning(f"      └─ [OpenSearch] ❌ Failed to delete. Status={res.status_code}, Response={res.text}")
+        if res.status_code != 200:
+            logger.warning(f"      └─ [OpenSearch] ❌ Failed to query docs for resume_id={resume_id}. Status={res.status_code}, Response={res.text}")
+            return
+        hits = res.json().get("hits", {}).get("hits", [])
+        logger.info(f"      └─ [OpenSearch] Found {len(hits)} chunks to delete for resume_id={resume_id}")
+
+        for hit in hits:
+            doc_id = hit["_id"]
+            del_url = f"https://{OPENSEARCH_COLLECTION_ENDPOINT}/{OPENSEARCH_INDEX}/_doc/{doc_id}"
+            del_res = requests.delete(
+                del_url,
+                headers={"Content-Type": "application/json"},
+                auth=awsauth,
+                timeout=30
+            )
+            if del_res.status_code in [200, 202]:
+                logger.info(f"         └─ [OpenSearch] ✅ Deleted _id={doc_id}")
+            else:
+                logger.warning(f"         └─ [OpenSearch] ❌ Failed to delete _id={doc_id}. Status={del_res.status_code}, Response={del_res.text}")
+
     except Exception as e:
-        logger.error(f"      └─ [ERROR] Failed to delete chunks for resume_id={resume_id}: {e}")
+        logger.error(f"      └─ [ERROR] Exception during deletion: {e}")
+
 
 def process_resume_item(item, bedrock_client, awsauth):
     resume_id = item.get('resume_id')
