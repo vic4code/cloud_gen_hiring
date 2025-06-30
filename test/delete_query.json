@@ -1,0 +1,8 @@
+{
+  "index": "haire-vector-db.haire-vector-db-jobs-chunks-embeddings",
+  "query": {
+    "term": {
+      "job_id.keyword": "TTT"
+    }
+  }
+}
