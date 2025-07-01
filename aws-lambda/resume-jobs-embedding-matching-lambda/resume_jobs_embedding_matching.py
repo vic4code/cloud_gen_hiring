@@ -4,6 +4,7 @@ import logging
 import numpy as np
 from requests_aws4auth import AWS4Auth
 from collections import defaultdict
+from decimal import Decimal  # <--- 新增
 import requests
 
 # Set up logging
@@ -21,7 +22,7 @@ JOBS_INDEX = 'haire-vector-db-jobs-chunks-embeddings'
 
 # DynamoDB table names
 SOURCE_TABLE = 'benson-haire-parsed_resume'
-TARGET_TABLE = 'embedding-filtered-resume-test'
+TARGET_TABLE = 'embedding-filtered-resume'
 SIMILARITY_TABLE = 'resume-jobs-similarity'
 
 def get_aws_auth():
@@ -243,7 +244,7 @@ def calculate_chunk_similarities():
                 similarity_data = {
                     'resume_id': resume_id,
                     'job_id': job_id,
-                    'embedding_similarity_score': float(avg_score),
+                    'embedding_similarity_score': Decimal(str(avg_score)),   # <--- 修正
                     'num_chunk_pairs': len(max_scores_per_pair)
                 }
                 similarities.append(similarity_data)
@@ -269,16 +270,20 @@ def write_similarities_to_dynamodb(similarities):
     
     with similarity_table.batch_writer() as batch:
         for similarity in similarities:
-            batch.put_item(Item=similarity)
+            # 確保再次包裝 float 類型（防呆）
+            item = dict(similarity)
+            if 'embedding_similarity_score' in item:
+                item['embedding_similarity_score'] = Decimal(str(item['embedding_similarity_score']))
+            batch.put_item(Item=item)
     
     logger.info(f"Successfully wrote {len(similarities)} similarity scores")
 
 def update_resume_table_with_similarities(similarities):
-    """Update resume table with embedding similarity scores"""
+    """Update resume table with average embedding similarity score only"""
     if not similarities:
         logger.warning("No similarities to update")
         return
-    
+
     # Create target table if it doesn't exist
     create_table_if_not_exists(TARGET_TABLE, [
         {
@@ -286,18 +291,18 @@ def update_resume_table_with_similarities(similarities):
             'KeyType': 'HASH'
         }
     ])
-    
+
     source_table = dynamodb.Table(SOURCE_TABLE)
     target_table = dynamodb.Table(TARGET_TABLE)
-    
+
     # Group similarities by resume_id
     similarities_by_resume = defaultdict(list)
     for similarity in similarities:
         resume_id = similarity['resume_id']
         similarities_by_resume[resume_id].append(similarity)
-    
-    logger.info(f"Updating {len(similarities_by_resume)} resumes with similarity scores")
-    
+
+    logger.info(f"Updating {len(similarities_by_resume)} resumes with average similarity score")
+
     updated_count = 0
     for resume_id, resume_similarities in similarities_by_resume.items():
         try:
@@ -306,34 +311,26 @@ def update_resume_table_with_similarities(similarities):
             if 'Item' not in response:
                 logger.warning(f"Resume {resume_id} not found in source table")
                 continue
-            
+
             resume_data = response['Item']
-            
-            # Add similarity scores
-            resume_data['embedding_similarity_scores'] = [
-                {
-                    'job_id': sim['job_id'],
-                    'score': sim['embedding_similarity_score'],
-                    'num_chunk_pairs': sim['num_chunk_pairs']
-                }
-                for sim in resume_similarities
-            ]
-            
+
             # Calculate average score
-            avg_score = np.mean([sim['embedding_similarity_score'] for sim in resume_similarities])
-            resume_data['avg_embedding_similarity_score'] = float(avg_score)
-            
-            # Write to target table
+            avg_score = np.mean([float(sim['embedding_similarity_score']) for sim in resume_similarities])
+            # 新增一個欄位，型別要用 Decimal
+            resume_data['embedding_similarity_score'] = Decimal(str(avg_score))
+
+            # 只寫回這一份 dict，不加其他欄位
             target_table.put_item(Item=resume_data)
             updated_count += 1
-            
-            logger.debug(f"Updated resume {resume_id} with {len(resume_similarities)} similarity scores")
-            
+
+            logger.debug(f"Updated resume {resume_id} with average similarity score: {avg_score}")
+
         except Exception as e:
             logger.error(f"Error updating resume {resume_id}: {e}")
             continue
-    
+
     logger.info(f"Successfully updated {updated_count} resumes")
+
 
 def lambda_handler(event, context):
     """Lambda handler for resume-job matching"""
@@ -357,7 +354,7 @@ def lambda_handler(event, context):
         update_resume_table_with_similarities(similarities)
         
         # Summary statistics
-        scores = [s['embedding_similarity_score'] for s in similarities]
+        scores = [float(s['embedding_similarity_score']) for s in similarities]
         summary = {
             'total_similarities': len(similarities),
             'unique_resumes': len(set(s['resume_id'] for s in similarities)),
@@ -383,4 +380,4 @@ def lambda_handler(event, context):
         return {
             'statusCode': 500,
             'body': json.dumps({'error': str(e)})
-        } 
+        }

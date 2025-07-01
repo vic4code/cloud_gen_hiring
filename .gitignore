@@ -43,6 +43,6 @@ Thumbs.db
 data/resume/*.json
 
 # Deployment files and directories
-lambda_deployment/
+*lambda_deployment/
 *.zip
 jobs_lambda_deployment.zip 
