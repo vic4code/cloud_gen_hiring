@@ -276,6 +276,153 @@ const MOCK_CANDIDATES = {
   ]
 };
 
+const MOCK_RESUMES = [
+  {
+    id: "resume-001",
+    name: "Darren Wu",
+    email: "darren.wu@gmail.com",
+    title: "資深資料科學家",
+    skills: ["Machine Learning", "Deep Learning", "Python", "TensorFlow", "PyTorch", "SQL", "NLP"],
+    education: "國立臺灣大學 資訊工程學系 碩士",
+    source: "upload",
+    status: "parsed",
+    upload_date: "2026/02/28",
+    is_recent: true
+  },
+  {
+    id: "resume-002",
+    name: "林怡辰",
+    email: "yichen.lin@outlook.com",
+    title: "機器學習工程師",
+    skills: ["Python", "scikit-learn", "PyTorch", "Docker", "AWS", "MLOps"],
+    education: "國立清華大學 統計學系 碩士",
+    source: "email",
+    status: "parsed",
+    upload_date: "2026/02/27",
+    is_recent: true
+  },
+  {
+    id: "resume-003",
+    name: "張小明",
+    email: "xiaoming.zhang@example.com",
+    title: "資料科學應屆畢業生",
+    skills: ["Python", "SQL", "Tableau", "Power BI", "R", "TensorFlow"],
+    education: "國防醫學院 資料科學 學士",
+    source: "website",
+    status: "parsed",
+    upload_date: "2026/02/25",
+    is_recent: true
+  },
+  {
+    id: "resume-004",
+    name: "美惠 陳",
+    email: "meihui.chen@outlook.com",
+    title: "前端開發實習生",
+    skills: ["JavaScript", "React", "HTML5", "CSS3", "Git", "Python"],
+    education: "國立交通大學 資訊管理學系 學士",
+    source: "referral",
+    status: "parsed",
+    upload_date: "2026/02/24",
+    is_recent: false
+  },
+  {
+    id: "resume-005",
+    name: "王嘉偉",
+    email: "jiawei.wang@gmail.com",
+    title: "Senior Data Scientist",
+    skills: ["Machine Learning", "Deep Learning", "Python", "PyTorch", "MLOps", "AWS", "RAG"],
+    education: "國立臺灣大學 資訊工程學系 博士",
+    source: "upload",
+    status: "parsed",
+    upload_date: "2026/02/22",
+    is_recent: false
+  },
+  {
+    id: "resume-006",
+    name: "黃郁如",
+    email: "yuru.huang@ntu.edu.tw",
+    title: "AI Research Scientist",
+    skills: ["Deep Learning", "PyTorch", "NLP", "Federated Learning", "Responsible AI"],
+    education: "國立臺灣大學 電機工程學系 博士",
+    source: "email",
+    status: "parsed",
+    upload_date: "2026/02/20",
+    is_recent: false
+  },
+  {
+    id: "resume-007",
+    name: "李明哲",
+    email: "mingzhe.li@gmail.com",
+    title: "Product Manager",
+    skills: ["產品管理", "數據分析", "專案管理", "Agile", "JIRA", "SQL"],
+    education: "國立政治大學 企業管理學系 碩士",
+    source: "website",
+    status: "parsed",
+    upload_date: "2026/02/18",
+    is_recent: false
+  },
+  {
+    id: "resume-008",
+    name: "陳建宏",
+    email: "jianhong.chen@yahoo.com",
+    title: "後端工程師",
+    skills: ["Java", "Spring Boot", "PostgreSQL", "Docker", "Kubernetes", "AWS"],
+    education: "國立成功大學 資訊工程學系 碩士",
+    source: "upload",
+    status: "pending",
+    upload_date: "2026/03/01",
+    is_recent: true
+  },
+  {
+    id: "resume-009",
+    name: "周雅婷",
+    email: "yating.zhou@gmail.com",
+    title: "UI/UX Designer",
+    skills: ["Figma", "Adobe XD", "Sketch", "用戶研究", "Prototyping"],
+    education: "實踐大學 工業產品設計學系 學士",
+    source: "referral",
+    status: "parsed",
+    upload_date: "2026/02/15",
+    is_recent: false
+  },
+  {
+    id: "resume-010",
+    name: "劉志偉",
+    email: "zhiwei.liu@hotmail.com",
+    title: "DevOps Engineer",
+    skills: ["AWS", "Terraform", "Docker", "Kubernetes", "CI/CD", "Linux"],
+    education: "國立中央大學 資訊工程學系 學士",
+    source: "website",
+    status: "parsed",
+    upload_date: "2026/02/12",
+    is_recent: false
+  },
+  {
+    id: "resume-011",
+    name: "蔡佳琪",
+    email: "jiaqi.tsai@gmail.com",
+    title: "Data Analyst",
+    skills: ["SQL", "Python", "Tableau", "Excel", "統計分析"],
+    education: "國立臺灣師範大學 數學系 學士",
+    source: "email",
+    status: "pending",
+    upload_date: "2026/03/02",
+    is_recent: true
+  },
+  {
+    id: "resume-012",
+    name: "吳承翰",
+    email: "chenghan.wu@example.com",
+    title: "Full Stack Developer",
+    skills: ["React", "Node.js", "TypeScript", "MongoDB", "GraphQL"],
+    education: "國立陽明交通大學 資訊科學與工程研究所 碩士",
+    source: "upload",
+    status: "failed",
+    upload_date: "2026/03/03",
+    is_recent: true
+  }
+];
+
 const MOCK_STATS = {
   teams: MOCK_TEAMS.length,
   activeJobs: MOCK_JOBS.filter(j => j.status === "active").length,
