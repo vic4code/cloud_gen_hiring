@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>團隊管理 - hAIre</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <nav class="sidebar">
+    <div class="sidebar-logo">H</div>
+    <ul class="sidebar-nav">
+      <li><a href="index.html" title="首頁">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      </a></li>
+      <li><a href="admin-teams.html" class="active" title="團隊管理">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      </a></li>
+      <li><a href="admin-jobs.html" title="職缺管理">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+      </a></li>
+      <li><a href="#" title="履歷管理">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+      </a></li>
+    </ul>
+    <div class="sidebar-bottom">
+      <a href="login.html" title="登出">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="page-header">
+      <div>
+        <h1>團隊管理</h1>
+        <p class="subtitle">管理公司團隊與組織架構</p>
+      </div>
+      <button class="btn btn-primary" onclick="openModal()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        新增團隊
+      </button>
+    </div>
+
+    <!-- Toolbar -->
+    <div class="toolbar">
+      <div class="search-wrapper">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input class="search-input" type="text" id="searchInput" placeholder="搜尋團隊名稱..." oninput="filterTeams()">
+      </div>
+      <select class="filter-select" id="companyFilter" onchange="filterTeams()">
+        <option value="">所有公司</option>
+      </select>
+    </div>
+
+    <!-- Teams Grid -->
+    <div class="teams-grid" id="teamsGrid">
+      <!-- Populated by JS -->
+    </div>
+  </main>
+
+  <!-- Add/Edit Team Modal -->
+  <div class="modal-overlay" id="teamModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 id="modalTitle">新增團隊</h2>
+        <button class="modal-close" onclick="closeModal()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:20px;height:20px"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="teamForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">公司名稱</label>
+              <input class="form-input" type="text" id="companyName" placeholder="例：國泰金控" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">公司代號</label>
+              <input class="form-input" type="text" id="companyCode" placeholder="例：CFU">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">部門名稱</label>
+              <input class="form-input" type="text" id="deptName" placeholder="例：數據暨人工智慧發展部" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">部門代號</label>
+              <input class="form-input" type="text" id="deptCode" placeholder="例：DATAAI">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">團隊名稱</label>
+              <input class="form-input" type="text" id="teamName" placeholder="例：人工智慧科" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">類別代號</label>
+              <input class="form-input" type="text" id="teamCode" placeholder="例：AI">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">團隊描述</label>
+            <textarea class="form-input" id="teamDesc" rows="3" placeholder="請輸入團隊描述..."></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label">上傳附件</label>
+            <div class="file-upload" id="fileUpload" onclick="document.getElementById('fileInput').click()">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+              <p>拖放檔案到此處或點擊上傳</p>
+              <p class="hint">支援 PDF、DOC、DOCX 格式</p>
+            </div>
+            <input type="file" id="fileInput" style="display:none" accept=".pdf,.doc,.docx">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeModal()">取消</button>
+        <button class="btn btn-primary" onclick="saveTeam()">儲存</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/mock-data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    let editingTeamId = null;
+
+    function renderTeams(teams) {
+      const grid = document.getElementById('teamsGrid');
+      if (teams.length === 0) {
+        grid.innerHTML = `
+          <div class="empty-state" style="grid-column: 1 / -1">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <h3>尚無團隊資料</h3>
+            <p>點擊「新增團隊」按鈕來建立第一個團隊</p>
+          </div>`;
+        return;
+      }
+      grid.innerHTML = teams.map(t => `
+        <div class="team-card" data-id="${t.id}">
+          <div class="team-card-header">
+            <div class="team-card-title">${t.team_name}</div>
+            <div class="team-card-actions">
+              <button class="btn-icon" onclick="editTeam('${t.id}')" title="編輯">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+              </button>
+              <button class="btn-icon danger" onclick="deleteTeam('${t.id}')" title="刪除">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="team-card-info">
+            <div class="team-card-info-row">
+              <span class="label">部門</span>
+              <span>${t.department}</span>
+            </div>
+            <div class="team-card-info-row">
+              <span class="label">公司</span>
+              <span>${t.company}</span>
+            </div>
+            <div class="team-card-info-row">
+              <span class="label">類別</span>
+              <span class="team-card-badge">${t.category || t.team_code}</span>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function populateFilters() {
+      const companies = [...new Set(MOCK_TEAMS.map(t => t.company))];
+      const select = document.getElementById('companyFilter');
+      companies.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.textContent = c;
+        select.appendChild(opt);
+      });
+    }
+
+    function filterTeams() {
+      const search = document.getElementById('searchInput').value.toLowerCase();
+      const company = document.getElementById('companyFilter').value;
+      const filtered = MOCK_TEAMS.filter(t => {
+        const matchSearch = t.team_name.toLowerCase().includes(search) ||
+                           t.department.toLowerCase().includes(search);
+        const matchCompany = !company || t.company === company;
+        return matchSearch && matchCompany;
+      });
+      renderTeams(filtered);
+    }
+
+    function openModal() {
+      editingTeamId = null;
+      document.getElementById('modalTitle').textContent = '新增團隊';
+      document.getElementById('teamForm').reset();
+      document.getElementById('teamModal').classList.add('active');
+    }
+
+    function closeModal() {
+      document.getElementById('teamModal').classList.remove('active');
+      editingTeamId = null;
+    }
+
+    function editTeam(id) {
+      const team = MOCK_TEAMS.find(t => t.id === id);
+      if (!team) return;
+      editingTeamId = id;
+      document.getElementById('modalTitle').textContent = '編輯團隊';
+      document.getElementById('companyName').value = team.company;
+      document.getElementById('companyCode').value = team.company_code;
+      document.getElementById('deptName').value = team.department;
+      document.getElementById('deptCode').value = team.dept_code;
+      document.getElementById('teamName').value = team.team_name;
+      document.getElementById('teamCode').value = team.team_code;
+      document.getElementById('teamDesc').value = team.description || '';
+      document.getElementById('teamModal').classList.add('active');
+    }
+
+    function deleteTeam(id) {
+      if (!confirm('確定要刪除此團隊嗎？')) return;
+      const idx = MOCK_TEAMS.findIndex(t => t.id === id);
+      if (idx > -1) {
+        MOCK_TEAMS.splice(idx, 1);
+        filterTeams();
+        showToast('團隊已刪除');
+      }
+    }
+
+    function saveTeam() {
+      const data = {
+        company: document.getElementById('companyName').value,
+        company_code: document.getElementById('companyCode').value,
+        department: document.getElementById('deptName').value,
+        dept_code: document.getElementById('deptCode').value,
+        team_name: document.getElementById('teamName').value,
+        team_code: document.getElementById('teamCode').value,
+        description: document.getElementById('teamDesc').value,
+        category: document.getElementById('teamCode').value
+      };
+
+      if (!data.company || !data.department || !data.team_name) {
+        showToast('請填寫必要欄位', 'error');
+        return;
+      }
+
+      if (editingTeamId) {
+        const team = MOCK_TEAMS.find(t => t.id === editingTeamId);
+        if (team) Object.assign(team, data);
+        showToast('團隊已更新');
+      } else {
+        data.id = `${data.company_code}-${data.dept_code}-${data.team_code}`;
+        MOCK_TEAMS.push(data);
+        showToast('團隊已新增');
+      }
+
+      closeModal();
+      populateFilters();
+      filterTeams();
+    }
+
+    // Close modal on overlay click
+    document.getElementById('teamModal').addEventListener('click', function(e) {
+      if (e.target === this) closeModal();
+    });
+
+    // Init
+    populateFilters();
+    renderTeams(MOCK_TEAMS);
+  </script>
+</body>
+</html>
