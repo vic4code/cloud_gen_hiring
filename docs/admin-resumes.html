@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>履歷管理 - hAIre</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Top Navbar -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <div class="navbar-logo">H</div>
+        <span>hAIre</span>
+      </a>
+      <div class="navbar-nav">
+        <a href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg><span>首頁</span></a>
+        <a href="admin-teams.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>團隊</span></a>
+        <a href="admin-jobs.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg><span>職缺</span></a>
+        <a href="admin-resumes.html" class="active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg><span>履歷</span></a>
+        <a href="admin-settings.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg><span>設定</span></a>
+      </div>
+      <div class="navbar-actions">
+        <a href="login.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>登出</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="page-header">
+      <div>
+        <h1>履歷管理</h1>
+        <p class="subtitle">管理候選人履歷，支援 AI 自動解析與向量索引</p>
+      </div>
+      <button class="btn btn-primary" onclick="openUploadModal()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        上傳履歷
+      </button>
+    </div>
+
+    <!-- Stats pills -->
+    <div class="resume-stats" id="resumeStats"></div>
+
+    <!-- Toolbar -->
+    <div class="toolbar">
+      <div class="search-wrapper">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input class="search-input" type="text" id="searchInput" placeholder="搜尋姓名、技能、學歷..." oninput="filterResumes()">
+      </div>
+      <select class="filter-select" id="statusFilter" onchange="filterResumes()">
+        <option value="">所有狀態</option>
+        <option value="parsed">已解析</option>
+        <option value="pending">待處理</option>
+        <option value="failed">失敗</option>
+      </select>
+      <select class="filter-select" id="sourceFilter" onchange="filterResumes()">
+        <option value="">所有來源</option>
+        <option value="upload">手動上傳</option>
+        <option value="email">Email 匯入</option>
+        <option value="referral">內部推薦</option>
+        <option value="website">官網投遞</option>
+      </select>
+    </div>
+
+    <!-- Table -->
+    <div class="resume-table-wrapper">
+      <table class="resume-table">
+        <thead>
+          <tr>
+            <th>姓名</th>
+            <th>目前職稱</th>
+            <th>技能</th>
+            <th>來源</th>
+            <th>狀態</th>
+            <th>上傳日期</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody id="resumeTableBody"></tbody>
+      </table>
+      <div class="table-pagination">
+        <span id="paginationInfo">顯示 1-10 共 12 筆</span>
+        <div class="table-pagination-btns">
+          <button class="active">1</button>
+          <button>2</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Upload Modal -->
+  <div class="modal-overlay" id="uploadModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>上傳履歷</h2>
+        <button class="modal-close" onclick="closeUploadModal()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:20px;height:20px"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label class="form-label">選擇檔案</label>
+          <div class="file-upload" onclick="document.getElementById('resumeFileInput').click()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            <p>拖放檔案到此處或點擊上傳</p>
+            <p class="hint">支援 PDF、DOC、DOCX 格式，單檔最大 10MB</p>
+          </div>
+          <input type="file" id="resumeFileInput" style="display:none" accept=".pdf,.doc,.docx" multiple>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">候選人姓名</label>
+            <input class="form-input" type="text" id="candidateName" placeholder="例：王大明">
+          </div>
+          <div class="form-group">
+            <label class="form-label">來源</label>
+            <select class="form-input" id="uploadSource">
+              <option value="upload">手動上傳</option>
+              <option value="email">Email 匯入</option>
+              <option value="referral">內部推薦</option>
+              <option value="website">官網投遞</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">備註</label>
+          <textarea class="form-input" id="uploadNote" rows="2" placeholder="選填..."></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeUploadModal()">取消</button>
+        <button class="btn btn-primary" onclick="handleUpload()">上傳並解析</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/mock-data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // Render stats
+    const stats = [
+      { label: '總履歷數', value: MOCK_RESUMES.length },
+      { label: '已解析', value: MOCK_RESUMES.filter(r => r.status === 'parsed').length },
+      { label: '待處理', value: MOCK_RESUMES.filter(r => r.status === 'pending').length },
+      { label: '本週新增', value: MOCK_RESUMES.filter(r => r.is_recent).length }
+    ];
+    document.getElementById('resumeStats').innerHTML = stats.map(s => `
+      <div class="resume-stat-pill">
+        <span class="num">${s.value}</span> ${s.label}
+      </div>
+    `).join('');
+
+    function renderResumes(resumes) {
+      const tbody = document.getElementById('resumeTableBody');
+      if (resumes.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="7" style="text-align:center;padding:40px;color:var(--text-light)">查無符合條件的履歷</td></tr>`;
+        return;
+      }
+      tbody.innerHTML = resumes.map(r => {
+        const initials = getInitials(r.name);
+        const sourceLabels = { upload: '手動上傳', email: 'Email', referral: '內部推薦', website: '官網投遞' };
+        const statusLabels = { parsed: '已解析', pending: '待處理', failed: '失敗' };
+        return `
+          <tr>
+            <td>
+              <div class="resume-name-cell">
+                <div class="resume-avatar">${initials}</div>
+                <div>
+                  <div style="font-weight:500">${r.name}</div>
+                  <div style="font-size:12px;color:var(--text-secondary)">${r.email}</div>
+                </div>
+              </div>
+            </td>
+            <td>${r.title}</td>
+            <td>
+              <div class="resume-skills-mini">
+                ${r.skills.slice(0, 3).map(s => `<span class="skill-tag">${s}</span>`).join('')}
+                ${r.skills.length > 3 ? `<span class="skill-tag" style="color:var(--primary)">+${r.skills.length - 3}</span>` : ''}
+              </div>
+            </td>
+            <td><span class="resume-source-badge ${r.source}">${sourceLabels[r.source]}</span></td>
+            <td><span class="resume-status-badge ${r.status}"><span class="resume-status-dot"></span>${statusLabels[r.status]}</span></td>
+            <td style="color:var(--text-secondary);font-size:13px">${r.upload_date}</td>
+            <td>
+              <div style="display:flex;gap:6px">
+                <button class="btn-icon" title="查看" onclick="showToast('查看 ${r.name} 的完整履歷')">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                </button>
+                <button class="btn-icon danger" title="刪除" onclick="deleteResume('${r.id}')">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+                </button>
+              </div>
+            </td>
+          </tr>
+        `;
+      }).join('');
+      document.getElementById('paginationInfo').textContent = `顯示 1-${resumes.length} 共 ${resumes.length} 筆`;
+    }
+
+    function filterResumes() {
+      const search = document.getElementById('searchInput').value.toLowerCase();
+      const status = document.getElementById('statusFilter').value;
+      const source = document.getElementById('sourceFilter').value;
+      const filtered = MOCK_RESUMES.filter(r => {
+        const matchSearch = !search ||
+          r.name.toLowerCase().includes(search) ||
+          r.title.toLowerCase().includes(search) ||
+          r.skills.some(s => s.toLowerCase().includes(search)) ||
+          r.education.toLowerCase().includes(search);
+        const matchStatus = !status || r.status === status;
+        const matchSource = !source || r.source === source;
+        return matchSearch && matchStatus && matchSource;
+      });
+      renderResumes(filtered);
+    }
+
+    function openUploadModal() {
+      document.getElementById('uploadModal').classList.add('active');
+    }
+
+    function closeUploadModal() {
+      document.getElementById('uploadModal').classList.remove('active');
+    }
+
+    function handleUpload() {
+      const name = document.getElementById('candidateName').value;
+      if (!name) {
+        showToast('請輸入候選人姓名', 'error');
+        return;
+      }
+      closeUploadModal();
+      showToast(`已上傳 ${name} 的履歷，AI 正在解析中...`, 'info');
+    }
+
+    function deleteResume(id) {
+      if (!confirm('確定要刪除此履歷嗎？')) return;
+      const idx = MOCK_RESUMES.findIndex(r => r.id === id);
+      if (idx > -1) {
+        MOCK_RESUMES.splice(idx, 1);
+        filterResumes();
+        showToast('履歷已刪除');
+      }
+    }
+
+    document.getElementById('uploadModal').addEventListener('click', function(e) {
+      if (e.target === this) closeUploadModal();
+    });
+
+    // Init
+    renderResumes(MOCK_RESUMES);
+  </script>
+</body>
+</html>
